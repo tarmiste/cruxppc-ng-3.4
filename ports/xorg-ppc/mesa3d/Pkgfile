@@ -1,0 +1,37 @@
+# Description: Mesa 3D Graphics Library
+# URL: http://www.mesa3d.org
+# Maintainer: TBA
+# Depends on: elfutils libdrm libglvnd libvdpau llvm python-mako xorg-libxdamage xorg-libxrandr xorg-libxshmfence xorg-libxvmc xorg-libxxf86vm
+
+name=mesa3d
+version=18.3.1
+release=1
+source=(https://mesa.freedesktop.org/archive/mesa-$version.tar.xz)
+#
+# XXX may need more work for PPC
+
+build() {
+	cd mesa-$version
+
+	export LDFLAGS="$LDFLAGS -lLLVM"
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--disable-llvm \
+		--enable-gbm \
+		--enable-gles1 \
+		--enable-gles2 \
+		--enable-glx-tls \
+		--enable-osmesa \
+		--enable-texture-float \
+		--enable-vdpau \
+		--enable-llvm-shared-libs \
+		--disable-dependency-tracking \
+		--with-dri-drivers=swrast \
+		--with-gallium-drivers=swrast \
+		--with-platforms=x11,drm
+
+	make
+	make DESTDIR=$PKG install
+}

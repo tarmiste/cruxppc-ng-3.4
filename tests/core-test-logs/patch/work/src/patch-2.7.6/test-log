@@ -1,0 +1,80 @@
+  GEN      public-submodule-commit
+make  check-recursive
+make[1]: Entering directory '/usr/ports/core/patch/work/src/patch-2.7.6'
+Making check in lib
+make[2]: Entering directory '/usr/ports/core/patch/work/src/patch-2.7.6/lib'
+make  check-am
+make[3]: Entering directory '/usr/ports/core/patch/work/src/patch-2.7.6/lib'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/ports/core/patch/work/src/patch-2.7.6/lib'
+make[2]: Leaving directory '/usr/ports/core/patch/work/src/patch-2.7.6/lib'
+Making check in src
+make[2]: Entering directory '/usr/ports/core/patch/work/src/patch-2.7.6/src'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/patch/work/src/patch-2.7.6/src'
+Making check in tests
+make[2]: Entering directory '/usr/ports/core/patch/work/src/patch-2.7.6/tests'
+make  check-TESTS
+make[3]: Entering directory '/usr/ports/core/patch/work/src/patch-2.7.6/tests'
+make[4]: Entering directory '/usr/ports/core/patch/work/src/patch-2.7.6/tests'
+PASS: asymmetric-hunks
+PASS: backup-prefix-suffix
+PASS: bad-filenames
+PASS: bad-usage
+PASS: concat-git-diff
+XFAIL: context-format
+PASS: copy-rename
+PASS: corrupt-patch
+PASS: corrupt-reject-files
+PASS: create-delete
+PASS: create-directory
+PASS: criss-cross
+PASS: crlf-handling
+XFAIL: dash-o-append
+PASS: deep-directories
+PASS: empty-files
+PASS: false-match
+PASS: fifo
+PASS: file-create-modes
+PASS: file-modes
+PASS: filename-choice
+PASS: git-binary-diff
+PASS: git-cleanup
+PASS: garbage
+PASS: global-reject-files
+PASS: inname
+PASS: line-numbers
+PASS: merge
+PASS: mangled-numbers-abort
+PASS: mixed-patch-types
+PASS: munged-context-format
+PASS: need-filename
+PASS: no-mode-change-git-diff
+PASS: no-newline-triggers-assert
+PASS: preserve-c-function-names
+PASS: preserve-mode-and-timestamp
+PASS: quoted-filenames
+SKIP: read-only-files
+PASS: reject-format
+PASS: remember-backup-files
+PASS: remember-reject-files
+PASS: remove-directories
+PASS: symlinks
+PASS: unmodified-files
+============================================================================
+Testsuite summary for GNU patch 2.7.6
+============================================================================
+# TOTAL: 44
+# PASS:  41
+# SKIP:  1
+# XFAIL: 2
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/ports/core/patch/work/src/patch-2.7.6/tests'
+make[3]: Leaving directory '/usr/ports/core/patch/work/src/patch-2.7.6/tests'
+make[2]: Leaving directory '/usr/ports/core/patch/work/src/patch-2.7.6/tests'
+make[2]: Entering directory '/usr/ports/core/patch/work/src/patch-2.7.6'
+make[2]: Leaving directory '/usr/ports/core/patch/work/src/patch-2.7.6'
+make[1]: Leaving directory '/usr/ports/core/patch/work/src/patch-2.7.6'

@@ -1,0 +1,364 @@
+make[1]: Entering directory '/usr/ports/opt-ppc/libaio/work/src/libaio-0.3.111/harness'
+rm -f testdir/rofile
+echo "test" >testdir/rofile
+chmod 400 testdir/rofile
+rm -f testdir/rwfile
+echo "test" >testdir/rwfile
+chmod 600 testdir/rwfile
+rm -f testdir/wofile
+echo "test" >testdir/wofile
+chmod 200 testdir/wofile
+./runtests.sh cases/2.p cases/3.p cases/4.p cases/5.p cases/6.p cases/7.p cases/11.p cases/12.p cases/13.p cases/14.p cases/15.p cases/16.p cases/17.p cases/18.p cases/19.p cases/20.p cases/21.p
+Test run starting at Sat Jan 26 10:08:26 UTC 2019
+Starting cases/2.p
+expect -14: io_setup(-1000, 0xc0010000) = -14 [Bad address]
+expect -14: io_setup( 1000, 0xc0010000) = -14 [Bad address]
+expect -14: io_setup(    0, 0xc0010000) = -14 [Bad address]
+expect -22: io_setup(-1000, 0xbf848208) = -22 [Invalid argument]
+expect -22: io_setup(   -1, 0xbf848208) = -22 [Invalid argument]
+expect -22: io_setup(    0, 0xbf848208) = -22 [Invalid argument]
+expect   0: io_setup(    1, 0xbf848208) =   0 [Success]
+expect -22: io_setup(    1, 0xbf848208) = -22 [Invalid argument]
+test cases/2.t completed PASSED.
+Completed cases/2.p with 0.
+Starting cases/3.p
+expect -22: io_submit(0xffffffff,   1, 0xbfa35694) = -22 [Invalid argument]
+expect   0: io_submit(0xb7ec6000,   0, 0xbfa35694) =   0 [Success]
+expect -14: io_submit(0xb7ec6000,   1,      (nil)) = -14 [Bad address]
+expect -14: io_submit(0xb7ec6000,   1, 0xffffffff) = -14 [Bad address]
+expect -14: io_submit(0xb7ec6000,   2, 0xbfa3569c) = -14 [Bad address]
+expect -14: io_submit(0xb7ec6000,   2, 0xbfa356a4) = -14 [Bad address]
+expect -22: io_submit(0xb7ec6000,  -1, 0xbfa35694) = -22 [Invalid argument]
+test cases/3.t completed PASSED.
+Completed cases/3.p with 0.
+Starting cases/4.p
+expect  -9: (w), res = sync_submit: io_submit res=-9 [Bad file descriptor]
+ -9 [Bad file descriptor]
+expect  -9: (r), res = sync_submit: io_submit res=-9 [Bad file descriptor]
+ -9 [Bad file descriptor]
+expect 512: (w), res = 512 [Success]
+expect 512: (r), res = 512 [Success]
+expect -22: (r), res = sync_submit: io_submit res=-22 [Invalid argument]
+-22 [Invalid argument]
+expect -22: (w), res = sync_submit: io_submit res=-22 [Invalid argument]
+-22 [Invalid argument]
+expect   0: (r), res =   0 [Success]
+expect   4: (w), res =   4 [Success]
+expect   4: (w), res =   4 [Success]
+expect   8: (r), res =   8 [Success]
+read after append: [12345678]
+expect -14: (r), res = sync_submit: io_submit res=-14 [Bad address]
+-14 [Bad address]
+expect -14: (w), res = sync_submit: io_submit res=-14 [Bad address]
+-14 [Bad address]
+expect -14: (w), res = -14 [Bad address]
+test cases/4.t completed PASSED.
+Completed cases/4.p with 0.
+Starting cases/5.p
+expect   512: (w), res =   512 [Success]
+expect   512: (r), res =   512 [Success]
+expect   512: (r), res =   512 [Success]
+expect   512: (w), res =   512 [Success]
+expect   512: (w), res =   512 [Success]
+expect   -14: (r), res =   -14 [Bad address]
+expect   512: (r), res =   512 [Success]
+expect   512: (w), res =   512 [Success]
+test cases/5.t completed PASSED.
+Completed cases/5.p with 0.
+Starting cases/6.p
+size = 2062352
+expect 805306368: (w), res = 805306368 [Success]
+expect 805306368: (r), res = 805306368 [Success]
+test cases/6.t completed PASSED.
+Completed cases/6.p with 0.
+Starting cases/7.p
+expect   512: (w), res =   512 [Success]
+expect   512: (r), res =   512 [Success]
+expect   511: (w), res =   511 [Success]
+expect   511: (r), res =   511 [Success]
+expect   -27: (w), res =   -27 [File too large]
+expect     0: (r), res =     0 [Success]
+expect     0: (w), res =     0 [Success]
+test cases/7.t completed PASSED.
+Completed cases/7.p with 0.
+Starting cases/11.p
+completed 1000000 out of 1000000 writes
+completed 1000000 out of 1000000 reads
+test cases/11.t completed PASSED.
+Completed cases/11.p with 0.
+Starting cases/12.p
+expect   0: io_submit(0xb77f4000,   0,      (nil)) =   0 [Success]
+expect -22: io_submit(0xb77f4000,   0,      (nil)) = -22 [Invalid argument]
+child exited with status 0
+test cases/12.t completed PASSED.
+Completed cases/12.p with 0.
+Starting cases/13.p
+expect   8: io_submit(0xb7b35000,   8, 0xbf984be8) =   8 []
+event[0]: write[0] okay, returned: 1048576 [okay]
+event[1]: write[1] okay, returned: 1048576 [okay]
+event[2]: write[2] okay, returned: 1048576 [okay]
+event[3]: write[3] okay, returned: 1048576 [okay]
+event[4]: write[4] okay, returned: 1048576 [okay]
+event[5]: write[5] okay, returned: 1048576 [okay]
+event[6]: write[6] okay, returned: 1048576 [okay]
+event[7]: write[7] okay, returned: 1048576 [okay]
+test cases/13.t completed PASSED.
+Completed cases/13.p with 0.
+Starting cases/14.p
+expect   0: io_submit(0xb79db000,   0,      (nil)) =   0 [Success]
+child exited with status 0
+test cases/14.t completed PASSED.
+Completed cases/14.p with 0.
+Starting cases/15.p
+expect  5120: (>), res =  5120 [Success]
+Checking memory: [Success]
+expect  5120: (<), res =  5120 [Success]
+expect  4608: (>), res =  4608 [Success]
+Checking memory: [Success]
+expect  4608: (<), res =  4608 [Success]
+Checking memory: [Success]
+test cases/15.t completed PASSED.
+Completed cases/15.p with 0.
+Starting cases/16.p
+eventfd write test [SUCCESS]
+eventfd read test  [SUCCESS]
+test cases/16.t completed PASSED.
+Completed cases/16.p with 0.
+Starting cases/17.p
+aio ring size: 127
+MAX_IOS: 126, IO_GETEVENTS
+Submitting: 126
+Submitted: 124
+Submitting: 2
+Submitted too much, that's okay
+Completed: 124
+Submitting: 2
+Submitted: 2
+Completed: 2
+Verifying...
+OK
+MAX_IOS: 127, IO_GETEVENTS
+Submitting: 127
+Submitted: 124
+Submitting: 3
+Submitted too much, that's okay
+Completed: 124
+Submitting: 3
+Submitted: 3
+Completed: 3
+Verifying...
+OK
+MAX_IOS: 128, IO_GETEVENTS
+Submitting: 128
+Submitted: 124
+Submitting: 4
+Submitted too much, that's okay
+Completed: 124
+Submitting: 4
+Submitted: 4
+Completed: 4
+Verifying...
+OK
+MAX_IOS: 254, IO_GETEVENTS
+Submitting: 254
+Submitted: 124
+Submitting: 130
+Submitted too much, that's okay
+Completed: 124
+Submitting: 130
+Submitted: 124
+Submitting: 6
+Submitted too much, that's okay
+Completed: 124
+Submitting: 6
+Submitted: 6
+Completed: 6
+Verifying...
+OK
+MAX_IOS: 508, IO_GETEVENTS
+Submitting: 508
+Submitted: 124
+Submitting: 384
+Submitted too much, that's okay
+Completed: 124
+Submitting: 384
+Submitted: 124
+Submitting: 260
+Submitted too much, that's okay
+Completed: 124
+Submitting: 260
+Submitted: 124
+Submitting: 136
+Submitted too much, that's okay
+Completed: 124
+Submitting: 136
+Submitted: 124
+Submitting: 12
+Submitted too much, that's okay
+Completed: 124
+Submitting: 12
+Submitted: 12
+Completed: 12
+Verifying...
+OK
+MAX_IOS: 126, USER_GETEVENTS
+Submitting: 126
+Submitted: 124
+Submitting: 2
+Submitted too much, that's okay
+Completed: 124
+Submitting: 2
+Submitted: 2
+Completed: 2
+Verifying...
+OK
+MAX_IOS: 127, USER_GETEVENTS
+Submitting: 127
+Submitted: 124
+Submitting: 3
+Submitted too much, that's okay
+Completed: 124
+Submitting: 3
+Submitted: 3
+Completed: 3
+Verifying...
+OK
+MAX_IOS: 128, USER_GETEVENTS
+Submitting: 128
+Submitted: 124
+Submitting: 4
+Submitted too much, that's okay
+Completed: 124
+Submitting: 4
+Submitted: 4
+Completed: 4
+Verifying...
+OK
+MAX_IOS: 254, USER_GETEVENTS
+Submitting: 254
+Submitted: 124
+Submitting: 130
+Submitted too much, that's okay
+Completed: 124
+Submitting: 130
+Submitted: 124
+Submitting: 6
+Submitted too much, that's okay
+Completed: 124
+Submitting: 6
+Submitted: 6
+Completed: 6
+Verifying...
+OK
+MAX_IOS: 508, USER_GETEVENTS
+Submitting: 508
+Submitted: 124
+Submitting: 384
+Submitted too much, that's okay
+Completed: 124
+Submitting: 384
+Submitted: 124
+Submitting: 260
+Submitted too much, that's okay
+Completed: 124
+Submitting: 260
+Submitted: 124
+Submitting: 136
+Submitted too much, that's okay
+Completed: 124
+Submitting: 136
+Submitted: 124
+Submitting: 12
+Submitted too much, that's okay
+Completed: 124
+Submitting: 12
+Submitted: 12
+Completed: 12
+Verifying...
+OK
+test cases/17.t completed PASSED.
+Completed cases/17.p with 0.
+Starting cases/18.p
+test cases/18.t completed PASSED.
+Completed cases/18.p with 0.
+Starting cases/19.p
+test cases/19.t completed PASSED.
+Completed cases/19.p with 0.
+Starting cases/20.p
+aio_max_nr: 65536
+Creating 65536 ioctx-s with 1 events each...
+Successfully created 65510 io_context-s
+Last io_setup call returned -12 (Cannot allocate memory)
+Creating 32768 ioctx-s with 2 events each...
+Successfully created 32768 io_context-s
+Creating 16384 ioctx-s with 4 events each...
+Successfully created 16384 io_context-s
+Creating 8192 ioctx-s with 8 events each...
+Successfully created 8192 io_context-s
+Creating 4096 ioctx-s with 16 events each...
+Successfully created 4096 io_context-s
+Creating 2048 ioctx-s with 32 events each...
+Successfully created 2048 io_context-s
+Creating 1024 ioctx-s with 64 events each...
+Successfully created 1024 io_context-s
+Creating 512 ioctx-s with 128 events each...
+Successfully created 512 io_context-s
+Creating 256 ioctx-s with 256 events each...
+Successfully created 256 io_context-s
+Creating 128 ioctx-s with 512 events each...
+Successfully created 128 io_context-s
+Creating 64 ioctx-s with 1024 events each...
+Successfully created 64 io_context-s
+Creating 32 ioctx-s with 2048 events each...
+Successfully created 32 io_context-s
+Creating 16 ioctx-s with 4096 events each...
+Successfully created 16 io_context-s
+Creating 8 ioctx-s with 8192 events each...
+Successfully created 8 io_context-s
+Creating 4 ioctx-s with 16384 events each...
+Successfully created 4 io_context-s
+Creating 2 ioctx-s with 32768 events each...
+Successfully created 2 io_context-s
+Creating 1 ioctx-s with 65536 events each...
+Successfully created 1 io_context-s
+test cases/20.t completed PASSED.
+Completed cases/20.p with 0.
+Starting cases/21.p
+test cases/21.t completed PASSED.
+Completed cases/21.p with 0.
+Pass: 17  Fail: 0
+Test run complete at Sat Jan 26 10:11:12 UTC 2019
+mount -o loop -t ext2 ext2-enospc.img testdir.enospc
+./runtests.sh cases/10.p; ret=$?; umount testdir.enospc; exit $ret
+Test run starting at Sat Jan 26 10:11:12 UTC 2019
+Starting cases/10.p
+expect 65536: (w), res = 65536 [Success]
+expect 65536: (r), res = 65536 [Success]
+expect   -28: (w), res =   -28 [No space left on device]
+expect     0: (r), res =     0 [Success]
+expect 65535: (w), res = 65535 [Success]
+expect 65535: (r), res = 65535 [Success]
+expect     0: (r), res =     0 [Success]
+expect   -28: (w), res =   -28 [No space left on device]
+expect     0: (r), res =     0 [Success]
+expect     0: (w), res =     0 [Success]
+test cases/10.t completed PASSED.
+Completed cases/10.p with 0.
+Pass: 1  Fail: 0
+Test run complete at Sat Jan 26 10:11:12 UTC 2019
+mount -o loop -t ext2 ext2.img testdir.ext2
+./runtests.sh cases/8.p; ret=$?; umount testdir.ext2; exit $ret
+Test run starting at Sat Jan 26 10:11:12 UTC 2019
+Starting cases/8.p
+expect   512: (w), res =   512 [Success]
+expect   512: (r), res =   512 [Success]
+expect   511: (w), res =   511 [Success]
+expect   511: (r), res =   511 [Success]
+expect   -27: (w), res =   -27 [File too large]
+expect     0: (r), res =     0 [Success]
+expect     0: (w), res =     0 [Success]
+test cases/8.t completed PASSED.
+Completed cases/8.p with 0.
+Pass: 1  Fail: 0
+Test run complete at Sat Jan 26 10:11:12 UTC 2019
+make[1]: Leaving directory '/usr/ports/opt-ppc/libaio/work/src/libaio-0.3.111/harness'

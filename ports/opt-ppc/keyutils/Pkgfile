@@ -1,0 +1,23 @@
+# Description: Tools to control the Linx key management system
+# URL:         http://www.kernel.org/
+# Maintainer:  Juergen Daubert, jue at crux dot nu
+
+name=keyutils
+version=1.6
+release=2
+source=(http://people.redhat.com/~dhowells/$name/$name-$version.tar.bz2)
+
+build () {
+    cd $name-$version
+
+    # remove -m32 flag
+    sed -i 's|CFLAGS.*-m32$||' Makefile
+
+    sed -i "/^CFLAGS/s/-g/$CFLAGS/" Makefile
+
+    make
+    make install DESTDIR=$PKG USRLIBDIR=/usr/lib LIBDIR=/lib
+
+    mv $PKG/lib/pkgconfig $PKG/usr/lib
+    chmod 0644 $PKG/usr/lib/pkgconfig/libkeyutils.pc
+}

@@ -1,0 +1,428 @@
+Making check in doc
+make[1]: Entering directory '/usr/ports/core/libmpfr/work/src/mpfr-4.0.1/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/libmpfr/work/src/mpfr-4.0.1/doc'
+Making check in src
+make[1]: Entering directory '/usr/ports/core/libmpfr/work/src/mpfr-4.0.1/src'
+make  check-am
+make[2]: Entering directory '/usr/ports/core/libmpfr/work/src/mpfr-4.0.1/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/ports/core/libmpfr/work/src/mpfr-4.0.1/src'
+make[1]: Leaving directory '/usr/ports/core/libmpfr/work/src/mpfr-4.0.1/src'
+Making check in tests
+make[1]: Entering directory '/usr/ports/core/libmpfr/work/src/mpfr-4.0.1/tests'
+make  libfrtests.la tversion tabort_prec_max tassert tabort_defalloc1 tabort_defalloc2 talloc tinternals tinits tisqrt tsgn tcheck tisnan texceptions tset_exp tset mpf_compat mpfr_compat reuse tabs tacos tacosh tadd tadd1sp tadd_d tadd_ui tagm tai talloc-cache tasin tasinh tatan tatanh taway tbeta tbuildopt tcan_round tcbrt tcmp tcmp2 tcmp_d tcmp_ld tcmp_ui tcmpabs tcomparisons tconst_catalan tconst_euler tconst_log2 tconst_pi tcopysign tcos tcosh tcot tcoth tcsc tcsch td_div td_sub tdigamma tdim tdiv tdiv_d tdiv_ui teint teq terandom terandom_chisq terf texp texp10 texp2 texpm1 tfactorial tfits tfma tfmma tfmod tfms tfpif tfprintf tfrac tfrexp tgamma tgamma_inc tget_d tget_d_2exp tget_f tget_flt tget_ld_2exp tget_q tget_set_d64 tget_sj tget_str tget_z tgmpop tgrandom thyperbolic thypot tinp_str tj0 tj1 tjn tl2b tlgamma tli2 tlngamma tlog tlog10 tlog1p tlog2 tlog_ui tmin_prec tminmax tmodf tmul tmul_2exp tmul_d tmul_ui tnext tnrandom tnrandom_chisq tout_str toutimpl tpow tpow3 tpow_all tpow_z tprintf trandom trandom_deviate trec_sqrt tremquo trint trndna troot trootn_ui tround_prec tsec tsech tset_d tset_f tset_float128 tset_ld tset_q tset_si tset_sj tset_str tset_z tset_z_exp tsi_op tsin tsin_cos tsinh tsinh_cosh tsprintf tsqr tsqrt tsqrt_ui tstckintc tstdint tstrtofr tsub tsub1sp tsub_d tsub_ui tsubnormal tsum tswap ttan ttanh ttrunc tui_div tui_pow tui_sub turandom tvalist ty0 ty1 tyn tzeta tzeta_ui
+make[2]: Entering directory '/usr/ports/core/libmpfr/work/src/mpfr-4.0.1/tests'
+make[2]: 'libfrtests.la' is up to date.
+make[2]: 'tversion' is up to date.
+make[2]: 'tabort_prec_max' is up to date.
+make[2]: 'tassert' is up to date.
+make[2]: 'tabort_defalloc1' is up to date.
+make[2]: 'tabort_defalloc2' is up to date.
+make[2]: 'talloc' is up to date.
+make[2]: 'tinternals' is up to date.
+make[2]: 'tinits' is up to date.
+make[2]: 'tisqrt' is up to date.
+make[2]: 'tsgn' is up to date.
+make[2]: 'tcheck' is up to date.
+make[2]: 'tisnan' is up to date.
+make[2]: 'texceptions' is up to date.
+make[2]: 'tset_exp' is up to date.
+make[2]: 'tset' is up to date.
+make[2]: 'mpf_compat' is up to date.
+make[2]: 'mpfr_compat' is up to date.
+make[2]: 'reuse' is up to date.
+make[2]: 'tabs' is up to date.
+make[2]: 'tacos' is up to date.
+make[2]: 'tacosh' is up to date.
+make[2]: 'tadd' is up to date.
+make[2]: 'tadd1sp' is up to date.
+make[2]: 'tadd_d' is up to date.
+make[2]: 'tadd_ui' is up to date.
+make[2]: 'tagm' is up to date.
+make[2]: 'tai' is up to date.
+make[2]: 'talloc-cache' is up to date.
+make[2]: 'tasin' is up to date.
+make[2]: 'tasinh' is up to date.
+make[2]: 'tatan' is up to date.
+make[2]: 'tatanh' is up to date.
+make[2]: 'taway' is up to date.
+make[2]: 'tbeta' is up to date.
+make[2]: 'tbuildopt' is up to date.
+make[2]: 'tcan_round' is up to date.
+make[2]: 'tcbrt' is up to date.
+make[2]: 'tcmp' is up to date.
+make[2]: 'tcmp2' is up to date.
+make[2]: 'tcmp_d' is up to date.
+make[2]: 'tcmp_ld' is up to date.
+make[2]: 'tcmp_ui' is up to date.
+make[2]: 'tcmpabs' is up to date.
+make[2]: 'tcomparisons' is up to date.
+make[2]: 'tconst_catalan' is up to date.
+make[2]: 'tconst_euler' is up to date.
+make[2]: 'tconst_log2' is up to date.
+make[2]: 'tconst_pi' is up to date.
+make[2]: 'tcopysign' is up to date.
+make[2]: 'tcos' is up to date.
+make[2]: 'tcosh' is up to date.
+make[2]: 'tcot' is up to date.
+make[2]: 'tcoth' is up to date.
+make[2]: 'tcsc' is up to date.
+make[2]: 'tcsch' is up to date.
+make[2]: 'td_div' is up to date.
+make[2]: 'td_sub' is up to date.
+make[2]: 'tdigamma' is up to date.
+make[2]: 'tdim' is up to date.
+make[2]: 'tdiv' is up to date.
+make[2]: 'tdiv_d' is up to date.
+make[2]: 'tdiv_ui' is up to date.
+make[2]: 'teint' is up to date.
+make[2]: 'teq' is up to date.
+make[2]: 'terandom' is up to date.
+make[2]: 'terandom_chisq' is up to date.
+make[2]: 'terf' is up to date.
+make[2]: 'texp' is up to date.
+make[2]: 'texp10' is up to date.
+make[2]: 'texp2' is up to date.
+make[2]: 'texpm1' is up to date.
+make[2]: 'tfactorial' is up to date.
+make[2]: 'tfits' is up to date.
+make[2]: 'tfma' is up to date.
+make[2]: 'tfmma' is up to date.
+make[2]: 'tfmod' is up to date.
+make[2]: 'tfms' is up to date.
+make[2]: 'tfpif' is up to date.
+make[2]: 'tfprintf' is up to date.
+make[2]: 'tfrac' is up to date.
+make[2]: 'tfrexp' is up to date.
+make[2]: 'tgamma' is up to date.
+make[2]: 'tgamma_inc' is up to date.
+make[2]: 'tget_d' is up to date.
+make[2]: 'tget_d_2exp' is up to date.
+make[2]: 'tget_f' is up to date.
+make[2]: 'tget_flt' is up to date.
+make[2]: 'tget_ld_2exp' is up to date.
+make[2]: 'tget_q' is up to date.
+make[2]: 'tget_set_d64' is up to date.
+make[2]: 'tget_sj' is up to date.
+make[2]: 'tget_str' is up to date.
+make[2]: 'tget_z' is up to date.
+make[2]: 'tgmpop' is up to date.
+make[2]: 'tgrandom' is up to date.
+make[2]: 'thyperbolic' is up to date.
+make[2]: 'thypot' is up to date.
+make[2]: 'tinp_str' is up to date.
+make[2]: 'tj0' is up to date.
+make[2]: 'tj1' is up to date.
+make[2]: 'tjn' is up to date.
+make[2]: 'tl2b' is up to date.
+make[2]: 'tlgamma' is up to date.
+make[2]: 'tli2' is up to date.
+make[2]: 'tlngamma' is up to date.
+make[2]: 'tlog' is up to date.
+make[2]: 'tlog10' is up to date.
+make[2]: 'tlog1p' is up to date.
+make[2]: 'tlog2' is up to date.
+make[2]: 'tlog_ui' is up to date.
+make[2]: 'tmin_prec' is up to date.
+make[2]: 'tminmax' is up to date.
+make[2]: 'tmodf' is up to date.
+make[2]: 'tmul' is up to date.
+make[2]: 'tmul_2exp' is up to date.
+make[2]: 'tmul_d' is up to date.
+make[2]: 'tmul_ui' is up to date.
+make[2]: 'tnext' is up to date.
+make[2]: 'tnrandom' is up to date.
+make[2]: 'tnrandom_chisq' is up to date.
+make[2]: 'tout_str' is up to date.
+make[2]: 'toutimpl' is up to date.
+make[2]: 'tpow' is up to date.
+make[2]: 'tpow3' is up to date.
+make[2]: 'tpow_all' is up to date.
+make[2]: 'tpow_z' is up to date.
+make[2]: 'tprintf' is up to date.
+make[2]: 'trandom' is up to date.
+make[2]: 'trandom_deviate' is up to date.
+make[2]: 'trec_sqrt' is up to date.
+make[2]: 'tremquo' is up to date.
+make[2]: 'trint' is up to date.
+make[2]: 'trndna' is up to date.
+make[2]: 'troot' is up to date.
+make[2]: 'trootn_ui' is up to date.
+make[2]: 'tround_prec' is up to date.
+make[2]: 'tsec' is up to date.
+make[2]: 'tsech' is up to date.
+make[2]: 'tset_d' is up to date.
+make[2]: 'tset_f' is up to date.
+make[2]: 'tset_float128' is up to date.
+make[2]: 'tset_ld' is up to date.
+make[2]: 'tset_q' is up to date.
+make[2]: 'tset_si' is up to date.
+make[2]: 'tset_sj' is up to date.
+make[2]: 'tset_str' is up to date.
+make[2]: 'tset_z' is up to date.
+make[2]: 'tset_z_exp' is up to date.
+make[2]: 'tsi_op' is up to date.
+make[2]: 'tsin' is up to date.
+make[2]: 'tsin_cos' is up to date.
+make[2]: 'tsinh' is up to date.
+make[2]: 'tsinh_cosh' is up to date.
+make[2]: 'tsprintf' is up to date.
+make[2]: 'tsqr' is up to date.
+make[2]: 'tsqrt' is up to date.
+make[2]: 'tsqrt_ui' is up to date.
+make[2]: 'tstckintc' is up to date.
+make[2]: 'tstdint' is up to date.
+make[2]: 'tstrtofr' is up to date.
+make[2]: 'tsub' is up to date.
+make[2]: 'tsub1sp' is up to date.
+make[2]: 'tsub_d' is up to date.
+make[2]: 'tsub_ui' is up to date.
+make[2]: 'tsubnormal' is up to date.
+make[2]: 'tsum' is up to date.
+make[2]: 'tswap' is up to date.
+make[2]: 'ttan' is up to date.
+make[2]: 'ttanh' is up to date.
+make[2]: 'ttrunc' is up to date.
+make[2]: 'tui_div' is up to date.
+make[2]: 'tui_pow' is up to date.
+make[2]: 'tui_sub' is up to date.
+make[2]: 'turandom' is up to date.
+make[2]: 'tvalist' is up to date.
+make[2]: 'ty0' is up to date.
+make[2]: 'ty1' is up to date.
+make[2]: 'tyn' is up to date.
+make[2]: 'tzeta' is up to date.
+make[2]: 'tzeta_ui' is up to date.
+make[2]: Leaving directory '/usr/ports/core/libmpfr/work/src/mpfr-4.0.1/tests'
+make  check-TESTS
+make[2]: Entering directory '/usr/ports/core/libmpfr/work/src/mpfr-4.0.1/tests'
+make[3]: Entering directory '/usr/ports/core/libmpfr/work/src/mpfr-4.0.1/tests'
+PASS: tversion
+PASS: tabort_prec_max
+PASS: tassert
+PASS: tabort_defalloc1
+PASS: tabort_defalloc2
+PASS: talloc
+PASS: tinternals
+PASS: tinits
+PASS: tisqrt
+PASS: tsgn
+PASS: tcheck
+PASS: tisnan
+PASS: texceptions
+PASS: tset_exp
+PASS: tset
+PASS: mpf_compat
+PASS: mpfr_compat
+PASS: reuse
+PASS: tabs
+PASS: tacos
+PASS: tacosh
+PASS: tadd
+PASS: tadd1sp
+PASS: tadd_d
+PASS: tadd_ui
+PASS: tagm
+PASS: tai
+PASS: talloc-cache
+PASS: tasin
+PASS: tasinh
+PASS: tatan
+PASS: tatanh
+PASS: taway
+PASS: tbeta
+PASS: tbuildopt
+PASS: tcan_round
+PASS: tcbrt
+PASS: tcmp
+PASS: tcmp2
+PASS: tcmp_d
+PASS: tcmp_ld
+PASS: tcmp_ui
+PASS: tcmpabs
+PASS: tcomparisons
+PASS: tconst_catalan
+PASS: tconst_euler
+PASS: tconst_log2
+PASS: tconst_pi
+PASS: tcopysign
+PASS: tcos
+PASS: tcosh
+PASS: tcot
+PASS: tcoth
+PASS: tcsc
+PASS: tcsch
+PASS: td_div
+PASS: td_sub
+PASS: tdigamma
+PASS: tdim
+PASS: tdiv
+PASS: tdiv_d
+PASS: tdiv_ui
+PASS: teint
+PASS: teq
+PASS: terandom
+PASS: terandom_chisq
+PASS: terf
+PASS: texp
+PASS: texp10
+PASS: texp2
+PASS: texpm1
+PASS: tfactorial
+PASS: tfits
+PASS: tfma
+PASS: tfmma
+PASS: tfmod
+PASS: tfms
+PASS: tfpif
+PASS: tfprintf
+PASS: tfrac
+PASS: tfrexp
+PASS: tgamma
+PASS: tgamma_inc
+PASS: tget_d
+PASS: tget_d_2exp
+PASS: tget_f
+PASS: tget_flt
+PASS: tget_ld_2exp
+PASS: tget_q
+PASS: tget_set_d64
+PASS: tget_sj
+PASS: tget_str
+PASS: tget_z
+PASS: tgmpop
+PASS: tgrandom
+PASS: thyperbolic
+PASS: thypot
+PASS: tinp_str
+PASS: tj0
+PASS: tj1
+PASS: tjn
+PASS: tl2b
+PASS: tlgamma
+PASS: tli2
+PASS: tlngamma
+PASS: tlog
+PASS: tlog10
+PASS: tlog1p
+PASS: tlog2
+PASS: tlog_ui
+PASS: tmin_prec
+PASS: tminmax
+PASS: tmodf
+PASS: tmul
+PASS: tmul_2exp
+PASS: tmul_d
+PASS: tmul_ui
+PASS: tnext
+PASS: tnrandom
+PASS: tnrandom_chisq
+PASS: tout_str
+PASS: toutimpl
+PASS: tpow
+PASS: tpow3
+PASS: tpow_all
+PASS: tpow_z
+PASS: tprintf
+PASS: trandom
+PASS: trandom_deviate
+PASS: trec_sqrt
+PASS: tremquo
+PASS: trint
+PASS: trndna
+PASS: troot
+PASS: trootn_ui
+PASS: tround_prec
+PASS: tsec
+PASS: tsech
+PASS: tset_d
+PASS: tset_f
+SKIP: tset_float128
+PASS: tset_ld
+PASS: tset_q
+PASS: tset_si
+PASS: tset_sj
+PASS: tset_str
+PASS: tset_z
+PASS: tset_z_exp
+PASS: tsi_op
+PASS: tsin
+PASS: tsin_cos
+PASS: tsinh
+PASS: tsinh_cosh
+PASS: tsprintf
+PASS: tsqr
+PASS: tsqrt
+PASS: tsqrt_ui
+PASS: tstckintc
+PASS: tstdint
+PASS: tstrtofr
+PASS: tsub
+PASS: tsub1sp
+PASS: tsub_d
+PASS: tsub_ui
+PASS: tsubnormal
+PASS: tsum
+PASS: tswap
+PASS: ttan
+PASS: ttanh
+PASS: ttrunc
+PASS: tui_div
+PASS: tui_pow
+PASS: tui_sub
+PASS: turandom
+PASS: tvalist
+PASS: ty0
+PASS: ty1
+PASS: tyn
+PASS: tzeta
+PASS: tzeta_ui
+============================================================================
+Testsuite summary for MPFR 4.0.1
+============================================================================
+# TOTAL: 180
+# PASS:  179
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/usr/ports/core/libmpfr/work/src/mpfr-4.0.1/tests'
+make[2]: Leaving directory '/usr/ports/core/libmpfr/work/src/mpfr-4.0.1/tests'
+cat tversion.log 2> /dev/null || true
+[tversion] MPFR 4.0.1
+[tversion] Compiler: GCC 7.4.0
+[tversion] C standard: __STDC__ = 1, __STDC_VERSION__ = 201112L
+[tversion] __GNUC__ = 7, __GNUC_MINOR__ = 4
+[tversion] __GLIBC__ = 2, __GLIBC_MINOR__ = 27
+[tversion] GMP: header 6.1.2, library 6.1.2
+[tversion] __GMP_CC = "gcc"
+[tversion] __GMP_CFLAGS = "-O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt"
+[tversion] WinDLL: __GMP_LIBGMP_DLL = 0, MPFR_WIN_THREAD_SAFE_DLL = undef
+[tversion] TLS = yes, float128 = no, decimal = yes, GMP internals = no
+[tversion] intmax_t = yes, printf = yes, IEEE floats = yes
+[tversion] gmp_printf: hhd = yes, lld = yes, jd = yes, td = yes, Ld = yes
+[tversion] _mulx_u64 = no
+[tversion] MPFR tuning parameters from src/powerpc32/mparam.h
+[tversion] GMP_NUMB_BITS = 32, sizeof(mp_limb_t) = 4
+[tversion] _MPFR_PREC_FORMAT = 3, sizeof(mpfr_prec_t) = 4
+[tversion] _MPFR_EXP_FORMAT = 3, sizeof(mpfr_exp_t) = 4
+[tversion] sizeof(mpfr_t) = 16, sizeof(mpfr_ptr) = 4
+[tversion] Precision range: [1,2147483391]
+[tversion] Max exponent range: [-1073741823,1073741823]
+[tversion] Locale: C
+PASS tversion (exit status: 0)
+make[1]: Leaving directory '/usr/ports/core/libmpfr/work/src/mpfr-4.0.1/tests'
+Making check in tune
+make[1]: Entering directory '/usr/ports/core/libmpfr/work/src/mpfr-4.0.1/tune'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/libmpfr/work/src/mpfr-4.0.1/tune'
+Making check in tools/bench
+make[1]: Entering directory '/usr/ports/core/libmpfr/work/src/mpfr-4.0.1/tools/bench'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/libmpfr/work/src/mpfr-4.0.1/tools/bench'
+make[1]: Entering directory '/usr/ports/core/libmpfr/work/src/mpfr-4.0.1'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/usr/ports/core/libmpfr/work/src/mpfr-4.0.1'

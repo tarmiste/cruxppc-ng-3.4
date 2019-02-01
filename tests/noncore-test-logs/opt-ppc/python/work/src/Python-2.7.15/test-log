@@ -1,0 +1,1138 @@
+running build
+running build_ext
+building dbm using ndbm
+INFO: Can't locate Tcl/Tk libs and/or headers
+
+Python build finished, but the necessary bits to build these modules were not found:
+_tkinter           bsddb185           sunaudiodev     
+To find the necessary bits, look in setup.py in detect_modules() for the module's name.
+
+running build_scripts
+LD_LIBRARY_PATH=/usr/ports/opt-ppc/python/work/src/Python-2.7.15 ./python -E -c 'import sys ; from sysconfig import get_platform ; print get_platform()+"-"+sys.version[0:3]' >platform
+find ./Lib -name '*.py[co]' -print | xargs rm -f
+LD_LIBRARY_PATH=/usr/ports/opt-ppc/python/work/src/Python-2.7.15 ./python -Wd -3 -E -tt  ./Lib/test/regrtest.py -l 
+== CPython 2.7.15 (default, Jan 26 2019, 07:56:12) [GCC 7.4.0]
+==   Linux-4.15.1-ppc-7455,_altivec_supported-with-glibc2.1.3 big-endian
+==   /usr/ports/opt-ppc/python/work/src/Python-2.7.15/build/test_python_8655
+== CPU count: 1
+Run tests sequentially
+0:00:00 load avg: 1.52 [  1/403] test_grammar
+0:00:00 load avg: 1.52 [  2/403] test_opcodes
+0:00:00 load avg: 1.52 [  3/403] test_dict
+0:00:01 load avg: 1.52 [  4/403] test_builtin
+0:00:01 load avg: 1.52 [  5/403] test_exceptions
+0:00:02 load avg: 1.52 [  6/403] test_types
+0:00:02 load avg: 1.52 [  7/403] test_unittest
+0:00:03 load avg: 1.47 [  8/403] test_doctest
+0:00:05 load avg: 1.47 [  9/403] test_doctest2
+0:00:05 load avg: 1.47 [ 10/403] test_MimeWriter
+0:00:05 load avg: 1.47 [ 11/403] test_SimpleHTTPServer
+0:00:06 load avg: 1.47 [ 12/403] test_StringIO
+0:00:08 load avg: 1.44 [ 13/403] test___all__
+0:00:18 load avg: 1.40 [ 14/403] test___future__
+0:00:18 load avg: 1.37 [ 15/403] test__locale
+0:00:18 load avg: 1.37 [ 16/403] test__osx_support
+0:00:18 load avg: 1.37 [ 17/403] test_abc
+0:00:19 load avg: 1.37 [ 18/403] test_abstract_numbers
+0:00:19 load avg: 1.37 [ 19/403] test_aepack
+test_aepack skipped -- No module named aetypes
+0:00:19 load avg: 1.37 [ 20/403] test_aifc -- test_aepack skipped
+0:00:20 load avg: 1.37 [ 21/403] test_al
+test_al skipped -- No module named al
+0:00:20 load avg: 1.37 [ 22/403] test_anydbm -- test_al skipped
+0:00:20 load avg: 1.37 [ 23/403] test_applesingle
+test_applesingle skipped -- No module named MacOS
+0:00:21 load avg: 1.37 [ 24/403] test_argparse -- test_applesingle skipped
+0:00:29 load avg: 1.31 [ 25/403] test_array
+0:00:31 load avg: 1.31 [ 26/403] test_ascii_formatd
+0:00:31 load avg: 1.31 [ 27/403] test_ast
+0:00:32 load avg: 1.31 [ 28/403] test_asynchat
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:00:34 load avg: 1.21 [ 29/403] test_asyncore
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:00:38 load avg: 1.11 [ 30/403] test_atexit
+0:00:38 load avg: 1.11 [ 31/403] test_audioop
+0:00:39 load avg: 1.11 [ 32/403] test_augassign
+0:00:39 load avg: 1.11 [ 33/403] test_base64
+0:00:40 load avg: 1.11 [ 34/403] test_bastion
+0:00:40 load avg: 1.11 [ 35/403] test_bigaddrspace
+0:00:41 load avg: 1.11 [ 36/403] test_bigmem
+0:00:42 load avg: 1.11 [ 37/403] test_binascii
+0:00:42 load avg: 1.11 [ 38/403] test_binhex
+0:00:43 load avg: 1.11 [ 39/403] test_binop
+0:00:43 load avg: 1.18 [ 40/403] test_bisect
+0:00:44 load avg: 1.18 [ 41/403] test_bool
+0:00:45 load avg: 1.18 [ 42/403] test_bsddb
+0:00:48 load avg: 1.25 [ 43/403] test_bsddb185
+test_bsddb185 skipped -- No module named bsddb185
+0:00:48 load avg: 1.25 [ 44/403] test_bsddb3 -- test_bsddb185 skipped
+test_bsddb3 skipped -- Use of the `bsddb' resource not enabled
+0:00:49 load avg: 1.25 [ 45/403] test_buffer -- test_bsddb3 skipped (resource denied)
+0:00:49 load avg: 1.25 [ 46/403] test_bufio
+0:00:57 load avg: 1.31 [ 47/403] test_bytes
+0:01:08 load avg: 1.54 [ 48/403] test_bz2
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:01:21 load avg: 1.61 [ 49/403] test_calendar
+0:01:35 load avg: 1.70 [ 50/403] test_call
+0:01:35 load avg: 1.70 [ 51/403] test_capi
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:01:38 load avg: 1.72 [ 52/403] test_cd
+test_cd skipped -- No module named cd
+0:01:38 load avg: 1.72 [ 53/403] test_cfgparser -- test_cd skipped
+0:01:41 load avg: 1.72 [ 54/403] test_cgi
+0:01:42 load avg: 1.72 [ 55/403] test_charmapcodec
+0:01:42 load avg: 1.72 [ 56/403] test_cl
+test_cl skipped -- No module named cl
+0:01:42 load avg: 1.72 [ 57/403] test_class -- test_cl skipped
+0:01:43 load avg: 1.75 [ 58/403] test_cmath
+0:01:44 load avg: 1.75 [ 59/403] test_cmd
+0:01:45 load avg: 1.75 [ 60/403] test_cmd_line
+0:01:49 load avg: 1.77 [ 61/403] test_cmd_line_script
+0:01:54 load avg: 1.79 [ 62/403] test_code
+0:01:54 load avg: 1.79 [ 63/403] test_codeccallbacks
+0:01:55 load avg: 1.79 [ 64/403] test_codecencodings_cn
+0:02:00 load avg: 1.80 [ 65/403] test_codecencodings_hk
+0:02:00 load avg: 1.80 [ 66/403] test_codecencodings_iso2022
+0:02:05 load avg: 1.82 [ 67/403] test_codecencodings_jp
+0:02:14 load avg: 1.93 [ 68/403] test_codecencodings_kr
+0:02:17 load avg: 1.93 [ 69/403] test_codecencodings_tw
+0:02:18 load avg: 2.01 [ 70/403] test_codecmaps_cn
+test_codecmaps_cn skipped -- Use of the `urlfetch' resource not enabled
+0:02:19 load avg: 2.01 [ 71/403] test_codecmaps_hk -- test_codecmaps_cn skipped (resource denied)
+test_codecmaps_hk skipped -- Use of the `urlfetch' resource not enabled
+0:02:19 load avg: 2.01 [ 72/403] test_codecmaps_jp -- test_codecmaps_hk skipped (resource denied)
+test_codecmaps_jp skipped -- Use of the `urlfetch' resource not enabled
+0:02:19 load avg: 2.01 [ 73/403] test_codecmaps_kr -- test_codecmaps_jp skipped (resource denied)
+test_codecmaps_kr skipped -- Use of the `urlfetch' resource not enabled
+0:02:20 load avg: 2.01 [ 74/403] test_codecmaps_tw -- test_codecmaps_kr skipped (resource denied)
+test_codecmaps_tw skipped -- Use of the `urlfetch' resource not enabled
+0:02:20 load avg: 2.01 [ 75/403] test_codecs -- test_codecmaps_tw skipped (resource denied)
+0:02:35 load avg: 2.01 [ 76/403] test_codeop
+0:02:35 load avg: 2.01 [ 77/403] test_coercion
+0:02:36 load avg: 2.01 [ 78/403] test_collections
+0:02:42 load avg: 2.17 [ 79/403] test_colorsys
+0:02:43 load avg: 2.17 [ 80/403] test_commands
+0:02:44 load avg: 2.16 [ 81/403] test_compare
+0:02:44 load avg: 2.16 [ 82/403] test_compile
+0:02:45 load avg: 2.16 [ 83/403] test_compileall
+0:02:46 load avg: 2.16 [ 84/403] test_compiler
+0:02:48 load avg: 2.16 [ 85/403] test_complex
+0:02:51 load avg: 2.14 [ 86/403] test_complex_args
+0:02:52 load avg: 2.14 [ 87/403] test_contains
+0:02:52 load avg: 2.14 [ 88/403] test_contextlib
+0:02:53 load avg: 2.14 [ 89/403] test_cookie
+0:02:53 load avg: 2.13 [ 90/403] test_cookielib
+0:02:54 load avg: 2.13 [ 91/403] test_copy
+0:02:55 load avg: 2.13 [ 92/403] test_copy_reg
+0:02:56 load avg: 2.13 [ 93/403] test_cpickle
+0:03:16 load avg: 2.17 [ 94/403] test_cprofile
+0:03:16 load avg: 2.17 [ 95/403] test_crypt
+0:03:17 load avg: 2.17 [ 96/403] test_csv
+0:03:18 load avg: 2.17 [ 97/403] test_ctypes
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:03:30 load avg: 2.06 [ 98/403] test_curses
+test_curses skipped -- Use of the `curses' resource not enabled
+0:03:31 load avg: 2.06 [ 99/403] test_datetime -- test_curses skipped (resource denied)
+0:03:34 load avg: 2.05 [100/403] test_dbm
+0:03:35 load avg: 2.05 [101/403] test_decimal
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:03:53 load avg: 2.10 [102/403] test_decorators
+0:03:54 load avg: 2.10 [103/403] test_defaultdict
+0:03:54 load avg: 2.10 [104/403] test_deque
+0:04:16 load avg: 2.21 [105/403] test_descr
+0:04:36 load avg: 2.23 [106/403] test_descrtut
+0:04:36 load avg: 2.23 [107/403] test_dictcomps
+0:04:37 load avg: 2.23 [108/403] test_dictviews
+0:04:38 load avg: 2.23 [109/403] test_difflib
+0:04:47 load avg: 2.35 [110/403] test_dircache
+0:04:48 load avg: 2.32 [111/403] test_dis
+0:04:51 load avg: 2.32 [112/403] test_distutils
+0:04:57 load avg: 2.29 [113/403] test_dl
+0:04:57 load avg: 2.29 [114/403] test_docxmlrpc
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:04:58 load avg: 2.27 [115/403] test_dumbdbm
+0:04:59 load avg: 2.27 [116/403] test_dummy_thread
+0:05:00 load avg: 2.27 [117/403] test_dummy_threading
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:05:01 load avg: 2.27 [118/403] test_email
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:05:13 load avg: 2.30 [119/403] test_email_codecs
+0:05:14 load avg: 2.30 [120/403] test_email_renamed
+0:05:16 load avg: 2.30 [121/403] test_ensurepip
+0:05:17 load avg: 2.30 [122/403] test_enumerate
+0:05:18 load avg: 2.30 [123/403] test_eof
+0:05:18 load avg: 2.27 [124/403] test_epoll
+0:05:21 load avg: 2.27 [125/403] test_errno
+0:05:22 load avg: 2.27 [126/403] test_exception_variations
+0:05:22 load avg: 2.27 [127/403] test_extcall
+0:05:23 load avg: 2.27 [128/403] test_fcntl
+0:05:23 load avg: 2.25 [129/403] test_file
+0:05:25 load avg: 2.25 [130/403] test_file2k
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:05:46 load avg: 2.43 [131/403] test_file_eintr
+0:05:47 load avg: 2.43 [132/403] test_filecmp
+0:05:48 load avg: 2.43 [133/403] test_fileinput
+0:05:48 load avg: 2.31 [134/403] test_fileio
+0:05:49 load avg: 2.31 [135/403] test_float
+0:05:50 load avg: 2.31 [136/403] test_fnmatch
+0:05:50 load avg: 2.31 [137/403] test_fork1
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:05:57 load avg: 2.21 [138/403] test_format
+0:05:58 load avg: 2.21 [139/403] test_fpformat
+0:06:04 load avg: 2.17 [140/403] test_fractions
+0:06:05 load avg: 2.17 [141/403] test_frozen
+0:06:05 load avg: 2.17 [142/403] test_ftplib
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:06:16 load avg: 2.15 [143/403] test_funcattrs
+0:06:16 load avg: 2.15 [144/403] test_functools
+0:06:17 load avg: 2.15 [145/403] test_future
+0:06:18 load avg: 2.15 [146/403] test_future3
+0:06:19 load avg: 2.14 [147/403] test_future4
+0:06:19 load avg: 2.14 [148/403] test_future5
+0:06:20 load avg: 2.14 [149/403] test_future_builtins
+0:06:20 load avg: 2.14 [150/403] test_gc
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:06:42 load avg: 2.16 [151/403] test_gdb
+test_gdb skipped -- Couldn't find gdb on the path
+0:06:43 load avg: 2.16 [152/403] test_gdbm -- test_gdb skipped
+0:06:44 load avg: 2.23 [153/403] test_generators
+0:06:45 load avg: 2.23 [154/403] test_genericpath
+0:06:46 load avg: 2.23 [155/403] test_genexps
+0:06:46 load avg: 2.23 [156/403] test_getargs
+0:06:47 load avg: 2.23 [157/403] test_getargs2
+0:06:48 load avg: 2.23 [158/403] test_getopt
+0:06:49 load avg: 2.21 [159/403] test_gettext
+0:06:50 load avg: 2.21 [160/403] test_gl
+test_gl skipped -- No module named gl
+0:06:50 load avg: 2.21 [161/403] test_glob -- test_gl skipped
+0:06:51 load avg: 2.21 [162/403] test_global
+0:06:52 load avg: 2.21 [163/403] test_grp
+0:06:52 load avg: 2.21 [164/403] test_gzip
+0:06:54 load avg: 2.28 [165/403] test_hash
+0:06:58 load avg: 2.25 [166/403] test_hashlib
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:07:01 load avg: 2.25 [167/403] test_heapq
+0:07:10 load avg: 2.21 [168/403] test_hmac
+0:07:11 load avg: 2.21 [169/403] test_hotshot
+0:07:12 load avg: 2.21 [170/403] test_htmllib
+0:07:12 load avg: 2.21 [171/403] test_htmlparser
+0:07:13 load avg: 2.20 [172/403] test_httplib
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:07:15 load avg: 2.20 [173/403] test_httpservers
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:07:19 load avg: 2.10 [174/403] test_idle
+test_idle skipped -- No module named _tkinter
+0:07:19 load avg: 2.10 [175/403] test_imageop -- test_idle skipped
+0:07:21 load avg: 2.10 [176/403] test_imaplib
+0:07:21 load avg: 2.10 [177/403] test_imgfile
+test_imgfile skipped -- No module named imgfile
+0:07:22 load avg: 2.10 [178/403] test_imghdr -- test_imgfile skipped
+0:07:23 load avg: 2.10 [179/403] test_imp
+0:07:23 load avg: 2.09 [180/403] test_import
+0:07:26 load avg: 2.09 [181/403] test_import_magic
+0:07:27 load avg: 2.09 [182/403] test_importhooks
+0:07:27 load avg: 2.09 [183/403] test_importlib
+0:07:28 load avg: 2.09 [184/403] test_index
+0:07:28 load avg: 2.00 [185/403] test_inspect
+0:07:31 load avg: 2.00 [186/403] test_int
+0:07:38 load avg: 2.00 [187/403] test_int_literal
+0:07:39 load avg: 2.00 [188/403] test_io
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:10:08 load avg: 1.94 [189/403] test_ioctl -- test_io passed in 2 min 29 sec
+0:10:08 load avg: 1.94 [190/403] test_isinstance
+0:10:09 load avg: 1.94 [191/403] test_iter
+0:10:11 load avg: 1.94 [192/403] test_iterlen
+0:10:11 load avg: 1.94 [193/403] test_itertools
+0:10:59 load avg: 2.04 [194/403] test_json -- test_itertools passed in 48 sec
+0:11:21 load avg: 1.96 [195/403] test_kqueue
+test_kqueue skipped -- test works only on BSD
+0:11:22 load avg: 1.96 [196/403] test_largefile -- test_kqueue skipped
+0:11:22 load avg: 1.96 [197/403] test_lib2to3
+0:14:27 load avg: 2.00 [198/403] test_linecache -- test_lib2to3 passed in 3 min 4 sec
+0:14:28 load avg: 2.00 [199/403] test_linuxaudiodev
+test_linuxaudiodev skipped -- Use of the `audio' resource not enabled
+0:14:28 load avg: 2.00 [200/403] test_list -- test_linuxaudiodev skipped (resource denied)
+0:14:31 load avg: 2.00 [201/403] test_locale
+0:14:32 load avg: 2.00 [202/403] test_logging
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:14:44 load avg: 1.86 [203/403] test_long
+0:14:57 load avg: 1.96 [204/403] test_long_future
+0:15:18 load avg: 1.97 [205/403] test_longexp
+0:15:20 load avg: 1.98 [206/403] test_macos
+test_macos skipped -- No module named MacOS
+0:15:21 load avg: 1.98 [207/403] test_macostools -- test_macos skipped
+test_macostools skipped -- No module named MacOS
+0:15:21 load avg: 1.98 [208/403] test_macpath -- test_macostools skipped
+0:15:22 load avg: 1.98 [209/403] test_macurl2path
+0:15:23 load avg: 1.98 [210/403] test_mailbox
+0:15:48 load avg: 2.26 [211/403] test_marshal
+0:15:49 load avg: 2.24 [212/403] test_math
+0:16:04 load avg: 2.18 [213/403] test_md5
+0:16:05 load avg: 2.18 [214/403] test_memoryio
+0:16:06 load avg: 2.18 [215/403] test_memoryview
+0:16:09 load avg: 2.17 [216/403] test_mhlib
+0:16:10 load avg: 2.17 [217/403] test_mimetools
+0:16:11 load avg: 2.17 [218/403] test_mimetypes
+0:16:12 load avg: 2.17 [219/403] test_minidom
+0:16:13 load avg: 2.17 [220/403] test_mmap
+0:16:15 load avg: 2.16 [221/403] test_module
+0:16:17 load avg: 2.16 [222/403] test_modulefinder
+0:16:21 load avg: 2.14 [223/403] test_msilib
+test_msilib skipped -- No module named _msi
+0:16:22 load avg: 2.14 [224/403] test_multibytecodec -- test_msilib skipped
+0:16:48 load avg: 2.09 [225/403] test_multifile
+0:16:49 load avg: 2.09 [226/403] test_multiprocessing
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:17:44 load avg: 2.25 [227/403] test_mutants -- test_multiprocessing passed in 54 sec
+0:17:46 load avg: 2.31 [228/403] test_mutex
+0:17:47 load avg: 2.31 [229/403] test_netrc
+0:17:48 load avg: 2.31 [230/403] test_new
+0:17:49 load avg: 2.28 [231/403] test_nis
+0:17:50 load avg: 2.28 [232/403] test_nntplib
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:17:51 load avg: 2.28 [233/403] test_normalization
+0:17:51 load avg: 2.28 [234/403] test_ntpath
+0:17:52 load avg: 2.28 [235/403] test_old_mailbox
+0:17:53 load avg: 2.28 [236/403] test_openpty
+0:17:54 load avg: 2.26 [237/403] test_operator
+0:17:55 load avg: 2.26 [238/403] test_optparse
+0:17:56 load avg: 2.26 [239/403] test_ordered_dict
+0:18:02 load avg: 2.24 [240/403] test_os
+0:18:05 load avg: 2.22 [241/403] test_ossaudiodev
+test_ossaudiodev skipped -- Use of the `audio' resource not enabled
+0:18:06 load avg: 2.22 [242/403] test_parser -- test_ossaudiodev skipped (resource denied)
+0:18:07 load avg: 2.22 [243/403] test_pdb
+0:18:10 load avg: 2.20 [244/403] test_peepholer
+0:18:10 load avg: 2.20 [245/403] test_pep247
+0:18:11 load avg: 2.20 [246/403] test_pep277
+test_pep277 skipped -- only NT+ and systems with Unicode-friendly filesystem encoding
+0:18:12 load avg: 2.20 [247/403] test_pep352 -- test_pep277 skipped
+0:18:13 load avg: 2.20 [248/403] test_pickle
+0:18:34 load avg: 2.13 [249/403] test_pickletools
+0:18:38 load avg: 2.13 [250/403] test_pipes
+0:18:39 load avg: 2.12 [251/403] test_pkg
+0:18:40 load avg: 2.12 [252/403] test_pkgimport
+0:18:41 load avg: 2.12 [253/403] test_pkgutil
+0:18:42 load avg: 2.12 [254/403] test_platform
+0:18:44 load avg: 2.11 [255/403] test_plistlib
+0:18:45 load avg: 2.11 [256/403] test_poll
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:18:57 load avg: 1.94 [257/403] test_popen
+0:18:58 load avg: 1.94 [258/403] test_popen2
+0:19:00 load avg: 1.94 [259/403] test_poplib
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:19:04 load avg: 1.94 [260/403] test_posix
+0:19:05 load avg: 1.95 [261/403] test_posixpath
+0:19:06 load avg: 1.95 [262/403] test_pow
+0:19:08 load avg: 1.95 [263/403] test_pprint
+0:19:10 load avg: 1.95 [264/403] test_print
+0:19:11 load avg: 1.95 [265/403] test_profile
+0:19:11 load avg: 1.95 [266/403] test_property
+0:19:12 load avg: 1.95 [267/403] test_pstats
+0:19:13 load avg: 1.95 [268/403] test_pty
+0:19:14 load avg: 1.96 [269/403] test_pwd
+0:19:15 load avg: 1.96 [270/403] test_py3kwarn
+0:19:16 load avg: 1.96 [271/403] test_py_compile
+0:19:17 load avg: 1.96 [272/403] test_pyclbr
+0:19:25 load avg: 1.96 [273/403] test_pydoc
+0:19:31 load avg: 1.97 [274/403] test_pyexpat
+0:19:32 load avg: 1.97 [275/403] test_queue
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:19:36 load avg: 1.89 [276/403] test_quopri
+0:19:38 load avg: 1.89 [277/403] test_random
+0:19:41 load avg: 1.90 [278/403] test_re
+0:19:49 load avg: 1.92 [279/403] test_readline
+0:19:50 load avg: 1.92 [280/403] test_regrtest
+0:20:13 load avg: 2.01 [281/403] test_repr
+0:20:14 load avg: 2.01 [282/403] test_resource
+0:20:16 load avg: 2.01 [283/403] test_rfc822
+0:20:17 load avg: 2.01 [284/403] test_richcmp
+0:20:18 load avg: 2.01 [285/403] test_rlcompleter
+0:20:19 load avg: 2.01 [286/403] test_robotparser
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:20:20 load avg: 2.01 [287/403] test_runpy
+0:20:38 load avg: 2.00 [288/403] test_sax
+0:20:40 load avg: 2.00 [289/403] test_scope
+0:20:41 load avg: 2.00 [290/403] test_scriptpackages
+test_scriptpackages skipped -- No module named aetools
+0:20:41 load avg: 2.00 [291/403] test_select -- test_scriptpackages skipped
+0:20:53 load avg: 1.85 [292/403] test_set
+0:21:02 load avg: 1.87 [293/403] test_setcomps
+0:21:03 load avg: 1.87 [294/403] test_sets
+0:21:04 load avg: 1.88 [295/403] test_sgmllib
+0:21:06 load avg: 1.88 [296/403] test_sha
+0:21:06 load avg: 1.88 [297/403] test_shelve
+0:21:12 load avg: 1.97 [298/403] test_shlex
+0:21:13 load avg: 1.97 [299/403] test_shutil
+0:21:14 load avg: 1.97 [300/403] test_signal
+0:21:24 load avg: 1.82 [301/403] test_site
+0:21:26 load avg: 1.82 [302/403] test_slice
+0:21:28 load avg: 1.82 [303/403] test_smtplib
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:21:30 load avg: 1.84 [304/403] test_smtpnet
+test_smtpnet skipped -- Use of the `network' resource not enabled
+0:21:31 load avg: 1.84 [305/403] test_socket -- test_smtpnet skipped (resource denied)
+0:21:49 load avg: 1.65 [306/403] test_socketserver
+test_socketserver skipped -- Use of the `network' resource not enabled
+0:21:50 load avg: 1.68 [307/403] test_softspace -- test_socketserver skipped (resource denied)
+0:21:51 load avg: 1.68 [308/403] test_sort
+0:21:53 load avg: 1.68 [309/403] test_source_encoding
+0:21:55 load avg: 1.71 [310/403] test_spwd
+0:21:56 load avg: 1.71 [311/403] test_sqlite
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:22:00 load avg: 1.73 [312/403] test_ssl
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+test test_ssl failed -- Traceback (most recent call last):
+  File "/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/test/test_ssl.py", line 1005, in test_load_dh_params
+    shutil.copy(DHFILE, fname)
+  File "/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/shutil.py", line 131, in copy
+    if os.path.isdir(dst):
+  File "/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/genericpath.py", line 49, in isdir
+    st = os.stat(s)
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xe4' in position 18: ordinal not in range(128)
+
+0:22:13 load avg: 1.77 [313/403/1] test_startfile -- test_ssl failed
+test_startfile skipped -- module 'os' has no attribute 'startfile'
+0:22:14 load avg: 1.79 [314/403/1] test_stat -- test_startfile skipped
+0:22:15 load avg: 1.79 [315/403/1] test_str
+0:22:25 load avg: 1.82 [316/403/1] test_strftime
+0:22:30 load avg: 1.84 [317/403/1] test_string
+0:22:38 load avg: 1.85 [318/403/1] test_stringprep
+0:22:39 load avg: 1.85 [319/403/1] test_strop
+0:22:40 load avg: 1.86 [320/403/1] test_strptime
+0:22:42 load avg: 1.86 [321/403/1] test_strtod
+0:22:54 load avg: 1.88 [322/403/1] test_struct
+0:23:01 load avg: 1.90 [323/403/1] test_structmembers
+0:23:01 load avg: 1.90 [324/403/1] test_structseq
+0:23:02 load avg: 1.90 [325/403/1] test_subprocess
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:26:20 load avg: 1.82 [326/403/1] test_sunau -- test_subprocess passed in 3 min 18 sec
+0:26:22 load avg: 1.82 [327/403/1] test_sunaudiodev
+test_sunaudiodev skipped -- No module named sunaudiodev
+0:26:23 load avg: 1.82 [328/403/1] test_sundry -- test_sunaudiodev skipped
+0:26:24 load avg: 1.82 [329/403/1] test_symtable
+0:26:25 load avg: 1.83 [330/403/1] test_syntax
+0:26:26 load avg: 1.83 [331/403/1] test_sys
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:26:29 load avg: 1.83 [332/403/1] test_sys_setprofile
+0:26:30 load avg: 1.84 [333/403/1] test_sys_settrace
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/test/test_sys_settrace.py:1056: DeprecationWarning: classic int division
+  1 / 0
+0:26:32 load avg: 1.84 [334/403/1] test_sysconfig
+0:26:33 load avg: 1.84 [335/403/1] test_tarfile
+0:26:53 load avg: 1.89 [336/403/1] test_tcl
+test_tcl skipped -- No module named _tkinter
+0:26:54 load avg: 1.89 [337/403/1] test_telnetlib -- test_tcl skipped
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:27:00 load avg: 1.83 [338/403/1] test_tempfile
+0:27:01 load avg: 1.83 [339/403/1] test_test_support
+0:27:03 load avg: 1.83 [340/403/1] test_textwrap
+0:27:04 load avg: 1.83 [341/403/1] test_thread
+0:27:05 load avg: 1.85 [342/403/1] test_threaded_import
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:27:06 load avg: 1.85 [343/403/1] test_threadedtempfile
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:27:07 load avg: 1.85 [344/403/1] test_threading
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:27:16 load avg: 2.11 [345/403/1] test_threading_local
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:27:23 load avg: 2.10 [346/403/1] test_threadsignals
+0:27:24 load avg: 2.10 [347/403/1] test_time
+0:27:26 load avg: 2.01 [348/403/1] test_timeit
+0:27:28 load avg: 2.01 [349/403/1] test_timeout
+test_timeout skipped -- Use of the `network' resource not enabled
+0:27:29 load avg: 2.01 [350/403/1] test_tk -- test_timeout skipped (resource denied)
+test_tk skipped -- No module named _tkinter
+0:27:29 load avg: 2.01 [351/403/1] test_tokenize -- test_tk skipped
+0:27:35 load avg: 2.01 [352/403/1] test_tools
+recursedown('@test_8655_tmp')
+0:27:44 load avg: 2.01 [353/403/1] test_trace
+0:28:05 load avg: 2.01 [354/403/1] test_traceback
+0:28:10 load avg: 1.92 [355/403/1] test_transformer
+0:28:11 load avg: 1.92 [356/403/1] test_ttk_guionly
+test_ttk_guionly skipped -- No module named _tkinter
+0:28:12 load avg: 1.92 [357/403/1] test_ttk_textonly -- test_ttk_guionly skipped
+test_ttk_textonly skipped -- No module named _tkinter
+0:28:13 load avg: 1.92 [358/403/1] test_tuple -- test_ttk_textonly skipped
+0:29:07 load avg: 1.97 [359/403/1] test_turtle -- test_tuple passed in 54 sec
+test_turtle skipped -- No module named _tkinter
+0:29:08 load avg: 1.97 [360/403/1] test_typechecks -- test_turtle skipped
+0:29:09 load avg: 1.97 [361/403/1] test_ucn
+0:29:13 load avg: 1.97 [362/403/1] test_unary
+0:29:14 load avg: 1.97 [363/403/1] test_undocumented_details
+0:29:15 load avg: 1.98 [364/403/1] test_unicode
+0:29:34 load avg: 2.06 [365/403/1] test_unicode_file
+test_unicode_file skipped -- No Unicode filesystem semantics on this platform.
+0:29:35 load avg: 2.14 [366/403/1] test_unicodedata -- test_unicode_file skipped
+0:29:49 load avg: 2.19 [367/403/1] test_univnewlines
+0:29:50 load avg: 2.19 [368/403/1] test_univnewlines2k
+0:29:51 load avg: 2.19 [369/403/1] test_unpack
+0:29:52 load avg: 2.19 [370/403/1] test_urllib
+0:29:53 load avg: 2.19 [371/403/1] test_urllib2
+0:29:56 load avg: 2.17 [372/403/1] test_urllib2_localnet
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:29:59 load avg: 2.17 [373/403/1] test_urllib2net
+test_urllib2net skipped -- Use of the `network' resource not enabled
+0:30:00 load avg: 2.16 [374/403/1] test_urllibnet -- test_urllib2net skipped (resource denied)
+test_urllibnet skipped -- Use of the `network' resource not enabled
+0:30:01 load avg: 2.16 [375/403/1] test_urlparse -- test_urllibnet skipped (resource denied)
+0:30:02 load avg: 2.16 [376/403/1] test_userdict
+0:30:11 load avg: 2.13 [377/403/1] test_userlist
+0:30:13 load avg: 2.13 [378/403/1] test_userstring
+0:30:46 load avg: 2.12 [379/403/1] test_uu -- test_userstring passed in 32 sec
+0:30:47 load avg: 2.12 [380/403/1] test_uuid
+0:30:49 load avg: 2.12 [381/403/1] test_wait3
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:30:55 load avg: 1.95 [382/403/1] test_wait4
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:31:02 load avg: 1.87 [383/403/1] test_warnings
+0:31:05 load avg: 1.88 [384/403/1] test_wave
+0:31:06 load avg: 1.88 [385/403/1] test_weakref
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:39:20 load avg: 2.03 [386/403/1] test_weakset -- test_weakref passed in 8 min 14 sec
+0:39:25 load avg: 2.03 [387/403/1] test_whichdb
+0:39:26 load avg: 2.03 [388/403/1] test_winreg
+test_winreg skipped -- No module named _winreg
+0:39:27 load avg: 2.03 [389/403/1] test_winsound -- test_winreg skipped
+test_winsound skipped -- Use of the `audio' resource not enabled
+0:39:28 load avg: 2.03 [390/403/1] test_with -- test_winsound skipped (resource denied)
+0:39:29 load avg: 2.03 [391/403/1] test_wsgiref
+0:39:30 load avg: 2.03 [392/403/1] test_xdrlib
+0:39:31 load avg: 2.03 [393/403/1] test_xml_etree
+0:39:36 load avg: 2.02 [394/403/1] test_xml_etree_c
+0:39:37 load avg: 2.02 [395/403/1] test_xmllib
+0:39:38 load avg: 2.02 [396/403/1] test_xmlrpc
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:39:45 load avg: 2.02 [397/403/1] test_xpickle
+0:39:49 load avg: 2.02 [398/403/1] test_xrange
+0:39:51 load avg: 2.02 [399/403/1] test_zipfile
+0:40:20 load avg: 2.24 [400/403/1] test_zipfile64
+test_zipfile64 skipped -- test requires loads of disk-space bytes and a long time to run
+0:40:21 load avg: 2.24 [401/403/1] test_zipimport -- test_zipfile64 skipped (resource denied)
+0:40:22 load avg: 2.24 [402/403/1] test_zipimport_support
+0:40:27 load avg: 2.31 [403/403/1] test_zlib
+361 tests OK.
+1 test failed:
+    test_ssl
+41 tests skipped:
+    test_aepack test_al test_applesingle test_bsddb185 test_bsddb3
+    test_cd test_cl test_codecmaps_cn test_codecmaps_hk
+    test_codecmaps_jp test_codecmaps_kr test_codecmaps_tw test_curses
+    test_gdb test_gl test_idle test_imgfile test_kqueue
+    test_linuxaudiodev test_macos test_macostools test_msilib
+    test_ossaudiodev test_pep277 test_scriptpackages test_smtpnet
+    test_socketserver test_startfile test_sunaudiodev test_tcl
+    test_timeout test_tk test_ttk_guionly test_ttk_textonly
+    test_turtle test_unicode_file test_urllib2net test_urllibnet
+    test_winreg test_winsound test_zipfile64
+7 skips unexpected on linux2:
+    test_gdb test_idle test_tcl test_tk test_ttk_guionly
+    test_ttk_textonly test_turtle
+
+Total duration: 40 min 43 sec
+Tests result: FAILURE
+make: [Makefile:877: test] Error 2 (ignored)
+LD_LIBRARY_PATH=/usr/ports/opt-ppc/python/work/src/Python-2.7.15 ./python -Wd -3 -E -tt  ./Lib/test/regrtest.py -l 
+== CPython 2.7.15 (default, Jan 26 2019, 07:56:12) [GCC 7.4.0]
+==   Linux-4.15.1-ppc-7455,_altivec_supported-with-glibc2.1.3 big-endian
+==   /usr/ports/opt-ppc/python/work/src/Python-2.7.15/build/test_python_7851
+== CPU count: 1
+Run tests sequentially
+0:00:00 load avg: 2.39 [  1/403] test_grammar
+0:00:00 load avg: 2.39 [  2/403] test_opcodes
+0:00:00 load avg: 2.39 [  3/403] test_dict
+0:00:03 load avg: 2.43 [  4/403] test_builtin
+0:00:03 load avg: 2.43 [  5/403] test_exceptions
+0:00:03 load avg: 2.43 [  6/403] test_types
+0:00:03 load avg: 2.43 [  7/403] test_unittest
+0:00:05 load avg: 2.40 [  8/403] test_doctest
+0:00:09 load avg: 2.40 [  9/403] test_doctest2
+0:00:09 load avg: 2.40 [ 10/403] test_MimeWriter
+0:00:09 load avg: 2.40 [ 11/403] test_SimpleHTTPServer
+0:00:09 load avg: 2.40 [ 12/403] test_StringIO
+0:00:14 load avg: 2.53 [ 13/403] test___all__
+0:00:17 load avg: 2.57 [ 14/403] test___future__
+0:00:18 load avg: 2.57 [ 15/403] test__locale
+0:00:18 load avg: 2.57 [ 16/403] test__osx_support
+0:00:18 load avg: 2.57 [ 17/403] test_abc
+0:00:19 load avg: 2.57 [ 18/403] test_abstract_numbers
+0:00:19 load avg: 2.57 [ 19/403] test_aepack
+test_aepack skipped -- No module named aetypes
+0:00:20 load avg: 2.57 [ 20/403] test_aifc -- test_aepack skipped
+0:00:21 load avg: 2.60 [ 21/403] test_al
+test_al skipped -- No module named al
+0:00:21 load avg: 2.60 [ 22/403] test_anydbm -- test_al skipped
+0:00:22 load avg: 2.60 [ 23/403] test_applesingle
+test_applesingle skipped -- No module named MacOS
+0:00:22 load avg: 2.60 [ 24/403] test_argparse -- test_applesingle skipped
+0:00:41 load avg: 2.63 [ 25/403] test_array
+0:00:45 load avg: 2.58 [ 26/403] test_ascii_formatd
+0:00:46 load avg: 2.58 [ 27/403] test_ast
+0:00:47 load avg: 2.58 [ 28/403] test_asynchat
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:00:49 load avg: 2.58 [ 29/403] test_asyncore
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:00:54 load avg: 2.62 [ 30/403] test_atexit
+0:00:54 load avg: 2.62 [ 31/403] test_audioop
+0:00:55 load avg: 2.62 [ 32/403] test_augassign
+0:00:55 load avg: 2.62 [ 33/403] test_base64
+0:00:55 load avg: 2.57 [ 34/403] test_bastion
+0:00:56 load avg: 2.57 [ 35/403] test_bigaddrspace
+0:00:56 load avg: 2.57 [ 36/403] test_bigmem
+0:00:57 load avg: 2.57 [ 37/403] test_binascii
+0:00:58 load avg: 2.57 [ 38/403] test_binhex
+0:00:58 load avg: 2.57 [ 39/403] test_binop
+0:00:59 load avg: 2.57 [ 40/403] test_bisect
+0:00:59 load avg: 2.57 [ 41/403] test_bool
+0:01:00 load avg: 2.57 [ 42/403] test_bsddb
+0:01:04 load avg: 2.52 [ 43/403] test_bsddb185
+test_bsddb185 skipped -- No module named bsddb185
+0:01:05 load avg: 2.52 [ 44/403] test_bsddb3 -- test_bsddb185 skipped
+test_bsddb3 skipped -- Use of the `bsddb' resource not enabled
+0:01:05 load avg: 2.52 [ 45/403] test_buffer -- test_bsddb3 skipped (resource denied)
+0:01:05 load avg: 2.56 [ 46/403] test_bufio
+0:01:13 load avg: 2.60 [ 47/403] test_bytes
+0:01:24 load avg: 2.50 [ 48/403] test_bz2
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:01:36 load avg: 4.87 [ 49/403] test_calendar
+0:01:48 load avg: 4.43 [ 50/403] test_call
+0:01:48 load avg: 4.43 [ 51/403] test_capi
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:01:51 load avg: 4.16 [ 52/403] test_cd
+test_cd skipped -- No module named cd
+0:01:52 load avg: 4.16 [ 53/403] test_cfgparser -- test_cd skipped
+0:01:54 load avg: 4.16 [ 54/403] test_cgi
+0:01:55 load avg: 4.16 [ 55/403] test_charmapcodec
+0:01:55 load avg: 3.98 [ 56/403] test_cl
+test_cl skipped -- No module named cl
+0:01:56 load avg: 3.98 [ 57/403] test_class -- test_cl skipped
+0:01:56 load avg: 3.98 [ 58/403] test_cmath
+0:01:57 load avg: 3.98 [ 59/403] test_cmd
+0:01:57 load avg: 3.98 [ 60/403] test_cmd_line
+0:02:01 load avg: 3.82 [ 61/403] test_cmd_line_script
+0:02:06 load avg: 3.68 [ 62/403] test_code
+0:02:06 load avg: 3.68 [ 63/403] test_codeccallbacks
+0:02:07 load avg: 3.68 [ 64/403] test_codecencodings_cn
+0:02:12 load avg: 3.54 [ 65/403] test_codecencodings_hk
+0:02:12 load avg: 3.54 [ 66/403] test_codecencodings_iso2022
+0:02:17 load avg: 3.42 [ 67/403] test_codecencodings_jp
+0:02:26 load avg: 3.20 [ 68/403] test_codecencodings_kr
+0:02:29 load avg: 3.20 [ 69/403] test_codecencodings_tw
+0:02:30 load avg: 3.10 [ 70/403] test_codecmaps_cn
+test_codecmaps_cn skipped -- Use of the `urlfetch' resource not enabled
+0:02:31 load avg: 3.10 [ 71/403] test_codecmaps_hk -- test_codecmaps_cn skipped (resource denied)
+test_codecmaps_hk skipped -- Use of the `urlfetch' resource not enabled
+0:02:31 load avg: 3.10 [ 72/403] test_codecmaps_jp -- test_codecmaps_hk skipped (resource denied)
+test_codecmaps_jp skipped -- Use of the `urlfetch' resource not enabled
+0:02:31 load avg: 3.10 [ 73/403] test_codecmaps_kr -- test_codecmaps_jp skipped (resource denied)
+test_codecmaps_kr skipped -- Use of the `urlfetch' resource not enabled
+0:02:32 load avg: 3.10 [ 74/403] test_codecmaps_tw -- test_codecmaps_kr skipped (resource denied)
+test_codecmaps_tw skipped -- Use of the `urlfetch' resource not enabled
+0:02:32 load avg: 3.10 [ 75/403] test_codecs -- test_codecmaps_tw skipped (resource denied)
+0:02:46 load avg: 2.86 [ 76/403] test_codeop
+0:02:46 load avg: 2.86 [ 77/403] test_coercion
+0:02:47 load avg: 2.86 [ 78/403] test_collections
+0:02:53 load avg: 2.79 [ 79/403] test_colorsys
+0:02:54 load avg: 2.79 [ 80/403] test_commands
+0:02:54 load avg: 2.79 [ 81/403] test_compare
+0:02:55 load avg: 2.79 [ 82/403] test_compile
+0:02:56 load avg: 2.73 [ 83/403] test_compileall
+0:02:56 load avg: 2.73 [ 84/403] test_compiler
+0:02:58 load avg: 2.73 [ 85/403] test_complex
+0:03:01 load avg: 2.67 [ 86/403] test_complex_args
+0:03:01 load avg: 2.67 [ 87/403] test_contains
+0:03:02 load avg: 2.67 [ 88/403] test_contextlib
+0:03:02 load avg: 2.67 [ 89/403] test_cookie
+0:03:03 load avg: 2.67 [ 90/403] test_cookielib
+0:03:04 load avg: 2.67 [ 91/403] test_copy
+0:03:04 load avg: 2.67 [ 92/403] test_copy_reg
+0:03:05 load avg: 2.67 [ 93/403] test_cpickle
+0:03:24 load avg: 2.48 [ 94/403] test_cprofile
+0:03:25 load avg: 2.48 [ 95/403] test_crypt
+0:03:25 load avg: 2.48 [ 96/403] test_csv
+0:03:26 load avg: 2.60 [ 97/403] test_ctypes
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:03:36 load avg: 2.58 [ 98/403] test_curses
+test_curses skipped -- Use of the `curses' resource not enabled
+0:03:37 load avg: 2.58 [ 99/403] test_datetime -- test_curses skipped (resource denied)
+0:03:39 load avg: 2.58 [100/403] test_dbm
+0:03:40 load avg: 2.58 [101/403] test_decimal
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:03:57 load avg: 2.41 [102/403] test_decorators
+0:03:57 load avg: 2.41 [103/403] test_defaultdict
+0:03:58 load avg: 2.41 [104/403] test_deque
+0:04:19 load avg: 2.30 [105/403] test_descr
+0:04:37 load avg: 2.21 [106/403] test_descrtut
+0:04:38 load avg: 2.21 [107/403] test_dictcomps
+0:04:39 load avg: 2.21 [108/403] test_dictviews
+0:04:39 load avg: 2.21 [109/403] test_difflib
+0:04:49 load avg: 2.18 [110/403] test_dircache
+0:04:51 load avg: 2.08 [111/403] test_dis
+0:04:54 load avg: 2.08 [112/403] test_distutils
+0:04:59 load avg: 2.08 [113/403] test_dl
+0:04:59 load avg: 2.08 [114/403] test_docxmlrpc
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:05:00 load avg: 2.08 [115/403] test_dumbdbm
+0:05:01 load avg: 2.07 [116/403] test_dummy_thread
+0:05:02 load avg: 2.07 [117/403] test_dummy_threading
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:05:02 load avg: 2.07 [118/403] test_email
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:05:15 load avg: 2.06 [119/403] test_email_codecs
+0:05:15 load avg: 2.05 [120/403] test_email_renamed
+0:05:18 load avg: 2.05 [121/403] test_ensurepip
+0:05:18 load avg: 2.05 [122/403] test_enumerate
+0:05:19 load avg: 2.05 [123/403] test_eof
+0:05:20 load avg: 2.05 [124/403] test_epoll
+0:05:22 load avg: 2.05 [125/403] test_errno
+0:05:23 load avg: 2.05 [126/403] test_exception_variations
+0:05:24 load avg: 2.05 [127/403] test_extcall
+0:05:24 load avg: 2.05 [128/403] test_fcntl
+0:05:25 load avg: 2.05 [129/403] test_file
+0:05:27 load avg: 2.05 [130/403] test_file2k
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:05:48 load avg: 2.44 [131/403] test_file_eintr
+0:05:51 load avg: 2.40 [132/403] test_filecmp
+0:05:52 load avg: 2.40 [133/403] test_fileinput
+0:05:52 load avg: 2.40 [134/403] test_fileio
+0:05:53 load avg: 2.40 [135/403] test_float
+0:05:56 load avg: 2.37 [136/403] test_fnmatch
+0:05:57 load avg: 2.37 [137/403] test_fork1
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:06:04 load avg: 2.26 [138/403] test_format
+0:06:04 load avg: 2.26 [139/403] test_fpformat
+0:06:10 load avg: 2.24 [140/403] test_fractions
+0:06:11 load avg: 2.22 [141/403] test_frozen
+0:06:12 load avg: 2.22 [142/403] test_ftplib
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:06:22 load avg: 2.27 [143/403] test_funcattrs
+0:06:22 load avg: 2.27 [144/403] test_functools
+0:06:23 load avg: 2.27 [145/403] test_future
+0:06:24 load avg: 2.27 [146/403] test_future3
+0:06:25 load avg: 2.27 [147/403] test_future4
+0:06:25 load avg: 2.27 [148/403] test_future5
+0:06:26 load avg: 2.24 [149/403] test_future_builtins
+0:06:26 load avg: 2.24 [150/403] test_gc
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:06:48 load avg: 2.25 [151/403] test_gdb
+test_gdb skipped -- Couldn't find gdb on the path
+0:06:48 load avg: 2.25 [152/403] test_gdbm -- test_gdb skipped
+0:06:49 load avg: 2.25 [153/403] test_generators
+0:06:50 load avg: 2.23 [154/403] test_genericpath
+0:06:51 load avg: 2.23 [155/403] test_genexps
+0:06:52 load avg: 2.23 [156/403] test_getargs
+0:06:52 load avg: 2.23 [157/403] test_getargs2
+0:06:53 load avg: 2.23 [158/403] test_getopt
+0:06:54 load avg: 2.23 [159/403] test_gettext
+0:06:54 load avg: 2.23 [160/403] test_gl
+test_gl skipped -- No module named gl
+0:06:55 load avg: 2.23 [161/403] test_glob -- test_gl skipped
+0:06:56 load avg: 2.21 [162/403] test_global
+0:06:57 load avg: 2.21 [163/403] test_grp
+0:06:57 load avg: 2.21 [164/403] test_gzip
+0:06:59 load avg: 2.21 [165/403] test_hash
+0:07:03 load avg: 2.20 [166/403] test_hashlib
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:07:05 load avg: 2.18 [167/403] test_heapq
+0:07:15 load avg: 2.17 [168/403] test_hmac
+0:07:16 load avg: 2.15 [169/403] test_hotshot
+0:07:16 load avg: 2.15 [170/403] test_htmllib
+0:07:17 load avg: 2.15 [171/403] test_htmlparser
+0:07:18 load avg: 2.15 [172/403] test_httplib
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:07:20 load avg: 2.15 [173/403] test_httpservers
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:07:23 load avg: 2.14 [174/403] test_idle
+test_idle skipped -- No module named _tkinter
+0:07:24 load avg: 2.14 [175/403] test_imageop -- test_idle skipped
+0:07:25 load avg: 2.14 [176/403] test_imaplib
+0:07:26 load avg: 2.13 [177/403] test_imgfile
+test_imgfile skipped -- No module named imgfile
+0:07:26 load avg: 2.13 [178/403] test_imghdr -- test_imgfile skipped
+0:07:27 load avg: 2.13 [179/403] test_imp
+0:07:27 load avg: 2.13 [180/403] test_import
+0:07:29 load avg: 2.13 [181/403] test_import_magic
+0:07:29 load avg: 2.13 [182/403] test_importhooks
+0:07:29 load avg: 2.13 [183/403] test_importlib
+0:07:30 load avg: 2.13 [184/403] test_index
+0:07:30 load avg: 2.13 [185/403] test_inspect
+0:07:31 load avg: 2.04 [186/403] test_int
+0:07:37 load avg: 1.95 [187/403] test_int_literal
+0:07:38 load avg: 1.95 [188/403] test_io
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:10:07 load avg: 2.27 [189/403] test_ioctl -- test_io passed in 2 min 29 sec
+0:10:07 load avg: 2.27 [190/403] test_isinstance
+0:10:08 load avg: 2.27 [191/403] test_iter
+0:10:10 load avg: 2.27 [192/403] test_iterlen
+0:10:10 load avg: 2.27 [193/403] test_itertools
+0:11:03 load avg: 2.15 [194/403] test_json -- test_itertools passed in 52 sec
+0:11:27 load avg: 2.16 [195/403] test_kqueue
+test_kqueue skipped -- test works only on BSD
+0:11:27 load avg: 2.16 [196/403] test_largefile -- test_kqueue skipped
+0:11:28 load avg: 2.16 [197/403] test_lib2to3
+0:14:38 load avg: 2.35 [198/403] test_linecache -- test_lib2to3 passed in 3 min 10 sec
+0:14:39 load avg: 2.35 [199/403] test_linuxaudiodev
+test_linuxaudiodev skipped -- Use of the `audio' resource not enabled
+0:14:40 load avg: 2.35 [200/403] test_list -- test_linuxaudiodev skipped (resource denied)
+0:14:42 load avg: 2.32 [201/403] test_locale
+0:14:42 load avg: 2.32 [202/403] test_logging
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:14:53 load avg: 1.96 [203/403] test_long
+0:15:00 load avg: 1.89 [204/403] test_long_future
+0:15:14 load avg: 1.77 [205/403] test_longexp
+0:15:16 load avg: 1.79 [206/403] test_macos
+test_macos skipped -- No module named MacOS
+0:15:17 load avg: 1.79 [207/403] test_macostools -- test_macos skipped
+test_macostools skipped -- No module named MacOS
+0:15:18 load avg: 1.79 [208/403] test_macpath -- test_macostools skipped
+0:15:18 load avg: 1.79 [209/403] test_macurl2path
+0:15:19 load avg: 1.79 [210/403] test_mailbox
+0:15:45 load avg: 2.20 [211/403] test_marshal
+0:15:47 load avg: 2.19 [212/403] test_math
+0:16:02 load avg: 2.14 [213/403] test_md5
+0:16:03 load avg: 2.14 [214/403] test_memoryio
+0:16:04 load avg: 2.14 [215/403] test_memoryview
+0:16:06 load avg: 2.13 [216/403] test_mhlib
+0:16:08 load avg: 2.13 [217/403] test_mimetools
+0:16:08 load avg: 2.13 [218/403] test_mimetypes
+0:16:09 load avg: 2.13 [219/403] test_minidom
+0:16:10 load avg: 2.13 [220/403] test_mmap
+0:16:12 load avg: 2.20 [221/403] test_module
+0:16:14 load avg: 2.20 [222/403] test_modulefinder
+0:16:18 load avg: 2.19 [223/403] test_msilib
+test_msilib skipped -- No module named _msi
+0:16:19 load avg: 2.19 [224/403] test_multibytecodec -- test_msilib skipped
+0:16:47 load avg: 2.11 [225/403] test_multifile
+0:16:47 load avg: 2.11 [226/403] test_multiprocessing
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:17:42 load avg: 2.47 [227/403] test_mutants -- test_multiprocessing passed in 55 sec
+0:17:45 load avg: 2.47 [228/403] test_mutex
+0:17:46 load avg: 2.43 [229/403] test_netrc
+0:17:47 load avg: 2.43 [230/403] test_new
+0:17:48 load avg: 2.43 [231/403] test_nis
+0:17:48 load avg: 2.43 [232/403] test_nntplib
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:17:49 load avg: 2.43 [233/403] test_normalization
+0:17:50 load avg: 2.43 [234/403] test_ntpath
+0:17:51 load avg: 2.40 [235/403] test_old_mailbox
+0:17:52 load avg: 2.40 [236/403] test_openpty
+0:17:52 load avg: 2.40 [237/403] test_operator
+0:17:53 load avg: 2.40 [238/403] test_optparse
+0:17:54 load avg: 2.40 [239/403] test_ordered_dict
+0:18:00 load avg: 2.37 [240/403] test_os
+0:18:03 load avg: 2.34 [241/403] test_ossaudiodev
+test_ossaudiodev skipped -- Use of the `audio' resource not enabled
+0:18:04 load avg: 2.34 [242/403] test_parser -- test_ossaudiodev skipped (resource denied)
+0:18:05 load avg: 2.34 [243/403] test_pdb
+0:18:07 load avg: 2.31 [244/403] test_peepholer
+0:18:08 load avg: 2.31 [245/403] test_pep247
+0:18:09 load avg: 2.31 [246/403] test_pep277
+test_pep277 skipped -- only NT+ and systems with Unicode-friendly filesystem encoding
+0:18:10 load avg: 2.31 [247/403] test_pep352 -- test_pep277 skipped
+0:18:11 load avg: 2.31 [248/403] test_pickle
+0:18:32 load avg: 2.26 [249/403] test_pickletools
+0:18:37 load avg: 2.24 [250/403] test_pipes
+0:18:38 load avg: 2.24 [251/403] test_pkg
+0:18:39 load avg: 2.24 [252/403] test_pkgimport
+0:18:40 load avg: 2.24 [253/403] test_pkgutil
+0:18:40 load avg: 2.24 [254/403] test_platform
+0:18:42 load avg: 2.22 [255/403] test_plistlib
+0:18:43 load avg: 2.22 [256/403] test_poll
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:18:55 load avg: 2.03 [257/403] test_popen
+0:18:56 load avg: 2.03 [258/403] test_popen2
+0:18:58 load avg: 2.03 [259/403] test_poplib
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:19:02 load avg: 2.03 [260/403] test_posix
+0:19:03 load avg: 2.03 [261/403] test_posixpath
+0:19:04 load avg: 2.03 [262/403] test_pow
+0:19:06 load avg: 2.03 [263/403] test_pprint
+0:19:06 load avg: 1.94 [264/403] test_print
+0:19:07 load avg: 1.94 [265/403] test_profile
+0:19:07 load avg: 1.94 [266/403] test_property
+0:19:08 load avg: 1.94 [267/403] test_pstats
+0:19:08 load avg: 1.94 [268/403] test_pty
+0:19:08 load avg: 1.94 [269/403] test_pwd
+0:19:09 load avg: 1.94 [270/403] test_py3kwarn
+0:19:09 load avg: 1.94 [271/403] test_py_compile
+0:19:10 load avg: 1.94 [272/403] test_pyclbr
+0:19:14 load avg: 1.87 [273/403] test_pydoc
+0:19:16 load avg: 1.87 [274/403] test_pyexpat
+0:19:16 load avg: 1.80 [275/403] test_queue
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:19:20 load avg: 1.80 [276/403] test_quopri
+0:19:21 load avg: 1.80 [277/403] test_random
+0:19:23 load avg: 1.73 [278/403] test_re
+0:19:27 load avg: 1.68 [279/403] test_readline
+0:19:27 load avg: 1.68 [280/403] test_regrtest
+0:19:38 load avg: 1.64 [281/403] test_repr
+0:19:38 load avg: 1.64 [282/403] test_resource
+0:19:39 load avg: 1.64 [283/403] test_rfc822
+0:19:40 load avg: 1.64 [284/403] test_richcmp
+0:19:40 load avg: 1.64 [285/403] test_rlcompleter
+0:19:41 load avg: 1.64 [286/403] test_robotparser
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:19:41 load avg: 1.64 [287/403] test_runpy
+0:19:49 load avg: 1.55 [288/403] test_sax
+0:19:50 load avg: 1.55 [289/403] test_scope
+0:19:50 load avg: 1.55 [290/403] test_scriptpackages
+test_scriptpackages skipped -- No module named aetools
+0:19:51 load avg: 1.55 [291/403] test_select -- test_scriptpackages skipped
+0:20:02 load avg: 1.20 [292/403] test_set
+0:20:06 load avg: 1.19 [293/403] test_setcomps
+0:20:07 load avg: 1.19 [294/403] test_sets
+0:20:08 load avg: 1.19 [295/403] test_sgmllib
+0:20:08 load avg: 1.19 [296/403] test_sha
+0:20:08 load avg: 1.19 [297/403] test_shelve
+0:20:14 load avg: 1.25 [298/403] test_shlex
+0:20:14 load avg: 1.25 [299/403] test_shutil
+0:20:15 load avg: 1.25 [300/403] test_signal
+0:20:24 load avg: 1.06 [301/403] test_site
+0:20:24 load avg: 1.06 [302/403] test_slice
+0:20:25 load avg: 1.06 [303/403] test_smtplib
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:20:27 load avg: 1.05 [304/403] test_smtpnet
+test_smtpnet skipped -- Use of the `network' resource not enabled
+0:20:28 load avg: 1.05 [305/403] test_socket -- test_smtpnet skipped (resource denied)
+0:20:46 load avg: 1.27 [306/403] test_socketserver
+test_socketserver skipped -- Use of the `network' resource not enabled
+0:20:47 load avg: 1.27 [307/403] test_softspace -- test_socketserver skipped (resource denied)
+0:20:48 load avg: 1.27 [308/403] test_sort
+0:20:50 load avg: 1.27 [309/403] test_source_encoding
+0:20:52 load avg: 1.32 [310/403] test_spwd
+0:20:53 load avg: 1.32 [311/403] test_sqlite
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:20:57 load avg: 1.38 [312/403] test_ssl
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+test test_ssl failed -- Traceback (most recent call last):
+  File "/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/test/test_ssl.py", line 1005, in test_load_dh_params
+    shutil.copy(DHFILE, fname)
+  File "/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/shutil.py", line 131, in copy
+    if os.path.isdir(dst):
+  File "/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/genericpath.py", line 49, in isdir
+    st = os.stat(s)
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xe4' in position 18: ordinal not in range(128)
+
+0:21:09 load avg: 1.47 [313/403/1] test_startfile -- test_ssl failed
+test_startfile skipped -- module 'os' has no attribute 'startfile'
+0:21:10 load avg: 1.47 [314/403/1] test_stat -- test_startfile skipped
+0:21:11 load avg: 1.52 [315/403/1] test_str
+0:21:21 load avg: 1.56 [316/403/1] test_strftime
+0:21:26 load avg: 1.62 [317/403/1] test_string
+0:21:35 load avg: 1.65 [318/403/1] test_stringprep
+0:21:35 load avg: 1.65 [319/403/1] test_strop
+0:21:37 load avg: 1.68 [320/403/1] test_strptime
+0:21:38 load avg: 1.68 [321/403/1] test_strtod
+0:21:50 load avg: 1.73 [322/403/1] test_struct
+0:21:59 load avg: 1.77 [323/403/1] test_structmembers
+0:22:00 load avg: 1.77 [324/403/1] test_structseq
+0:22:01 load avg: 1.77 [325/403/1] test_subprocess
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:25:33 load avg: 1.87 [326/403/1] test_sunau -- test_subprocess passed in 3 min 33 sec
+0:25:35 load avg: 1.87 [327/403/1] test_sunaudiodev
+test_sunaudiodev skipped -- No module named sunaudiodev
+0:25:36 load avg: 1.87 [328/403/1] test_sundry -- test_sunaudiodev skipped
+0:25:36 load avg: 1.88 [329/403/1] test_symtable
+0:25:37 load avg: 1.88 [330/403/1] test_syntax
+0:25:39 load avg: 1.88 [331/403/1] test_sys
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:25:41 load avg: 1.89 [332/403/1] test_sys_setprofile
+0:25:42 load avg: 1.89 [333/403/1] test_sys_settrace
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/test/test_sys_settrace.py:1056: DeprecationWarning: classic int division
+  1 / 0
+0:25:44 load avg: 1.89 [334/403/1] test_sysconfig
+0:25:46 load avg: 1.89 [335/403/1] test_tarfile
+0:26:05 load avg: 1.99 [336/403/1] test_tcl
+test_tcl skipped -- No module named _tkinter
+0:26:06 load avg: 1.99 [337/403/1] test_telnetlib -- test_tcl skipped
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:26:12 load avg: 1.92 [338/403/1] test_tempfile
+0:26:13 load avg: 1.92 [339/403/1] test_test_support
+0:26:16 load avg: 1.92 [340/403/1] test_textwrap
+0:26:17 load avg: 1.92 [341/403/1] test_thread
+0:26:18 load avg: 1.92 [342/403/1] test_threaded_import
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:26:19 load avg: 1.92 [343/403/1] test_threadedtempfile
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:26:21 load avg: 1.92 [344/403/1] test_threading
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:26:30 load avg: 1.86 [345/403/1] test_threading_local
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:26:36 load avg: 1.87 [346/403/1] test_threadsignals
+0:26:37 load avg: 1.88 [347/403/1] test_time
+0:26:39 load avg: 1.88 [348/403/1] test_timeit
+0:26:41 load avg: 1.88 [349/403/1] test_timeout
+test_timeout skipped -- Use of the `network' resource not enabled
+0:26:42 load avg: 1.89 [350/403/1] test_tk -- test_timeout skipped (resource denied)
+test_tk skipped -- No module named _tkinter
+0:26:43 load avg: 1.89 [351/403/1] test_tokenize -- test_tk skipped
+0:26:47 load avg: 1.90 [352/403/1] test_tools
+recursedown('@test_7851_tmp')
+0:26:56 load avg: 1.91 [353/403/1] test_trace
+0:27:17 load avg: 1.94 [354/403/1] test_traceback
+0:27:22 load avg: 1.87 [355/403/1] test_transformer
+0:27:23 load avg: 1.87 [356/403/1] test_ttk_guionly
+test_ttk_guionly skipped -- No module named _tkinter
+0:27:24 load avg: 1.87 [357/403/1] test_ttk_textonly -- test_ttk_guionly skipped
+test_ttk_textonly skipped -- No module named _tkinter
+0:27:25 load avg: 1.87 [358/403/1] test_tuple -- test_ttk_textonly skipped
+0:28:16 load avg: 1.85 [359/403/1] test_turtle -- test_tuple passed in 51 sec
+test_turtle skipped -- No module named _tkinter
+0:28:17 load avg: 1.86 [360/403/1] test_typechecks -- test_turtle skipped
+0:28:18 load avg: 1.86 [361/403/1] test_ucn
+0:28:22 load avg: 1.88 [362/403/1] test_unary
+0:28:23 load avg: 1.88 [363/403/1] test_undocumented_details
+0:28:24 load avg: 1.88 [364/403/1] test_unicode
+0:28:45 load avg: 1.91 [365/403/1] test_unicode_file
+test_unicode_file skipped -- No Unicode filesystem semantics on this platform.
+0:28:46 load avg: 1.91 [366/403/1] test_unicodedata -- test_unicode_file skipped
+0:29:02 load avg: 1.94 [367/403/1] test_univnewlines
+0:29:04 load avg: 1.94 [368/403/1] test_univnewlines2k
+0:29:05 load avg: 1.94 [369/403/1] test_unpack
+0:29:05 load avg: 1.94 [370/403/1] test_urllib
+0:29:07 load avg: 1.94 [371/403/1] test_urllib2
+0:29:09 load avg: 1.94 [372/403/1] test_urllib2_localnet
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:29:12 load avg: 1.87 [373/403/1] test_urllib2net
+test_urllib2net skipped -- Use of the `network' resource not enabled
+0:29:13 load avg: 1.87 [374/403/1] test_urllibnet -- test_urllib2net skipped (resource denied)
+test_urllibnet skipped -- Use of the `network' resource not enabled
+0:29:14 load avg: 1.87 [375/403/1] test_urlparse -- test_urllibnet skipped (resource denied)
+0:29:15 load avg: 1.87 [376/403/1] test_userdict
+0:29:24 load avg: 1.89 [377/403/1] test_userlist
+0:29:27 load avg: 1.90 [378/403/1] test_userstring
+0:30:02 load avg: 1.94 [379/403/1] test_uu -- test_userstring passed in 35 sec
+0:30:03 load avg: 1.94 [380/403/1] test_uuid
+0:30:05 load avg: 1.94 [381/403/1] test_wait3
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:30:11 load avg: 1.87 [382/403/1] test_wait4
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:30:17 load avg: 1.73 [383/403/1] test_warnings
+0:30:21 load avg: 1.73 [384/403/1] test_wave
+0:30:22 load avg: 1.76 [385/403/1] test_weakref
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:36:10 load avg: 1.18 [386/403/1] test_weakset -- test_weakref passed in 5 min 48 sec
+0:36:12 load avg: 1.16 [387/403/1] test_whichdb
+0:36:13 load avg: 1.16 [388/403/1] test_winreg
+test_winreg skipped -- No module named _winreg
+0:36:13 load avg: 1.16 [389/403/1] test_winsound -- test_winreg skipped
+test_winsound skipped -- Use of the `audio' resource not enabled
+0:36:14 load avg: 1.16 [390/403/1] test_with -- test_winsound skipped (resource denied)
+0:36:14 load avg: 1.16 [391/403/1] test_wsgiref
+0:36:15 load avg: 1.16 [392/403/1] test_xdrlib
+0:36:15 load avg: 1.16 [393/403/1] test_xml_etree
+0:36:17 load avg: 1.15 [394/403/1] test_xml_etree_c
+0:36:18 load avg: 1.15 [395/403/1] test_xmllib
+0:36:19 load avg: 1.15 [396/403/1] test_xmlrpc
+/usr/ports/opt-ppc/python/work/src/Python-2.7.15/Lib/threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+0:36:22 load avg: 1.06 [397/403/1] test_xpickle
+0:36:24 load avg: 1.06 [398/403/1] test_xrange
+0:36:25 load avg: 1.06 [399/403/1] test_zipfile
+0:36:41 load avg: 1.04 [400/403/1] test_zipfile64
+test_zipfile64 skipped -- test requires loads of disk-space bytes and a long time to run
+0:36:42 load avg: 1.04 [401/403/1] test_zipimport -- test_zipfile64 skipped (resource denied)
+0:36:42 load avg: 1.04 [402/403/1] test_zipimport_support
+0:36:45 load avg: 1.04 [403/403/1] test_zlib
+361 tests OK.
+1 test failed:
+    test_ssl
+41 tests skipped:
+    test_aepack test_al test_applesingle test_bsddb185 test_bsddb3
+    test_cd test_cl test_codecmaps_cn test_codecmaps_hk
+    test_codecmaps_jp test_codecmaps_kr test_codecmaps_tw test_curses
+    test_gdb test_gl test_idle test_imgfile test_kqueue
+    test_linuxaudiodev test_macos test_macostools test_msilib
+    test_ossaudiodev test_pep277 test_scriptpackages test_smtpnet
+    test_socketserver test_startfile test_sunaudiodev test_tcl
+    test_timeout test_tk test_ttk_guionly test_ttk_textonly
+    test_turtle test_unicode_file test_urllib2net test_urllibnet
+    test_winreg test_winsound test_zipfile64
+7 skips unexpected on linux2:
+    test_gdb test_idle test_tcl test_tk test_ttk_guionly
+    test_ttk_textonly test_turtle
+
+Total duration: 36 min 53 sec
+Tests result: FAILURE
+make: *** [Makefile:878: test] Error 2

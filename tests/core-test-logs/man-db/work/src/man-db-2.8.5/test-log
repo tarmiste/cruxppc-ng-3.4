@@ -1,0 +1,166 @@
+Making check in docs
+make[1]: Entering directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/docs'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/docs'
+Making check in gl/lib
+make[1]: Entering directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/gl/lib'
+make  check-recursive
+make[2]: Entering directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/gl/lib'
+make[3]: Entering directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/gl/lib'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/gl/lib'
+make[2]: Leaving directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/gl/lib'
+make[1]: Leaving directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/gl/lib'
+Making check in gl/po
+make[1]: Entering directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/gl/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/gl/po'
+Making check in init
+make[1]: Entering directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/init'
+Making check in systemd
+make[2]: Entering directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/init/systemd'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/init/systemd'
+make[2]: Entering directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/init'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/init'
+make[1]: Leaving directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/init'
+Making check in lib
+make[1]: Entering directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/lib'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/lib'
+Making check in libdb
+make[1]: Entering directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/libdb'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/libdb'
+Making check in src
+make[1]: Entering directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/src'
+Making check in .
+make[2]: Entering directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/src'
+Making check in tests
+make[2]: Entering directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/src/tests'
+make  fspause \
+  testlib.sh lexgrog-1 lexgrog-2 lexgrog-3 man-1 man-2 man-3 man-4 man-5 man-6 man-7 man-8 man-9 man-10 man-11 manconv-1 manconv-2 manconv-3 mandb-1 mandb-2 mandb-3 mandb-4 mandb-5 mandb-6 mandb-7 whatis-1 zsoelim-1
+make[3]: Entering directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/src/tests'
+  CC       fspause.o
+  CCLD     fspause
+make[3]: Nothing to be done for 'testlib.sh'.
+make[3]: Nothing to be done for 'lexgrog-1'.
+make[3]: Nothing to be done for 'lexgrog-2'.
+make[3]: Nothing to be done for 'lexgrog-3'.
+make[3]: Nothing to be done for 'man-1'.
+make[3]: Nothing to be done for 'man-2'.
+make[3]: Nothing to be done for 'man-3'.
+make[3]: Nothing to be done for 'man-4'.
+make[3]: Nothing to be done for 'man-5'.
+make[3]: Nothing to be done for 'man-6'.
+make[3]: Nothing to be done for 'man-7'.
+make[3]: Nothing to be done for 'man-8'.
+make[3]: Nothing to be done for 'man-9'.
+make[3]: Nothing to be done for 'man-10'.
+make[3]: Nothing to be done for 'man-11'.
+make[3]: Nothing to be done for 'manconv-1'.
+make[3]: Nothing to be done for 'manconv-2'.
+make[3]: Nothing to be done for 'manconv-3'.
+make[3]: Nothing to be done for 'mandb-1'.
+make[3]: Nothing to be done for 'mandb-2'.
+make[3]: Nothing to be done for 'mandb-3'.
+make[3]: Nothing to be done for 'mandb-4'.
+make[3]: Nothing to be done for 'mandb-5'.
+make[3]: Nothing to be done for 'mandb-6'.
+make[3]: Nothing to be done for 'mandb-7'.
+make[3]: Nothing to be done for 'whatis-1'.
+make[3]: Nothing to be done for 'zsoelim-1'.
+make[3]: Leaving directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/src/tests'
+make  check-TESTS
+make[3]: Entering directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/src/tests'
+make[4]: Entering directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/src/tests'
+PASS: lexgrog-1
+PASS: lexgrog-2
+PASS: lexgrog-3
+PASS: man-1
+PASS: man-2
+PASS: man-3
+PASS: man-4
+PASS: man-5
+PASS: man-6
+PASS: man-7
+PASS: man-8
+PASS: man-9
+PASS: man-10
+PASS: man-11
+PASS: manconv-1
+PASS: manconv-2
+PASS: manconv-3
+PASS: mandb-1
+PASS: mandb-2
+PASS: mandb-3
+PASS: mandb-4
+PASS: mandb-5
+PASS: mandb-6
+PASS: mandb-7
+PASS: whatis-1
+PASS: zsoelim-1
+============================================================================
+Testsuite summary for man-db 2.8.5
+============================================================================
+# TOTAL: 26
+# PASS:  26
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/src/tests'
+make[3]: Leaving directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/src/tests'
+make[2]: Leaving directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/src/tests'
+make[1]: Leaving directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/src'
+Making check in man
+make[1]: Entering directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/man'
+make[2]: Entering directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/man'
+make  check-TESTS
+make[3]: Entering directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/man'
+make[4]: Entering directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/man'
+PASS: man1/apropos.1
+PASS: man1/lexgrog.1
+PASS: man1/man.1
+PASS: man1/manconv.1
+PASS: man1/manpath.1
+PASS: man1/whatis.1
+PASS: man1/zsoelim.1
+PASS: man5/manpath.5
+PASS: man8/accessdb.8
+PASS: man8/catman.8
+PASS: man8/mandb.8
+============================================================================
+Testsuite summary for man-db 2.8.5
+============================================================================
+# TOTAL: 11
+# PASS:  11
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/man'
+make[3]: Leaving directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/man'
+make[2]: Leaving directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/man'
+make[1]: Leaving directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/man'
+Making check in manual
+make[1]: Entering directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/manual'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/manual'
+Making check in po
+make[1]: Entering directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/po'
+Making check in tools
+make[1]: Entering directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/tools'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/man-db/work/src/man-db-2.8.5/tools'
+make[1]: Entering directory '/usr/ports/core/man-db/work/src/man-db-2.8.5'
+make[1]: Leaving directory '/usr/ports/core/man-db/work/src/man-db-2.8.5'

@@ -1,0 +1,295 @@
+  GEN      public-submodule-commit
+make  check-recursive
+make[1]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1'
+Making check in lib
+make[2]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/lib'
+make  check-recursive
+make[3]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/lib'
+make[4]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/lib'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/lib'
+make[3]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/lib'
+make[2]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/lib'
+Making check in src
+make[2]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/src'
+make  libunittest.a
+make[3]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/src'
+make[3]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/src'
+make[2]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/src'
+Making check in doc
+make[2]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/doc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/doc'
+Making check in po
+make[2]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/po'
+make[2]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/po'
+Making check in util
+make[2]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/util'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/util'
+Making check in fuzz
+make[2]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/fuzz'
+make  wget_css_fuzzer wget_cookie_fuzzer wget_ftpls_fuzzer wget_html_fuzzer wget_netrc_fuzzer wget_options_fuzzer wget_robots_fuzzer wget_url_fuzzer
+make[3]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/fuzz'
+make  -C ../src libunittest.a
+make[4]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/src'
+make[4]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/src'
+  CCLD     wget_css_fuzzer
+  CCLD     wget_cookie_fuzzer
+  CCLD     wget_ftpls_fuzzer
+  CCLD     wget_html_fuzzer
+  CCLD     wget_netrc_fuzzer
+  CCLD     wget_options_fuzzer
+  CCLD     wget_robots_fuzzer
+  CCLD     wget_url_fuzzer
+make[3]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/fuzz'
+make  check-TESTS
+make[3]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/fuzz'
+make  -C ../src libunittest.a
+make[4]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/src'
+make[4]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/src'
+  CCLD     wget_css_fuzzer
+  CCLD     wget_cookie_fuzzer
+  CCLD     wget_ftpls_fuzzer
+  CCLD     wget_html_fuzzer
+  CCLD     wget_netrc_fuzzer
+  CCLD     wget_options_fuzzer
+  CCLD     wget_robots_fuzzer
+  CCLD     wget_url_fuzzer
+make[4]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/fuzz'
+make  -C ../src libunittest.a
+make[5]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/src'
+make[5]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/src'
+  CCLD     wget_css_fuzzer
+PASS: wget_css_fuzzer
+  CCLD     wget_cookie_fuzzer
+SKIP: wget_cookie_fuzzer
+  CCLD     wget_ftpls_fuzzer
+SKIP: wget_ftpls_fuzzer
+  CCLD     wget_html_fuzzer
+SKIP: wget_html_fuzzer
+  CCLD     wget_netrc_fuzzer
+SKIP: wget_netrc_fuzzer
+  CCLD     wget_options_fuzzer
+SKIP: wget_options_fuzzer
+  CCLD     wget_robots_fuzzer
+SKIP: wget_robots_fuzzer
+  CCLD     wget_url_fuzzer
+SKIP: wget_url_fuzzer
+============================================================================
+Testsuite summary for wget 1.20.1
+============================================================================
+# TOTAL: 8
+# PASS:  1
+# SKIP:  7
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/fuzz'
+make[3]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/fuzz'
+make[2]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/fuzz'
+Making check in tests
+make[2]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/tests'
+make  unit-tests
+make[3]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/tests'
+cd ../src && make  libunittest.a
+make[4]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/src'
+make[4]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/src'
+  CCLD     unit-tests
+make[3]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/tests'
+make  check-TESTS
+make[3]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/tests'
+cd ../src && make  libunittest.a
+make[4]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/src'
+make[4]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/src'
+  CCLD     unit-tests
+make[4]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/tests'
+cd ../src && make  libunittest.a
+make[5]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/src'
+make[5]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/src'
+  CCLD     unit-tests
+PASS: unit-tests
+FAIL: Test-auth-basic.px
+FAIL: Test-auth-no-challenge.px
+FAIL: Test-auth-no-challenge-url.px
+FAIL: Test-auth-with-content-disposition.px
+FAIL: Test-auth-retcode.px
+FAIL: Test-c-full.px
+FAIL: Test-c-partial.px
+FAIL: Test-c.px
+FAIL: Test-c-shorter.px
+FAIL: Test-cookies.px
+FAIL: Test-cookies-401.px
+FAIL: Test-E-k-K.px
+FAIL: Test-E-k.px
+PASS: Test-ftp.px
+PASS: Test-ftp-pasv-fail.px
+PASS: Test-ftp-bad-list.px
+PASS: Test-ftp-recursive.px
+SKIP: Test-ftp-iri.px
+SKIP: Test-ftp-iri-fallback.px
+SKIP: Test-ftp-iri-recursive.px
+SKIP: Test-ftp-iri-disabled.px
+PASS: Test-ftp-list-Multinet.px
+PASS: Test-ftp-list-Unknown.px
+PASS: Test-ftp-list-Unknown-a.px
+PASS: Test-ftp-list-Unknown-hidden.px
+PASS: Test-ftp-list-Unknown-list-a-fails.px
+PASS: Test-ftp-list-UNIX-hidden.px
+PASS: Test-ftp--start-pos.px
+FAIL: Test-HTTP-Content-Disposition-1.px
+FAIL: Test-HTTP-Content-Disposition-2.px
+FAIL: Test-HTTP-Content-Disposition.px
+PASS: Test-i-ftp.px
+FAIL: Test-i-http.px
+SKIP: Test-idn-headers.px
+SKIP: Test-idn-meta.px
+SKIP: Test-idn-cmd.px
+SKIP: Test-idn-cmd-utf8.px
+SKIP: Test-idn-robots.px
+SKIP: Test-idn-robots-utf8.px
+SKIP: Test-iri.px
+SKIP: Test-iri-percent.px
+FAIL: Test-iri-disabled.px
+SKIP: Test-iri-forced-remote.px
+SKIP: Test-iri-list.px
+FAIL: Test-k.px
+FAIL: Test-meta-robots.px
+FAIL: Test-N-current.px
+FAIL: Test-N-HTTP-Content-Disposition.px
+FAIL: Test-N--no-content-disposition.px
+FAIL: Test-N--no-content-disposition-trivial.px
+FAIL: Test-N-no-info.px
+FAIL: Test--no-content-disposition.px
+FAIL: Test--no-content-disposition-trivial.px
+FAIL: Test-N-old.px
+FAIL: Test-nonexisting-quiet.px
+FAIL: Test-noop.px
+FAIL: Test-np.px
+FAIL: Test-N.px
+FAIL: Test-N-smaller.px
+FAIL: Test-O-HTTP-Content-Disposition.px
+FAIL: Test-O-nc.px
+FAIL: Test-O--no-content-disposition.px
+FAIL: Test-O--no-content-disposition-trivial.px
+FAIL: Test-O-nonexisting.px
+FAIL: Test-O.px
+FAIL: Test--post-file.px
+FAIL: Test-proxied-https-auth.px
+FAIL: Test-proxied-https-auth-keepalive.px
+FAIL: Test-proxy-auth-basic.px
+FAIL: Test-restrict-ascii.px
+FAIL: Test-Restrict-Lowercase.px
+FAIL: Test-Restrict-Uppercase.px
+FAIL: Test-stdouterr.px
+FAIL: Test--spider-fail.px
+FAIL: Test--spider.px
+FAIL: Test--spider-r-HTTP-Content-Disposition.px
+FAIL: Test--spider-r--no-content-disposition.px
+FAIL: Test--spider-r--no-content-disposition-trivial.px
+FAIL: Test--spider-r.px
+FAIL: Test--start-pos.px
+FAIL: Test--start-pos--continue.px
+FAIL: Test--httpsonly-r.px
+FAIL: Test-204.px
+PASS: Test-ftp-pasv-not-supported.px
+FAIL: Test-https-pfs.px
+FAIL: Test-https-tlsv1.px
+FAIL: Test-https-tlsv1x.px
+FAIL: Test-https-selfsigned.px
+FAIL: Test-https-weboftrust.px
+FAIL: Test-https-clientcert.px
+FAIL: Test-https-crl.px
+FAIL: Test-https-badcerts.px
+============================================================================
+Testsuite summary for wget 1.20.1
+============================================================================
+# TOTAL: 93
+# PASS:  14
+# SKIP:  14
+# XFAIL: 0
+# FAIL:  65
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See tests/test-suite.log
+Please report to bug-wget@gnu.org
+============================================================================
+make[4]: *** [Makefile:1868: test-suite.log] Error 1
+make[4]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/tests'
+make[3]: *** [Makefile:1976: check-TESTS] Error 2
+make[3]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/tests'
+make[2]: *** [Makefile:2050: check-am] Error 2
+make[2]: Target 'check' not remade because of errors.
+make[2]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/tests'
+Making check in testenv
+make[2]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/testenv'
+make  check-TESTS
+make[3]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/testenv'
+make[4]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1/testenv'
+PASS: Test-504.py
+PASS: Test-416.py
+PASS: Test-auth-basic-fail.py
+PASS: Test-auth-basic.py
+PASS: Test-auth-basic-netrc.py
+PASS: Test-auth-basic-netrc-user-given.py
+PASS: Test-auth-basic-netrc-pass-given.py
+PASS: Test-auth-basic-no-netrc-fail.py
+PASS: Test-auth-both.py
+PASS: Test-auth-digest.py
+PASS: Test-auth-no-challenge.py
+PASS: Test-auth-no-challenge-url.py
+PASS: Test-auth-retcode.py
+PASS: Test-auth-with-content-disposition.py
+PASS: Test-c-full.py
+PASS: Test-condget.py
+PASS: Test-Content-disposition-2.py
+PASS: Test-Content-disposition.py
+PASS: Test--convert-links--content-on-error.py
+PASS: Test-cookie-401.py
+PASS: Test-cookie-domain-mismatch.py
+PASS: Test-cookie-expires.py
+PASS: Test-cookie.py
+PASS: Test-Head.py
+PASS: Test-hsts.py
+PASS: Test--https.py
+PASS: Test--https-crl.py
+PASS: Test-missing-scheme-retval.py
+PASS: Test-O.py
+PASS: Test-pinnedpubkey-der-https.py
+PASS: Test-pinnedpubkey-der-no-check-https.py
+PASS: Test-pinnedpubkey-hash-https.py
+PASS: Test-pinnedpubkey-hash-no-check-fail-https.py
+PASS: Test-pinnedpubkey-pem-fail-https.py
+PASS: Test-pinnedpubkey-pem-https.py
+PASS: Test-Post.py
+PASS: Test-recursive-basic.py
+PASS: Test-recursive-include.py
+PASS: Test-recursive-redirect.py
+PASS: Test-redirect.py
+PASS: Test-redirect-crash.py
+PASS: Test--rejected-log.py
+PASS: Test-reserved-chars.py
+PASS: Test--spider-r.py
+============================================================================
+Testsuite summary for wget 1.20.1
+============================================================================
+# TOTAL: 44
+# PASS:  44
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/testenv'
+make[3]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/testenv'
+make[2]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1/testenv'
+make[2]: Entering directory '/usr/ports/core/wget/work/src/wget-1.20.1'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1'
+make[1]: *** [Makefile:1522: check-recursive] Error 1
+make[1]: Leaving directory '/usr/ports/core/wget/work/src/wget-1.20.1'
+make: *** [Makefile:1817: check] Error 2

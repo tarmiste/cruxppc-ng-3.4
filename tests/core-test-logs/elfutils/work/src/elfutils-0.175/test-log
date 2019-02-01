@@ -1,0 +1,355 @@
+Making check in config
+make[1]: Nothing to be done for 'check'.
+Making check in m4
+make[1]: Nothing to be done for 'check'.
+Making check in lib
+make[1]: Nothing to be done for 'check'.
+Making check in libelf
+make[1]: Nothing to be done for 'check'.
+Making check in libebl
+make[1]: Nothing to be done for 'check'.
+Making check in libdwelf
+make[1]: Nothing to be done for 'check'.
+Making check in libdwfl
+make[1]: Nothing to be done for 'check'.
+Making check in libdw
+make  check-am
+make[2]: Nothing to be done for 'check-am'.
+Making check in libcpu
+make[1]: Nothing to be done for 'check'.
+Making check in libasm
+make[1]: Nothing to be done for 'check'.
+Making check in backends
+make[1]: Nothing to be done for 'check'.
+Making check in src
+make[1]: Nothing to be done for 'check'.
+Making check in po
+make[1]: Nothing to be done for 'check'.
+Making check in tests
+make  arextract arsymtest newfile saridx scnnames sectiondump showptable update1 update2 update3 update4 test-nlist show-die-info get-files next-files get-lines next-lines get-pubnames get-aranges allfcts line2addr addrscopes funcscopes show-abbrev hash newscn ecp dwflmodtest find-prologues funcretval allregs rdwrmmap dwfl-bug-addr-overflow arls dwfl-bug-fd-leak dwfl-addr-sect dwfl-bug-report early-offscn dwfl-bug-getmodules dwarf-getmacros dwarf-ranges addrcfi dwarfcfi test-flag-nobits dwarf-getstring rerequest_tag alldts typeiter typeiter2 low_high_pc test-elf_cntl_gelf_getshdr dwflsyms dwfllines dwfl-report-elf-align varlocs backtrace backtrace-child backtrace-data backtrace-dwarf debuglink debugaltlink buildid deleted deleted-lib.so aggregate_size peel_type vdsosyms getsrc_die strptr newdata elfstrtab dwfl-proc-attach elfshphehdr elfstrmerge dwelfgnucompressed elfgetchdr elfgetzdata elfputzdata zstrptr emptyfile vendorelf fillfile dwarf_default_lower_bound dwarf-die-addr-die get-units-invalid get-units-split attr-integrate-skel all-dwarf-ranges unit-info next_cfi elfcopy addsections  msg_tst system-elf-libelf-test asm-tst1 asm-tst2 asm-tst3 asm-tst4 asm-tst5 asm-tst6 asm-tst7 asm-tst8 asm-tst9
+make[2]: 'arextract' is up to date.
+make[2]: 'arsymtest' is up to date.
+make[2]: 'newfile' is up to date.
+make[2]: 'saridx' is up to date.
+make[2]: 'scnnames' is up to date.
+make[2]: 'sectiondump' is up to date.
+make[2]: 'showptable' is up to date.
+make[2]: 'update1' is up to date.
+make[2]: 'update2' is up to date.
+make[2]: 'update3' is up to date.
+make[2]: 'update4' is up to date.
+make[2]: 'test-nlist' is up to date.
+make[2]: 'show-die-info' is up to date.
+make[2]: 'get-files' is up to date.
+make[2]: 'next-files' is up to date.
+make[2]: 'get-lines' is up to date.
+make[2]: 'next-lines' is up to date.
+make[2]: 'get-pubnames' is up to date.
+make[2]: 'get-aranges' is up to date.
+make[2]: 'allfcts' is up to date.
+make[2]: 'line2addr' is up to date.
+make[2]: 'addrscopes' is up to date.
+make[2]: 'funcscopes' is up to date.
+make[2]: 'show-abbrev' is up to date.
+make[2]: 'hash' is up to date.
+make[2]: 'newscn' is up to date.
+make[2]: 'ecp' is up to date.
+make[2]: 'dwflmodtest' is up to date.
+make[2]: 'find-prologues' is up to date.
+make[2]: 'funcretval' is up to date.
+make[2]: 'allregs' is up to date.
+make[2]: 'rdwrmmap' is up to date.
+make[2]: 'dwfl-bug-addr-overflow' is up to date.
+make[2]: 'arls' is up to date.
+make[2]: 'dwfl-bug-fd-leak' is up to date.
+make[2]: 'dwfl-addr-sect' is up to date.
+make[2]: 'dwfl-bug-report' is up to date.
+make[2]: 'early-offscn' is up to date.
+make[2]: 'dwfl-bug-getmodules' is up to date.
+make[2]: 'dwarf-getmacros' is up to date.
+make[2]: 'dwarf-ranges' is up to date.
+make[2]: 'addrcfi' is up to date.
+make[2]: 'dwarfcfi' is up to date.
+make[2]: 'test-flag-nobits' is up to date.
+make[2]: 'dwarf-getstring' is up to date.
+make[2]: 'rerequest_tag' is up to date.
+make[2]: 'alldts' is up to date.
+make[2]: 'typeiter' is up to date.
+make[2]: 'typeiter2' is up to date.
+make[2]: 'low_high_pc' is up to date.
+make[2]: 'test-elf_cntl_gelf_getshdr' is up to date.
+make[2]: 'dwflsyms' is up to date.
+make[2]: 'dwfllines' is up to date.
+make[2]: 'dwfl-report-elf-align' is up to date.
+make[2]: 'varlocs' is up to date.
+make[2]: 'backtrace' is up to date.
+make[2]: 'backtrace-child' is up to date.
+make[2]: 'backtrace-data' is up to date.
+make[2]: 'backtrace-dwarf' is up to date.
+make[2]: 'debuglink' is up to date.
+make[2]: 'debugaltlink' is up to date.
+make[2]: 'buildid' is up to date.
+make[2]: 'deleted' is up to date.
+make[2]: 'deleted-lib.so' is up to date.
+make[2]: 'aggregate_size' is up to date.
+make[2]: 'peel_type' is up to date.
+make[2]: 'vdsosyms' is up to date.
+make[2]: 'getsrc_die' is up to date.
+make[2]: 'strptr' is up to date.
+make[2]: 'newdata' is up to date.
+make[2]: 'elfstrtab' is up to date.
+make[2]: 'dwfl-proc-attach' is up to date.
+make[2]: 'elfshphehdr' is up to date.
+make[2]: 'elfstrmerge' is up to date.
+make[2]: 'dwelfgnucompressed' is up to date.
+make[2]: 'elfgetchdr' is up to date.
+make[2]: 'elfgetzdata' is up to date.
+make[2]: 'elfputzdata' is up to date.
+make[2]: 'zstrptr' is up to date.
+make[2]: 'emptyfile' is up to date.
+make[2]: 'vendorelf' is up to date.
+make[2]: 'fillfile' is up to date.
+make[2]: 'dwarf_default_lower_bound' is up to date.
+make[2]: 'dwarf-die-addr-die' is up to date.
+make[2]: 'get-units-invalid' is up to date.
+make[2]: 'get-units-split' is up to date.
+make[2]: 'attr-integrate-skel' is up to date.
+make[2]: 'all-dwarf-ranges' is up to date.
+make[2]: 'unit-info' is up to date.
+make[2]: 'next_cfi' is up to date.
+make[2]: 'elfcopy' is up to date.
+make[2]: 'addsections' is up to date.
+make[2]: 'msg_tst' is up to date.
+make[2]: 'system-elf-libelf-test' is up to date.
+make[2]: 'asm-tst1' is up to date.
+make[2]: 'asm-tst2' is up to date.
+make[2]: 'asm-tst3' is up to date.
+make[2]: 'asm-tst4' is up to date.
+make[2]: 'asm-tst5' is up to date.
+make[2]: 'asm-tst6' is up to date.
+make[2]: 'asm-tst7' is up to date.
+make[2]: 'asm-tst8' is up to date.
+make[2]: 'asm-tst9' is up to date.
+make  check-TESTS
+PASS: run-arextract.sh
+PASS: run-arsymtest.sh
+PASS: run-ar.sh
+PASS: newfile
+PASS: test-nlist
+PASS: update1
+PASS: update2
+PASS: update3
+PASS: update4
+PASS: run-show-die-info.sh
+PASS: run-get-files.sh
+PASS: run-get-lines.sh
+PASS: run-next-files.sh
+PASS: run-next-lines.sh
+PASS: run-get-pubnames.sh
+PASS: run-get-aranges.sh
+PASS: run-allfcts.sh
+PASS: run-show-abbrev.sh
+PASS: run-line2addr.sh
+PASS: hash
+PASS: newscn
+PASS: run-strip-test.sh
+PASS: run-strip-test2.sh
+PASS: run-strip-test3.sh
+PASS: run-strip-test4.sh
+PASS: run-strip-test5.sh
+PASS: run-strip-test6.sh
+PASS: run-strip-test7.sh
+PASS: run-strip-test8.sh
+PASS: run-strip-test9.sh
+PASS: run-strip-test10.sh
+PASS: run-strip-test11.sh
+PASS: run-strip-test12.sh
+PASS: run-strip-nothing.sh
+PASS: run-strip-g.sh
+PASS: run-annobingroup.sh
+PASS: run-strip-groups.sh
+FAIL: run-strip-reloc.sh
+FAIL: run-strip-strmerge.sh
+PASS: run-strip-nobitsalign.sh
+PASS: run-strip-remove-keep.sh
+PASS: run-unstrip-test.sh
+PASS: run-unstrip-test2.sh
+PASS: run-unstrip-test3.sh
+PASS: run-unstrip-test4.sh
+PASS: run-unstrip-M.sh
+PASS: run-elfstrmerge-test.sh
+PASS: run-ecp-test.sh
+PASS: run-ecp-test2.sh
+PASS: run-alldts.sh
+PASS: run-elflint-test.sh
+PASS: run-elflint-self.sh
+PASS: run-ranlib-test.sh
+PASS: run-ranlib-test2.sh
+PASS: run-ranlib-test3.sh
+PASS: run-ranlib-test4.sh
+PASS: run-addrscopes.sh
+PASS: run-strings-test.sh
+PASS: run-funcscopes.sh
+PASS: run-find-prologues.sh
+PASS: run-allregs.sh
+PASS: run-addrcfi.sh
+PASS: run-dwarfcfi.sh
+PASS: run-nm-self.sh
+FAIL: run-readelf-self.sh
+PASS: run-readelf-info-plus.sh
+PASS: run-readelf-compressed.sh
+PASS: run-readelf-const-values.sh
+FAIL: run-varlocs-self.sh
+FAIL: run-exprlocs-self.sh
+PASS: run-readelf-test1.sh
+PASS: run-readelf-test2.sh
+PASS: run-readelf-test3.sh
+PASS: run-readelf-test4.sh
+PASS: run-readelf-twofiles.sh
+PASS: run-readelf-macro.sh
+PASS: run-readelf-loc.sh
+PASS: run-readelf-ranges.sh
+PASS: run-readelf-aranges.sh
+PASS: run-readelf-line.sh
+PASS: run-readelf-z.sh
+PASS: run-readelf-n.sh
+PASS: run-native-test.sh
+PASS: run-bug1-test.sh
+PASS: run-debuglink.sh
+PASS: run-debugaltlink.sh
+PASS: run-buildid.sh
+PASS: dwfl-bug-addr-overflow
+PASS: run-addrname-test.sh
+PASS: dwfl-bug-fd-leak
+PASS: dwfl-bug-report
+PASS: run-dwfl-bug-offline-rel.sh
+PASS: run-dwfl-addr-sect.sh
+PASS: run-disasm-x86.sh
+PASS: run-disasm-x86-64.sh
+PASS: run-early-offscn.sh
+PASS: run-dwarf-getmacros.sh
+PASS: run-dwarf-ranges.sh
+PASS: run-test-flag-nobits.sh
+PASS: run-prelink-addr-test.sh
+PASS: run-dwarf-getstring.sh
+PASS: run-rerequest_tag.sh
+PASS: run-typeiter.sh
+PASS: run-readelf-d.sh
+PASS: run-readelf-gdb_index.sh
+PASS: run-unstrip-n.sh
+PASS: run-low_high_pc.sh
+PASS: run-macro-test.sh
+PASS: run-elf_cntl_gelf_getshdr.sh
+PASS: run-test-archive64.sh
+PASS: run-readelf-vmcoreinfo.sh
+PASS: run-readelf-mixed-corenote.sh
+PASS: run-dwfllines.sh
+PASS: run-readelf-variant.sh
+PASS: run-dwfl-report-elf-align.sh
+PASS: run-addr2line-test.sh
+PASS: run-addr2line-i-test.sh
+PASS: run-addr2line-i-lex-test.sh
+PASS: run-addr2line-i-demangle-test.sh
+PASS: run-addr2line-alt-debugpath.sh
+PASS: run-varlocs.sh
+PASS: run-exprlocs.sh
+PASS: run-funcretval.sh
+FAIL: run-backtrace-native.sh
+SKIP: run-backtrace-data.sh
+FAIL: run-backtrace-dwarf.sh
+SKIP: run-backtrace-native-biarch.sh
+FAIL: run-backtrace-native-core.sh
+SKIP: run-backtrace-native-core-biarch.sh
+PASS: run-backtrace-core-x86_64.sh
+PASS: run-backtrace-fp-core-x86_64.sh
+PASS: run-backtrace-fp-core-aarch64.sh
+PASS: run-backtrace-fp-core-ppc64le.sh
+PASS: run-backtrace-core-x32.sh
+PASS: run-backtrace-core-i386.sh
+PASS: run-backtrace-fp-core-i386.sh
+PASS: run-backtrace-core-ppc.sh
+PASS: run-backtrace-core-s390x.sh
+PASS: run-backtrace-core-s390.sh
+PASS: run-backtrace-core-aarch64.sh
+PASS: run-backtrace-core-sparc.sh
+PASS: run-backtrace-demangle.sh
+PASS: run-stack-d-test.sh
+PASS: run-stack-i-test.sh
+PASS: run-stack-demangled-test.sh
+PASS: run-readelf-zx.sh
+PASS: run-readelf-zp.sh
+PASS: run-readelf-addr.sh
+PASS: run-readelf-str.sh
+PASS: run-readelf-types.sh
+PASS: run-readelf-dwz-multi.sh
+PASS: run-allfcts-multi.sh
+PASS: run-deleted.sh
+PASS: run-linkmap-cut.sh
+PASS: run-aggregate-size.sh
+PASS: run-peel-type.sh
+PASS: vdsosyms
+PASS: run-readelf-A.sh
+PASS: run-getsrc-die.sh
+PASS: run-strptr.sh
+PASS: newdata
+PASS: elfstrtab
+PASS: dwfl-proc-attach
+PASS: elfshphehdr
+PASS: run-lfs-symbols.sh
+PASS: run-dwelfgnucompressed.sh
+PASS: run-elfgetchdr.sh
+PASS: run-elfgetzdata.sh
+PASS: run-elfputzdata.sh
+PASS: run-zstrptr.sh
+PASS: run-compress-test.sh
+PASS: run-readelf-zdebug.sh
+PASS: run-readelf-zdebug-rel.sh
+PASS: emptyfile
+PASS: vendorelf
+PASS: fillfile
+PASS: dwarf_default_lower_bound
+FAIL: run-dwarf-die-addr-die.sh
+FAIL: run-get-units-invalid.sh
+FAIL: run-get-units-split.sh
+PASS: run-attr-integrate-skel.sh
+PASS: run-all-dwarf-ranges.sh
+FAIL: run-unit-info.sh
+PASS: run-reloc-bpf.sh
+PASS: run-next-cfi.sh
+PASS: run-next-cfi-self.sh
+PASS: run-copyadd-sections.sh
+PASS: run-copymany-sections.sh
+PASS: run-typeiter-many.sh
+PASS: run-strip-test-many.sh
+PASS: msg_tst
+PASS: system-elf-libelf-test
+PASS: run-readelf-s.sh
+PASS: run-dwflsyms.sh
+PASS: asm-tst1
+PASS: asm-tst2
+PASS: asm-tst3
+PASS: asm-tst4
+PASS: asm-tst5
+PASS: asm-tst6
+PASS: asm-tst7
+PASS: asm-tst8
+PASS: asm-tst9
+PASS: run-disasm-bpf.sh
+============================================================================
+Testsuite summary for elfutils 0.175
+============================================================================
+# TOTAL: 204
+# PASS:  189
+# SKIP:  3
+# XFAIL: 0
+# FAIL:  12
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See tests/test-suite.log
+Please report to https://sourceware.org/bugzilla
+============================================================================
+make[3]: *** [Makefile:2268: test-suite.log] Error 1
+make[2]: *** [Makefile:2376: check-TESTS] Error 2
+make[1]: *** [Makefile:3871: check-am] Error 2
+make: *** [Makefile:486: check-recursive] Error 1

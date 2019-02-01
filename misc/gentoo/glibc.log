@@ -1,0 +1,369 @@
+
+ * IMPORTANT: 2 config files in '/etc/portage' need updating.
+Calculating dependencies  
+ * IMPORTANT: 11 news items need reading for repository 'gentoo'.
+ * Use eselect news read to view new items.
+
+ * See the CONFIGURATION FILES and CONFIGURATION FILES UPDATE TOOLS
+ * sections of the emerge man page to learn how to update config files.
+. ... done!
+
+>>> Verifying ebuild manifests
+>>> Running pre-merge checks for sys-libs/glibc-2.27-r6
+ * Checking general environment sanity.
+make -j1 -s glibc-test 
+ * Checking gcc for __thread support ...
+ [ ok ]
+ * Checking running kernel version (4.15.1 >= 3.2.0) ...
+ [ ok ]
+ * Checking linux-headers version (4.14.0 >= 3.2.0) ...
+ [ ok ]
+
+>>> Emerging (1 of 1) sys-libs/glibc-2.27-r6::gentoo
+ * glibc-2.27.tar.xz BLAKE2B SHA512 size ;-) ...                         [ ok ]
+ * glibc-2.27-patches-3.tar.bz2 BLAKE2B SHA512 size ;-) ...              [ ok ]
+>>> Unpacking source...
+make -j1 -s glibc-test 
+ * Checking gcc for __thread support ...
+ [ ok ]
+ * Checking running kernel version (4.15.1 >= 3.2.0) ...
+ [ ok ]
+ * Checking linux-headers version (4.14.0 >= 3.2.0) ...
+ [ ok ]
+ *       Manual CC:   powerpc-unknown-linux-gnu-gcc 
+>>> Unpacking glibc-2.27.tar.xz to /var/tmp/portage/sys-libs/glibc-2.27-r6/work
+>>> Unpacking glibc-2.27-patches-3.tar.bz2 to /var/tmp/portage/sys-libs/glibc-2.27-r6/work
+>>> Source unpacked in /var/tmp/portage/sys-libs/glibc-2.27-r6/work
+>>> Preparing source in /var/tmp/portage/sys-libs/glibc-2.27-r6/work/glibc-2.27 ...
+ * Applying Gentoo Glibc Patchset 2.27-3
+ * Applying patches from /var/tmp/portage/sys-libs/glibc-2.27-r6/work/patches ...
+ *   0001-Gentoo-disable-ldconfig-during-install.patch ...
+ [ ok ]
+ *   0002-Gentoo-support-running-tests-under-sandbox.patch ...
+ [ ok ]
+ *   0004-Revert-sysdeps-posix-getaddrinfo.c-gaih_inet-Only-us.patch ...
+ [ ok ]
+ *   0005-Gentoo-disable-tests-that-fail-only-in-sandbox.patch ...
+ [ ok ]
+ *   0006-libidn-libidn-punycode.c-decode_digit-Fix-integer-ov.patch ...
+ [ ok ]
+ *   0007-libidn-Fix-out-of-bounds-stack-read.-Report-and-patc.patch ...
+ [ ok ]
+ *   0009-Gentoo-disable-tests-that-fail-only-in-sandbox.patch ...
+ [ ok ]
+ *   0010-Gentoo-Disable-test-that-fails-because-of-the-gethos.patch ...
+ [ ok ]
+ *   0011-sparc-Check-PIC-instead-of-SHARED-in-start.S.patch ...
+ [ ok ]
+ *   0012-sys-types.h-drop-sys-sysmacros.h-include.patch ...
+ [ ok ]
+ *   0014-Record-CVE-2018-6551-in-NEWS-and-ChangeLog-BZ-22774.patch ...
+ [ ok ]
+ *   0015-sparc-Check-PIC-instead-of-SHARED-in-start.S-BZ-2263.patch ...
+ [ ok ]
+ *   0016-NEWS-add-an-entry-for-bug-22638.patch ...
+ [ ok ]
+ *   0017-Add-a-missing-ChangeLog-item-in-commit-371b220f620.patch ...
+ [ ok ]
+ *   0018-Linux-use-reserved-name-__key-in-pkey_get-BZ-22797.patch ...
+ [ ok ]
+ *   0019-RISC-V-Fix-parsing-flags-in-ELF64-files.patch ...
+ [ ok ]
+ *   0020-Update-SH-libm-tests-ulps.patch ...
+ [ ok ]
+ *   0021-et_EE-Add-missing-reorder-end-keyword-bug-22861.patch ...
+ [ ok ]
+ *   0022-NEWS-add-an-entry-for-bug-22827.patch ...
+ [ ok ]
+ *   0023-linux-aarch64-sync-sys-ptrace.h-with-Linux-4.15-BZ-2.patch ...
+ [ ok ]
+ *   0024-time-Reference-CLOCKS_PER_SEC-in-clock-comment-BZ-22.patch ...
+ [ ok ]
+ *   0025-Fix-posix-tst-glob_lstat_compat-on-alpha-BZ-22818.patch ...
+ [ ok ]
+ *   0026-manual-Fix-Texinfo-warnings-about-improper-node-name.patch ...
+ [ ok ]
+ *   0027-manual-Fix-a-syntax-error.patch ...
+ [ ok ]
+ *   0028-manual-Improve-documentation-of-get_current_dir_name.patch ...
+ [ ok ]
+ *   0029-powerpc-Fix-TLE-build-for-SPE-BZ-22926.patch ...
+ [ ok ]
+ *   0030-sparc32-Add-nop-before-__startcontext-to-stop-unwind.patch ...
+ [ ok ]
+ *   0031-NEWS-add-entries-for-bugs-22919-and-22926.patch ...
+ [ ok ]
+ *   0032-manual-Document-missing-feature-test-macros.patch ...
+ [ ok ]
+ *   0033-manual-Update-the-_ISOC99_SOURCE-description.patch ...
+ [ ok ]
+ *   0034-Fix-a-typo-in-a-comment.patch ...
+ [ ok ]
+ *   0035-Add-missing-reorder-end-in-LC_COLLATE-of-et_EE-BZ-22.patch ...
+ [ ok ]
+ *   0036-powerpc-Undefine-Linux-ptrace-macros-that-conflict-w.patch ...
+ [ ok ]
+ *   0037-linux-powerpc-sync-sys-ptrace.h-with-Linux-4.15-BZ-2.patch ...
+ [ ok ]
+ *   0038-BZ-22342-Fix-netgroup-cache-keys.patch ...
+ [ ok ]
+ *   0039-Fix-multiple-definitions-of-__nss_-_database-bug-229.patch ...
+ [ ok ]
+ *   0040-i386-Fix-i386-sigaction-sa_restorer-initialization-B.patch ...
+ [ ok ]
+ *   0041-Update-translations-from-the-Translation-Project.patch ...
+ [ ok ]
+ *   0042-ca_ES-locale-Update-LC_TIME-bug-22848.patch ...
+ [ ok ]
+ *   0043-lt_LT-locale-Update-abbreviated-month-names-bug-2293.patch ...
+ [ ok ]
+ *   0044-Greek-el_CY-el_GR-locales-Introduce-ab_alt_mon-bug-2.patch ...
+ [ ok ]
+ *   0045-cs_CZ-locale-Add-alternative-month-names-bug-22963.patch ...
+ [ ok ]
+ *   0046-NEWS-Add-entries-for-bugs-22848-22932-22937-22963.patch ...
+ [ ok ]
+ *   0047-RISC-V-Do-not-initialize-gp-in-TLS-macros.patch ...
+ [ ok ]
+ *   0048-RISC-V-fmax-fmin-Handle-signalling-NaNs-correctly.patch ...
+ [ ok ]
+ *   0049-Update-ChangeLog-for-BZ-22884-riscv-fmax-fmin.patch ...
+ [ ok ]
+ *   0050-Fix-i386-memmove-issue-bug-22644.patch ...
+ [ ok ]
+ *   0051-Linux-i386-tst-bz21269-triggers-SIGBUS-on-some-kerne.patch ...
+ [ ok ]
+ *   0052-RISC-V-fix-struct-kernel_sigaction-to-match-the-kern.patch ...
+ [ ok ]
+ *   0053-Add-tst-sigaction.c-to-test-BZ-23069.patch ...
+ [ ok ]
+ *   0054-Fix-signed-integer-overflow-in-random_r-bug-17343.patch ...
+ [ ok ]
+ *   0055-Fix-crash-in-resolver-on-memory-allocation-failure-b.patch ...
+ [ ok ]
+ *   0056-getlogin_r-return-early-when-linux-sentinel-value-is.patch ...
+ [ ok ]
+ *   0057-Update-RWF_SUPPORTED-for-Linux-kernel-4.16-BZ-22947.patch ...
+ [ ok ]
+ *   0058-manual-Move-mbstouwcs-to-an-example-C-file.patch ...
+ [ ok ]
+ *   0059-manual-Various-fixes-to-the-mbstouwcs-example-and-mb.patch ...
+ [ ok ]
+ *   0060-resolv-Fully-initialize-struct-mmsghdr-in-send_dg-BZ.patch ...
+ [ ok ]
+ *   0061-Add-PTRACE_SECCOMP_GET_METADATA-from-Linux-4.16-to-s.patch ...
+ [ ok ]
+ *   0062-Fix-blocking-pthread_join.-BZ-23137.patch ...
+ [ ok ]
+ *   0063-Fix-stack-overflow-with-huge-PT_NOTE-segment-BZ-2041.patch ...
+ [ ok ]
+ *   0064-Fix-path-length-overflow-in-realpath-BZ-22786.patch ...
+ [ ok ]
+ *   0065-NEWS-add-entries-for-bugs-17343-20419-22644-22786-22.patch ...
+ [ ok ]
+ *   0066-gd_GB-Fix-typo-in-abbreviated-May-bug-23152.patch ...
+ [ ok ]
+ *   0067-sunrpc-Remove-stray-exports-without-enable-obsolete-.patch ...
+ [ ok ]
+ *   0068-Don-t-write-beyond-destination-in-__mempcpy_avx512_n.patch ...
+ [ ok ]
+ *   0069-Add-a-test-case-for-BZ-23196.patch ...
+ [ ok ]
+ *   0070-Add-references-to-CVE-2018-11236-CVE-2017-18269.patch ...
+ [ ok ]
+ *   0071-NEWS-Move-security-lated-changes-before-bug-list.patch ...
+ [ ok ]
+ *   0072-Gentoo-force-O0-in-conform-tests-to-survive-CC-chang.patch ...
+ [ ok ]
+ *   0073-libio-Avoid-_allocate_buffer-_free_buffer-function-p.patch ...
+ [ ok ]
+ *   0074-posix-Fix-posix_spawnp-to-not-execute-invalid-binari.patch ...
+ [ ok ]
+ *   0075-Mention-BZ-23264-in-NEWS.patch ...
+ [ ok ]
+ *   0076-math-Update-i686-ulps.patch ...
+ [ ok ]
+ *   0077-x86-Make-strncmp-usable-from-rtld.patch ...
+ [ ok ]
+ *   0078-Improve-DST-handling-Bug-23102-Bug-21942-Bug-18018-B.patch ...
+ [ ok ]
+ *   0079-Fix-parameter-type-in-C-version-of-iseqsig-bug-23171.patch ...
+ [ ok ]
+ *   0080-Use-_STRUCT_TIMESPEC-as-guard-in-bits-types-struct_t.patch ...
+ [ ok ]
+ *   0081-getifaddrs-Don-t-return-ifa-entries-with-NULL-names-.patch ...
+ [ ok ]
+ *   0082-libio-Disable-vtable-validation-in-case-of-interposi.patch ...
+ [ ok ]
+ *   0083-Synchronize-support-infrastructure-with-master.patch ...
+ [ ok ]
+ *   0084-libio-Add-tst-vtables-tst-vtables-interposed.patch ...
+ [ ok ]
+ *   0085-stdio-common-tst-printf.c-Remove-part-under-a-non-fr.patch ...
+ [ ok ]
+ *   0086-math-Set-387-and-SSE2-rounding-mode-for-tgamma-on-i3.patch ...
+ [ ok ]
+ *   0087-conform-conformtest.pl-Escape-literal-braces-in-regu.patch ...
+ [ ok ]
+ *   0088-es_BO-locale-Change-LC_PAPER-to-en_US-bug-22996.patch ...
+ [ ok ]
+ *   0089-regexec-Fix-off-by-one-bug-in-weight-comparison-BZ-2.patch ...
+ [ ok ]
+ *   0090-NEWS-Mention-bug-22996.patch ...
+ [ ok ]
+ *   0091-x86-Correct-index_cpu_LZCNT-BZ-23456.patch ...
+ [ ok ]
+ *   0092-x86-Populate-COMMON_CPUID_INDEX_80000001-for-Intel-C.patch ...
+ [ ok ]
+ * Done.
+ * Using GNU config files from /usr/share/gnuconfig
+ *   Updating scripts/config.sub
+ [ ok ]
+ *   Updating scripts/config.guess
+ [ ok ]
+ * Adjusting to prefix /
+ *   locale-gen ...
+ [ ok ]
+>>> Source prepared.
+>>> Configuring source in /var/tmp/portage/sys-libs/glibc-2.27-r6/work/glibc-2.27 ...
+ *       Manual CC:   powerpc-unknown-linux-gnu-gcc 
+ *       Manual CC:   powerpc-unknown-linux-gnu-gcc 
+ * Running do_src_configure for ABI ppc
+ * Configuring glibc for nptl
+ *             ABI:   ppc
+ *          CBUILD:   powerpc-unknown-linux-gnu
+ *           CHOST:   powerpc-unknown-linux-gnu
+ *         CTARGET:   powerpc-unknown-linux-gnu
+ *      CBUILD_OPT:   
+ *     CTARGET_OPT:   
+ *              CC:   powerpc-unknown-linux-gnu-gcc 
+ *             CXX:   
+ *              LD:   
+ *         ASFLAGS:   
+ *          CFLAGS:   -mcpu=powerpc -mtune=750 -pipe -O2 -fno-strict-aliasing
+ *        CPPFLAGS:   
+ *        CXXFLAGS:   -mcpu=powerpc -mtune=750 -pipe -O2 -fno-strict-aliasing
+ *         LDFLAGS:   -Wl,-O1 -Wl,--as-needed
+ *        MAKEINFO:   /dev/null
+ *       Manual CC:   powerpc-unknown-linux-gnu-gcc  -mcpu=powerpc -mtune=750 -pipe -O2 -fno-strict-aliasing -Wl,-O1 -Wl,--as-needed
+ *      Manual CXX:   powerpc-unknown-linux-gnu-g++  -mcpu=powerpc -mtune=750 -pipe -O2 -fno-strict-aliasing
+
+/var/tmp/portage/sys-libs/glibc-2.27-r6/work/glibc-2.27/configure --enable-stack-protector=no --enable-stackguard-randomization --enable-kernel=3.2.0 --without-selinux --without-cvs --disable-werror --enable-bind-now --build=powerpc-unknown-linux-gnu --host=powerpc-unknown-linux-gnu --disable-profile --without-gd --with-headers=/usr/include --prefix=/usr --sysconfdir=/etc --localstatedir=/var --libdir=$(prefix)/lib --mandir=$(prefix)/share/man --infodir=$(prefix)/share/info --libexecdir=$(libdir)/misc/glibc --with-bugurl=https://bugs.gentoo.org/ --with-pkgversion=Gentoo 2.27-r6 p3 --disable-systemtap --disable-nscd --disable-timezone-tools
+checking build system type... powerpc-unknown-linux-gnu
+checking host system type... powerpc-unknown-linux-gnu
+checking for powerpc-unknown-linux-gnu-gcc... powerpc-unknown-linux-gnu-gcc  -mcpu=powerpc -mtune=750 -pipe -O2 -fno-strict-aliasing -Wl,-O1 -Wl,--as-needed
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether powerpc-unknown-linux-gnu-gcc  -mcpu=powerpc -mtune=750 -pipe -O2 -fno-strict-aliasing -Wl,-O1 -Wl,--as-needed accepts -g... yes
+checking for powerpc-unknown-linux-gnu-readelf... powerpc-unknown-linux-gnu-readelf
+checking whether we are using the GNU C++ compiler... yes
+checking whether powerpc-unknown-linux-gnu-g++  -mcpu=powerpc -mtune=750 -pipe -O2 -fno-strict-aliasing accepts -g... yes
+checking whether powerpc-unknown-linux-gnu-g++  -mcpu=powerpc -mtune=750 -pipe -O2 -fno-strict-aliasing can link programs... yes
+checking for sysdeps preconfigure fragments... aarch64 alpha arm hppa i386 m68k microblaze mips nios2 powerpc riscv s390 sh sparc tile x86_64 
+checking for use of fpu sysdeps directories... yes
+checking for -fstack-protector... yes
+checking for -fstack-protector-strong... yes
+checking for -fstack-protector-all... yes
+checking for assembler and linker STT_GNU_IFUNC support... yes
+checking for gcc attribute ifunc support... yes
+checking if compiler warns about alias for function with incompatible types... no
+checking sysdep dirs... sysdeps/unix/sysv/linux/powerpc/powerpc32/fpu sysdeps/unix/sysv/linux/powerpc/powerpc32 sysdeps/unix/sysv/linux/powerpc sysdeps/powerpc/nptl sysdeps/unix/sysv/linux sysdeps/nptl sysdeps/pthread sysdeps/gnu sysdeps/unix/inet sysdeps/unix/sysv sysdeps/unix/powerpc sysdeps/unix sysdeps/posix sysdeps/powerpc/powerpc32/fpu sysdeps/powerpc/powerpc32 sysdeps/wordsize-32 sysdeps/powerpc/fpu sysdeps/powerpc sysdeps/ieee754/ldbl-128ibm sysdeps/ieee754/ldbl-opt sysdeps/ieee754/dbl-64 sysdeps/ieee754/flt-32 sysdeps/ieee754 sysdeps/generic
+checking for a BSD-compatible install... /usr/lib/portage/python3.6/ebuild-helpers/xattr/install -c
+checking whether ln -s works... yes
+checking whether /usr/lib/gcc/powerpc-unknown-linux-gnu/7.3.0/../../../../powerpc-unknown-linux-gnu/bin/as is GNU as... yes
+checking whether /usr/lib/gcc/powerpc-unknown-linux-gnu/7.3.0/../../../../powerpc-unknown-linux-gnu/bin/ld is GNU ld... yes
+checking for /usr/lib/gcc/powerpc-unknown-linux-gnu/7.3.0/../../../../powerpc-unknown-linux-gnu/bin/as... /usr/lib/gcc/powerpc-unknown-linux-gnu/7.3.0/../../../../powerpc-unknown-linux-gnu/bin/as
+checking version of /usr/lib/gcc/powerpc-unknown-linux-gnu/7.3.0/../../../../powerpc-unknown-linux-gnu/bin/as... 2.30.0, ok
+checking for /usr/lib/gcc/powerpc-unknown-linux-gnu/7.3.0/../../../../powerpc-unknown-linux-gnu/bin/ld... /usr/lib/gcc/powerpc-unknown-linux-gnu/7.3.0/../../../../powerpc-unknown-linux-gnu/bin/ld
+checking version of /usr/lib/gcc/powerpc-unknown-linux-gnu/7.3.0/../../../../powerpc-unknown-linux-gnu/bin/ld... 2.30.0, ok
+checking for gnumake... no
+checking for gmake... gmake
+checking version of gmake... 4.2.1, ok
+checking for gnumsgfmt... no
+checking for gmsgfmt... gmsgfmt
+checking version of gmsgfmt... 0.19.8.1, ok
+checking for makeinfo... /dev/null
+checking version of /dev/null... v. ?.??, bad
+checking for sed... sed
+checking version of sed... 4.5, ok
+checking for gawk... gawk
+checking version of gawk... 4.1.4, ok
+checking for bison... bison
+checking version of bison... 3.1, ok
+checking if powerpc-unknown-linux-gnu-gcc  -mcpu=powerpc -mtune=750 -pipe -O2 -fno-strict-aliasing -Wl,-O1 -Wl,--as-needed is sufficient to build libc... yes
+checking for powerpc-unknown-linux-gnu-nm... powerpc-unknown-linux-gnu-nm
+checking for python3... python3
+configure: WARNING:
+*** These auxiliary programs are missing or incompatible versions: makeinfo
+*** some features or tests will be disabled.
+*** Check the INSTALL file for required versions.
+checking LD_LIBRARY_PATH variable... ok
+checking for bash... /bin/bash
+checking for perl... /usr/bin/perl
+checking for install-info... /usr/bin/install-info
+checking for .set assembler directive... yes
+checking linker support for protected data symbol... yes
+checking linker support for INSERT in linker script... yes
+checking for broken __attribute__((alias()))... no
+checking whether to put _rtld_local into .sdata section... yes
+checking whether to use .ctors/.dtors header and trailer... no
+checking for libunwind-support in compiler... no
+checking whether --noexecstack is desirable for .S files... yes
+checking for -z combreloc... yes
+checking for linker that supports -z execstack... yes
+checking for linker that supports --no-dynamic-linker... yes
+checking for -static-pie... no
+checking for -fpie... yes
+checking for --hash-style option... (cached) no
+checking for sufficient default -shared layout... no
+checking for GLOB_DAT reloc... no
+checking linker output format... elf32-powerpc
+checking for -fno-toplevel-reorder -fno-section-anchors... yes
+checking for -mtls-dialect=gnu2... no
+checking whether cc puts quotes around section names... no
+checking for __builtin_memset... no
+checking for redirection of built-in functions... yes
+checking for compiler option to disable generation of FMA instructions... -ffp-contract=off
+checking if powerpc-unknown-linux-gnu-gcc  -mcpu=powerpc -mtune=750 -pipe -O2 -fno-strict-aliasing -Wl,-O1 -Wl,--as-needed accepts -fno-tree-loop-distribute-patterns with __attribute__ ((__optimize__))... yes
+checking for libgd... no
+checking for _FORTIFY_SOURCE predefine... yes
+checking whether the linker provides working __ehdr_start... yes
+checking for __builtin_trap with no external dependencies... yes
+checking whether the C++ compiler supports thread_local... yes
+running configure fragment for sysdeps/unix/sysv/linux/powerpc/powerpc32
+running configure fragment for sysdeps/unix/sysv/linux/powerpc
+checking whether powerpc-unknown-linux-gnu-gcc  -mcpu=powerpc -mtune=750 -pipe -O2 -fno-strict-aliasing -Wl,-O1 -Wl,--as-needed -mcpu=powerpc -mtune=750 -pipe -O2 -fno-strict-aliasing -mlong-double-128 uses IBM extended format... yes
+running configure fragment for sysdeps/unix/sysv/linux
+checking installed Linux kernel header files... 3.2.0 or later
+checking for kernel header at least 3.2.0... ok
+checking for symlinks in /usr/include... ok
+running configure fragment for sysdeps/gnu
+running configure fragment for sysdeps/unix/inet
+running configure fragment for sysdeps/powerpc/powerpc32/fpu
+checking for fcfid use... no
+checking for fctidz use... no
+running configure fragment for sysdeps/powerpc/powerpc32
+checking for -msecure-plt by default... yes
+running configure fragment for sysdeps/ieee754/ldbl-opt
+checking whether powerpc-unknown-linux-gnu-gcc  -mcpu=powerpc -mtune=750 -pipe -O2 -fno-strict-aliasing -Wl,-O1 -Wl,--as-needed -mcpu=powerpc -mtune=750 -pipe -O2 -fno-strict-aliasing supports -mlong-double-128... yes
+checking whether -fPIC is default... yes
+checking whether -fPIE is default... yes
+configure: creating ./config.status
+config.status: creating config.make
+config.status: creating Makefile
+config.status: creating config.h
+config.status: executing default commands
+>>> Source configured.
+>>> Compiling source in /var/tmp/portage/sys-libs/glibc-2.27-r6/work/glibc-2.27 ...
+
+
+Exiting on signal 2
+sandbox:stop  caught signal 2 in pid 13689
+sandbox:stop  Send signal 4 more times to force SIGKILL
+
+/usr/portage/sys-libs/glibc/glibc-2.27-r6.ebuild: src_compile aborted; exiting.
+
+ * Messages for package sys-libs/glibc-2.27-r6:
+ * Applying Gentoo Glibc Patchset 2.27-3
+
+

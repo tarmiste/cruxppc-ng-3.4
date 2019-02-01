@@ -1,0 +1,63 @@
+Making check in gnulib/lib
+make[1]: Entering directory '/usr/ports/core/libpipeline/work/src/libpipeline-1.5.0/gnulib/lib'
+make  check-recursive
+make[2]: Entering directory '/usr/ports/core/libpipeline/work/src/libpipeline-1.5.0/gnulib/lib'
+make[3]: Entering directory '/usr/ports/core/libpipeline/work/src/libpipeline-1.5.0/gnulib/lib'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/ports/core/libpipeline/work/src/libpipeline-1.5.0/gnulib/lib'
+make[2]: Leaving directory '/usr/ports/core/libpipeline/work/src/libpipeline-1.5.0/gnulib/lib'
+make[1]: Leaving directory '/usr/ports/core/libpipeline/work/src/libpipeline-1.5.0/gnulib/lib'
+Making check in lib
+make[1]: Entering directory '/usr/ports/core/libpipeline/work/src/libpipeline-1.5.0/lib'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/libpipeline/work/src/libpipeline-1.5.0/lib'
+Making check in man
+make[1]: Entering directory '/usr/ports/core/libpipeline/work/src/libpipeline-1.5.0/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/libpipeline/work/src/libpipeline-1.5.0/man'
+Making check in tests
+make[1]: Entering directory '/usr/ports/core/libpipeline/work/src/libpipeline-1.5.0/tests'
+make  basic argstr exec inspect pump read redirect
+make[2]: Entering directory '/usr/ports/core/libpipeline/work/src/libpipeline-1.5.0/tests'
+  CC       basic.o
+  CC       common.o
+  CCLD     basic
+  CC       argstr.o
+  CCLD     argstr
+  CC       exec.o
+  CCLD     exec
+  CC       inspect.o
+  CCLD     inspect
+  CC       pump.o
+  CCLD     pump
+  CC       read.o
+  CCLD     read
+  CC       redirect.o
+  CCLD     redirect
+make[2]: Leaving directory '/usr/ports/core/libpipeline/work/src/libpipeline-1.5.0/tests'
+make  check-TESTS
+make[2]: Entering directory '/usr/ports/core/libpipeline/work/src/libpipeline-1.5.0/tests'
+make[3]: Entering directory '/usr/ports/core/libpipeline/work/src/libpipeline-1.5.0/tests'
+PASS: basic
+PASS: argstr
+PASS: exec
+PASS: inspect
+PASS: pump
+PASS: read
+PASS: redirect
+============================================================================
+Testsuite summary for libpipeline 1.5.0
+============================================================================
+# TOTAL: 7
+# PASS:  7
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/usr/ports/core/libpipeline/work/src/libpipeline-1.5.0/tests'
+make[2]: Leaving directory '/usr/ports/core/libpipeline/work/src/libpipeline-1.5.0/tests'
+make[1]: Leaving directory '/usr/ports/core/libpipeline/work/src/libpipeline-1.5.0/tests'
+make[1]: Entering directory '/usr/ports/core/libpipeline/work/src/libpipeline-1.5.0'
+make[1]: Leaving directory '/usr/ports/core/libpipeline/work/src/libpipeline-1.5.0'

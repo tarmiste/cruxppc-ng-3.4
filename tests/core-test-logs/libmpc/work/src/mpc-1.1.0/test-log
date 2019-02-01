@@ -1,0 +1,177 @@
+Making check in src
+make[1]: Entering directory '/usr/ports/core/libmpc/work/src/mpc-1.1.0/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/libmpc/work/src/mpc-1.1.0/src'
+Making check in tests
+make[1]: Entering directory '/usr/ports/core/libmpc/work/src/mpc-1.1.0/tests'
+make  libmpc-tests.la tabs tacos tacosh tadd tadd_fr tadd_si tadd_ui targ tasin tasinh tatan tatanh tcmp_abs tconj tcos tcosh tdiv tdiv_2si tdiv_2ui tdiv_fr tdiv_ui texp tfma tfr_div tfr_sub timag tio_str tlog tlog10 tmul tmul_2si tmul_2ui tmul_fr tmul_i tmul_si tmul_ui tneg tnorm tpow tpow_d tpow_fr tpow_ld tpow_si tpow_ui tpow_z tprec tproj treal treimref trootofunity tset tsin tsin_cos tsinh tsqr tsqrt tstrtoc tsub tsub_fr tsub_ui tswap ttan ttanh tui_div tui_ui_sub tget_version exceptions
+make[2]: Entering directory '/usr/ports/core/libmpc/work/src/mpc-1.1.0/tests'
+make[2]: 'libmpc-tests.la' is up to date.
+make[2]: 'tabs' is up to date.
+make[2]: 'tacos' is up to date.
+make[2]: 'tacosh' is up to date.
+make[2]: 'tadd' is up to date.
+make[2]: 'tadd_fr' is up to date.
+make[2]: 'tadd_si' is up to date.
+make[2]: 'tadd_ui' is up to date.
+make[2]: 'targ' is up to date.
+make[2]: 'tasin' is up to date.
+make[2]: 'tasinh' is up to date.
+make[2]: 'tatan' is up to date.
+make[2]: 'tatanh' is up to date.
+make[2]: 'tcmp_abs' is up to date.
+make[2]: 'tconj' is up to date.
+make[2]: 'tcos' is up to date.
+make[2]: 'tcosh' is up to date.
+make[2]: 'tdiv' is up to date.
+make[2]: 'tdiv_2si' is up to date.
+make[2]: 'tdiv_2ui' is up to date.
+make[2]: 'tdiv_fr' is up to date.
+make[2]: 'tdiv_ui' is up to date.
+make[2]: 'texp' is up to date.
+make[2]: 'tfma' is up to date.
+make[2]: 'tfr_div' is up to date.
+make[2]: 'tfr_sub' is up to date.
+make[2]: 'timag' is up to date.
+make[2]: 'tio_str' is up to date.
+make[2]: 'tlog' is up to date.
+make[2]: 'tlog10' is up to date.
+make[2]: 'tmul' is up to date.
+make[2]: 'tmul_2si' is up to date.
+make[2]: 'tmul_2ui' is up to date.
+make[2]: 'tmul_fr' is up to date.
+make[2]: 'tmul_i' is up to date.
+make[2]: 'tmul_si' is up to date.
+make[2]: 'tmul_ui' is up to date.
+make[2]: 'tneg' is up to date.
+make[2]: 'tnorm' is up to date.
+make[2]: 'tpow' is up to date.
+make[2]: 'tpow_d' is up to date.
+make[2]: 'tpow_fr' is up to date.
+make[2]: 'tpow_ld' is up to date.
+make[2]: 'tpow_si' is up to date.
+make[2]: 'tpow_ui' is up to date.
+make[2]: 'tpow_z' is up to date.
+make[2]: 'tprec' is up to date.
+make[2]: 'tproj' is up to date.
+make[2]: 'treal' is up to date.
+make[2]: 'treimref' is up to date.
+make[2]: 'trootofunity' is up to date.
+make[2]: 'tset' is up to date.
+make[2]: 'tsin' is up to date.
+make[2]: 'tsin_cos' is up to date.
+make[2]: 'tsinh' is up to date.
+make[2]: 'tsqr' is up to date.
+make[2]: 'tsqrt' is up to date.
+make[2]: 'tstrtoc' is up to date.
+make[2]: 'tsub' is up to date.
+make[2]: 'tsub_fr' is up to date.
+make[2]: 'tsub_ui' is up to date.
+make[2]: 'tswap' is up to date.
+make[2]: 'ttan' is up to date.
+make[2]: 'ttanh' is up to date.
+make[2]: 'tui_div' is up to date.
+make[2]: 'tui_ui_sub' is up to date.
+make[2]: 'tget_version' is up to date.
+make[2]: 'exceptions' is up to date.
+make[2]: Leaving directory '/usr/ports/core/libmpc/work/src/mpc-1.1.0/tests'
+make  check-TESTS
+make[2]: Entering directory '/usr/ports/core/libmpc/work/src/mpc-1.1.0/tests'
+make[3]: Entering directory '/usr/ports/core/libmpc/work/src/mpc-1.1.0/tests'
+PASS: tabs
+PASS: tacos
+PASS: tacosh
+PASS: tadd
+PASS: tadd_fr
+PASS: tadd_si
+PASS: tadd_ui
+PASS: targ
+PASS: tasin
+PASS: tasinh
+PASS: tatan
+PASS: tatanh
+PASS: tcmp_abs
+PASS: tconj
+PASS: tcos
+PASS: tcosh
+PASS: tdiv
+PASS: tdiv_2si
+PASS: tdiv_2ui
+PASS: tdiv_fr
+PASS: tdiv_ui
+PASS: texp
+PASS: tfma
+PASS: tfr_div
+PASS: tfr_sub
+PASS: timag
+PASS: tio_str
+PASS: tlog
+PASS: tlog10
+PASS: tmul
+PASS: tmul_2si
+PASS: tmul_2ui
+PASS: tmul_fr
+PASS: tmul_i
+PASS: tmul_si
+PASS: tmul_ui
+PASS: tneg
+PASS: tnorm
+PASS: tpow
+PASS: tpow_d
+PASS: tpow_fr
+PASS: tpow_ld
+PASS: tpow_si
+PASS: tpow_ui
+PASS: tpow_z
+PASS: tprec
+PASS: tproj
+PASS: treal
+PASS: treimref
+PASS: trootofunity
+PASS: tset
+PASS: tsin
+PASS: tsin_cos
+PASS: tsinh
+PASS: tsqr
+PASS: tsqrt
+PASS: tstrtoc
+PASS: tsub
+PASS: tsub_fr
+PASS: tsub_ui
+PASS: tswap
+PASS: ttan
+PASS: ttanh
+PASS: tui_div
+PASS: tui_ui_sub
+PASS: tget_version
+PASS: exceptions
+============================================================================
+Testsuite summary for mpc 1.1.0
+============================================================================
+# TOTAL: 67
+# PASS:  67
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/usr/ports/core/libmpc/work/src/mpc-1.1.0/tests'
+make[2]: Leaving directory '/usr/ports/core/libmpc/work/src/mpc-1.1.0/tests'
+make[1]: Leaving directory '/usr/ports/core/libmpc/work/src/mpc-1.1.0/tests'
+Making check in doc
+make[1]: Entering directory '/usr/ports/core/libmpc/work/src/mpc-1.1.0/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/libmpc/work/src/mpc-1.1.0/doc'
+Making check in tools
+make[1]: Entering directory '/usr/ports/core/libmpc/work/src/mpc-1.1.0/tools'
+Making check in bench
+make[2]: Entering directory '/usr/ports/core/libmpc/work/src/mpc-1.1.0/tools/bench'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/libmpc/work/src/mpc-1.1.0/tools/bench'
+make[2]: Entering directory '/usr/ports/core/libmpc/work/src/mpc-1.1.0/tools'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/ports/core/libmpc/work/src/mpc-1.1.0/tools'
+make[1]: Leaving directory '/usr/ports/core/libmpc/work/src/mpc-1.1.0/tools'
+make[1]: Entering directory '/usr/ports/core/libmpc/work/src/mpc-1.1.0'
+make[1]: Leaving directory '/usr/ports/core/libmpc/work/src/mpc-1.1.0'

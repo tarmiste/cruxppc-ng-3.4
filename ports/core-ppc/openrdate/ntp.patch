@@ -1,0 +1,13 @@
+Binary files openrdate-1.2.orig/src/.ntp.c.un~ and openrdate-1.2/src/.ntp.c.un~ differ
+diff -pruN openrdate-1.2.orig/src/ntp.c openrdate-1.2/src/ntp.c
+--- openrdate-1.2.orig/src/ntp.c	2016-03-19 20:09:34.688371763 +0100
++++ openrdate-1.2/src/ntp.c	2016-03-19 20:10:02.538357136 +0100
+@@ -429,7 +429,7 @@ unpack_ntp(struct ntp_data *data, u_char
+ 	data->transmit = d / NTP_SCALE;
+ 
+ 	/* See write_packet for why this isn't an endian problem. */
+-	data->recvck = *(u_int64_t *)(packet + NTP_ORIGINATE);
++	memcpy(&data->recvck, (packet + NTP_ORIGINATE), sizeof(data->recvck));
+ }
+ 
+ /*

@@ -1,0 +1,1459 @@
+	CC = gcc
+	LD = ld
+	LDSHARED = gcc -shared
+	CFLAGS = -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -fPIC 
+	XCFLAGS = -D_FORTIFY_SOURCE=2 -fstack-protector -fno-strict-overflow -fvisibility=hidden -fexcess-precision=standard -DRUBY_EXPORT
+	CPPFLAGS =   -I. -I.ext/include/powerpc-linux -I./include -I. -I./enc/unicode/10.0.0
+	DLDFLAGS = -Wl,--compress-debug-sections=zlib -Wl,-soname,libruby.so.2.5  -fstack-protector  
+	SOLIBS = -lpthread -lgmp -ldl -lcrypt -lm  
+	LANG = 
+	LC_ALL = 
+	LC_CTYPE = 
+gcc (CRUX-PPC) 7.4.0
+Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+generating enc.mk
+making srcs under enc
+make[1]: Entering directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3'
+make[1]: Nothing to be done for 'srcs'.
+make[1]: Leaving directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3'
+generating transdb.h
+transdb.h unchanged
+generating makefiles ext/configure-ext.mk
+ext/configure-ext.mk unchanged
+make[1]: Entering directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3'
+make[1]: Leaving directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3'
+generating makefile exts.mk
+exts.mk unchanged
+make[1]: Entering directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3'
+make[2]: Entering directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/pathname'
+make[2]: Leaving directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/pathname'
+make[2]: Entering directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/io/console'
+make[2]: Leaving directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/io/console'
+make[2]: Entering directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/syslog'
+make[2]: Leaving directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/syslog'
+make[2]: Entering directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/json'
+make[2]: Leaving directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/json'
+make[2]: Entering directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/digest'
+make[2]: Leaving directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/digest'
+make[2]: Entering directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/digest/sha2'
+make[2]: Leaving directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/digest/sha2'
+make[2]: Entering directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/fiddle'
+make[2]: Leaving directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/fiddle'
+make[2]: Entering directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/psych'
+make[2]: Leaving directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/psych'
+make[2]: Entering directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/ripper'
+make[2]: Leaving directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/ripper'
+make[2]: Entering directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/date'
+make[2]: Leaving directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/date'
+make[2]: Entering directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/rubyvm'
+make[2]: Leaving directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/rubyvm'
+make[2]: Entering directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/bigdecimal'
+make[2]: Leaving directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/bigdecimal'
+make[2]: Entering directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/socket'
+make[2]: Leaving directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/socket'
+make[2]: Entering directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/nkf'
+make[2]: Leaving directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/nkf'
+make[2]: Entering directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/openssl'
+make[2]: Leaving directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/openssl'
+make[2]: Entering directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/pty'
+make[2]: Leaving directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/ext/pty'
+make[2]: Entering directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3'
+make[2]: 'ruby' is up to date.
+make[2]: Leaving directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3'
+make[1]: Leaving directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3'
+make[1]: Entering directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3'
+make[1]: Nothing to be done for 'note'.
+make[1]: Leaving directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3'
+making enc
+make[1]: Entering directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3'
+make[1]: Nothing to be done for 'enc'.
+make[1]: Leaving directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3'
+making trans
+make[1]: Entering directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3'
+make[1]: Nothing to be done for './enc/trans'.
+make[1]: Leaving directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3'
+making encs
+make[1]: Entering directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3'
+make[1]: Nothing to be done for 'encs'.
+make[1]: Leaving directory '/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3'
+test_attr.rb             ..
+                         test_autoload.rb         ........
+                         test_block.rb            ..........................................................
+                         test_class.rb            ................................................
+                         test_env.rb              ..
+                         test_eval.rb             .....................................
+                         test_exception.rb        ..................................
+                         test_finalizer.rb        .
+                         test_flip.rb             .
+                         test_flow.rb             ..............................................................
+                         test_fork.rb             .....
+                         test_gc.rb               ..
+                         test_insns.rb            ...........................................................................................................................................................................................
+                         test_io.rb               .........
+                         test_jump.rb             .............................
+                         test_literal.rb          ...........................................................................................................................................................
+                         test_literal_suffix.rb   ................................................
+                         test_load.rb             ..
+                         test_marshal.rb          .
+                         test_massign.rb          ..................................
+                         test_method.rb           ...............................................................................................................................................................................................................................
+                         test_objectspace.rb      .....
+                         test_proc.rb             .......................................
+                         test_string.rb           .
+                         test_struct.rb           .
+                         test_syntax.rb           ............................................................................................................................................................
+                         test_thread.rb           ..................................................
+                         PASS all 1200 tests
+exec ./miniruby -I./lib -I. -I.ext/common  ./tool/runruby.rb --extout=.ext  -- --disable-gems "./bootstraptest/runner.rb" --ruby="ruby --disable-gems"   ./KNOWNBUGS.rb
+2019-01-26 10:23:36 +0000
+Driver is ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+Target is ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+
+KNOWNBUGS.rb   
+No tests, no problem
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:assignment ....................................................................................................................................................................................................................................................................................................................................................................................OK 372
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:condition ..OK 2
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:if/unless ...OK 3
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:case .....OK 5
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:while/until ........OK 8
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:exception ..........OK 10
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:array .......................................OK 39
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:hash ...........................OK 27
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:iterator ...............................................................................................................OK 111
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:float ................................................................................OK 80
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:bignum ...............................OK 31
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:string & char ..............................................................OK 62
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:assignment ..........OK 10
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:call ......OK 6
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:proc .........OK 9
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:signal ..OK 2
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:eval ...........................OK 27
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:system ........OK 8
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:const .....OK 5
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:clone .....OK 5
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:marshal ....OK 4
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:pack ....OK 4
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:math ..OK 2
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:struct ......OK 6
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:variable ...........OK 11
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:trace ...OK 3
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:defined? ............OK 12
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:alias ......OK 6
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:path .......................OK 23
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/basictest/test.rb:gc ....OK 4
+
+test succeeded
+Run options: "--ruby=./miniruby -I./lib -I. -I.ext/common  ./tool/runruby.rb --extout=.ext  -- --disable-gems"
+
+# Running tests:
+
+Finished tests in 22.969487s, 9.6650 tests/s, 20.0701 assertions/s.
+222 tests, 461 assertions, 0 failures, 0 errors, 0 skips
+
+ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+Run options: "--ruby=./miniruby -I./lib -I. -I.ext/common  ./tool/runruby.rb --extout=.ext  -- --disable-gems" --excludes-dir=./test/excludes --name=!/memory_leak/ --exclude=/testunit/ --exclude=/minitest/
+
+# Running tests:
+
+#<Thread:0x04de27c8@/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/ftp/test_ftp.rb:2354 run> terminated with exception (report_on_exception is true):
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/ftp/test_ftp.rb:2090:in `accept': SSL_accept returned=1 errno=0 state=SSLv3 read client key exchange A: sslv3 alert certificate expired (OpenSSL::SSL::SSLError)
+	from /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/ftp/test_ftp.rb:2090:in `block in test_abort_tls'
+	from /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/ftp/test_ftp.rb:2361:in `block in create_ftp_server'
+#<Thread:0x04ac79f0@/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/imap/test_imap.rb:730 run> terminated with exception (report_on_exception is true):
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/imap/test_imap.rb:746:in `accept': SSL_accept returned=1 errno=0 state=SSLv3 read client key exchange A: sslv3 alert certificate expired (OpenSSL::SSL::SSLError)
+	from /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/imap/test_imap.rb:746:in `block in starttls_test'
+Leaked file descriptor: TestGemPackageTarHeader#test_from_bad_octal: 16 : #<File:/tmp/TempIO20190126-24012-1yj84rg>
+Leaked file descriptor: TestGemPackageTarHeader#test_from_bad_octal: 19 : #<File:/tmp/TempIO20190126-24012-12y4ssq>
+Leaked file descriptor: TestGemPackageTarHeader#test_from_bad_octal: 20 : #<File:/tmp/TempIO20190126-24012-tzmwui>
+Leaked file descriptor: TestGemPackageTarHeader#test_from_bad_octal: 21 : #<File:/tmp/TempIO20190126-24012-tonfwx>
+Leaked file descriptor: TestGemPackageTarHeader#test_from_bad_octal: 22 : #<File:/tmp/TempIO20190126-24012-1udo>
+Leaked tempfile: TestGemPackageTarHeader#test_from_bad_octal: #<TempIO:/tmp/TempIO20190126-24012-12y4ssq>
+Leaked tempfile: TestGemPackageTarHeader#test_from_bad_octal: #<TempIO:/tmp/TempIO20190126-24012-1udo>
+Leaked tempfile: TestGemPackageTarHeader#test_from_bad_octal: #<TempIO:/tmp/TempIO20190126-24012-1yj84rg>
+Leaked tempfile: TestGemPackageTarHeader#test_from_bad_octal: #<TempIO:/tmp/TempIO20190126-24012-tonfwx>
+Leaked tempfile: TestGemPackageTarHeader#test_from_bad_octal: #<TempIO:/tmp/TempIO20190126-24012-tzmwui>
+Closed file descriptor: TestGemPackageTarHeader#test_initialize: 16
+Closed file descriptor: TestGemPackageTarHeader#test_initialize: 19
+Closed file descriptor: TestGemPackageTarHeader#test_initialize: 20
+Closed file descriptor: TestGemPackageTarHeader#test_initialize: 21
+Closed file descriptor: TestGemPackageTarHeader#test_initialize: 22
+Leaked file descriptor: TestTempfile#test_create_traversal_dir: 16 : #<File:/tmp/................usrportsopt-ppcrubyworksrcruby-2.5.3foo20190126-24012-fpskia>
+Closed file descriptor: TestTempfile#test_create_with_block: 16
+
+  1) Failure:
+FTPTest#test_tls_with_ca_file [/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/ftp/test_ftp.rb:1719]:
+Exception raised:
+<#<OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)>>.
+
+  2) Failure:
+IMAPTest#test_imaps_with_ca_file [/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/.ext/common/openssl/ssl.rb:485]:
+Exception raised:
+<#<OpenSSL::SSL::SSLError: SSL_accept returned=1 errno=0 state=SSLv3 read client key exchange A: sslv3 alert certificate expired>>.
+
+  3) Failure:
+IMAPTest#test_starttls [/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/imap/test_imap.rb:19]:
+exceptions on 1 threads:
+#<Thread:0x04ac79f0@/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/imap/test_imap.rb:730 dead>:
+/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/imap/test_imap.rb:746:in `accept': SSL_accept returned=1 errno=0 state=SSLv3 read client key exchange A: sslv3 alert certificate expired (OpenSSL::SSL::SSLError)
+	from /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/imap/test_imap.rb:746:in `block in starttls_test'
+
+  4) Failure:
+TestGemUtil#test_traverse_parents_does_not_crash_on_permissions_error [/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/rubygems/test_gem_util.rb:43]:
+--- expected
++++ actual
+@@ -1 +1 @@
+-"/tmp/test_rubygems_24012/d"
++"/tmp/test_rubygems_24012/d/e/f"
+
+
+  5) Failure:
+TestNetHTTPS#test_get [/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/http/utils.rb:48]:
+<[]> expected but was
+<["[2019-01-26 11:02:50] ERROR OpenSSL::SSL::SSLError: SSL_accept returned=1 errno=0 state=SSLv3 read client key exchange A: sslv3 alert certificate expired\n" +
+ "\t/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/webrick/server.rb:299:in `accept'\n" +
+ "\t/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/webrick/server.rb:299:in `block (2 levels) in start_thread'\n" +
+ "\t/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/webrick/utils.rb:263:in `timeout'\n" +
+ "\t/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/webrick/server.rb:297:in `block in start_thread'\n"]>.
+
+  6) Failure:
+TestNetHTTPS#test_post [/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/http/utils.rb:48]:
+<[]> expected but was
+<["[2019-01-26 11:02:51] ERROR OpenSSL::SSL::SSLError: SSL_accept returned=1 errno=0 state=SSLv3 read client key exchange A: sslv3 alert certificate expired\n" +
+ "\t/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/webrick/server.rb:299:in `accept'\n" +
+ "\t/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/webrick/server.rb:299:in `block (2 levels) in start_thread'\n" +
+ "\t/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/webrick/utils.rb:263:in `timeout'\n" +
+ "\t/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/webrick/server.rb:297:in `block in start_thread'\n"]>.
+
+  7) Failure:
+TestNetHTTPS#test_session_reuse [/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/http/utils.rb:48]:
+<[]> expected but was
+<["[2019-01-26 11:02:51] ERROR OpenSSL::SSL::SSLError: SSL_accept returned=1 errno=0 state=SSLv3 read client key exchange A: sslv3 alert certificate expired\n" +
+ "\t/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/webrick/server.rb:299:in `accept'\n" +
+ "\t/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/webrick/server.rb:299:in `block (2 levels) in start_thread'\n" +
+ "\t/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/webrick/utils.rb:263:in `timeout'\n" +
+ "\t/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/webrick/server.rb:297:in `block in start_thread'\n"]>.
+
+  8) Failure:
+TestNetHTTPS#test_session_reuse_but_expire [/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/http/utils.rb:48]:
+<[]> expected but was
+<["[2019-01-26 11:02:51] ERROR OpenSSL::SSL::SSLError: SSL_accept returned=1 errno=0 state=SSLv3 read client key exchange A: sslv3 alert certificate expired\n" +
+ "\t/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/webrick/server.rb:299:in `accept'\n" +
+ "\t/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/webrick/server.rb:299:in `block (2 levels) in start_thread'\n" +
+ "\t/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/webrick/utils.rb:263:in `timeout'\n" +
+ "\t/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/webrick/server.rb:297:in `block in start_thread'\n"]>.
+
+  9) Failure:
+TestTimeTZ#test_gen_Asia_Tokyo_50 [/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/ruby/test_time_tz.rb:276]:
+TZ=Asia/Tokyo Time.utc(1951, 9, 8, 14, 0, 0).localtime.
+<"1951-09-08 23:00:00 +0900"> expected but was
+<"1951-09-09 00:00:00 +1000">.
+
+ 10) Failure:
+TestTimeTZ#test_gen_Asia_Tokyo_54 [/usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/ruby/test_time_tz.rb:312]:
+TZ=Asia/Tokyo Time.local(0, 0, 23, 8, 9, 1951, nil, nil, false, nil).
+<"1951-09-08 23:00:00 +0900"> expected but was
+<"1951-09-08 23:00:00 +1000">.
+
+ 11) Error:
+FTPTest#test_abort_tls:
+OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/protocol.rb:52:in `connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/protocol.rb:52:in `ssl_socket_connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/ftp.rb:348:in `start_tls_session'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/ftp.rb:375:in `block in connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/monitor.rb:226:in `mon_synchronize'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/ftp.rb:367:in `connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/ftp.rb:265:in `initialize'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/ftp/test_ftp.rb:2106:in `new'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/ftp/test_ftp.rb:2106:in `test_abort_tls'
+
+ 12) Error:
+FTPTest#test_abort_tls:
+OpenSSL::SSL::SSLError: SSL_accept returned=1 errno=0 state=SSLv3 read client key exchange A: sslv3 alert certificate expired
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/ftp/test_ftp.rb:2090:in `accept'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/ftp/test_ftp.rb:2090:in `block in test_abort_tls'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/ftp/test_ftp.rb:2361:in `block in create_ftp_server'
+
+ 13) Error:
+FTPTest#test_active_clear_data_connection:
+OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/protocol.rb:52:in `connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/protocol.rb:52:in `ssl_socket_connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/ftp.rb:348:in `start_tls_session'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/ftp.rb:375:in `block in connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/monitor.rb:226:in `mon_synchronize'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/ftp.rb:367:in `connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/ftp.rb:265:in `initialize'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/ftp/test_ftp.rb:1955:in `new'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/ftp/test_ftp.rb:1955:in `test_active_clear_data_connection'
+
+ 14) Error:
+FTPTest#test_active_private_data_connection:
+OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/protocol.rb:52:in `connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/protocol.rb:52:in `ssl_socket_connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/ftp.rb:348:in `start_tls_session'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/ftp.rb:375:in `block in connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/monitor.rb:226:in `mon_synchronize'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/ftp.rb:367:in `connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/ftp.rb:265:in `initialize'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/ftp/test_ftp.rb:1808:in `new'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/ftp/test_ftp.rb:1808:in `test_active_private_data_connection'
+
+ 15) Error:
+FTPTest#test_passive_clear_data_connection:
+OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/protocol.rb:52:in `connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/protocol.rb:52:in `ssl_socket_connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/ftp.rb:348:in `start_tls_session'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/ftp.rb:375:in `block in connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/monitor.rb:226:in `mon_synchronize'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/ftp.rb:367:in `connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/ftp.rb:265:in `initialize'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/ftp/test_ftp.rb:2024:in `new'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/ftp/test_ftp.rb:2024:in `test_passive_clear_data_connection'
+
+ 16) Error:
+FTPTest#test_passive_private_data_connection:
+OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/protocol.rb:52:in `connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/protocol.rb:52:in `ssl_socket_connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/ftp.rb:348:in `start_tls_session'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/ftp.rb:375:in `block in connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/monitor.rb:226:in `mon_synchronize'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/ftp.rb:367:in `connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/ftp.rb:265:in `initialize'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/ftp/test_ftp.rb:1885:in `new'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/ftp/test_ftp.rb:1885:in `test_passive_private_data_connection'
+
+ 17) Error:
+TestNetHTTPS#test_get:
+OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/protocol.rb:44:in `connect_nonblock'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/protocol.rb:44:in `ssl_socket_connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/http.rb:981:in `connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/http.rb:920:in `do_start'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/http.rb:909:in `start'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/http.rb:1455:in `request'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/http.rb:1365:in `request_get'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/http/test_https.rb:44:in `test_get'
+
+ 18) Error:
+TestNetHTTPS#test_post:
+OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/protocol.rb:44:in `connect_nonblock'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/protocol.rb:44:in `ssl_socket_connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/http.rb:981:in `connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/http.rb:920:in `do_start'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/http.rb:909:in `start'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/http.rb:1455:in `request'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/http.rb:1409:in `request_post'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/http/test_https.rb:58:in `test_post'
+
+ 19) Error:
+TestNetHTTPS#test_session_reuse:
+OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/protocol.rb:44:in `connect_nonblock'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/protocol.rb:44:in `ssl_socket_connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/http.rb:981:in `connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/http.rb:920:in `do_start'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/http.rb:915:in `start'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/http/test_https.rb:70:in `test_session_reuse'
+
+ 20) Error:
+TestNetHTTPS#test_session_reuse_but_expire:
+OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/protocol.rb:44:in `connect_nonblock'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/protocol.rb:44:in `ssl_socket_connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/http.rb:981:in `connect'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/http.rb:920:in `do_start'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/lib/net/http.rb:915:in `start'
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/net/http/test_https.rb:100:in `test_session_reuse_but_expire'
+
+ 21) Error:
+TestProcess#test_deadlock_by_signal_at_forking:
+Timeout::Error: execution of assert_separately expired timeout (80 sec)
+pid 25130 killed by SIGTERM (signal 15)
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.046399s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.039858s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047095s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047535s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.039275s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.045609s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.046457s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.049422s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.052332s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.052354s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.043983s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.039832s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.044136s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.045876s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.039890s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.037367s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.039757s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.045628s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.052529s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.039934s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.052665s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.044007s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.052557s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.052350s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.052484s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.043641s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.045636s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.039771s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.039965s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047787s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047298s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047974s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047380s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.046520s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047436s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.046634s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.046957s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.046406s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.046192s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.046994s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.050320s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047547s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.039541s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.043631s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.043850s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.039850s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047515s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.052753s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.052463s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.039539s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047814s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.046137s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.052531s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.056572s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047566s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047336s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.052499s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.039758s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.052471s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047270s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.046933s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047199s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047167s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047021s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.046622s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.045425s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.046665s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047538s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047420s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047314s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.048066s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047682s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047500s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.048004s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047698s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047648s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.048087s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.060903s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047204s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047785s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047061s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.048058s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.060240s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.060293s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.060313s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.060435s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047389s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047249s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.060809s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.048122s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.060603s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.060310s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.060645s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.060939s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047344s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.060277s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| 
+| BAgw
+| assertions=0
+| Run options: 
+| 
+| # Running tests:
+| 
+| Finished tests in 0.047606s, 0.0000 tests/s, 0.0000 assertions/s.
+| 0 tests, 0 assertions, 0 failures, 0 errors, 0 skips
+| 
+| ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+| BAhvOhRTaWduYWxFeGNlcHRpb24KOgltZXNnIgxTSUdURVJNOgdidFsJSSIU
+| LToxMzppbiBgcG9wZW4nBjoGRUZJIh4tOjEzOmluIGBibG9jayBpbiA8bWFp
+| bj4nBjsIRkkiFC06MTE6aW4gYHRpbWVzJwY7CEZJIhUtOjExOmluIGA8bWFp
+| bj4nBjsIRjoKc2lnbm9pFDoKY2F1c2UwOhFidF9sb2NhdGlvbnNABw==
+| assertions=0
+| 
+
+    /usr/ports/opt-ppc/ruby/work/src/ruby-2.5.3/test/ruby/test_process.rb:2170:in `test_deadlock_by_signal_at_forking'
+
+Finished tests in 3863.428311s, 4.4952 tests/s, 585.4458 assertions/s.
+17367 tests, 2261828 assertions, 10 failures, 11 errors, 44 skips
+
+ruby -v: ruby 2.5.3p105 (2018-10-18 revision 65156) [powerpc-linux]
+make: *** [uncommon.mk:698: yes-test-almost] Error 21

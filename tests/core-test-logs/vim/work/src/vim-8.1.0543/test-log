@@ -1,0 +1,609 @@
+Starting make in the src directory.
+If there are problems, cd to the src directory and run make there
+cd src && make test
+make[1]: Entering directory '/usr/ports/core/vim/work/src/vim-8.1.0543/src'
+make -f Makefile vi
+make[2]: Entering directory '/usr/ports/core/vim/work/src/vim-8.1.0543/src'
+make[2]: 'vi' is up to date.
+make[2]: Leaving directory '/usr/ports/core/vim/work/src/vim-8.1.0543/src'
+if test -n "" -a -f po/Makefile; then \
+	cd po; make -f Makefile check VIM=../vi; \
+fi
+if test vi != vim -a ! -r vim; then \
+	ln -s vi vim; \
+fi
+cd testdir; make -f Makefile  VIMPROG=../vi  SCRIPTSOURCE=../../runtime
+make[2]: Entering directory '/usr/ports/core/vim/work/src/vim-8.1.0543/src/testdir'
+rm -f test.log messages
+rm -rf test1.failed test.out X* viminfo tiny.vim small.vim mbyte.vim mzscheme.vim test.ok benchmark.out wrongtermsize
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test1.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+rm -rf X* viminfo
+rm -rf test3.failed test.ok test.out X* viminfo
+cp test3.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test3.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test3 = test61; then \
+#	  if diff test.out test3.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test3.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test3.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test14.failed test.ok test.out X* viminfo
+cp test14.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test14.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test14 = test61; then \
+#	  if diff test.out test14.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test14.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test14.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test29.failed test.ok test.out X* viminfo
+cp test29.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test29.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test29 = test61; then \
+#	  if diff test.out test29.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test29.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test29.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test37.failed test.ok test.out X* viminfo
+cp test37.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test37.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test37 = test61; then \
+#	  if diff test.out test37.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test37.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test37.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test39.failed test.ok test.out X* viminfo
+cp test39.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test39.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test39 = test61; then \
+#	  if diff test.out test39.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test39.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test39.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test42.failed test.ok test.out X* viminfo
+cp test42.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test42.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test42 = test61; then \
+#	  if diff test.out test42.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test42.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test42.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test44.failed test.ok test.out X* viminfo
+cp test44.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test44.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test44 = test61; then \
+#	  if diff test.out test44.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test44.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test44.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test48.failed test.ok test.out X* viminfo
+cp test48.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test48.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test48 = test61; then \
+#	  if diff test.out test48.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test48.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test48.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test64.failed test.ok test.out X* viminfo
+cp test64.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test64.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test64 = test61; then \
+#	  if diff test.out test64.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test64.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test64.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test69.failed test.ok test.out X* viminfo
+cp test69.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test69.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test69 = test61; then \
+#	  if diff test.out test69.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test69.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test69.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test70.failed test.ok test.out X* viminfo
+cp test70.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test70.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test70 = test61; then \
+#	  if diff test.out test70.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test70.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test70.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test88.failed test.ok test.out X* viminfo
+cp test88.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test88.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test88 = test61; then \
+#	  if diff test.out test88.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test88.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test88.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test94.failed test.ok test.out X* viminfo
+cp test94.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test94.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test94 = test61; then \
+#	  if diff test.out test94.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test94.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test94.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test95.failed test.ok test.out X* viminfo
+cp test95.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test95.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test95 = test61; then \
+#	  if diff test.out test95.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test95.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test95.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test99.failed test.ok test.out X* viminfo
+cp test99.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test99.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test99 = test61; then \
+#	  if diff test.out test99.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test99.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test99.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test108.failed test.ok test.out X* viminfo
+cp test108.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test108.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test108 = test61; then \
+#	  if diff test.out test108.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test108.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test108.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test_eval.failed test.ok test.out X* viminfo
+cp test_eval.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test_eval.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test_eval = test61; then \
+#	  if diff test.out test_eval.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test_eval.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test_eval.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test11.failed test.ok test.out X* viminfo
+cp test11.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test11.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test11 = test61; then \
+#	  if diff test.out test11.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test11.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test11.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test52.failed test.ok test.out X* viminfo
+cp test52.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test52.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test52 = test61; then \
+#	  if diff test.out test52.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test52.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test52.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test86.failed test.ok test.out X* viminfo
+cp test86.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test86.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test86 = test61; then \
+#	  if diff test.out test86.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test86.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test86.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test87.failed test.ok test.out X* viminfo
+cp test87.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test87.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test87 = test61; then \
+#	  if diff test.out test87.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test87.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test87.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test49.failed test.ok test.out X* viminfo
+cp test49.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test49.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test49 = test61; then \
+#	  if diff test.out test49.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test49.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test49.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test17.failed test.ok test.out X* viminfo
+cp test17.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test17.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test17 = test61; then \
+#	  if diff test.out test17.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test17.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test17.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test30.failed test.ok test.out X* viminfo
+cp test30.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test30.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test30 = test61; then \
+#	  if diff test.out test30.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test30.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test30.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test59.failed test.ok test.out X* viminfo
+cp test59.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test59.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test59 = test61; then \
+#	  if diff test.out test59.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test59.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test59.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+rm -rf test72.failed test.ok test.out X* viminfo
+cp test72.ok test.ok
+# Sleep a moment to avoid that the xterm title is messed up.
+# 200 msec is sufficient, but only modern sleep supports a fraction of
+# a second, fall back to a second if it fails.
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test72.in --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+# For flaky tests retry one time.  No tests at the moment.
+#@/bin/sh -c "if test -f test.out -a test72 = test61; then \
+#	  if diff test.out test72.ok; \
+#	  then echo flaky test ok first time; \
+#	  else rm -rf test72.failed test.out X* viminfo; \
+#		VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -s dotest.in test72.in; \
+#	  fi \
+#	fi"
+# Check if the test.out file matches test.ok.
+rm -rf X* test.ok viminfo
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_arabic.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_arglist.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_assert.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_autochdir.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_autocmd.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_autoload.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_backspace_opt.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_blockedit.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_breakindent.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_bufwintabinfo.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_cdo.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_changelist.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_channel.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_charsearch.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_cindent.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_clientserver.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_close_count.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_cmdline.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_command_count.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_comparators.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_crypt.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_cscope.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_curswant.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_diffmode.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_digraph.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_display.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_edit.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_erasebackword.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_escaped_glob.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_eval_stuff.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_exec_while_if.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_exists.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_exists_autocmd.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_exit.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_farsi.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_file_size.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_find_complete.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_fixeol.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_fnameescape.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_fold.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_getcwd.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_getvar.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_gf.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_gn.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -u NONE -U NONE --noplugin --not-a-term -S runtest.vim test_gui.vim
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"test_gui.vim" 774 lines, -16843009 characters
+"test.ok" [New File]
+"test.out" 0 lines, -16843009 characters written[?2004l
+[?2004l[?1l>[?25h[?1049l[23;0;0tVIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -u gui_preinit.vim -U gui_init.vim --noplugin --not-a-term -S runtest.vim test_gui_init.vim
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"test_gui_init.vim" 61 lines, -16843009 characters
+"test.ok" [New File]
+"test.out" 0 lines, -16843009 characters written[?2004l
+[?2004l[?1l>[?25h[?1049l[23;0;0tVIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_hardcopy.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_help.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_hide.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_highlight.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_history.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_hlsearch.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_iminsert.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_increment.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_increment_dbcs.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_ins_complete.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_job_fails.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_json.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_jumplist.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_langmap.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_let.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_lineending.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_listchars.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_listdict.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_listlbr.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_lua.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_makeencoding.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_man.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_maparg.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_marks.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_matchadd_conceal.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_mksession.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_nested_function.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_netbeans.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_normal.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_number.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+../vi -u NONE -S gen_opt_test.vim --noplugin --not-a-term ../option.c
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"../option.c" 13379 lines, -16843009 characters[?2004l
+[?2004l[?1l>[?25h[?1049l[23;0;0tVIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_options.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_packadd.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_paste.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_perl.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_plus_arg_edit.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_preview.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_profile.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_prompt_buffer.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_python2.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_python3.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_pyx2.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_pyx3.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_quickfix.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_quotestar.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_regex_char_classes.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_registers.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_retab.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_ruby.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_scrollbind.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_search.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_shortpathname.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_signs.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_smartindent.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_spell.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_startup.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_stat.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_substitute.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_swap.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_syntax.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_system.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_tab.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_tcl.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_terminal.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_terminal_fail.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_textformat.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_textobjects.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_undo.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_user_func.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_usercommands.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_vartabs.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_viminfo.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_vimscript.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_visual.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_winbar.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_winbuf_close.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_window_id.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_windows_home.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_wordcount.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_writefile.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+XXD=../xxd/xxd; export XXD; VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_xxd.vim
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"test_xxd.vim" 115 lines, -16843009 characters
+"test.ok" [New File]
+"test.out" 0 lines, -16843009 characters written[?2004l
+[?2004l[?1l>[?25h[?1049l[23;0;0tVIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_alot_latin.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_alot_utf8.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+VIMRUNTIME=../../runtime; export VIMRUNTIME;  ../vi -f  -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_alot.vim --cmd 'au SwapExists * let v:swapchoice = "e"' > /dev/null
+
+Test results:
+ALL DONE
+make[2]: Leaving directory '/usr/ports/core/vim/work/src/vim-8.1.0543/src/testdir'
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1        -o objects/json_test.o json_test.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1        version.c -o objects/version.o
+link.sh: $LINK_AS_NEEDED set to 'yes': invoking linker directly.
+  gcc   -Wl,--as-needed 	-o json_test objects/arabic.o objects/beval.o objects/buffer.o objects/blowfish.o objects/crypt.o objects/crypt_zip.o objects/dict.o objects/diff.o objects/digraph.o objects/edit.o objects/eval.o objects/evalfunc.o objects/ex_cmds.o objects/ex_cmds2.o objects/ex_docmd.o objects/ex_eval.o objects/ex_getln.o objects/farsi.o objects/fileio.o objects/fold.o objects/getchar.o objects/hardcopy.o objects/hashtab.o  objects/if_cscope.o objects/if_xcmdsrv.o objects/list.o objects/mark.o objects/memline.o objects/menu.o objects/misc1.o objects/misc2.o objects/move.o objects/mbyte.o objects/normal.o objects/ops.o objects/option.o objects/os_unix.o objects/pathdef.o objects/popupmnu.o objects/pty.o objects/quickfix.o objects/regexp.o objects/screen.o objects/search.o objects/sha256.o objects/spell.o objects/spellfile.o objects/syntax.o objects/tag.o objects/term.o objects/terminal.o objects/ui.o objects/undo.o objects/userfunc.o objects/version.o objects/window.o              objects/xdiffi.o objects/xemit.o objects/xprepare.o objects/xutils.o objects/xhistogram.o objects/xpatience.o   objects/charset.o objects/memfile.o objects/message.o objects/json_test.o        -lm -lncurses -lelf  -lacl -lattr -ldl           
+link.sh: Linked fine
+./json_test || exit 1; echo  passed;
+passed
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1        -o objects/kword_test.o kword_test.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1        version.c -o objects/version.o
+link.sh: $LINK_AS_NEEDED set to 'yes': invoking linker directly.
+  gcc   -Wl,--as-needed 	-o kword_test objects/arabic.o objects/beval.o objects/buffer.o objects/blowfish.o objects/crypt.o objects/crypt_zip.o objects/dict.o objects/diff.o objects/digraph.o objects/edit.o objects/eval.o objects/evalfunc.o objects/ex_cmds.o objects/ex_cmds2.o objects/ex_docmd.o objects/ex_eval.o objects/ex_getln.o objects/farsi.o objects/fileio.o objects/fold.o objects/getchar.o objects/hardcopy.o objects/hashtab.o  objects/if_cscope.o objects/if_xcmdsrv.o objects/list.o objects/mark.o objects/memline.o objects/menu.o objects/misc1.o objects/misc2.o objects/move.o objects/mbyte.o objects/normal.o objects/ops.o objects/option.o objects/os_unix.o objects/pathdef.o objects/popupmnu.o objects/pty.o objects/quickfix.o objects/regexp.o objects/screen.o objects/search.o objects/sha256.o objects/spell.o objects/spellfile.o objects/syntax.o objects/tag.o objects/term.o objects/terminal.o objects/ui.o objects/undo.o objects/userfunc.o objects/version.o objects/window.o              objects/xdiffi.o objects/xemit.o objects/xprepare.o objects/xutils.o objects/xhistogram.o objects/xpatience.o   objects/json.o objects/memfile.o objects/message.o objects/kword_test.o        -lm -lncurses -lelf  -lacl -lattr -ldl           
+link.sh: Linked fine
+./kword_test || exit 1; echo  passed;
+passed
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1        -o objects/memfile_test.o memfile_test.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1        version.c -o objects/version.o
+link.sh: $LINK_AS_NEEDED set to 'yes': invoking linker directly.
+  gcc   -Wl,--as-needed 	-o memfile_test objects/arabic.o objects/beval.o objects/buffer.o objects/blowfish.o objects/crypt.o objects/crypt_zip.o objects/dict.o objects/diff.o objects/digraph.o objects/edit.o objects/eval.o objects/evalfunc.o objects/ex_cmds.o objects/ex_cmds2.o objects/ex_docmd.o objects/ex_eval.o objects/ex_getln.o objects/farsi.o objects/fileio.o objects/fold.o objects/getchar.o objects/hardcopy.o objects/hashtab.o  objects/if_cscope.o objects/if_xcmdsrv.o objects/list.o objects/mark.o objects/memline.o objects/menu.o objects/misc1.o objects/misc2.o objects/move.o objects/mbyte.o objects/normal.o objects/ops.o objects/option.o objects/os_unix.o objects/pathdef.o objects/popupmnu.o objects/pty.o objects/quickfix.o objects/regexp.o objects/screen.o objects/search.o objects/sha256.o objects/spell.o objects/spellfile.o objects/syntax.o objects/tag.o objects/term.o objects/terminal.o objects/ui.o objects/undo.o objects/userfunc.o objects/version.o objects/window.o              objects/xdiffi.o objects/xemit.o objects/xprepare.o objects/xutils.o objects/xhistogram.o objects/xpatience.o   objects/charset.o objects/json.o objects/message.o objects/memfile_test.o        -lm -lncurses -lelf  -lacl -lattr -ldl           
+link.sh: Linked fine
+./memfile_test || exit 1; echo  passed;
+passed
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1        -o objects/message_test.o message_test.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1        version.c -o objects/version.o
+link.sh: $LINK_AS_NEEDED set to 'yes': invoking linker directly.
+  gcc   -Wl,--as-needed 	-o message_test objects/arabic.o objects/beval.o objects/buffer.o objects/blowfish.o objects/crypt.o objects/crypt_zip.o objects/dict.o objects/diff.o objects/digraph.o objects/edit.o objects/eval.o objects/evalfunc.o objects/ex_cmds.o objects/ex_cmds2.o objects/ex_docmd.o objects/ex_eval.o objects/ex_getln.o objects/farsi.o objects/fileio.o objects/fold.o objects/getchar.o objects/hardcopy.o objects/hashtab.o  objects/if_cscope.o objects/if_xcmdsrv.o objects/list.o objects/mark.o objects/memline.o objects/menu.o objects/misc1.o objects/misc2.o objects/move.o objects/mbyte.o objects/normal.o objects/ops.o objects/option.o objects/os_unix.o objects/pathdef.o objects/popupmnu.o objects/pty.o objects/quickfix.o objects/regexp.o objects/screen.o objects/search.o objects/sha256.o objects/spell.o objects/spellfile.o objects/syntax.o objects/tag.o objects/term.o objects/terminal.o objects/ui.o objects/undo.o objects/userfunc.o objects/version.o objects/window.o              objects/xdiffi.o objects/xemit.o objects/xprepare.o objects/xutils.o objects/xhistogram.o objects/xpatience.o   objects/charset.o objects/json.o objects/memfile.o objects/message_test.o        -lm -lncurses -lelf  -lacl -lattr -ldl           
+link.sh: Linked fine
+./message_test || exit 1; echo  passed;
+passed
+make[1]: Leaving directory '/usr/ports/core/vim/work/src/vim-8.1.0543/src'

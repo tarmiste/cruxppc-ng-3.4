@@ -1,0 +1,1629 @@
+make[1]: Entering directory '/usr/ports/core/curl/work/src/curl-7.63.0/tests'
+Making all in certs
+make[2]: Entering directory '/usr/ports/core/curl/work/src/curl-7.63.0/tests/certs'
+Making all in scripts
+make[3]: Entering directory '/usr/ports/core/curl/work/src/curl-7.63.0/tests/certs/scripts'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/usr/ports/core/curl/work/src/curl-7.63.0/tests/certs/scripts'
+make[3]: Entering directory '/usr/ports/core/curl/work/src/curl-7.63.0/tests/certs'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/usr/ports/core/curl/work/src/curl-7.63.0/tests/certs'
+make[2]: Leaving directory '/usr/ports/core/curl/work/src/curl-7.63.0/tests/certs'
+Making all in data
+make[2]: Entering directory '/usr/ports/core/curl/work/src/curl-7.63.0/tests/data'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/core/curl/work/src/curl-7.63.0/tests/data'
+Making all in server
+make[2]: Entering directory '/usr/ports/core/curl/work/src/curl-7.63.0/tests/server'
+  CC       ../../lib/getpart-mprintf.o
+  CC       ../../lib/getpart-nonblock.o
+  CC       ../../lib/getpart-strtoofft.o
+  CC       ../../lib/getpart-warnless.o
+  CC       ../../lib/getpart-curl_ctype.o
+  CC       getpart-getpart.o
+  CC       ../../lib/getpart-base64.o
+  CC       ../../lib/getpart-memdebug.o
+  CC       getpart-testpart.o
+  CCLD     getpart
+  CC       ../../lib/resolve-mprintf.o
+  CC       ../../lib/resolve-nonblock.o
+  CC       ../../lib/resolve-strtoofft.o
+  CC       ../../lib/resolve-warnless.o
+  CC       ../../lib/resolve-curl_ctype.o
+  CC       resolve-getpart.o
+  CC       ../../lib/resolve-base64.o
+  CC       ../../lib/resolve-memdebug.o
+  CC       resolve-util.o
+  CC       resolve-resolve.o
+  CCLD     resolve
+  CC       ../../lib/rtspd-mprintf.o
+  CC       ../../lib/rtspd-nonblock.o
+  CC       ../../lib/rtspd-strtoofft.o
+  CC       ../../lib/rtspd-warnless.o
+  CC       ../../lib/rtspd-curl_ctype.o
+  CC       rtspd-getpart.o
+  CC       ../../lib/rtspd-base64.o
+  CC       ../../lib/rtspd-memdebug.o
+  CC       rtspd-util.o
+  CC       rtspd-rtspd.o
+  CCLD     rtspd
+  CC       ../../lib/sockfilt-mprintf.o
+  CC       ../../lib/sockfilt-nonblock.o
+  CC       ../../lib/sockfilt-strtoofft.o
+  CC       ../../lib/sockfilt-warnless.o
+  CC       ../../lib/sockfilt-curl_ctype.o
+  CC       sockfilt-getpart.o
+  CC       ../../lib/sockfilt-base64.o
+  CC       ../../lib/sockfilt-memdebug.o
+  CC       sockfilt-util.o
+  CC       sockfilt-sockfilt.o
+  CC       ../../lib/sockfilt-inet_pton.o
+  CCLD     sockfilt
+  CC       ../../lib/sws-mprintf.o
+  CC       ../../lib/sws-nonblock.o
+  CC       ../../lib/sws-strtoofft.o
+  CC       ../../lib/sws-warnless.o
+  CC       ../../lib/sws-curl_ctype.o
+  CC       sws-getpart.o
+  CC       ../../lib/sws-base64.o
+  CC       ../../lib/sws-memdebug.o
+  CC       sws-util.o
+  CC       sws-sws.o
+  CC       ../../lib/sws-inet_pton.o
+  CCLD     sws
+  CC       ../../lib/tftpd-mprintf.o
+  CC       ../../lib/tftpd-nonblock.o
+  CC       ../../lib/tftpd-strtoofft.o
+  CC       ../../lib/tftpd-warnless.o
+  CC       ../../lib/tftpd-curl_ctype.o
+  CC       tftpd-getpart.o
+  CC       ../../lib/tftpd-base64.o
+  CC       ../../lib/tftpd-memdebug.o
+  CC       tftpd-util.o
+  CC       tftpd-tftpd.o
+  CCLD     tftpd
+  CC       ../../lib/fake_ntlm-mprintf.o
+  CC       ../../lib/fake_ntlm-nonblock.o
+  CC       ../../lib/fake_ntlm-strtoofft.o
+  CC       ../../lib/fake_ntlm-warnless.o
+  CC       ../../lib/fake_ntlm-curl_ctype.o
+  CC       fake_ntlm-getpart.o
+  CC       ../../lib/fake_ntlm-base64.o
+  CC       ../../lib/fake_ntlm-memdebug.o
+  CC       fake_ntlm-util.o
+  CC       fake_ntlm-fake_ntlm.o
+  CCLD     fake_ntlm
+make[2]: Leaving directory '/usr/ports/core/curl/work/src/curl-7.63.0/tests/server'
+Making all in libtest
+make[2]: Entering directory '/usr/ports/core/curl/work/src/curl-7.63.0/tests/libtest'
+  CC       chkhostname-chkhostname.o
+  CC       ../../lib/chkhostname-curl_gethostname.o
+  CCLD     chkhostname
+  CC       libauthretry-libauthretry.o
+  CC       libauthretry-first.o
+  CCLD     libauthretry
+  CC       libntlmconnect-libntlmconnect.o
+  CC       libntlmconnect-first.o
+  CC       libntlmconnect-testutil.o
+  CC       ../../lib/libntlmconnect-warnless.o
+  CCLD     libntlmconnect
+  CC       chkdecimalpoint-chkdecimalpoint.o
+  CC       ../../lib/chkdecimalpoint-mprintf.o
+  CC       ../../lib/chkdecimalpoint-curl_ctype.o
+  CCLD     chkdecimalpoint
+  CC       lib500-lib500.o
+  CC       lib500-first.o
+  CC       lib500-testutil.o
+  CC       lib500-testtrace.o
+  CCLD     lib500
+  CC       lib501-lib501.o
+  CC       lib501-first.o
+  CCLD     lib501
+  CC       lib502-lib502.o
+  CC       lib502-first.o
+  CC       lib502-testutil.o
+  CC       ../../lib/lib502-warnless.o
+  CCLD     lib502
+  CC       lib503-lib503.o
+  CC       lib503-first.o
+  CC       lib503-testutil.o
+  CC       ../../lib/lib503-warnless.o
+  CCLD     lib503
+  CC       lib504-lib504.o
+  CC       lib504-first.o
+  CC       lib504-testutil.o
+  CC       ../../lib/lib504-warnless.o
+  CCLD     lib504
+  CC       lib505-lib505.o
+  CC       lib505-first.o
+  CCLD     lib505
+  CC       lib506-lib506.o
+  CC       lib506-first.o
+  CCLD     lib506
+  CC       lib507-lib507.o
+  CC       lib507-first.o
+  CC       lib507-testutil.o
+  CC       ../../lib/lib507-warnless.o
+  CCLD     lib507
+  CC       lib508-lib508.o
+  CC       lib508-first.o
+  CCLD     lib508
+  CC       lib509-lib509.o
+  CC       lib509-first.o
+  CCLD     lib509
+  CC       lib510-lib510.o
+  CC       lib510-first.o
+  CCLD     lib510
+  CC       lib511-lib511.o
+  CC       lib511-first.o
+  CCLD     lib511
+  CC       lib512-lib512.o
+  CC       lib512-first.o
+  CCLD     lib512
+  CC       lib513-lib513.o
+  CC       lib513-first.o
+  CCLD     lib513
+  CC       lib514-lib514.o
+  CC       lib514-first.o
+  CCLD     lib514
+  CC       lib515-lib515.o
+  CC       lib515-first.o
+  CCLD     lib515
+  CC       lib516-lib516.o
+  CC       lib516-first.o
+  CCLD     lib516
+  CC       lib517-lib517.o
+  CC       lib517-first.o
+  CCLD     lib517
+  CC       lib518-lib518.o
+  CC       lib518-first.o
+  CC       ../../lib/lib518-warnless.o
+  CCLD     lib518
+  CC       lib519-lib519.o
+  CC       lib519-first.o
+  CCLD     lib519
+  CC       lib520-lib520.o
+  CC       lib520-first.o
+  CCLD     lib520
+  CC       lib521-lib521.o
+  CC       lib521-first.o
+  CCLD     lib521
+  CC       lib523-lib523.o
+  CC       lib523-first.o
+  CCLD     lib523
+  CC       lib524-lib524.o
+  CC       lib524-first.o
+  CCLD     lib524
+  CC       lib525-lib525.o
+  CC       lib525-first.o
+  CC       lib525-testutil.o
+  CC       ../../lib/lib525-warnless.o
+  CCLD     lib525
+  CC       lib526-lib526.o
+  CC       lib526-first.o
+  CC       lib526-testutil.o
+  CC       ../../lib/lib526-warnless.o
+  CCLD     lib526
+  CC       lib527-lib526.o
+  CC       lib527-first.o
+  CC       lib527-testutil.o
+  CC       ../../lib/lib527-warnless.o
+  CCLD     lib527
+  CC       lib529-lib525.o
+  CC       lib529-first.o
+  CC       lib529-testutil.o
+  CC       ../../lib/lib529-warnless.o
+  CCLD     lib529
+  CC       lib530-lib530.o
+  CC       lib530-first.o
+  CC       lib530-testutil.o
+  CC       ../../lib/lib530-warnless.o
+  CCLD     lib530
+  CC       lib532-lib526.o
+  CC       lib532-first.o
+  CC       lib532-testutil.o
+  CC       ../../lib/lib532-warnless.o
+  CCLD     lib532
+  CC       lib533-lib533.o
+  CC       lib533-first.o
+  CC       lib533-testutil.o
+  CC       ../../lib/lib533-warnless.o
+  CCLD     lib533
+  CC       lib536-lib536.o
+  CC       lib536-first.o
+  CC       lib536-testutil.o
+  CC       ../../lib/lib536-warnless.o
+  CCLD     lib536
+  CC       lib537-lib537.o
+  CC       lib537-first.o
+  CC       ../../lib/lib537-warnless.o
+  CCLD     lib537
+  CC       lib539-lib539.o
+  CC       lib539-first.o
+  CCLD     lib539
+  CC       lib540-lib540.o
+  CC       lib540-first.o
+  CC       lib540-testutil.o
+  CC       ../../lib/lib540-warnless.o
+  CCLD     lib540
+  CC       lib541-lib541.o
+  CC       lib541-first.o
+  CCLD     lib541
+  CC       lib542-lib542.o
+  CC       lib542-first.o
+  CCLD     lib542
+  CC       lib543-lib543.o
+  CC       lib543-first.o
+  CCLD     lib543
+  CC       lib544-lib544.o
+  CC       lib544-first.o
+  CCLD     lib544
+  CC       lib545-lib544.o
+  CC       lib545-first.o
+  CCLD     lib545
+  CC       lib547-lib547.o
+  CC       lib547-first.o
+  CCLD     lib547
+  CC       lib548-lib547.o
+  CC       lib548-first.o
+  CCLD     lib548
+  CC       lib549-lib549.o
+  CC       lib549-first.o
+  CCLD     lib549
+  CC       lib552-lib552.o
+  CC       lib552-first.o
+  CC       ../../lib/lib552-warnless.o
+  CCLD     lib552
+  CC       lib553-lib553.o
+  CC       lib553-first.o
+  CCLD     lib553
+  CC       lib554-lib554.o
+  CC       lib554-first.o
+  CCLD     lib554
+  CC       lib555-lib555.o
+  CC       lib555-first.o
+  CC       lib555-testutil.o
+  CC       ../../lib/lib555-warnless.o
+  CCLD     lib555
+  CC       lib556-lib556.o
+  CC       lib556-first.o
+  CC       ../../lib/lib556-warnless.o
+  CCLD     lib556
+  CC       lib557-lib557.o
+  CC       lib557-first.o
+  CCLD     lib557
+  CC       lib558-lib558.o
+  CC       lib558-first.o
+  CCLD     lib558
+  CC       lib559-lib559.o
+  CC       lib559-first.o
+  CCLD     lib559
+  CC       lib560-lib560.o
+  CC       lib560-first.o
+  CC       lib560-testutil.o
+  CC       ../../lib/lib560-warnless.o
+  CCLD     lib560
+  CC       lib562-lib562.o
+  CC       lib562-first.o
+  CCLD     lib562
+  CC       lib564-lib564.o
+  CC       lib564-first.o
+  CC       lib564-testutil.o
+  CC       ../../lib/lib564-warnless.o
+  CCLD     lib564
+  CC       lib565-lib510.o
+  CC       lib565-first.o
+  CCLD     lib565
+  CC       lib566-lib566.o
+  CC       lib566-first.o
+  CCLD     lib566
+  CC       lib567-lib567.o
+  CC       lib567-first.o
+  CCLD     lib567
+  CC       lib568-lib568.o
+  CC       lib568-first.o
+  CCLD     lib568
+  CC       lib569-lib569.o
+  CC       lib569-first.o
+  CCLD     lib569
+  CC       lib570-lib570.o
+  CC       lib570-first.o
+  CCLD     lib570
+  CC       lib571-lib571.o
+  CC       lib571-first.o
+  CC       ../../lib/lib571-warnless.o
+  CCLD     lib571
+  CC       lib572-lib572.o
+  CC       lib572-first.o
+  CCLD     lib572
+  CC       lib573-lib573.o
+  CC       lib573-first.o
+  CC       lib573-testutil.o
+  CC       ../../lib/lib573-warnless.o
+  CC       lib573-testtrace.o
+  CCLD     lib573
+  CC       lib574-lib574.o
+  CC       lib574-first.o
+  CCLD     lib574
+  CC       lib575-lib575.o
+  CC       lib575-first.o
+  CC       lib575-testutil.o
+  CC       ../../lib/lib575-warnless.o
+  CCLD     lib575
+  CC       lib576-lib576.o
+  CC       lib576-first.o
+  CCLD     lib576
+  CC       lib578-lib578.o
+  CC       lib578-first.o
+  CCLD     lib578
+  CC       lib579-lib579.o
+  CC       lib579-first.o
+  CCLD     lib579
+  CC       lib582-lib582.o
+  CC       lib582-first.o
+  CC       lib582-testutil.o
+  CC       ../../lib/lib582-warnless.o
+  CCLD     lib582
+  CC       lib583-lib583.o
+  CC       lib583-first.o
+  CCLD     lib583
+  CC       lib585-lib500.o
+  CC       lib585-first.o
+  CC       lib585-testutil.o
+  CC       lib585-testtrace.o
+  CCLD     lib585
+  CC       lib586-lib586.o
+  CC       lib586-first.o
+  CCLD     lib586
+  CC       lib587-lib554.o
+  CC       lib587-first.o
+  CCLD     lib587
+  CC       lib589-lib589.o
+  CC       lib589-first.o
+  CCLD     lib589
+  CC       lib590-lib590.o
+  CC       lib590-first.o
+  CCLD     lib590
+  CC       lib591-lib591.o
+  CC       lib591-first.o
+  CC       lib591-testutil.o
+  CC       ../../lib/lib591-warnless.o
+  CCLD     lib591
+  CC       lib597-lib597.o
+  CC       lib597-first.o
+  CC       lib597-testutil.o
+  CC       ../../lib/lib597-warnless.o
+  CCLD     lib597
+  CC       lib598-lib598.o
+  CC       lib598-first.o
+  CCLD     lib598
+  CC       lib599-lib599.o
+  CC       lib599-first.o
+  CCLD     lib599
+  CC       lib643-lib643.o
+  CC       lib643-first.o
+  CCLD     lib643
+  CC       lib644-lib643.o
+  CC       lib644-first.o
+  CCLD     lib644
+  CC       lib645-lib643.o
+  CC       lib645-first.o
+  CCLD     lib645
+  CC       lib650-lib650.o
+  CC       lib650-first.o
+  CCLD     lib650
+  CC       lib651-lib651.o
+  CC       lib651-first.o
+  CCLD     lib651
+  CC       lib652-lib652.o
+  CC       lib652-first.o
+  CCLD     lib652
+  CC       lib653-lib653.o
+  CC       lib653-first.o
+  CCLD     lib653
+  CC       lib654-lib654.o
+  CC       lib654-first.o
+  CCLD     lib654
+  CC       lib655-lib655.o
+  CC       lib655-first.o
+  CCLD     lib655
+  CC       lib658-lib658.o
+  CC       lib658-first.o
+  CC       lib658-testutil.o
+  CC       ../../lib/lib658-warnless.o
+  CCLD     lib658
+  CC       lib1156-lib1156.o
+  CC       lib1156-first.o
+  CC       lib1156-testutil.o
+  CC       ../../lib/lib1156-warnless.o
+  CCLD     lib1156
+  CC       lib1500-lib1500.o
+  CC       lib1500-first.o
+  CC       lib1500-testutil.o
+  CCLD     lib1500
+  CC       lib1501-lib1501.o
+  CC       lib1501-first.o
+  CC       lib1501-testutil.o
+  CC       ../../lib/lib1501-warnless.o
+  CCLD     lib1501
+  CC       lib1502-lib1502.o
+  CC       lib1502-first.o
+  CC       lib1502-testutil.o
+  CC       ../../lib/lib1502-warnless.o
+  CCLD     lib1502
+  CC       lib1503-lib1502.o
+  CC       lib1503-first.o
+  CC       lib1503-testutil.o
+  CC       ../../lib/lib1503-warnless.o
+  CCLD     lib1503
+  CC       lib1504-lib1502.o
+  CC       lib1504-first.o
+  CC       lib1504-testutil.o
+  CC       ../../lib/lib1504-warnless.o
+  CCLD     lib1504
+  CC       lib1505-lib1502.o
+  CC       lib1505-first.o
+  CC       lib1505-testutil.o
+  CC       ../../lib/lib1505-warnless.o
+  CCLD     lib1505
+  CC       lib1506-lib1506.o
+  CC       lib1506-first.o
+  CC       lib1506-testutil.o
+  CC       ../../lib/lib1506-warnless.o
+  CCLD     lib1506
+  CC       lib1507-lib1507.o
+  CC       lib1507-first.o
+  CC       lib1507-testutil.o
+  CC       ../../lib/lib1507-warnless.o
+  CCLD     lib1507
+  CC       lib1508-lib1508.o
+  CC       lib1508-first.o
+  CC       lib1508-testutil.o
+  CC       ../../lib/lib1508-warnless.o
+  CCLD     lib1508
+  CC       lib1509-lib1509.o
+  CC       lib1509-first.o
+  CC       lib1509-testutil.o
+  CC       ../../lib/lib1509-warnless.o
+  CCLD     lib1509
+  CC       lib1510-lib1510.o
+  CC       lib1510-first.o
+  CC       lib1510-testutil.o
+  CC       ../../lib/lib1510-warnless.o
+  CCLD     lib1510
+  CC       lib1511-lib1511.o
+  CC       lib1511-first.o
+  CC       lib1511-testutil.o
+  CC       ../../lib/lib1511-warnless.o
+  CCLD     lib1511
+  CC       lib1512-lib1512.o
+  CC       lib1512-first.o
+  CC       lib1512-testutil.o
+  CC       ../../lib/lib1512-warnless.o
+  CCLD     lib1512
+  CC       lib1513-lib1513.o
+  CC       lib1513-first.o
+  CC       lib1513-testutil.o
+  CC       ../../lib/lib1513-warnless.o
+  CCLD     lib1513
+  CC       lib1514-lib1514.o
+  CC       lib1514-first.o
+  CC       lib1514-testutil.o
+  CC       ../../lib/lib1514-warnless.o
+  CCLD     lib1514
+  CC       lib1515-lib1515.o
+  CC       lib1515-first.o
+  CC       lib1515-testutil.o
+  CC       ../../lib/lib1515-warnless.o
+  CCLD     lib1515
+  CC       lib1517-lib1517.o
+  CC       lib1517-first.o
+  CCLD     lib1517
+  CC       lib1518-lib1518.o
+  CC       lib1518-first.o
+  CCLD     lib1518
+  CC       lib1520-lib1520.o
+  CC       lib1520-first.o
+  CCLD     lib1520
+/usr/bin/perl ../../tests/libtest/mk-lib1521.pl < ../../include/curl/curl.h > lib1521.c
+  CC       lib1521-lib1521.o
+  CC       lib1521-first.o
+  CCLD     lib1521
+  CC       lib1522-lib1522.o
+  CC       lib1522-first.o
+  CCLD     lib1522
+  CC       lib1525-lib1525.o
+  CC       lib1525-first.o
+  CC       lib1525-testutil.o
+  CC       ../../lib/lib1525-warnless.o
+  CCLD     lib1525
+  CC       lib1526-lib1526.o
+  CC       lib1526-first.o
+  CC       lib1526-testutil.o
+  CC       ../../lib/lib1526-warnless.o
+  CCLD     lib1526
+  CC       lib1527-lib1527.o
+  CC       lib1527-first.o
+  CC       lib1527-testutil.o
+  CC       ../../lib/lib1527-warnless.o
+  CCLD     lib1527
+  CC       lib1528-lib1528.o
+  CC       lib1528-first.o
+  CC       lib1528-testutil.o
+  CC       ../../lib/lib1528-warnless.o
+  CCLD     lib1528
+  CC       lib1529-lib1529.o
+  CC       lib1529-first.o
+  CC       lib1529-testutil.o
+  CC       ../../lib/lib1529-warnless.o
+  CCLD     lib1529
+  CC       lib1530-lib1530.o
+  CC       lib1530-first.o
+  CC       lib1530-testutil.o
+  CC       ../../lib/lib1530-warnless.o
+  CCLD     lib1530
+  CC       lib1531-lib1531.o
+  CC       lib1531-first.o
+  CC       lib1531-testutil.o
+  CC       ../../lib/lib1531-warnless.o
+  CCLD     lib1531
+  CC       lib1532-lib1532.o
+  CC       lib1532-first.o
+  CC       lib1532-testutil.o
+  CC       ../../lib/lib1532-warnless.o
+  CCLD     lib1532
+  CC       lib1533-lib1533.o
+  CC       lib1533-first.o
+  CC       lib1533-testutil.o
+  CC       ../../lib/lib1533-warnless.o
+  CCLD     lib1533
+  CC       lib1534-lib1534.o
+  CC       lib1534-first.o
+  CC       lib1534-testutil.o
+  CC       ../../lib/lib1534-warnless.o
+  CCLD     lib1534
+  CC       lib1535-lib1535.o
+  CC       lib1535-first.o
+  CC       lib1535-testutil.o
+  CC       ../../lib/lib1535-warnless.o
+  CCLD     lib1535
+  CC       lib1536-lib1536.o
+  CC       lib1536-first.o
+  CC       lib1536-testutil.o
+  CC       ../../lib/lib1536-warnless.o
+  CCLD     lib1536
+  CC       lib1537-lib1537.o
+  CC       lib1537-first.o
+  CC       lib1537-testutil.o
+  CC       ../../lib/lib1537-warnless.o
+  CCLD     lib1537
+  CC       lib1538-lib1538.o
+  CC       lib1538-first.o
+  CC       lib1538-testutil.o
+  CC       ../../lib/lib1538-warnless.o
+  CCLD     lib1538
+  CC       lib1540-lib1540.o
+  CC       lib1540-first.o
+  CC       lib1540-testutil.o
+  CC       ../../lib/lib1540-warnless.o
+  CCLD     lib1540
+  CC       lib1550-lib1550.o
+  CC       lib1550-first.o
+  CCLD     lib1550
+  CC       lib1551-lib1551.o
+  CC       lib1551-first.o
+  CCLD     lib1551
+  CC       lib1552-lib1552.o
+  CC       lib1552-first.o
+  CC       lib1552-testutil.o
+  CCLD     lib1552
+  CC       lib1553-lib1553.o
+  CC       lib1553-first.o
+  CC       lib1553-testutil.o
+  CCLD     lib1553
+  CC       lib1554-lib1554.o
+  CC       lib1554-first.o
+  CCLD     lib1554
+  CC       lib1555-lib1555.o
+  CC       lib1555-first.o
+  CC       lib1555-testutil.o
+  CC       ../../lib/lib1555-warnless.o
+  CCLD     lib1555
+  CC       lib1556-lib1556.o
+  CC       lib1556-first.o
+  CC       lib1556-testutil.o
+  CC       ../../lib/lib1556-warnless.o
+  CCLD     lib1556
+  CC       lib1557-lib1557.o
+  CC       lib1557-first.o
+  CC       lib1557-testutil.o
+  CC       ../../lib/lib1557-warnless.o
+  CCLD     lib1557
+  CC       lib1560.o
+  CC       first.o
+  CC       testutil.o
+  CC       ../../lib/warnless.o
+  CCLD     lib1560
+  CC       lib1900-lib1900.o
+  CC       lib1900-first.o
+  CC       lib1900-testutil.o
+  CC       ../../lib/lib1900-warnless.o
+  CCLD     lib1900
+  CC       lib2033-libntlmconnect.o
+  CC       lib2033-first.o
+  CC       lib2033-testutil.o
+  CC       ../../lib/lib2033-warnless.o
+  CCLD     lib2033
+  CC       libhostname_la-sethostname.lo
+  CCLD     libhostname.la
+make[2]: Leaving directory '/usr/ports/core/curl/work/src/curl-7.63.0/tests/libtest'
+make[2]: Entering directory '/usr/ports/core/curl/work/src/curl-7.63.0/tests'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/usr/ports/core/curl/work/src/curl-7.63.0/tests'
+srcdir=. /usr/bin/perl -I. ./runtests.pl -a -s 
+********* System characteristics ******** 
+* curl 7.63.0 (powerpc-unknown-linux-gnu) 
+* libcurl/7.63.0 OpenSSL/1.0.2q zlib/1.2.11
+* Features: AsynchDNS IPv6 Largefile NTLM NTLM_WB SSL libz TLS-SRP UnixSockets HTTPS-proxy 
+* Host: host
+* System: Linux host 4.15.1 #1 Sat Dec 22 05:53:45 UTC 2018 ppc 7455, altivec supported PowerMac3,6 GNU/Linux
+* Servers: HTTP-IPv6 HTTP-unix FTP-IPv6 
+* Env: 
+***************************************** 
+test 0001...OK (1   out of 1208, remaining: 43:35)
+test 0002...OK (2   out of 1208, remaining: 23:19)
+test 0003...OK (3   out of 1208, remaining: 16:10)
+test 0004...OK (4   out of 1208, remaining: 13:07)
+test 0005...OK (5   out of 1208, remaining: 11:01)
+test 0006...OK (6   out of 1208, remaining: 09:38)
+test 0007...OK (7   out of 1208, remaining: 08:39)
+test 0008...OK (8   out of 1208, remaining: 07:57)
+test 0009...OK (9   out of 1208, remaining: 07:23)
+test 0010...OK (10  out of 1208, remaining: 08:55)
+test 0011...OK (11  out of 1208, remaining: 08:28)
+test 0012...OK (12  out of 1208, remaining: 07:54)
+test 0013...OK (13  out of 1208, remaining: 07:26)
+test 0014...OK (14  out of 1208, remaining: 07:02)
+test 0015...OK (15  out of 1208, remaining: 06:41)
+test 0016...OK (16  out of 1208, remaining: 06:23)
+test 0017...OK (17  out of 1208, remaining: 06:06)
+test 0018...OK (18  out of 1208, remaining: 05:53)
+test 0019...OK (19  out of 1208, remaining: 05:39)
+test 0020...OK (20  out of 1208, remaining: 05:39)
+test 0021...OK (21  out of 1208, remaining: 05:27)
+test 0022...OK (22  out of 1208, remaining: 05:18)
+test 0023...OK (23  out of 1208, remaining: 05:08)
+test 0024...OK (24  out of 1208, remaining: 05:00)
+test 0025...OK (25  out of 1208, remaining: 04:53)
+test 0026...OK (26  out of 1208, remaining: 04:48)
+test 0027...OK (27  out of 1208, remaining: 04:48)
+test 0028...OK (28  out of 1208, remaining: 04:45)
+test 0029...OK (29  out of 1208, remaining: 11:30)
+test 0030...OK (30  out of 1208, remaining: 11:12)
+test 0031...OK (31  out of 1208, remaining: 10:56)
+test 0032...OK (32  out of 1208, remaining: 10:38)
+test 0033...OK (33  out of 1208, remaining: 10:59)
+test 0034...OK (34  out of 1208, remaining: 10:43)
+test 0035...OK (35  out of 1208, remaining: 10:28)
+test 0036...OK (36  out of 1208, remaining: 10:14)
+test 0037...OK (37  out of 1208, remaining: 10:01)
+test 0038...OK (38  out of 1208, remaining: 09:47)
+test 0039...OK (39  out of 1208, remaining: 10:05)
+test 0040...OK (40  out of 1208, remaining: 10:03)
+test 0041...OK (41  out of 1208, remaining: 10:19)
+test 0042...OK (42  out of 1208, remaining: 10:09)
+test 0043...OK (43  out of 1208, remaining: 09:58)
+test 0044...OK (44  out of 1208, remaining: 09:48)
+test 0045...OK (45  out of 1208, remaining: 09:40)
+test 0046...OK (46  out of 1208, remaining: 09:29)
+test 0047...OK (47  out of 1208, remaining: 09:20)
+test 0048...OK (48  out of 1208, remaining: 09:10)
+test 0049...OK (49  out of 1208, remaining: 09:03)
+test 0050...OK (50  out of 1208, remaining: 08:56)
+test 0051...OK (51  out of 1208, remaining: 08:49)
+test 0052...OK (52  out of 1208, remaining: 08:43)
+test 0053...OK (53  out of 1208, remaining: 08:35)
+test 0054...OK (54  out of 1208, remaining: 08:28)
+test 0055...OK (55  out of 1208, remaining: 08:22)
+test 0056...OK (56  out of 1208, remaining: 08:17)
+test 0057...OK (57  out of 1208, remaining: 08:11)
+test 0058...OK (58  out of 1208, remaining: 08:25)
+test 0059...OK (59  out of 1208, remaining: 08:18)
+test 0060...OK (60  out of 1208, remaining: 08:32)
+test 0061...OK (61  out of 1208, remaining: 08:25)
+test 0062...OK (62  out of 1208, remaining: 08:19)
+test 0063...OK (63  out of 1208, remaining: 08:13)
+test 0064...OK (64  out of 1208, remaining: 08:08)
+test 0065...OK (65  out of 1208, remaining: 08:02)
+test 0066...OK (66  out of 1208, remaining: 07:57)
+test 0070...OK (70  out of 1208, remaining: 07:30)
+test 0071...OK (71  out of 1208, remaining: 07:26)
+test 0072...OK (72  out of 1208, remaining: 07:21)
+test 0073...OK (73  out of 1208, remaining: 07:16)
+test 0074...OK (74  out of 1208, remaining: 07:12)
+test 0075...OK (75  out of 1208, remaining: 07:08)
+test 0076...OK (76  out of 1208, remaining: 07:03)
+test 0077...OK (77  out of 1208, remaining: 06:59)
+test 0078...OK (78  out of 1208, remaining: 06:54)
+test 0079...OK (79  out of 1208, remaining: 06:51)
+test 0080...OK (80  out of 1208, remaining: 07:24)
+test 0082...OK (82  out of 1208, remaining: 07:13)
+test 0083...OK (83  out of 1208, remaining: 07:20)
+test 0084...OK (84  out of 1208, remaining: 07:16)
+test 0085...OK (85  out of 1208, remaining: 07:13)
+test 0086...OK (86  out of 1208, remaining: 07:10)
+test 0087...OK (87  out of 1208, remaining: 07:06)
+test 0088...OK (88  out of 1208, remaining: 07:16)
+test 0092...OK (92  out of 1208, remaining: 06:57)
+test 0093...OK (93  out of 1208, remaining: 06:54)
+test 0094...OK (94  out of 1208, remaining: 06:50)
+test 0095...OK (95  out of 1208, remaining: 06:53)
+test 0097...OK (97  out of 1208, remaining: 06:45)
+test 0098...OK (98  out of 1208, remaining: 06:53)
+test 0099...OK (99  out of 1208, remaining: 06:49)
+test 0100...OK (100 out of 1208, remaining: 07:11)
+test 0101...OK (101 out of 1208, remaining: 07:09)
+test 0102...OK (102 out of 1208, remaining: 07:06)
+test 0103...OK (103 out of 1208, remaining: 07:04)
+test 0104...OK (104 out of 1208, remaining: 07:01)
+test 0105...OK (105 out of 1208, remaining: 06:59)
+test 0106...OK (106 out of 1208, remaining: 06:57)
+test 0107...OK (107 out of 1208, remaining: 06:55)
+test 0108...OK (108 out of 1208, remaining: 06:53)
+test 0109...OK (109 out of 1208, remaining: 06:50)
+test 0110...OK (110 out of 1208, remaining: 06:48)
+test 0111...OK (111 out of 1208, remaining: 06:46)
+test 0112...OK (112 out of 1208, remaining: 06:44)
+test 0113...OK (113 out of 1208, remaining: 06:41)
+test 0114...OK (114 out of 1208, remaining: 06:38)
+test 0115...OK (115 out of 1208, remaining: 06:35)
+test 0116...OK (116 out of 1208, remaining: 06:32)
+test 0117...OK (117 out of 1208, remaining: 06:30)
+test 0118...OK (118 out of 1208, remaining: 06:28)
+test 0119...OK (119 out of 1208, remaining: 06:26)
+test 0120...OK (120 out of 1208, remaining: 06:24)
+test 0121...OK (121 out of 1208, remaining: 06:22)
+test 0122...OK (122 out of 1208, remaining: 06:20)
+test 0123...OK (123 out of 1208, remaining: 06:18)
+test 0124...OK (124 out of 1208, remaining: 06:17)
+test 0125...OK (125 out of 1208, remaining: 06:14)
+test 0126...OK (126 out of 1208, remaining: 06:13)
+test 0127...OK (127 out of 1208, remaining: 06:11)
+test 0128...OK (128 out of 1208, remaining: 06:10)
+test 0129...OK (129 out of 1208, remaining: 06:08)
+test 0130...OK (130 out of 1208, remaining: 06:07)
+test 0131...OK (131 out of 1208, remaining: 06:05)
+test 0132...OK (132 out of 1208, remaining: 06:04)
+test 0133...OK (133 out of 1208, remaining: 06:02)
+test 0134...OK (134 out of 1208, remaining: 06:01)
+test 0135...OK (135 out of 1208, remaining: 05:59)
+test 0136...OK (136 out of 1208, remaining: 05:58)
+test 0137...OK (137 out of 1208, remaining: 05:57)
+test 0138...OK (138 out of 1208, remaining: 05:56)
+test 0139...OK (139 out of 1208, remaining: 05:54)
+test 0140...OK (140 out of 1208, remaining: 05:52)
+test 0141...OK (141 out of 1208, remaining: 05:51)
+test 0142...OK (142 out of 1208, remaining: 05:51)
+test 0143...OK (143 out of 1208, remaining: 05:49)
+test 0144...OK (144 out of 1208, remaining: 05:48)
+test 0145...OK (145 out of 1208, remaining: 05:46)
+test 0146...OK (146 out of 1208, remaining: 05:46)
+test 0147...OK (147 out of 1208, remaining: 05:45)
+test 0148...OK (148 out of 1208, remaining: 05:43)
+test 0149...OK (149 out of 1208, remaining: 05:42)
+test 0151...OK (151 out of 1208, remaining: 05:38)
+test 0152...OK (152 out of 1208, remaining: 05:36)
+test 0153...OK (153 out of 1208, remaining: 05:35)
+test 0154...OK (154 out of 1208, remaining: 05:40)
+test 0156...OK (156 out of 1208, remaining: 05:43)
+test 0157...OK (157 out of 1208, remaining: 05:42)
+test 0158...OK (158 out of 1208, remaining: 05:40)
+test 0160...OK (160 out of 1208, remaining: 05:50)
+test 0161...OK (161 out of 1208, remaining: 05:48)
+test 0162...OK (162 out of 1208, remaining: 05:47)
+test 0163...OK (163 out of 1208, remaining: 05:45)
+test 0164...OK (164 out of 1208, remaining: 05:44)
+test 0166...OK (166 out of 1208, remaining: 05:40)
+test 0167...OK (167 out of 1208, remaining: 05:39)
+test 0168...OK (168 out of 1208, remaining: 05:38)
+test 0170...OK (170 out of 1208, remaining: 05:34)
+test 0171...OK (171 out of 1208, remaining: 05:33)
+test 0172...OK (172 out of 1208, remaining: 05:31)
+test 0173...OK (173 out of 1208, remaining: 05:30)
+test 0174...OK (174 out of 1208, remaining: 05:28)
+test 0175...OK (175 out of 1208, remaining: 05:27)
+test 0176...OK (176 out of 1208, remaining: 05:26)
+test 0177...OK (177 out of 1208, remaining: 05:25)
+test 0178...OK (178 out of 1208, remaining: 05:24)
+test 0179...OK (179 out of 1208, remaining: 05:22)
+test 0180...OK (180 out of 1208, remaining: 05:21)
+test 0181...OK (181 out of 1208, remaining: 05:19)
+test 0182...OK (182 out of 1208, remaining: 05:19)
+test 0183...OK (183 out of 1208, remaining: 05:17)
+test 0184...OK (184 out of 1208, remaining: 05:16)
+test 0185...OK (185 out of 1208, remaining: 05:14)
+test 0186...OK (186 out of 1208, remaining: 05:13)
+test 0187...OK (187 out of 1208, remaining: 05:12)
+test 0188...OK (188 out of 1208, remaining: 05:10)
+test 0189...OK (189 out of 1208, remaining: 05:09)
+test 0190...OK (190 out of 1208, remaining: 05:50)
+test 0191...OK (191 out of 1208, remaining: 06:01)
+test 0192...OK (192 out of 1208, remaining: 05:59)
+test 0193...OK (193 out of 1208, remaining: 05:58)
+test 0194...OK (194 out of 1208, remaining: 05:56)
+test 0195...OK (195 out of 1208, remaining: 05:54)
+test 0196...OK (196 out of 1208, remaining: 05:58)
+test 0197...OK (197 out of 1208, remaining: 06:01)
+test 0198...OK (198 out of 1208, remaining: 06:05)
+test 0199...OK (199 out of 1208, remaining: 06:03)
+test 0200...OK (200 out of 1208, remaining: 06:01)
+test 0201...OK (201 out of 1208, remaining: 06:00)
+test 0202...OK (202 out of 1208, remaining: 05:58)
+test 0203...OK (203 out of 1208, remaining: 05:56)
+test 0204...OK (204 out of 1208, remaining: 05:55)
+test 0205...OK (205 out of 1208, remaining: 05:53)
+test 0206...OK (206 out of 1208, remaining: 05:51)
+test 0207...OK (207 out of 1208, remaining: 05:50)
+test 0208...OK (208 out of 1208, remaining: 05:54)
+test 0210...OK (210 out of 1208, remaining: 05:51)
+test 0211...OK (211 out of 1208, remaining: 05:50)
+test 0212...OK (212 out of 1208, remaining: 05:49)
+test 0214...OK (214 out of 1208, remaining: 05:46)
+test 0215...OK (215 out of 1208, remaining: 05:45)
+test 0216...OK (216 out of 1208, remaining: 05:45)
+test 0217...OK (217 out of 1208, remaining: 05:43)
+test 0218...OK (218 out of 1208, remaining: 05:46)
+test 0219...OK (219 out of 1208, remaining: 05:45)
+test 0220...OK (220 out of 1208, remaining: 05:43)
+test 0221...OK (221 out of 1208, remaining: 05:42)
+test 0222...OK (222 out of 1208, remaining: 05:40)
+test 0223...OK (223 out of 1208, remaining: 05:39)
+test 0224...OK (224 out of 1208, remaining: 05:38)
+test 0225...OK (225 out of 1208, remaining: 05:36)
+test 0226...OK (226 out of 1208, remaining: 05:35)
+test 0227...OK (227 out of 1208, remaining: 05:34)
+test 0228...OK (228 out of 1208, remaining: 05:33)
+test 0229...OK (229 out of 1208, remaining: 05:32)
+test 0230...OK (230 out of 1208, remaining: 05:30)
+test 0231...OK (231 out of 1208, remaining: 05:29)
+test 0232...OK (232 out of 1208, remaining: 05:28)
+test 0233...OK (233 out of 1208, remaining: 05:27)
+test 0234...OK (234 out of 1208, remaining: 05:26)
+test 0235...OK (235 out of 1208, remaining: 05:25)
+test 0236...OK (236 out of 1208, remaining: 05:24)
+test 0237...OK (237 out of 1208, remaining: 05:23)
+test 0238...OK (238 out of 1208, remaining: 05:21)
+test 0240...OK (240 out of 1208, remaining: 05:27)
+test 0242...OK (242 out of 1208, remaining: 05:24)
+test 0244...OK (244 out of 1208, remaining: 05:22)
+test 0245...OK (245 out of 1208, remaining: 05:20)
+test 0246...OK (246 out of 1208, remaining: 05:19)
+test 0247...OK (247 out of 1208, remaining: 05:18)
+test 0248...OK (248 out of 1208, remaining: 05:17)
+test 0249...OK (249 out of 1208, remaining: 05:16)
+test 0250...OK (250 out of 1208, remaining: 05:55)
+test 0251...OK (251 out of 1208, remaining: 06:33)
+test 0252...OK (252 out of 1208, remaining: 06:40)
+test 0253...OK (253 out of 1208, remaining: 06:39)
+test 0254...OK (254 out of 1208, remaining: 06:38)
+test 0255...OK (255 out of 1208, remaining: 06:37)
+test 0256...OK (256 out of 1208, remaining: 06:35)
+test 0257...OK (257 out of 1208, remaining: 06:34)
+test 0258...OK (258 out of 1208, remaining: 06:33)
+test 0259...OK (259 out of 1208, remaining: 06:39)
+test 0260...OK (260 out of 1208, remaining: 06:37)
+test 0261...OK (261 out of 1208, remaining: 06:36)
+test 0262...OK (262 out of 1208, remaining: 06:34)
+test 0263...OK (263 out of 1208, remaining: 06:33)
+test 0264...OK (264 out of 1208, remaining: 06:31)
+test 0266...OK (266 out of 1208, remaining: 06:28)
+test 0268...OK (268 out of 1208, remaining: 06:24)
+test 0269...OK (269 out of 1208, remaining: 06:23)
+test 0270...OK (270 out of 1208, remaining: 06:22)
+test 0271...OK (271 out of 1208, remaining: 06:28)
+test 0272...OK (272 out of 1208, remaining: 06:26)
+test 0273...OK (273 out of 1208, remaining: 06:25)
+test 0274...OK (274 out of 1208, remaining: 06:24)
+test 0275...OK (275 out of 1208, remaining: 06:24)
+test 0276...OK (276 out of 1208, remaining: 06:23)
+test 0277...OK (277 out of 1208, remaining: 06:21)
+test 0278...OK (278 out of 1208, remaining: 06:20)
+test 0279...OK (279 out of 1208, remaining: 06:19)
+test 0280...OK (280 out of 1208, remaining: 06:18)
+test 0281...OK (281 out of 1208, remaining: 06:20)
+test 0282...OK (282 out of 1208, remaining: 06:19)
+test 0283...OK (283 out of 1208, remaining: 06:17)
+test 0284...OK (284 out of 1208, remaining: 06:16)
+test 0285...OK (285 out of 1208, remaining: 06:30)
+test 0286...OK (286 out of 1208, remaining: 06:45)
+test 0287...OK (287 out of 1208, remaining: 06:44)
+test 0288...OK (288 out of 1208, remaining: 06:42)
+test 0289...OK (289 out of 1208, remaining: 06:41)
+test 0290...OK (290 out of 1208, remaining: 06:39)
+test 0291...OK (291 out of 1208, remaining: 06:38)
+test 0292...OK (292 out of 1208, remaining: 06:37)
+test 0293...OK (293 out of 1208, remaining: 06:35)
+test 0294...OK (294 out of 1208, remaining: 06:34)
+test 0295...OK (295 out of 1208, remaining: 06:33)
+test 0296...OK (296 out of 1208, remaining: 06:31)
+test 0297...OK (297 out of 1208, remaining: 06:30)
+test 0298...OK (298 out of 1208, remaining: 06:29)
+test 0299...OK (299 out of 1208, remaining: 06:28)
+test 0317...OK (317 out of 1208, remaining: 05:59)
+test 0318...OK (318 out of 1208, remaining: 05:58)
+test 0319...OK (319 out of 1208, remaining: 05:57)
+test 0326...OK (326 out of 1208, remaining: 05:47)
+test 0327...OK (327 out of 1208, remaining: 05:46)
+test 0328...OK (328 out of 1208, remaining: 05:45)
+test 0329...OK (329 out of 1208, remaining: 05:44)
+test 0340...OK (330 out of 1208, remaining: 05:43)
+test 0350...OK (331 out of 1208, remaining: 05:42)
+test 0351...OK (332 out of 1208, remaining: 05:41)
+test 0352...OK (333 out of 1208, remaining: 05:40)
+test 0353...OK (334 out of 1208, remaining: 05:39)
+test 0354...OK (335 out of 1208, remaining: 05:38)
+test 0393...OK (336 out of 1208, remaining: 05:37)
+test 0394...OK (337 out of 1208, remaining: 05:36)
+test 0395...OK (338 out of 1208, remaining: 05:35)
+test 0402...OK (341 out of 1208, remaining: 05:31)
+test 0405...OK (344 out of 1208, remaining: 05:28)
+test 0500...OK (349 out of 1208, remaining: 05:22)
+test 0501...OK (350 out of 1208, remaining: 05:21)
+test 0502...OK (351 out of 1208, remaining: 05:21)
+test 0503...OK (352 out of 1208, remaining: 05:21)
+test 0504...OK (353 out of 1208, remaining: 05:21)
+test 0505...OK (354 out of 1208, remaining: 05:20)
+test 0507...OK (356 out of 1208, remaining: 05:21)
+test 0508...OK (357 out of 1208, remaining: 05:20)
+test 0509...OK (358 out of 1208, remaining: 05:20)
+test 0510...OK (359 out of 1208, remaining: 05:21)
+test 0511...OK (360 out of 1208, remaining: 05:21)
+test 0512...OK (361 out of 1208, remaining: 05:20)
+test 0513...OK (362 out of 1208, remaining: 05:22)
+test 0514...OK (363 out of 1208, remaining: 05:24)
+test 0515...OK (364 out of 1208, remaining: 05:23)
+test 0516...OK (365 out of 1208, remaining: 05:23)
+test 0517...OK (366 out of 1208, remaining: 05:22)
+test 0518...OK (367 out of 1208, remaining: 05:21)
+test 0519...OK (368 out of 1208, remaining: 05:21)
+test 0520...OK (369 out of 1208, remaining: 05:20)
+test 0521...OK (370 out of 1208, remaining: 05:20)
+test 0522...OK (371 out of 1208, remaining: 05:19)
+test 0523...OK (372 out of 1208, remaining: 05:18)
+test 0524...OK (373 out of 1208, remaining: 05:18)
+test 0525...OK (374 out of 1208, remaining: 05:17)
+test 0526...OK (375 out of 1208, remaining: 05:24)
+test 0527...OK (376 out of 1208, remaining: 05:31)
+test 0528...OK (377 out of 1208, remaining: 05:36)
+test 0529...OK (378 out of 1208, remaining: 05:36)
+test 0531...OK (379 out of 1208, remaining: 05:35)
+test 0532...OK (380 out of 1208, remaining: 05:41)
+test 0533...OK (381 out of 1208, remaining: 05:43)
+test 0534...OK (382 out of 1208, remaining: 05:46)
+test 0535...OK (383 out of 1208, remaining: 05:48)
+test 0537...OK (384 out of 1208, remaining: 05:47)
+test 0538...OK (385 out of 1208, remaining: 05:46)
+test 0539...OK (386 out of 1208, remaining: 05:45)
+test 0540...OK (387 out of 1208, remaining: 05:45)
+test 0541...OK (388 out of 1208, remaining: 05:44)
+test 0542...OK (389 out of 1208, remaining: 05:44)
+test 0543...OK (390 out of 1208, remaining: 05:43)
+test 0544...OK (391 out of 1208, remaining: 05:42)
+test 0545...OK (392 out of 1208, remaining: 05:42)
+test 0546...OK (393 out of 1208, remaining: 05:43)
+test 0549...OK (396 out of 1208, remaining: 05:40)
+test 0550...OK (397 out of 1208, remaining: 05:39)
+test 0551...OK (398 out of 1208, remaining: 05:38)
+test 0552...OK (399 out of 1208, remaining: 05:44)
+test 0553...OK (400 out of 1208, remaining: 05:43)
+test 0554...OK (401 out of 1208, remaining: 05:43)
+test 0556...OK (403 out of 1208, remaining: 05:41)
+test 0557...OK (404 out of 1208, remaining: 05:40)
+test 0559...OK (406 out of 1208, remaining: 05:38)
+test 0561...OK (408 out of 1208, remaining: 05:36)
+test 0562...OK (409 out of 1208, remaining: 05:35)
+test 0563...OK (410 out of 1208, remaining: 05:34)
+Will not run ssh server as root to mitigate security risks
+RUN: failed to start the SSH server
+test 0565...OK (412 out of 1208, remaining: 06:05)
+test 0566...OK (413 out of 1208, remaining: 06:04)
+test 0567...OK (414 out of 1208, remaining: 06:07)
+test 0568...OK (415 out of 1208, remaining: 06:07)
+test 0569...OK (416 out of 1208, remaining: 06:06)
+test 0570...OK (417 out of 1208, remaining: 06:05)
+test 0571...OK (418 out of 1208, remaining: 06:04)
+test 0572...OK (419 out of 1208, remaining: 06:03)
+test 0573...OK (420 out of 1208, remaining: 06:03)
+test 0574...OK (421 out of 1208, remaining: 06:03)
+test 0575...OK (422 out of 1208, remaining: 06:05)
+test 0576...OK (423 out of 1208, remaining: 06:05)
+test 0577...OK (424 out of 1208, remaining: 06:04)
+test 0578...OK (425 out of 1208, remaining: 06:03)
+test 0579...OK (426 out of 1208, remaining: 06:04)
+test 0580...OK (427 out of 1208, remaining: 06:03)
+test 0581...OK (428 out of 1208, remaining: 06:02)
+test 0585...OK (431 out of 1208, remaining: 05:58)
+test 0586...OK (432 out of 1208, remaining: 05:57)
+test 0587...OK (433 out of 1208, remaining: 05:57)
+test 0588...OK (434 out of 1208, remaining: 05:56)
+test 0589...OK (435 out of 1208, remaining: 05:55)
+test 0591...OK (437 out of 1208, remaining: 05:53)
+test 0592...OK (438 out of 1208, remaining: 05:52)
+test 0593...OK (439 out of 1208, remaining: 05:55)
+test 0595...OK (440 out of 1208, remaining: 05:54)
+test 0596...OK (441 out of 1208, remaining: 05:53)
+test 0597...OK (442 out of 1208, remaining: 05:52)
+test 0598...OK (443 out of 1208, remaining: 05:51)
+test 0599...OK (444 out of 1208, remaining: 05:51)
+test 0643...OK (488 out of 1208, remaining: 05:01)
+test 0644...OK (489 out of 1208, remaining: 05:01)
+test 0645...OK (490 out of 1208, remaining: 05:03)
+test 0646...OK (491 out of 1208, remaining: 05:05)
+test 0647...OK (492 out of 1208, remaining: 05:08)
+test 0648...OK (493 out of 1208, remaining: 05:07)
+test 0649...OK (494 out of 1208, remaining: 05:06)
+test 0650...OK (495 out of 1208, remaining: 05:07)
+test 0651...OK (496 out of 1208, remaining: 05:08)
+test 0652...OK (497 out of 1208, remaining: 05:07)
+test 0653...OK (498 out of 1208, remaining: 05:07)
+test 0654...OK (499 out of 1208, remaining: 05:08)
+test 0655...OK (500 out of 1208, remaining: 05:07)
+test 0658...OK (502 out of 1208, remaining: 05:06)
+test 0704...OK (507 out of 1208, remaining: 05:01)
+test 0705...OK (508 out of 1208, remaining: 05:00)
+test 0714...OK (517 out of 1208, remaining: 04:53)
+test 0800...OK (519 out of 1208, remaining: 04:51)
+test 0801...OK (520 out of 1208, remaining: 04:51)
+test 0802...OK (521 out of 1208, remaining: 04:50)
+test 0803...OK (522 out of 1208, remaining: 04:49)
+test 0804...OK (523 out of 1208, remaining: 04:49)
+test 0805...OK (524 out of 1208, remaining: 04:48)
+test 0806...OK (525 out of 1208, remaining: 04:47)
+test 0807...OK (526 out of 1208, remaining: 04:46)
+test 0808...OK (527 out of 1208, remaining: 04:46)
+test 0809...OK (528 out of 1208, remaining: 04:45)
+test 0810...OK (529 out of 1208, remaining: 04:44)
+test 0811...OK (530 out of 1208, remaining: 04:44)
+test 0812...OK (531 out of 1208, remaining: 04:43)
+test 0813...OK (532 out of 1208, remaining: 04:42)
+test 0814...OK (533 out of 1208, remaining: 04:41)
+test 0815...OK (534 out of 1208, remaining: 04:41)
+test 0816...OK (535 out of 1208, remaining: 04:40)
+test 0817...OK (536 out of 1208, remaining: 04:39)
+test 0818...OK (537 out of 1208, remaining: 04:39)
+test 0819...OK (538 out of 1208, remaining: 04:38)
+test 0820...OK (539 out of 1208, remaining: 04:37)
+test 0821...OK (540 out of 1208, remaining: 04:37)
+test 0824...OK (543 out of 1208, remaining: 04:35)
+test 0825...OK (544 out of 1208, remaining: 04:34)
+test 0826...OK (545 out of 1208, remaining: 04:34)
+test 0828...OK (547 out of 1208, remaining: 04:32)
+test 0829...OK (548 out of 1208, remaining: 04:31)
+test 0830...OK (549 out of 1208, remaining: 04:31)
+test 0831...OK (550 out of 1208, remaining: 04:30)
+test 0833...OK (552 out of 1208, remaining: 04:28)
+test 0834...OK (553 out of 1208, remaining: 04:28)
+test 0837...OK (555 out of 1208, remaining: 04:27)
+test 0838...OK (556 out of 1208, remaining: 04:26)
+test 0839...OK (557 out of 1208, remaining: 04:26)
+test 0840...OK (558 out of 1208, remaining: 04:25)
+test 0841...OK (559 out of 1208, remaining: 04:24)
+test 0842...OK (560 out of 1208, remaining: 04:24)
+test 0843...OK (561 out of 1208, remaining: 04:23)
+test 0844...OK (562 out of 1208, remaining: 04:23)
+test 0845...OK (563 out of 1208, remaining: 04:22)
+test 0846...OK (564 out of 1208, remaining: 04:22)
+test 0847...OK (565 out of 1208, remaining: 04:21)
+test 0850...OK (566 out of 1208, remaining: 04:23)
+test 0851...OK (567 out of 1208, remaining: 04:22)
+test 0852...OK (568 out of 1208, remaining: 04:21)
+test 0853...OK (569 out of 1208, remaining: 04:24)
+test 0854...OK (570 out of 1208, remaining: 04:23)
+test 0855...OK (571 out of 1208, remaining: 04:23)
+test 0856...OK (572 out of 1208, remaining: 04:22)
+test 0857...OK (573 out of 1208, remaining: 04:21)
+test 0858...OK (574 out of 1208, remaining: 04:20)
+test 0859...OK (575 out of 1208, remaining: 04:20)
+test 0860...OK (576 out of 1208, remaining: 04:19)
+test 0861...OK (577 out of 1208, remaining: 04:18)
+test 0862...OK (578 out of 1208, remaining: 04:18)
+test 0863...OK (579 out of 1208, remaining: 04:17)
+test 0864...OK (580 out of 1208, remaining: 04:16)
+test 0865...OK (581 out of 1208, remaining: 04:16)
+test 0866...OK (582 out of 1208, remaining: 04:15)
+test 0867...OK (583 out of 1208, remaining: 04:14)
+test 0870...OK (586 out of 1208, remaining: 04:12)
+test 0871...OK (587 out of 1208, remaining: 04:12)
+test 0872...OK (588 out of 1208, remaining: 04:11)
+test 0874...OK (590 out of 1208, remaining: 04:10)
+test 0875...OK (591 out of 1208, remaining: 04:09)
+test 0876...OK (592 out of 1208, remaining: 04:08)
+test 0877...OK (593 out of 1208, remaining: 04:07)
+test 0879...OK (595 out of 1208, remaining: 04:06)
+test 0880...OK (596 out of 1208, remaining: 04:06)
+test 0883...OK (598 out of 1208, remaining: 04:04)
+test 0884...OK (599 out of 1208, remaining: 04:04)
+test 0885...OK (600 out of 1208, remaining: 04:03)
+test 0886...OK (601 out of 1208, remaining: 04:02)
+test 0887...OK (602 out of 1208, remaining: 04:02)
+test 0888...OK (603 out of 1208, remaining: 04:01)
+test 0889...OK (604 out of 1208, remaining: 04:01)
+test 0890...OK (605 out of 1208, remaining: 04:00)
+test 0891...OK (606 out of 1208, remaining: 03:59)
+test 0900...OK (607 out of 1208, remaining: 03:59)
+test 0901...OK (608 out of 1208, remaining: 03:58)
+test 0902...OK (609 out of 1208, remaining: 03:57)
+test 0903...OK (610 out of 1208, remaining: 03:57)
+test 0904...OK (611 out of 1208, remaining: 03:56)
+test 0905...OK (612 out of 1208, remaining: 03:56)
+test 0908...OK (615 out of 1208, remaining: 03:53)
+test 0909...OK (616 out of 1208, remaining: 03:53)
+test 0910...OK (617 out of 1208, remaining: 03:52)
+test 0911...OK (618 out of 1208, remaining: 03:51)
+test 0912...OK (619 out of 1208, remaining: 03:51)
+test 0913...OK (620 out of 1208, remaining: 03:50)
+test 0914...OK (621 out of 1208, remaining: 03:50)
+test 0915...OK (622 out of 1208, remaining: 03:49)
+test 0916...OK (623 out of 1208, remaining: 03:48)
+test 0917...OK (624 out of 1208, remaining: 03:48)
+test 0918...OK (625 out of 1208, remaining: 03:47)
+test 0919...OK (626 out of 1208, remaining: 03:46)
+test 0920...OK (627 out of 1208, remaining: 03:46)
+test 0922...OK (629 out of 1208, remaining: 03:44)
+test 0923...OK (630 out of 1208, remaining: 03:44)
+test 0924...OK (631 out of 1208, remaining: 03:43)
+test 0925...OK (632 out of 1208, remaining: 03:43)
+test 0926...OK (633 out of 1208, remaining: 03:42)
+test 0927...OK (634 out of 1208, remaining: 03:41)
+test 0928...OK (635 out of 1208, remaining: 03:41)
+test 0929...OK (636 out of 1208, remaining: 03:40)
+test 0930...OK (637 out of 1208, remaining: 03:39)
+test 0931...OK (638 out of 1208, remaining: 03:39)
+test 0932...OK (639 out of 1208, remaining: 03:38)
+test 0933...OK (640 out of 1208, remaining: 03:38)
+test 0935...OK (642 out of 1208, remaining: 03:36)
+test 0936...OK (643 out of 1208, remaining: 03:36)
+test 0939...OK (645 out of 1208, remaining: 03:34)
+test 0940...OK (646 out of 1208, remaining: 03:34)
+test 0941...OK (647 out of 1208, remaining: 03:33)
+test 0942...OK (648 out of 1208, remaining: 03:33)
+test 0943...OK (649 out of 1208, remaining: 03:32)
+test 0944...OK (650 out of 1208, remaining: 03:32)
+test 0945...OK (651 out of 1208, remaining: 03:31)
+test 0946...OK (652 out of 1208, remaining: 03:30)
+test 0947...OK (653 out of 1208, remaining: 03:30)
+test 0948...OK (654 out of 1208, remaining: 03:29)
+test 0949...OK (655 out of 1208, remaining: 03:29)
+test 0950...OK (656 out of 1208, remaining: 03:28)
+test 0951...OK (657 out of 1208, remaining: 03:28)
+test 0952...OK (658 out of 1208, remaining: 03:27)
+test 1000...OK (659 out of 1208, remaining: 03:26)
+test 1001...OK (660 out of 1208, remaining: 03:27)
+test 1002...OK (661 out of 1208, remaining: 03:28)
+test 1003...OK (662 out of 1208, remaining: 03:27)
+test 1004...OK (663 out of 1208, remaining: 03:27)
+test 1005...OK (664 out of 1208, remaining: 03:26)
+test 1006...OK (665 out of 1208, remaining: 03:26)
+test 1007...OK (666 out of 1208, remaining: 03:25)
+test 1009...OK (668 out of 1208, remaining: 03:24)
+test 1010...OK (669 out of 1208, remaining: 03:23)
+test 1011...OK (670 out of 1208, remaining: 03:23)
+test 1012...OK (671 out of 1208, remaining: 03:22)
+test 1013...OK (672 out of 1208, remaining: 03:22)
+test 1014...OK (673 out of 1208, remaining: 03:21)
+test 1015...OK (674 out of 1208, remaining: 03:20)
+test 1016...OK (675 out of 1208, remaining: 03:20)
+test 1017...OK (676 out of 1208, remaining: 03:19)
+test 1018...OK (677 out of 1208, remaining: 03:19)
+test 1019...OK (678 out of 1208, remaining: 03:18)
+test 1020...OK (679 out of 1208, remaining: 03:17)
+test 1022...OK (681 out of 1208, remaining: 03:16)
+test 1023...OK (682 out of 1208, remaining: 03:16)
+test 1024...OK (683 out of 1208, remaining: 03:15)
+test 1025...OK (684 out of 1208, remaining: 03:14)
+test 1026...OK (685 out of 1208, remaining: 03:14)
+test 1027...OK (686 out of 1208, remaining: 03:13)
+test 1028...OK (687 out of 1208, remaining: 03:13)
+test 1029...OK (688 out of 1208, remaining: 03:12)
+test 1030...OK (689 out of 1208, remaining: 03:13)
+test 1031...OK (690 out of 1208, remaining: 03:13)
+test 1032...OK (691 out of 1208, remaining: 03:12)
+test 1033...OK (692 out of 1208, remaining: 03:12)
+test 1036...OK (695 out of 1208, remaining: 03:10)
+test 1037...OK (696 out of 1208, remaining: 03:09)
+test 1038...OK (697 out of 1208, remaining: 03:09)
+test 1039...OK (698 out of 1208, remaining: 03:08)
+test 1040...OK (699 out of 1208, remaining: 03:08)
+test 1041...OK (700 out of 1208, remaining: 03:08)
+test 1042...OK (701 out of 1208, remaining: 03:07)
+test 1043...OK (702 out of 1208, remaining: 03:07)
+test 1044...OK (703 out of 1208, remaining: 03:06)
+test 1045...OK (704 out of 1208, remaining: 03:06)
+test 1046...OK (705 out of 1208, remaining: 03:05)
+test 1047...OK (706 out of 1208, remaining: 03:05)
+test 1048...OK (707 out of 1208, remaining: 03:04)
+test 1049...OK (708 out of 1208, remaining: 03:04)
+test 1050...OK (709 out of 1208, remaining: 03:03)
+test 1051...OK (710 out of 1208, remaining: 03:04)
+test 1052...OK (711 out of 1208, remaining: 03:04)
+test 1053...OK (712 out of 1208, remaining: 03:03)
+test 1054...OK (713 out of 1208, remaining: 03:03)
+test 1055...OK (714 out of 1208, remaining: 03:03)
+test 1056...OK (715 out of 1208, remaining: 03:02)
+test 1057...OK (716 out of 1208, remaining: 03:02)
+test 1058...OK (717 out of 1208, remaining: 03:01)
+test 1059...OK (718 out of 1208, remaining: 03:01)
+test 1060...OK (719 out of 1208, remaining: 03:00)
+test 1061...OK (720 out of 1208, remaining: 03:00)
+test 1062...OK (721 out of 1208, remaining: 03:00)
+test 1063...OK (722 out of 1208, remaining: 02:59)
+test 1064...OK (723 out of 1208, remaining: 02:58)
+test 1065...OK (724 out of 1208, remaining: 02:58)
+test 1066...OK (725 out of 1208, remaining: 02:57)
+test 1067...OK (726 out of 1208, remaining: 02:57)
+test 1068...OK (727 out of 1208, remaining: 02:57)
+test 1069...OK (728 out of 1208, remaining: 02:56)
+test 1070...OK (729 out of 1208, remaining: 02:57)
+test 1071...OK (730 out of 1208, remaining: 02:57)
+test 1072...OK (731 out of 1208, remaining: 02:57)
+test 1073...OK (732 out of 1208, remaining: 02:57)
+test 1074...OK (733 out of 1208, remaining: 02:58)
+test 1075...OK (734 out of 1208, remaining: 02:59)
+test 1076...OK (735 out of 1208, remaining: 02:58)
+test 1077...OK (736 out of 1208, remaining: 02:58)
+test 1078...OK (737 out of 1208, remaining: 02:57)
+test 1079...OK (738 out of 1208, remaining: 02:57)
+test 1080...OK (739 out of 1208, remaining: 02:56)
+test 1081...OK (740 out of 1208, remaining: 02:56)
+test 1082...OK (741 out of 1208, remaining: 02:55)
+test 1084...OK (743 out of 1208, remaining: 02:54)
+test 1085...OK (744 out of 1208, remaining: 02:54)
+test 1086...OK (745 out of 1208, remaining: 03:01)
+test 1087...OK (746 out of 1208, remaining: 03:01)
+test 1088...OK (747 out of 1208, remaining: 03:00)
+test 1089...OK (748 out of 1208, remaining: 03:00)
+test 1090...OK (749 out of 1208, remaining: 02:59)
+test 1091...OK (750 out of 1208, remaining: 03:00)
+test 1092...OK (751 out of 1208, remaining: 02:59)
+test 1093...OK (752 out of 1208, remaining: 02:59)
+test 1094...OK (753 out of 1208, remaining: 02:58)
+test 1095...OK (754 out of 1208, remaining: 02:58)
+test 1096...OK (755 out of 1208, remaining: 02:57)
+test 1098...OK (757 out of 1208, remaining: 02:56)
+test 1099...OK (758 out of 1208, remaining: 02:55)
+test 1101...OK (760 out of 1208, remaining: 02:54)
+test 1102...OK (761 out of 1208, remaining: 02:54)
+test 1103...OK (762 out of 1208, remaining: 02:53)
+test 1104...OK (763 out of 1208, remaining: 02:53)
+test 1105...OK (764 out of 1208, remaining: 02:52)
+test 1106...OK (765 out of 1208, remaining: 02:52)
+test 1107...OK (766 out of 1208, remaining: 02:51)
+test 1108...OK (767 out of 1208, remaining: 02:51)
+test 1109...OK (768 out of 1208, remaining: 02:50)
+test 1110...OK (769 out of 1208, remaining: 02:50)
+test 1111...OK (770 out of 1208, remaining: 02:49)
+test 1113...OK (772 out of 1208, remaining: 02:48)
+test 1114...OK (773 out of 1208, remaining: 02:48)
+test 1115...OK (774 out of 1208, remaining: 02:47)
+test 1116...OK (775 out of 1208, remaining: 02:47)
+test 1117...OK (776 out of 1208, remaining: 02:59)
+test 1118...OK (777 out of 1208, remaining: 02:59)
+test 1119...OK (778 out of 1208, remaining: 02:58)
+test 1120...OK (779 out of 1208, remaining: 02:57)
+test 1121...OK (780 out of 1208, remaining: 02:57)
+test 1122...OK (781 out of 1208, remaining: 02:56)
+test 1123...OK (782 out of 1208, remaining: 02:56)
+test 1124...OK (783 out of 1208, remaining: 02:55)
+test 1125...OK (784 out of 1208, remaining: 02:55)
+test 1126...OK (785 out of 1208, remaining: 02:54)
+test 1127...OK (786 out of 1208, remaining: 02:53)
+test 1128...OK (787 out of 1208, remaining: 02:53)
+test 1129...OK (788 out of 1208, remaining: 02:52)
+test 1130...OK (789 out of 1208, remaining: 02:52)
+test 1131...OK (790 out of 1208, remaining: 02:51)
+test 1132...OK (791 out of 1208, remaining: 02:51)
+test 1133...OK (792 out of 1208, remaining: 02:51)
+test 1134...OK (793 out of 1208, remaining: 02:50)
+test 1135...OK (794 out of 1208, remaining: 02:50)
+test 1137...OK (796 out of 1208, remaining: 02:48)
+test 1138...OK (797 out of 1208, remaining: 02:48)
+test 1139...OK (798 out of 1208, remaining: 02:48)
+test 1140...OK (799 out of 1208, remaining: 02:48)
+test 1141...OK (800 out of 1208, remaining: 02:47)
+test 1142...OK (801 out of 1208, remaining: 02:46)
+test 1143...OK (802 out of 1208, remaining: 02:46)
+test 1144...OK (803 out of 1208, remaining: 02:45)
+test 1145...OK (804 out of 1208, remaining: 02:45)
+test 1146...OK (805 out of 1208, remaining: 02:44)
+test 1147...OK (806 out of 1208, remaining: 02:44)
+test 1148...OK (807 out of 1208, remaining: 02:43)
+test 1149...OK (808 out of 1208, remaining: 02:43)
+test 1150...OK (809 out of 1208, remaining: 02:42)
+test 1151...OK (810 out of 1208, remaining: 02:41)
+test 1152...OK (811 out of 1208, remaining: 02:41)
+test 1153...OK (812 out of 1208, remaining: 02:40)
+test 1154...OK (813 out of 1208, remaining: 02:40)
+test 1155...OK (814 out of 1208, remaining: 02:39)
+test 1156...OK (815 out of 1208, remaining: 02:39)
+test 1157...OK (816 out of 1208, remaining: 02:38)
+test 1158...OK (817 out of 1208, remaining: 02:38)
+test 1159...OK (818 out of 1208, remaining: 02:37)
+test 1160...OK (819 out of 1208, remaining: 02:37)
+test 1161...OK (820 out of 1208, remaining: 02:36)
+test 1162...OK (821 out of 1208, remaining: 02:36)
+test 1163...OK (822 out of 1208, remaining: 02:35)
+test 1164...OK (823 out of 1208, remaining: 02:35)
+test 1170...OK (824 out of 1208, remaining: 02:34)
+test 1171...OK (825 out of 1208, remaining: 02:34)
+test 1200...OK (826 out of 1208, remaining: 02:34)
+test 1201...OK (827 out of 1208, remaining: 02:34)
+test 1202...OK (828 out of 1208, remaining: 02:33)
+test 1203...OK (829 out of 1208, remaining: 02:33)
+test 1204...OK (830 out of 1208, remaining: 02:33)
+test 1205...OK (831 out of 1208, remaining: 02:32)
+test 1206...OK (832 out of 1208, remaining: 02:32)
+test 1207...OK (833 out of 1208, remaining: 02:31)
+test 1208...OK (834 out of 1208, remaining: 02:32)
+test 1212...OK (836 out of 1208, remaining: 02:31)
+test 1213...OK (837 out of 1208, remaining: 02:30)
+test 1214...OK (838 out of 1208, remaining: 02:30)
+test 1216...OK (840 out of 1208, remaining: 02:28)
+test 1217...OK (841 out of 1208, remaining: 02:28)
+test 1218...OK (842 out of 1208, remaining: 02:27)
+test 1219...OK (843 out of 1208, remaining: 02:27)
+test 1220...OK (844 out of 1208, remaining: 02:26)
+test 1221...OK (845 out of 1208, remaining: 02:26)
+test 1222...OK (846 out of 1208, remaining: 02:27)
+test 1223...OK (847 out of 1208, remaining: 02:26)
+test 1224...OK (848 out of 1208, remaining: 02:26)
+test 1225...OK (849 out of 1208, remaining: 02:25)
+test 1226...OK (850 out of 1208, remaining: 02:25)
+test 1227...OK (851 out of 1208, remaining: 02:24)
+test 1228...OK (852 out of 1208, remaining: 02:24)
+test 1229...OK (853 out of 1208, remaining: 02:23)
+test 1230...OK (854 out of 1208, remaining: 02:23)
+test 1231...OK (855 out of 1208, remaining: 02:22)
+test 1232...OK (856 out of 1208, remaining: 02:22)
+test 1233...OK (857 out of 1208, remaining: 02:21)
+test 1234...OK (858 out of 1208, remaining: 02:20)
+test 1235...OK (859 out of 1208, remaining: 02:20)
+test 1236...OK (860 out of 1208, remaining: 02:19)
+test 1237...OK (861 out of 1208, remaining: 02:19)
+test 1238...OK (862 out of 1208, remaining: 02:20)
+test 1239...OK (863 out of 1208, remaining: 02:19)
+test 1240...OK (864 out of 1208, remaining: 02:19)
+test 1241...OK (865 out of 1208, remaining: 02:18)
+test 1242...OK (866 out of 1208, remaining: 02:18)
+test 1243...OK (867 out of 1208, remaining: 02:19)
+test 1245...OK (869 out of 1208, remaining: 02:18)
+test 1246...OK (870 out of 1208, remaining: 02:18)
+test 1247...OK (871 out of 1208, remaining: 02:17)
+test 1248...OK (872 out of 1208, remaining: 02:17)
+test 1249...OK (873 out of 1208, remaining: 02:16)
+test 1250...OK (874 out of 1208, remaining: 02:16)
+test 1251...OK (875 out of 1208, remaining: 02:15)
+test 1252...OK (876 out of 1208, remaining: 02:15)
+test 1253...OK (877 out of 1208, remaining: 02:14)
+test 1254...OK (878 out of 1208, remaining: 02:13)
+test 1255...OK (879 out of 1208, remaining: 02:13)
+test 1256...OK (880 out of 1208, remaining: 02:12)
+test 1257...OK (881 out of 1208, remaining: 02:12)
+test 1258...OK (882 out of 1208, remaining: 02:11)
+test 1259...OK (883 out of 1208, remaining: 02:11)
+test 1260...OK (884 out of 1208, remaining: 02:10)
+test 1261...OK (885 out of 1208, remaining: 02:10)
+test 1262...OK (886 out of 1208, remaining: 02:09)
+test 1263...OK (887 out of 1208, remaining: 02:09)
+test 1264...OK (888 out of 1208, remaining: 02:08)
+test 1265...OK (889 out of 1208, remaining: 02:08)
+test 1266...OK (890 out of 1208, remaining: 02:07)
+test 1267...OK (891 out of 1208, remaining: 02:07)
+test 1268...OK (892 out of 1208, remaining: 02:06)
+test 1280...OK (893 out of 1208, remaining: 02:06)
+test 1281...OK (894 out of 1208, remaining: 02:05)
+test 1283...OK (896 out of 1208, remaining: 02:04)
+test 1284...OK (897 out of 1208, remaining: 02:04)
+test 1285...OK (898 out of 1208, remaining: 02:04)
+test 1286...OK (899 out of 1208, remaining: 02:03)
+test 1287...OK (900 out of 1208, remaining: 02:03)
+test 1288...OK (901 out of 1208, remaining: 02:03)
+test 1289...OK (902 out of 1208, remaining: 02:02)
+test 1290...OK (903 out of 1208, remaining: 02:02)
+test 1291...OK (904 out of 1208, remaining: 02:02)
+test 1292...OK (905 out of 1208, remaining: 02:01)
+test 1298...OK (906 out of 1208, remaining: 02:01)
+test 1299...OK (907 out of 1208, remaining: 02:00)
+test 1314...OK (921 out of 1208, remaining: 01:53)
+test 1315...OK (922 out of 1208, remaining: 01:52)
+test 1317...OK (923 out of 1208, remaining: 01:52)
+test 1318...OK (924 out of 1208, remaining: 01:51)
+test 1319...OK (925 out of 1208, remaining: 01:51)
+test 1320...OK (926 out of 1208, remaining: 01:51)
+test 1321...OK (927 out of 1208, remaining: 01:51)
+test 1322...OK (928 out of 1208, remaining: 01:50)
+test 1323...The tool set in the test case for this: 'unit1323' does not exist
+test 1324...OK (930 out of 1208, remaining: 01:49)
+test 1325...OK (931 out of 1208, remaining: 01:49)
+test 1326...OK (932 out of 1208, remaining: 01:48)
+test 1327...OK (933 out of 1208, remaining: 01:48)
+test 1328...OK (934 out of 1208, remaining: 01:47)
+test 1329...OK (935 out of 1208, remaining: 01:47)
+test 1331...OK (937 out of 1208, remaining: 01:46)
+test 1332...OK (938 out of 1208, remaining: 01:46)
+test 1333...OK (939 out of 1208, remaining: 01:45)
+test 1364...OK (970 out of 1208, remaining: 01:30)
+test 1365...OK (971 out of 1208, remaining: 01:30)
+test 1366...OK (972 out of 1208, remaining: 01:29)
+test 1367...OK (973 out of 1208, remaining: 01:29)
+test 1368...OK (974 out of 1208, remaining: 01:28)
+test 1369...OK (975 out of 1208, remaining: 01:28)
+test 1370...OK (976 out of 1208, remaining: 01:27)
+test 1371...OK (977 out of 1208, remaining: 01:27)
+test 1372...OK (978 out of 1208, remaining: 01:26)
+test 1373...OK (979 out of 1208, remaining: 01:26)
+test 1374...OK (980 out of 1208, remaining: 01:26)
+test 1375...OK (981 out of 1208, remaining: 01:25)
+test 1376...OK (982 out of 1208, remaining: 01:25)
+test 1377...OK (983 out of 1208, remaining: 01:24)
+test 1378...OK (984 out of 1208, remaining: 01:24)
+test 1379...OK (985 out of 1208, remaining: 01:23)
+test 1380...OK (986 out of 1208, remaining: 01:23)
+test 1381...OK (987 out of 1208, remaining: 01:23)
+test 1382...OK (988 out of 1208, remaining: 01:22)
+test 1383...OK (989 out of 1208, remaining: 01:22)
+test 1384...OK (990 out of 1208, remaining: 01:21)
+test 1385...OK (991 out of 1208, remaining: 01:21)
+test 1386...OK (992 out of 1208, remaining: 01:20)
+test 1387...OK (993 out of 1208, remaining: 01:20)
+test 1388...OK (994 out of 1208, remaining: 01:20)
+test 1389...OK (995 out of 1208, remaining: 01:19)
+test 1390...OK (996 out of 1208, remaining: 01:19)
+test 1391...OK (997 out of 1208, remaining: 01:18)
+test 1392...OK (998 out of 1208, remaining: 01:18)
+test 1393...OK (999 out of 1208, remaining: 01:18)
+test 1400...OK (1006 out of 1208, remaining: 01:15)
+test 1401...OK (1007 out of 1208, remaining: 01:14)
+test 1402...OK (1008 out of 1208, remaining: 01:14)
+test 1403...OK (1009 out of 1208, remaining: 01:13)
+test 1404...OK (1010 out of 1208, remaining: 01:13)
+test 1405...OK (1011 out of 1208, remaining: 01:12)
+test 1406...OK (1012 out of 1208, remaining: 01:12)
+test 1407...OK (1013 out of 1208, remaining: 01:12)
+test 1408...OK (1014 out of 1208, remaining: 01:11)
+test 1409...OK (1015 out of 1208, remaining: 01:11)
+test 1410...OK (1016 out of 1208, remaining: 01:10)
+test 1411...OK (1017 out of 1208, remaining: 01:10)
+test 1412...OK (1018 out of 1208, remaining: 01:10)
+test 1413...OK (1019 out of 1208, remaining: 01:09)
+test 1414...OK (1020 out of 1208, remaining: 01:09)
+test 1415...OK (1021 out of 1208, remaining: 01:08)
+test 1416...OK (1022 out of 1208, remaining: 01:08)
+test 1417...OK (1023 out of 1208, remaining: 01:08)
+test 1418...OK (1024 out of 1208, remaining: 01:07)
+test 1419...OK (1025 out of 1208, remaining: 01:07)
+test 1420...OK (1026 out of 1208, remaining: 01:06)
+test 1421...OK (1027 out of 1208, remaining: 01:06)
+test 1423...OK (1029 out of 1208, remaining: 01:05)
+test 1424...OK (1030 out of 1208, remaining: 01:05)
+test 1427...OK (1033 out of 1208, remaining: 01:03)
+test 1428...OK (1034 out of 1208, remaining: 01:03)
+test 1429...OK (1035 out of 1208, remaining: 01:03)
+test 1430...OK (1036 out of 1208, remaining: 01:02)
+test 1431...OK (1037 out of 1208, remaining: 01:02)
+test 1432...OK (1038 out of 1208, remaining: 01:01)
+test 1433...OK (1039 out of 1208, remaining: 01:01)
+test 1434...OK (1040 out of 1208, remaining: 01:01)
+test 1435...OK (1041 out of 1208, remaining: 01:01)
+test 1436...OK (1042 out of 1208, remaining: 01:00)
+test 1437...OK (1043 out of 1208, remaining: 01:00)
+test 1438...OK (1044 out of 1208, remaining: 00:59)
+test 1439...OK (1045 out of 1208, remaining: 00:59)
+test 1440...OK (1046 out of 1208, remaining: 00:59)
+test 1441...OK (1047 out of 1208, remaining: 00:58)
+test 1442...OK (1048 out of 1208, remaining: 00:58)
+test 1444...OK (1050 out of 1208, remaining: 00:57)
+test 1445...OK (1051 out of 1208, remaining: 00:57)
+test 1447...OK (1053 out of 1208, remaining: 00:56)
+test 1449...OK (1055 out of 1208, remaining: 00:55)
+test 1450...OK (1056 out of 1208, remaining: 00:55)
+test 1451...OK (1057 out of 1208, remaining: 00:55)
+test 1452...OK (1058 out of 1208, remaining: 00:55)
+test 1453...OK (1059 out of 1208, remaining: 00:54)
+test 1455...OK (1061 out of 1208, remaining: 00:54)
+test 1456...OK (1062 out of 1208, remaining: 00:53)
+test 1457...OK (1063 out of 1208, remaining: 00:53)
+test 1500...OK (1064 out of 1208, remaining: 00:52)
+test 1501...OK (1065 out of 1208, remaining: 00:53)
+test 1502...OK (1066 out of 1208, remaining: 00:52)
+test 1503...OK (1067 out of 1208, remaining: 00:52)
+test 1504...OK (1068 out of 1208, remaining: 00:51)
+test 1505...OK (1069 out of 1208, remaining: 00:51)
+test 1506...OK (1070 out of 1208, remaining: 00:51)
+test 1507...OK (1071 out of 1208, remaining: 00:50)
+test 1508...OK (1072 out of 1208, remaining: 00:50)
+test 1509...OK (1073 out of 1208, remaining: 00:50)
+test 1511...OK (1074 out of 1208, remaining: 00:49)
+test 1513...OK (1075 out of 1208, remaining: 00:49)
+test 1514...OK (1076 out of 1208, remaining: 00:48)
+test 1515...OK (1077 out of 1208, remaining: 00:48)
+test 1516...OK (1078 out of 1208, remaining: 00:48)
+test 1517...OK (1079 out of 1208, remaining: 00:48)
+test 1518...OK (1080 out of 1208, remaining: 00:47)
+test 1519...OK (1081 out of 1208, remaining: 00:47)
+test 1520...OK (1082 out of 1208, remaining: 00:47)
+test 1521...OK (1083 out of 1208, remaining: 00:46)
+test 1522...OK (1084 out of 1208, remaining: 00:46)
+test 1525...OK (1085 out of 1208, remaining: 00:46)
+test 1526...OK (1086 out of 1208, remaining: 00:45)
+test 1527...OK (1087 out of 1208, remaining: 00:45)
+test 1528...OK (1088 out of 1208, remaining: 00:45)
+test 1529...OK (1089 out of 1208, remaining: 00:44)
+test 1530...OK (1090 out of 1208, remaining: 00:44)
+test 1531...OK (1091 out of 1208, remaining: 00:44)
+test 1532...OK (1092 out of 1208, remaining: 00:43)
+test 1533...OK (1093 out of 1208, remaining: 00:43)
+test 1534...OK (1094 out of 1208, remaining: 00:42)
+test 1535...OK (1095 out of 1208, remaining: 00:42)
+test 1536...OK (1096 out of 1208, remaining: 00:42)
+test 1537...OK (1097 out of 1208, remaining: 00:41)
+test 1538...OK (1098 out of 1208, remaining: 00:41)
+test 1540...OK (1099 out of 1208, remaining: 00:40)
+test 1550...OK (1100 out of 1208, remaining: 00:40)
+test 1551...OK (1101 out of 1208, remaining: 00:40)
+test 1552...OK (1102 out of 1208, remaining: 00:39)
+test 1553...OK (1103 out of 1208, remaining: 00:39)
+test 1554...OK (1104 out of 1208, remaining: 00:39)
+test 1555...OK (1105 out of 1208, remaining: 00:38)
+test 1556...OK (1106 out of 1208, remaining: 00:38)
+test 1557...OK (1107 out of 1208, remaining: 00:37)
+test 1590...OK (1109 out of 1208, remaining: 00:37)
+test 1904...OK (1129 out of 1208, remaining: 00:29)
+test 2000...OK (1130 out of 1208, remaining: 00:28)
+test 2001...OK (1131 out of 1208, remaining: 00:28)
+test 2002...OK (1132 out of 1208, remaining: 00:27)
+test 2003...OK (1133 out of 1208, remaining: 00:27)
+test 2023...OK (1153 out of 1208, remaining: 00:19)
+test 2024...OK (1154 out of 1208, remaining: 00:19)
+test 2025...OK (1155 out of 1208, remaining: 00:19)
+test 2026...OK (1156 out of 1208, remaining: 00:18)
+test 2027...OK (1157 out of 1208, remaining: 00:18)
+test 2028...OK (1158 out of 1208, remaining: 00:18)
+test 2029...OK (1159 out of 1208, remaining: 00:17)
+test 2030...OK (1160 out of 1208, remaining: 00:17)
+test 2031...OK (1161 out of 1208, remaining: 00:16)
+test 2032...OK (1162 out of 1208, remaining: 00:16)
+test 2036...OK (1165 out of 1208, remaining: 00:15)
+test 2039...OK (1168 out of 1208, remaining: 00:14)
+test 2040...OK (1169 out of 1208, remaining: 00:13)
+test 2044...OK (1173 out of 1208, remaining: 00:12)
+test 2045...OK (1174 out of 1208, remaining: 00:12)
+test 2049...OK (1178 out of 1208, remaining: 00:10)
+test 2050...OK (1179 out of 1208, remaining: 00:10)
+test 2051...OK (1180 out of 1208, remaining: 00:09)
+test 2052...OK (1181 out of 1208, remaining: 00:09)
+test 2053...OK (1182 out of 1208, remaining: 00:09)
+test 2054...OK (1183 out of 1208, remaining: 00:08)
+test 2058...OK (1187 out of 1208, remaining: 00:07)
+test 2059...OK (1188 out of 1208, remaining: 00:07)
+test 2060...OK (1189 out of 1208, remaining: 00:06)
+test 2061...OK (1190 out of 1208, remaining: 00:06)
+test 2062...OK (1191 out of 1208, remaining: 00:06)
+test 2063...OK (1192 out of 1208, remaining: 00:05)
+test 2064...OK (1193 out of 1208, remaining: 00:05)
+test 2065...OK (1194 out of 1208, remaining: 00:04)
+test 2066...OK (1195 out of 1208, remaining: 00:04)
+test 2067...OK (1196 out of 1208, remaining: 00:04)
+test 2068...OK (1197 out of 1208, remaining: 00:03)
+test 2069...OK (1198 out of 1208, remaining: 00:03)
+test 2071...OK (1199 out of 1208, remaining: 00:03)
+test 2072...OK (1200 out of 1208, remaining: 00:02)
+test 2073...OK (1201 out of 1208, remaining: 00:02)
+test 2074...OK (1202 out of 1208, remaining: 00:02)
+test 2075...OK (1203 out of 1208, remaining: 00:01)
+test 2076...OK (1204 out of 1208, remaining: 00:01)
+test 2080...OK (1205 out of 1208, remaining: 00:01)
+Warning: dict server unexpectedly alive
+Warning: smb server unexpectedly alive
+TESTDONE: 949 tests out of 949 reported OK: 100%
+TESTDONE: 1226 tests were considered during 426 seconds.
+make[1]: Leaving directory '/usr/ports/core/curl/work/src/curl-7.63.0/tests'

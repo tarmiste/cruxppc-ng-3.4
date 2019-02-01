@@ -1,0 +1,24 @@
+# Description: uboot tools 
+# URL:         http://www.denx.de
+# Maintainer:  TBA
+# PPC!=
+
+name=uboot-tools
+version=2018.07
+release=1
+source=(ftp://ftp.denx.de/pub/u-boot/u-boot-$version.tar.bz2 \
+        fw_env.config)
+
+build() {
+    cd u-boot-$version
+
+    make defconfig
+    make tools-all CONFIG_KIRKWOOD=y
+
+echo $PKG
+    install -dm755 ${PKG}/{usr/{bin,share/man/man1},etc}
+    install -m755 tools/{fit_{check_sign,info},dumpimage,mkimage,mkenvimage,netconsole,ncb,proftool,env/fw_printenv,kwboot} ${PKG}/usr/bin
+    ln -s /usr/bin/fw_printenv ${PKG}/usr/bin/fw_setenv
+    install -m644 ${SRC}/fw_env.config ${PKG}/etc
+    install -m644 doc/{mkimage,kwboot}.1 ${PKG}/usr/share/man/man1
+}

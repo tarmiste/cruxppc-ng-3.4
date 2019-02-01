@@ -1,0 +1,72 @@
+Making check in src
+make[1]: Entering directory '/usr/ports/core/xz/work/src/xz-5.2.4/src'
+Making check in liblzma
+make[2]: Entering directory '/usr/ports/core/xz/work/src/xz-5.2.4/src/liblzma'
+Making check in api
+make[3]: Entering directory '/usr/ports/core/xz/work/src/xz-5.2.4/src/liblzma/api'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/ports/core/xz/work/src/xz-5.2.4/src/liblzma/api'
+make[3]: Entering directory '/usr/ports/core/xz/work/src/xz-5.2.4/src/liblzma'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/ports/core/xz/work/src/xz-5.2.4/src/liblzma'
+make[2]: Leaving directory '/usr/ports/core/xz/work/src/xz-5.2.4/src/liblzma'
+Making check in xzdec
+make[2]: Entering directory '/usr/ports/core/xz/work/src/xz-5.2.4/src/xzdec'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/xz/work/src/xz-5.2.4/src/xzdec'
+Making check in xz
+make[2]: Entering directory '/usr/ports/core/xz/work/src/xz-5.2.4/src/xz'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/xz/work/src/xz-5.2.4/src/xz'
+Making check in lzmainfo
+make[2]: Entering directory '/usr/ports/core/xz/work/src/xz-5.2.4/src/lzmainfo'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/xz/work/src/xz-5.2.4/src/lzmainfo'
+Making check in scripts
+make[2]: Entering directory '/usr/ports/core/xz/work/src/xz-5.2.4/src/scripts'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/xz/work/src/xz-5.2.4/src/scripts'
+make[2]: Entering directory '/usr/ports/core/xz/work/src/xz-5.2.4/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/ports/core/xz/work/src/xz-5.2.4/src'
+make[1]: Leaving directory '/usr/ports/core/xz/work/src/xz-5.2.4/src'
+Making check in po
+make[1]: Entering directory '/usr/ports/core/xz/work/src/xz-5.2.4/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/xz/work/src/xz-5.2.4/po'
+Making check in tests
+make[1]: Entering directory '/usr/ports/core/xz/work/src/xz-5.2.4/tests'
+make  create_compress_files test_check test_stream_flags test_filter_flags test_block_header test_index test_bcj_exact_size
+make[2]: Entering directory '/usr/ports/core/xz/work/src/xz-5.2.4/tests'
+make[2]: 'create_compress_files' is up to date.
+make[2]: 'test_check' is up to date.
+make[2]: 'test_stream_flags' is up to date.
+make[2]: 'test_filter_flags' is up to date.
+make[2]: 'test_block_header' is up to date.
+make[2]: 'test_index' is up to date.
+make[2]: 'test_bcj_exact_size' is up to date.
+make[2]: Leaving directory '/usr/ports/core/xz/work/src/xz-5.2.4/tests'
+make  check-TESTS
+make[2]: Entering directory '/usr/ports/core/xz/work/src/xz-5.2.4/tests'
+PASS: test_check
+PASS: test_stream_flags
+PASS: test_filter_flags
+PASS: test_block_header
+PASS: test_index
+PASS: test_bcj_exact_size
+PASS: test_files.sh
+test_compress.sh:
+  generated_abc.............
+  generated_random.............
+  generated_text.............
+  prepared_bcj_sparc.............
+  prepared_bcj_x86.............
+PASS: test_compress.sh
+PASS: test_scripts.sh
+==================
+All 9 tests passed
+==================
+make[2]: Leaving directory '/usr/ports/core/xz/work/src/xz-5.2.4/tests'
+make[1]: Leaving directory '/usr/ports/core/xz/work/src/xz-5.2.4/tests'
+make[1]: Entering directory '/usr/ports/core/xz/work/src/xz-5.2.4'
+make[1]: Leaving directory '/usr/ports/core/xz/work/src/xz-5.2.4'

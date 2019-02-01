@@ -1,0 +1,100 @@
+Making check in src
+make[1]: Entering directory '/usr/ports/core/file/work/src/file-5.35/src'
+make  check-am
+make[2]: Entering directory '/usr/ports/core/file/work/src/file-5.35/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/ports/core/file/work/src/file-5.35/src'
+make[1]: Leaving directory '/usr/ports/core/file/work/src/file-5.35/src'
+Making check in magic
+make[1]: Entering directory '/usr/ports/core/file/work/src/file-5.35/magic'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/file/work/src/file-5.35/magic'
+Making check in tests
+make[1]: Entering directory '/usr/ports/core/file/work/src/file-5.35/tests'
+make  test
+make[2]: Entering directory '/usr/ports/core/file/work/src/file-5.35/tests'
+make[2]: 'test' is up to date.
+make[2]: Leaving directory '/usr/ports/core/file/work/src/file-5.35/tests'
+make  check-local
+make[2]: Entering directory '/usr/ports/core/file/work/src/file-5.35/tests'
+MAGIC=../magic/magic ./test
+set -e; \
+for i in ../tests/*.testfile; do \
+	echo Running test: $i; \
+	if [ -f ${i%%.testfile}.magic ]; then \
+		m=${i%%.testfile}.magic; \
+	else \
+		m=../magic/magic; \
+	fi; \
+	TZ=UTC MAGIC=$m ./test $i ${i%%.testfile}.result; \
+done
+Running test: ../tests/CVE-2014-1943.testfile
+../tests/CVE-2014-1943.testfile: Apple Driver Map, blocksize 0
+Running test: ../tests/JW07022A.mp3.testfile
+../tests/JW07022A.mp3.testfile: Audio file with ID3 version 2.2.0, contains:MPEG ADTS, layer III, v1,  96 kbps, 44.1 kHz, Monaural
+Running test: ../tests/escapevel.testfile
+../tests/escapevel.testfile: Zip data (MIME type "application/vnd.nz.gen.geek_central.ti5x"?)
+Running test: ../tests/fit-map-data.testfile
+../tests/fit-map-data.testfile: FIT Map data, unit id 65536, serial 3879446968, Sat May 31 10:00:34 2014, manufacturer 1 (garmin), product 1632, type 4 (Activity)
+Running test: ../tests/gedcom.testfile
+../tests/gedcom.testfile: GEDCOM genealogy text version 5.5, ASCII text
+Running test: ../tests/hddrawcopytool.testfile
+../tests/hddrawcopytool.testfile: HDD Raw Copy Tool 1.10 - HD model: ST500DM0 02-1BD142 serial: 51D20233A7C0
+Running test: ../tests/issue311docx.testfile
+../tests/issue311docx.testfile: Microsoft Word 2007+
+Running test: ../tests/issue359xlsx.testfile
+../tests/issue359xlsx.testfile: Microsoft Excel 2007+
+Running test: ../tests/json1.testfile
+../tests/json1.testfile: JSON data
+Running test: ../tests/json2.testfile
+../tests/json2.testfile: JSON data
+Running test: ../tests/json3.testfile
+../tests/json3.testfile: JSON data
+Running test: ../tests/regex-eol.testfile
+../tests/regex-eol.testfile: Ansible Vault text, version 1.1, using AES256 encryption
+Running test: ../tests/zstd-v0.2-FF.testfile
+../tests/zstd-v0.2-FF.testfile: Zstandard compressed data (v0.2)
+Running test: ../tests/zstd-v0.3-FF.testfile
+../tests/zstd-v0.3-FF.testfile: Zstandard compressed data (v0.3)
+Running test: ../tests/zstd-v0.4-FF.testfile
+../tests/zstd-v0.4-FF.testfile: Zstandard compressed data (v0.4)
+Running test: ../tests/zstd-v0.5-FF.testfile
+../tests/zstd-v0.5-FF.testfile: Zstandard compressed data (v0.5)
+Running test: ../tests/zstd-v0.6-FF.testfile
+../tests/zstd-v0.6-FF.testfile: Zstandard compressed data (v0.6)
+Running test: ../tests/zstd-v0.7-21.testfile
+../tests/zstd-v0.7-21.testfile: Zstandard compressed data (v0.7), Dictionary ID: 1
+Running test: ../tests/zstd-v0.7-22.testfile
+../tests/zstd-v0.7-22.testfile: Zstandard compressed data (v0.7), Dictionary ID: 513
+Running test: ../tests/zstd-v0.8-01.testfile
+../tests/zstd-v0.8-01.testfile: Zstandard compressed data (v0.8+), Dictionary ID: 2
+Running test: ../tests/zstd-v0.8-02.testfile
+../tests/zstd-v0.8-02.testfile: Zstandard compressed data (v0.8+), Dictionary ID: 770
+Running test: ../tests/zstd-v0.8-03.testfile
+../tests/zstd-v0.8-03.testfile: Zstandard compressed data (v0.8+), Dictionary ID: 84148994
+Running test: ../tests/zstd-v0.8-16.testfile
+../tests/zstd-v0.8-16.testfile: Zstandard compressed data (v0.8+), Dictionary ID: 770
+Running test: ../tests/zstd-v0.8-20.testfile
+../tests/zstd-v0.8-20.testfile: Zstandard compressed data (v0.8+), Dictionary ID: None
+Running test: ../tests/zstd-v0.8-21.testfile
+../tests/zstd-v0.8-21.testfile: Zstandard compressed data (v0.8+), Dictionary ID: 1
+Running test: ../tests/zstd-v0.8-22.testfile
+../tests/zstd-v0.8-22.testfile: Zstandard compressed data (v0.8+), Dictionary ID: 513
+Running test: ../tests/zstd-v0.8-23.testfile
+../tests/zstd-v0.8-23.testfile: Zstandard compressed data (v0.8+), Dictionary ID: 67305985
+Running test: ../tests/zstd-v0.8-F4.testfile
+../tests/zstd-v0.8-F4.testfile: Zstandard compressed data (v0.8+), Dictionary ID: None
+Running test: ../tests/zstd-v0.8-FF.testfile
+../tests/zstd-v0.8-FF.testfile: Zstandard compressed data (v0.8+), Dictionary ID: 67305985
+make[2]: Leaving directory '/usr/ports/core/file/work/src/file-5.35/tests'
+make[1]: Leaving directory '/usr/ports/core/file/work/src/file-5.35/tests'
+Making check in doc
+make[1]: Entering directory '/usr/ports/core/file/work/src/file-5.35/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/file/work/src/file-5.35/doc'
+Making check in python
+make[1]: Entering directory '/usr/ports/core/file/work/src/file-5.35/python'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/file/work/src/file-5.35/python'
+make[1]: Entering directory '/usr/ports/core/file/work/src/file-5.35'
+make[1]: Leaving directory '/usr/ports/core/file/work/src/file-5.35'

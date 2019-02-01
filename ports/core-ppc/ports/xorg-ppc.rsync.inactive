@@ -1,0 +1,3 @@
+host=crux-ppc.nu
+collection=ports/crux-3.4/xorg-ppc/
+destination=/usr/ports/xorg-ppc

@@ -1,0 +1,40 @@
+Making check in po
+make[1]: Entering directory '/usr/ports/core/acl/work/src/acl-2.2.53/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/acl/work/src/acl-2.2.53/po'
+make[1]: Entering directory '/usr/ports/core/acl/work/src/acl-2.2.53'
+make  libtestlookup.la
+make[2]: Entering directory '/usr/ports/core/acl/work/src/acl-2.2.53'
+make[2]: Leaving directory '/usr/ports/core/acl/work/src/acl-2.2.53'
+make  check-TESTS
+make[2]: Entering directory '/usr/ports/core/acl/work/src/acl-2.2.53'
+make[3]: Entering directory '/usr/ports/core/acl/work/src/acl-2.2.53'
+PASS: test/cp.test
+PASS: test/getfacl-lfs.test
+PASS: test/getfacl-noacl.test
+PASS: test/getfacl-recursive.test
+PASS: test/malformed-restore.test
+PASS: test/misc.test
+PASS: test/sbits-restore.test
+PASS: test/setfacl-X.test
+PASS: test/utf8-filenames.test
+PASS: test/root/getfacl.test
+PASS: test/root/permissions.test
+PASS: test/root/restore.test
+PASS: test/root/setfacl.test
+XFAIL: test/nfs/nfsacl.test
+XFAIL: test/nfs/nfs-dir.test
+============================================================================
+Testsuite summary for acl 2.2.53
+============================================================================
+# TOTAL: 15
+# PASS:  13
+# SKIP:  0
+# XFAIL: 2
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/usr/ports/core/acl/work/src/acl-2.2.53'
+make[2]: Leaving directory '/usr/ports/core/acl/work/src/acl-2.2.53'
+make[1]: Leaving directory '/usr/ports/core/acl/work/src/acl-2.2.53'

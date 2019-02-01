@@ -1,0 +1,330 @@
+Note: rebuild with "make VERBOSE=1 check" to show all compiler parameters.
+make[0]: Making `all' in `stubdata'
+make[1]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/stubdata'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/stubdata'
+make[0]: Making `all' in `common'
+make[1]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/common'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/common'
+make[0]: Making `all' in `i18n'
+make[1]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/i18n'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/i18n'
+make[0]: Making `all' in `io'
+make[1]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/io'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/io'
+make[0]: Making `all' in `tools'
+make[1]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools'
+make[1]: Making `all' in `toolutil'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/toolutil'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/toolutil'
+make[1]: Making `all' in `ctestfw'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/ctestfw'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/ctestfw'
+make[1]: Making `all' in `makeconv'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/makeconv'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/makeconv'
+make[1]: Making `all' in `genrb'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/genrb'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/genrb'
+make[1]: Making `all' in `genbrk'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/genbrk'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/genbrk'
+make[1]: Making `all' in `gencnval'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gencnval'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gencnval'
+make[1]: Making `all' in `gensprep'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gensprep'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gensprep'
+make[1]: Making `all' in `icuinfo'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/icuinfo'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/icuinfo'
+make[1]: Making `all' in `genccode'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/genccode'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/genccode'
+make[1]: Making `all' in `gencmn'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gencmn'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gencmn'
+make[1]: Making `all' in `icupkg'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/icupkg'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/icupkg'
+make[1]: Making `all' in `pkgdata'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/pkgdata'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/pkgdata'
+make[1]: Making `all' in `gentest'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gentest'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gentest'
+make[1]: Making `all' in `gennorm2'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gennorm2'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gennorm2'
+make[1]: Making `all' in `gencfu'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gencfu'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gencfu'
+make[1]: Making `all' in `gendict'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gendict'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gendict'
+make[1]: Making `all' in `escapesrc'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/escapesrc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/escapesrc'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools'
+make[2]: Nothing to be done for 'all-local'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools'
+make[1]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools'
+make[0]: Making `all' in `data'
+make[1]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/data'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/data'
+make[0]: Making `all' in `extra'
+make[1]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/extra'
+make[1]: Making `all' in `uconv'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/extra/uconv'
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/extra/uconv'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/extra'
+make[2]: Nothing to be done for 'all-local'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/extra'
+make[1]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/extra'
+make[1]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source'
+Note: rebuild with "make VERBOSE=1 all-local" to show all compiler parameters.
+make[1]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source'
+make[0]: Making `check' in `stubdata'
+make[1]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/stubdata'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/stubdata'
+make[0]: Making `check' in `common'
+make[1]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/common'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/common'
+make[0]: Making `check' in `i18n'
+make[1]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/i18n'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/i18n'
+make[0]: Making `check' in `io'
+make[1]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/io'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/io'
+make[0]: Making `check' in `tools'
+make[1]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools'
+make[1]: Making `all' in `toolutil'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/toolutil'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/toolutil'
+make[1]: Making `all' in `ctestfw'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/ctestfw'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/ctestfw'
+make[1]: Making `all' in `makeconv'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/makeconv'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/makeconv'
+make[1]: Making `all' in `genrb'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/genrb'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/genrb'
+make[1]: Making `all' in `genbrk'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/genbrk'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/genbrk'
+make[1]: Making `all' in `gencnval'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gencnval'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gencnval'
+make[1]: Making `all' in `gensprep'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gensprep'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gensprep'
+make[1]: Making `all' in `icuinfo'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/icuinfo'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/icuinfo'
+make[1]: Making `all' in `genccode'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/genccode'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/genccode'
+make[1]: Making `all' in `gencmn'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gencmn'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gencmn'
+make[1]: Making `all' in `icupkg'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/icupkg'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/icupkg'
+make[1]: Making `all' in `pkgdata'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/pkgdata'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/pkgdata'
+make[1]: Making `all' in `gentest'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gentest'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gentest'
+make[1]: Making `all' in `gennorm2'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gennorm2'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gennorm2'
+make[1]: Making `all' in `gencfu'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gencfu'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gencfu'
+make[1]: Making `all' in `gendict'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gendict'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gendict'
+make[1]: Making `all' in `escapesrc'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/escapesrc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/escapesrc'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools'
+make[2]: Nothing to be done for 'all-local'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools'
+make[1]: Making `check' in `toolutil'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/toolutil'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/toolutil'
+make[1]: Making `check' in `ctestfw'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/ctestfw'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/ctestfw'
+make[1]: Making `check' in `makeconv'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/makeconv'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/makeconv'
+make[1]: Making `check' in `genrb'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/genrb'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/genrb'
+make[1]: Making `check' in `genbrk'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/genbrk'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/genbrk'
+make[1]: Making `check' in `gencnval'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gencnval'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gencnval'
+make[1]: Making `check' in `gensprep'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gensprep'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gensprep'
+make[1]: Making `check' in `icuinfo'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/icuinfo'
+LD_LIBRARY_PATH=../../lib:../../stubdata:../../tools/ctestfw:$LD_LIBRARY_PATH  ./icuinfo -i ../../data/out/build/icudt63b -x ../../config/icuinfo.xml -v -K
+Plugins are disabled.
+ <icuSystemParams type="icu4c">
+    <param name="copyright"> Copyright (C) 2016 and later: Unicode, Inc. and others. License & terms of use: http://www.unicode.org/copyright.html </param>
+    <param name="product">icu4c</param>
+    <param name="product.full">International Components for Unicode for C/C++</param>
+    <param name="version">63.1</param>
+    <param name="version.unicode">11.0</param>
+    <param name="platform.number">4000</param>
+    <param name="platform.type">Linux</param>
+    <param name="locale.default">en_US_POSIX</param>
+    <param name="locale.default.bcp47">en-US-u-va-posix</param>
+    <param name="converter.default">UTF-8</param>
+    <param name="icudata.name">icudt63b</param>
+    <param name="icudata.path">../../data/out/build/icudt63b</param>
+    <param name="cldr.version">34.0</param>
+    <param name="tz.version">2018e</param>
+    <param name="tz.default">UTC</param>
+    <param name="cpu.bits">32</param>
+    <param name="cpu.big_endian">1</param>
+    <param name="os.wchar_width">4</param>
+    <param name="os.charset_family">0</param>
+    <param name="os.host">powerpc-unknown-linux-gnu</param>
+    <param name="build.build">powerpc-unknown-linux-gnu</param>
+    <param name="build.cc">gcc</param>
+    <param name="build.cxx">g++</param>
+    <param name="uconfig.internal_digitlist">1</param>
+    <param name="uconfig.have_parseallinput">1</param>
+ </icuSystemParams>
+
+
+ICU Initialization returned: U_ZERO_ERROR
+ICU u_cleanup() called.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/icuinfo'
+make[1]: Making `check' in `genccode'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/genccode'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/genccode'
+make[1]: Making `check' in `gencmn'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gencmn'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gencmn'
+make[1]: Making `check' in `icupkg'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/icupkg'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/icupkg'
+make[1]: Making `check' in `pkgdata'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/pkgdata'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/pkgdata'
+make[1]: Making `check' in `gentest'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gentest'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gentest'
+make[1]: Making `check' in `gennorm2'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gennorm2'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gennorm2'
+make[1]: Making `check' in `gencfu'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gencfu'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gencfu'
+make[1]: Making `check' in `gendict'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gendict'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/gendict'
+make[1]: Making `check' in `escapesrc'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/escapesrc'
+Testing test-nochange.cpp
+escapesrc: ./test-nochange.cpp -> ./output-nochange.cpp
+Testing test-simple.cpp
+escapesrc: ./test-simple.cpp -> ./output-simple.cpp
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools/escapesrc'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools'
+make[2]: Nothing to be done for 'check-local'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools'
+make[1]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/tools'
+make[0]: Making `check' in `data'
+make[1]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/data'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/data'
+make[0]: Making `check' in `extra'
+make[1]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/extra'
+make[1]: Making `all' in `uconv'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/extra/uconv'
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/extra/uconv'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/extra'
+make[2]: Nothing to be done for 'all-local'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/extra'
+make[1]: Making `check' in `uconv'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/extra/uconv'
+LD_LIBRARY_PATH=../../lib:../../stubdata:../../tools/ctestfw:$LD_LIBRARY_PATH  ./../../bin/uconv -f ibm-37 ./samples/ibm-37-test.txt
+PASS: Conversion from ibm-37 was successful.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/extra/uconv'
+make[2]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source/extra'
+make[2]: Nothing to be done for 'check-local'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/extra'
+make[1]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source/extra'
+make[1]: Entering directory '/usr/ports/opt-ppc/icu/work/src/icu/source'
+verifying that icu-config --selfcheck can operate
+verifying that make -f Makefile.inc selfcheck can operate
+PASS: config selfcheck OK
+rm -rf test-local.xml
+make[1]: Leaving directory '/usr/ports/opt-ppc/icu/work/src/icu/source'

@@ -1,0 +1,38 @@
+if test -d ./.git				\
+	&& git --version >/dev/null 2>&1; then			\
+  cd . &&						\
+  git submodule --quiet foreach					\
+      'test "$(git rev-parse "$sha1")"			\
+	  = "$(git merge-base origin "$sha1")"'		\
+    || { echo 'maint.mk: found non-public submodule commit' >&2;	\
+	 exit 1; };						\
+else								\
+  : ;								\
+fi
+make  check-am
+make[1]: Entering directory '/usr/ports/core/time/work/src/time-1.9'
+make  tests/time-aux
+make[2]: Entering directory '/usr/ports/core/time/work/src/time-1.9'
+make[2]: 'tests/time-aux' is up to date.
+make[2]: Leaving directory '/usr/ports/core/time/work/src/time-1.9'
+make  check-TESTS
+make[2]: Entering directory '/usr/ports/core/time/work/src/time-1.9'
+make[3]: Entering directory '/usr/ports/core/time/work/src/time-1.9'
+PASS: tests/help-version.sh
+PASS: tests/time-max-rss.sh
+PASS: tests/time-exit-codes.sh
+PASS: tests/time-posix-quiet.sh
+============================================================================
+Testsuite summary for GNU Time 1.9
+============================================================================
+# TOTAL: 4
+# PASS:  4
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/usr/ports/core/time/work/src/time-1.9'
+make[2]: Leaving directory '/usr/ports/core/time/work/src/time-1.9'
+make[1]: Leaving directory '/usr/ports/core/time/work/src/time-1.9'

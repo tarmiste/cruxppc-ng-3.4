@@ -1,0 +1,68 @@
+Making check in doc
+make[1]: Entering directory '/usr/ports/core/cpio/work/src/cpio-2.12/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/cpio/work/src/cpio-2.12/doc'
+Making check in gnu
+make[1]: Entering directory '/usr/ports/core/cpio/work/src/cpio-2.12/gnu'
+make  check-recursive
+make[2]: Entering directory '/usr/ports/core/cpio/work/src/cpio-2.12/gnu'
+make[3]: Entering directory '/usr/ports/core/cpio/work/src/cpio-2.12/gnu'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/ports/core/cpio/work/src/cpio-2.12/gnu'
+make[2]: Leaving directory '/usr/ports/core/cpio/work/src/cpio-2.12/gnu'
+make[1]: Leaving directory '/usr/ports/core/cpio/work/src/cpio-2.12/gnu'
+Making check in lib
+make[1]: Entering directory '/usr/ports/core/cpio/work/src/cpio-2.12/lib'
+make  check-am
+make[2]: Entering directory '/usr/ports/core/cpio/work/src/cpio-2.12/lib'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/ports/core/cpio/work/src/cpio-2.12/lib'
+make[1]: Leaving directory '/usr/ports/core/cpio/work/src/cpio-2.12/lib'
+Making check in rmt
+make[1]: Entering directory '/usr/ports/core/cpio/work/src/cpio-2.12/rmt'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/cpio/work/src/cpio-2.12/rmt'
+Making check in src
+make[1]: Entering directory '/usr/ports/core/cpio/work/src/cpio-2.12/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/cpio/work/src/cpio-2.12/src'
+Making check in po
+make[1]: Entering directory '/usr/ports/core/cpio/work/src/cpio-2.12/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/cpio/work/src/cpio-2.12/po'
+Making check in tests
+make[1]: Entering directory '/usr/ports/core/cpio/work/src/cpio-2.12/tests'
+make  genfile
+make[2]: Entering directory '/usr/ports/core/cpio/work/src/cpio-2.12/tests'
+  CC       genfile.o
+  CC       argcv.o
+  CCLD     genfile
+make[2]: Leaving directory '/usr/ports/core/cpio/work/src/cpio-2.12/tests'
+make  check-local
+make[2]: Entering directory '/usr/ports/core/cpio/work/src/cpio-2.12/tests'
+/bin/sh ./testsuite 
+## ------------------------- ##
+## GNU cpio 2.12 test suite. ##
+## ------------------------- ##
+  1: cpio version                                    ok
+  2: basic functionality: copyin/copyout             ok
+  3: symlink                                         ok
+  4: symlink-bad-length                              ok
+  5: symlink-long                                    ok
+  6: symlink --to-stdout                             ok
+  7: interdir                                        ok
+  8: delayed setstat                                 ok
+  9: delayed setstat (with -depth)                   ok
+ 10: delayed setstat (copy-pass)                     ok
+ 11: delayed setstat (umask)                         ok
+ 12: delayed setstat (umask, copy-pass)              ok
+
+## ------------- ##
+## Test results. ##
+## ------------- ##
+
+All 12 tests were successful.
+make[2]: Leaving directory '/usr/ports/core/cpio/work/src/cpio-2.12/tests'
+make[1]: Leaving directory '/usr/ports/core/cpio/work/src/cpio-2.12/tests'
+make[1]: Entering directory '/usr/ports/core/cpio/work/src/cpio-2.12'
+make[1]: Leaving directory '/usr/ports/core/cpio/work/src/cpio-2.12'

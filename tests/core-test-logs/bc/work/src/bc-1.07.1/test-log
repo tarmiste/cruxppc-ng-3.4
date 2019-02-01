@@ -1,0 +1,357 @@
+
+Checking e(x)
+scale = 10
+
+Failed:  
+  index = 97
+  val1 = 1338334719204269500461736408706115029076717.4572136445
+  val2 = 1338334719204269500461736408706115029076717.45721364460012
+
+
+Total tests:    200
+
+Total failures: 1
+
+Percent failed: .50
+
+scale = 20
+
+Total tests:    200
+
+Total failures: 0
+
+Percent failed: 0
+
+scale = 30
+
+Total tests:    200
+
+Total failures: 0
+
+Percent failed: 0
+
+scale = 40
+
+Total tests:    200
+
+Total failures: 0
+
+Percent failed: 0
+
+scale = 50
+
+Total tests:    200
+
+Total failures: 0
+
+Percent failed: 0
+
+scale = 60
+
+Total tests:    200
+
+Total failures: 0
+
+Percent failed: 0
+
+Checking l(x)
+scale = 10
+
+Total tests:    400
+
+Total failures: 0
+
+Percent failed: 0
+
+scale = 20
+
+Total tests:    400
+
+Total failures: 0
+
+Percent failed: 0
+
+scale = 30
+
+Total tests:    400
+
+Total failures: 0
+
+Percent failed: 0
+
+scale = 40
+
+Total tests:    400
+
+Total failures: 0
+
+Percent failed: 0
+
+scale = 50
+
+Failed:  
+  index = 8651
+  val1 = 9.06543020018037429960871963849168770641756864298096
+  val2 = 9.065430200180374299608719638491687706417568642980970004
+
+
+Total tests:    400
+
+Total failures: 1
+
+Percent failed: .25
+
+scale = 60
+
+Total tests:    400
+
+Total failures: 0
+
+Percent failed: 0
+
+Checking s(x)
+scale = 10
+
+Failed:  
+  index = .80
+  val1 = .7173560909
+  val2 = .71735609089952
+
+
+Total tests:    624
+
+Total failures: 1
+
+Percent failed: .16
+
+scale = 20
+
+Failed:  
+  index = 4.47
+  val1 = -.97076733665828831221
+  val2 = -.970767336658288312209921
+
+
+Total tests:    624
+
+Total failures: 1
+
+Percent failed: .16
+
+scale = 30
+
+Failed:  
+  index = 2.19
+  val1 = .814340892425795914434327645905
+  val2 = .8143408924257959144343276459049990
+
+
+Failed:  
+  index = 4.31
+  val1 = -.920128053755623783965712426991
+  val2 = -.9201280537556237839657124269909938
+
+
+Total tests:    624
+
+Total failures: 2
+
+Percent failed: .32
+
+scale = 40
+
+Failed:  
+  index = 2.36
+  val1 = .7044107657701761194310307129327036851253
+  val2 = .70441076577017611943103071293270368512529991
+
+
+Total tests:    624
+
+Total failures: 1
+
+Percent failed: .16
+
+scale = 50
+
+Failed:  
+  index = 2.04
+  val1 = .89192865095337963517152564858420454473014439859865
+  val2 = .891928650953379635171525648584204544730144398598649944
+
+
+Total tests:    624
+
+Total failures: 1
+
+Percent failed: .16
+
+scale = 60
+
+Failed:  
+  index = .65
+  val1 = .6051864057360395603725216786059407063184991873698258835123\
+50
+  val2 = .6051864057360395603725216786059407063184991873698258835123\
+499974
+
+
+Failed:  
+  index = 1.07
+  val1 = .8772005042746816103070632577768211866500141475064720919109\
+44
+  val2 = .8772005042746816103070632577768211866500141475064720919109\
+439950
+
+
+Total tests:    624
+
+Total failures: 2
+
+Percent failed: .32
+
+Checking a(x)
+scale = 10
+
+Total tests:    200
+
+Total failures: 0
+
+Percent failed: 0
+
+scale = 20
+
+Total tests:    200
+
+Total failures: 0
+
+Percent failed: 0
+
+scale = 30
+
+Total tests:    200
+
+Total failures: 0
+
+Percent failed: 0
+
+scale = 40
+
+Total tests:    200
+
+Total failures: 0
+
+Percent failed: 0
+
+scale = 50
+
+Total tests:    200
+
+Total failures: 0
+
+Percent failed: 0
+
+scale = 60
+
+Total tests:    200
+
+Total failures: 0
+
+Percent failed: 0
+
+Checking j(n,x)
+n=0, scale = 10
+
+Total tests:    300
+
+Total failures: 0
+
+Percent failed: 0
+
+n=1, scale = 10
+
+Total tests:    300
+
+Total failures: 0
+
+Percent failed: 0
+
+n=0, scale = 20
+
+Total tests:    300
+
+Total failures: 0
+
+Percent failed: 0
+
+n=1, scale = 20
+
+Total tests:    300
+
+Total failures: 0
+
+Percent failed: 0
+
+n=0, scale = 30
+
+Total tests:    300
+
+Total failures: 0
+
+Percent failed: 0
+
+n=1, scale = 30
+
+Total tests:    300
+
+Total failures: 0
+
+Percent failed: 0
+
+n=0, scale = 40
+
+Total tests:    300
+
+Total failures: 0
+
+Percent failed: 0
+
+n=1, scale = 40
+
+Total tests:    300
+
+Total failures: 0
+
+Percent failed: 0
+
+n=0, scale = 50
+
+Total tests:    300
+
+Total failures: 0
+
+Percent failed: 0
+
+n=1, scale = 50
+
+Total tests:    300
+
+Total failures: 0
+
+Percent failed: 0
+
+n=0, scale = 60
+
+Total tests:    300
+
+Total failures: 0
+
+Percent failed: 0
+
+n=1, scale = 60
+
+Total tests:    300
+
+Total failures: 0
+
+Percent failed: 0

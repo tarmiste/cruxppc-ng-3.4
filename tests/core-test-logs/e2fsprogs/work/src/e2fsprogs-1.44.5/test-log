@@ -1,0 +1,1140 @@
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[1]: 'util/subst.conf' is up to date.
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[1]: 'lib/config.h' is up to date.
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[1]: 'lib/dirpaths.h' is up to date.
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[1]: 'lib/ext2fs/ext2_types.h' is up to date.
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[1]: 'lib/blkid/blkid_types.h' is up to date.
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[1]: 'lib/uuid/uuid_types.h' is up to date.
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/et'
+make[1]: 'compile_et' is up to date.
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/et'
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/ext2fs'
+make[1]: 'ext2_err.h' is up to date.
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/ext2fs'
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/support'
+make[1]: 'prof_err.h' is up to date.
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/support'
+make libs
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: 'util/subst.conf' is up to date.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: 'lib/config.h' is up to date.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: 'lib/dirpaths.h' is up to date.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: 'lib/ext2fs/ext2_types.h' is up to date.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: 'lib/blkid/blkid_types.h' is up to date.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: 'lib/uuid/uuid_types.h' is up to date.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/et'
+make[2]: 'compile_et' is up to date.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/et'
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/ext2fs'
+make[2]: 'ext2_err.h' is up to date.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/ext2fs'
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/support'
+make[2]: 'prof_err.h' is up to date.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/support'
+making all in lib/et
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/et'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/et'
+making all in lib/ss
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/ss'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/ss'
+making all in lib/e2p
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/e2p'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/e2p'
+making all in lib/support
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/support'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/support'
+making all in lib/ext2fs
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/ext2fs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/ext2fs'
+making all in intl
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/intl'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/intl'
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make progs
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: 'util/subst.conf' is up to date.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: 'lib/config.h' is up to date.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: 'lib/dirpaths.h' is up to date.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: 'lib/ext2fs/ext2_types.h' is up to date.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: 'lib/blkid/blkid_types.h' is up to date.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: 'lib/uuid/uuid_types.h' is up to date.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/et'
+make[2]: 'compile_et' is up to date.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/et'
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/ext2fs'
+make[2]: 'ext2_err.h' is up to date.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/ext2fs'
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/support'
+make[2]: 'prof_err.h' is up to date.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/support'
+making all in lib/et
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/et'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/et'
+making all in lib/ss
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/ss'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/ss'
+making all in lib/e2p
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/e2p'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/e2p'
+making all in lib/support
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/support'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/support'
+making all in lib/ext2fs
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/ext2fs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/ext2fs'
+making all in intl
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/intl'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/intl'
+making all in e2fsck
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/e2fsck'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/e2fsck'
+making all in debugfs
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/debugfs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/debugfs'
+making all in misc
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/misc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/misc'
+making all in resize
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/resize'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/resize'
+making all in tests/progs
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/tests/progs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/tests/progs'
+making all in po
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/po'
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make docs
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+make[2]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/doc'
+	MAKEINFO libext2fs.info
+Makeinfo is missing. Info documentation will not be built. ./libext2fs.texinfo
+make[2]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/doc'
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5'
+making check in util
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/util'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/util'
+making check in lib/et
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/et'
+for i in ./test_cases/*.et ; do \
+	t=`basename $i | sed -e 's/.et//'`; \
+	_ET_DIR_OVERRIDE=. ./compile_et $i ; \
+	diff -c ./test_cases/$t.c $t.c > $t.failed; \
+	if [ $? -ne 0 ]; then echo Test case $t failed; exit 1 ; fi ; \
+	diff -c ./test_cases/$t.h $t.h >> $t.failed; \
+	if [ $? -ne 0 ]; then echo Test case $t failed; exit 1 ; fi ; \
+	/bin/rm -f $t.c $t.h $t.failed; \
+	echo "Test case $t succeeded" ; \
+done
+Test case continuation succeeded
+Test case heimdal succeeded
+Test case heimdal2 succeeded
+Test case heimdal3 succeeded
+Test case imap_err succeeded
+Test case simple succeeded
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/et'
+making check in lib/ss
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/ss'
+	RUN TEST test_ss
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/ss'
+making check in lib/e2p
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/e2p'
+./tst_ostype
+0: Linux (0)
+1: Hurd (1)
+2: Masix (2)
+3: FreeBSD (3)
+4: Lites (4)
+./tst_feature
+Feature list:
+	Compat = 0, Mask = 1, dir_prealloc
+	Compat = 0, Mask = 4, has_journal
+	Compat = 0, Mask = 2, imagic_inodes
+	Compat = 0, Mask = 8, ext_attr
+	Compat = 0, Mask = 32, dir_index
+	Compat = 0, Mask = 16, resize_inode
+	Compat = 0, Mask = 64, lazy_bg
+	Compat = 0, Mask = 256, snapshot_bitmap
+	Compat = 0, Mask = 512, sparse_super2
+	Compat = 2, Mask = 1, sparse_super
+	Compat = 2, Mask = 2, large_file
+	Compat = 2, Mask = 8, huge_file
+	Compat = 2, Mask = 16, uninit_bg
+	Compat = 2, Mask = 16, uninit_groups
+	Compat = 2, Mask = 32, dir_nlink
+	Compat = 2, Mask = 64, extra_isize
+	Compat = 2, Mask = 256, quota
+	Compat = 2, Mask = 512, bigalloc
+	Compat = 2, Mask = 1024, metadata_csum
+	Compat = 2, Mask = 2048, replica
+	Compat = 2, Mask = 4096, read-only
+	Compat = 2, Mask = 8192, project
+	Compat = 2, Mask = 16384, shared_blocks
+	Compat = 2, Mask = 32768, verity
+	Compat = 1, Mask = 1, compression
+	Compat = 1, Mask = 2, filetype
+	Compat = 1, Mask = 4, needs_recovery
+	Compat = 1, Mask = 8, journal_dev
+	Compat = 1, Mask = 64, extent
+	Compat = 1, Mask = 64, extents
+	Compat = 1, Mask = 16, meta_bg
+	Compat = 1, Mask = 128, 64bit
+	Compat = 1, Mask = 256, mmp
+	Compat = 1, Mask = 512, flex_bg
+	Compat = 1, Mask = 1024, ea_inode
+	Compat = 1, Mask = 4096, dirdata
+	Compat = 1, Mask = 8192, metadata_csum_seed
+	Compat = 1, Mask = 16384, large_dir
+	Compat = 1, Mask = 32768, inline_data
+	Compat = 1, Mask = 65536, encrypt
+
+Journal feature list:
+	Compat = 0, Mask = 1, journal_checksum
+	Compat = 1, Mask = 1, journal_incompat_revoke
+	Compat = 1, Mask = 2, journal_64bit
+	Compat = 1, Mask = 4, journal_async_commit
+	Compat = 1, Mask = 8, journal_checksum_v2
+	Compat = 1, Mask = 16, journal_checksum_v3
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/e2p'
+making check in lib/support
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/support'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/support'
+making check in lib/ext2fs
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/ext2fs'
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_bitops
+ext2fs_test_bit appears to be correct
+ext2fs_set_bit test succeeded.
+ext2fs_clear_bit test succeed.
+big bit number (2147483690) test: 4, expected 4
+big bit number (2147483690) test: 0, expected 0
+ext2fs_set_bit big_test successful
+ext2fs_fast_set_bit test succeeded.
+ext2fs_clear_bit test succeed.
+big bit number (2147483690) test: 4, expected 4
+big bit number (2147483690) test: 0, expected 0
+ext2fs_fast_set_bit big_test successful
+64-bit: ext2fs_test_bit appears to be correct
+64-bit: ext2fs_set_bit test succeeded.
+64-bit: ext2fs_clear_bit test succeed.
+64-bit: big bit number (2147483690) test: 4, expected 4
+64-bit: big bit number (2147483690) test: 0, expected 0
+64-bit: ext2fs_set_bit big_test successful
+64-bit: ext2fs_fast_set_bit test succeeded.
+64-bit: ext2fs_clear_bit test succeed.
+64-bit: big bit number (2147483690) test: 4, expected 4
+64-bit: big bit number (2147483690) test: 0, expected 0
+64-bit: ext2fs_fast_set_bit big_test successful
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_badblocks
+test1: 1 2 3 4 5 6 7 8 9 10 --- OK
+test2: 1 2 3 4 5 6 7 8 9 10 11 --- OK
+test3: 1 2 3 4 5 6 7 8 9 10 --- OK
+test4: 2 12 13 17 20 23 50 56 66 
+	block 20 is present --- OK
+	block 50 is present --- OK
+	block 3 is absent --- OK
+	block 17 is present --- OK
+	block 18 is absent --- OK
+	block 16 is absent --- OK
+	block 11 is absent --- OK
+	block 12 is present --- OK
+	block 13 is present --- OK
+	block 14 is absent --- OK
+	block 80 is absent --- OK
+	block 45 is absent --- OK
+	block 66 is present --- OK
+
+test5: 1 17 20 23 31 51 56 57 
+Adding block 50 --- now present
+Removing block 51 --- now absent
+Removing block 57 --- now absent
+Adding block 66 --- now present
+Removing block 31 --- now absent
+Adding block 12 --- now present
+Adding block 2 --- now present
+Adding block 13 --- now present
+Removing block 1 --- now absent
+After test5 sequence: 2 12 13 17 20 23 50 56 66 
+
+Comparison tests:
+bb1 and bb2 are NOT equal.
+bb1 and bb3 are equal.
+bb1 and bb4 are NOT equal.
+bb4 and bb5 are equal.
+
+Block bitmap matched after reading and writing.
+Expected invalid block
+Block bitmap matched after reading and writing.
+ext2fs library badblocks tests checks out OK!
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_iscan
+Reading blocks: 5-7, 9-11, 13-20, 21-23, 25-32, 33, 35-42, 45-52, 53-60, 61-68, 69-76, 77-84, 85-92, 93-99, 101-108, 109-116, 117-124, 125-132, 133-140, 141-148, 149-156, 157-164, 165-172, 173-180, 181-188, 189-192, 8197-8204, 8205-8212, 8213-8220, 8221-8228, 8229-8236, 8237-8244, 8245-8252, 8253-8260, 8261-8268, 8269-8276, 8277-8284, 8285-8292, 8293-8300, 8301-8308, 8309-8316, 8317-8324, 8325-8332, 8333-8340, 8341-8348, 8349-8356, 8357-8364, 8365-8372, 8373-8380, 8381-8384
+Bad inodes: 25, 26, 27, 28, 29, 30, 31, 32, 57, 58, 59, 60, 61, 62, 63, 64, 153, 154, 155, 156, 157, 158, 159, 160, 233, 234, 235, 236, 237, 238, 239, 240, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 761, 762, 763, 764, 765, 766, 767, 768
+Inode scan tested OK!
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_types
+The ext2_types.h types are correct.
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_icount
+Standard icount run:
+icount_store(42, 42) = 42 (OK)
+icount_store(1, 1) = 1 (OK)
+icount_store(2, 2) = 2 (OK)
+icount_store(3, 3) = 3 (OK)
+icount_store(10, 1) = 1 (OK)
+icount_store(42, 0) = 0 (OK)
+icount_increment(5) = 1 (OK)
+icount_increment(5) = 2 (OK)
+icount_increment(5) = 3 (OK)
+icount_increment(5) = 4 (OK)
+icount_decrement(5) = 3 (OK)
+icount_decrement(5) = 2 (OK)
+icount_decrement(5) = 1 (OK)
+icount_decrement(5) = 0 (OK)
+icount_fetch(10) = 1 (OK)
+icount_fetch(1) = 1 (OK)
+icount_fetch(2) = 2 (OK)
+icount_fetch(3) = 3 (OK)
+icount_increment(1) = 2 (OK)
+icount_decrement(2) = 1 (OK)
+icount_decrement(2) = 0 (OK)
+icount_fetch(12) = 0 (OK)
+icount size is 60
+
+Multiple bitmap test:
+icount_store(42, 42) = 42 (OK)
+icount_store(1, 1) = 1 (OK)
+icount_store(2, 2) = 2 (OK)
+icount_store(3, 3) = 3 (OK)
+icount_store(10, 1) = 1 (OK)
+icount_store(42, 0) = 0 (OK)
+icount_increment(5) = 1 (OK)
+icount_increment(5) = 2 (OK)
+icount_increment(5) = 3 (OK)
+icount_increment(5) = 4 (OK)
+icount_decrement(5) = 3 (OK)
+icount_decrement(5) = 2 (OK)
+icount_decrement(5) = 1 (OK)
+icount_decrement(5) = 0 (OK)
+icount_fetch(10) = 1 (OK)
+icount_fetch(1) = 1 (OK)
+icount_fetch(2) = 2 (OK)
+icount_fetch(3) = 3 (OK)
+icount_increment(1) = 2 (OK)
+icount_decrement(2) = 1 (OK)
+icount_decrement(2) = 0 (OK)
+icount_fetch(12) = 0 (OK)
+icount size is 60
+
+Resizing icount:
+icount_store(1, 1) = 1 (OK)
+icount_store(2, 2) = 2 (OK)
+icount_store(3, 3) = 3 (OK)
+icount_store(4, 4) = 4 (OK)
+icount_store(5, 5) = 5 (OK)
+icount_store(6, 1) = 1 (OK)
+icount_store(7, 2) = 2 (OK)
+icount_store(8, 3) = 3 (OK)
+icount_store(9, 4) = 4 (OK)
+icount_store(10, 5) = 5 (OK)
+icount_store(11, 1) = 1 (OK)
+icount_store(12, 2) = 2 (OK)
+icount_store(13, 3) = 3 (OK)
+icount_store(14, 4) = 4 (OK)
+icount_store(15, 5) = 5 (OK)
+icount_store(16, 1) = 1 (OK)
+icount_store(17, 2) = 2 (OK)
+icount_store(18, 3) = 3 (OK)
+icount_store(19, 4) = 4 (OK)
+icount_store(20, 5) = 5 (OK)
+icount_store(21, 1) = 1 (OK)
+icount_store(22, 2) = 2 (OK)
+icount_store(23, 3) = 3 (OK)
+icount_store(24, 4) = 4 (OK)
+icount_store(25, 5) = 5 (OK)
+icount_store(26, 1) = 1 (OK)
+icount_store(27, 2) = 2 (OK)
+icount_store(28, 3) = 3 (OK)
+icount_store(29, 4) = 4 (OK)
+icount_store(30, 5) = 5 (OK)
+icount size is 2256
+
+Standard icount run with tdb:
+icount_store(42, 42) = 42 (OK)
+icount_store(1, 1) = 1 (OK)
+icount_store(2, 2) = 2 (OK)
+icount_store(3, 3) = 3 (OK)
+icount_store(10, 1) = 1 (OK)
+icount_store(42, 0) = 0 (OK)
+icount_increment(5) = 1 (OK)
+icount_increment(5) = 2 (OK)
+icount_increment(5) = 3 (OK)
+icount_increment(5) = 4 (OK)
+icount_decrement(5) = 3 (OK)
+icount_decrement(5) = 2 (OK)
+icount_decrement(5) = 1 (OK)
+icount_decrement(5) = 0 (OK)
+icount_fetch(10) = 1 (OK)
+icount_fetch(1) = 1 (OK)
+icount_fetch(2) = 2 (OK)
+icount_fetch(3) = 3 (OK)
+icount_increment(1) = 2 (OK)
+icount_decrement(2) = 1 (OK)
+icount_decrement(2) = 0 (OK)
+icount_fetch(12) = 0 (OK)
+icount size is 0
+
+Multiple bitmap test with tdb:
+icount_store(42, 42) = 42 (OK)
+icount_store(1, 1) = 1 (OK)
+icount_store(2, 2) = 2 (OK)
+icount_store(3, 3) = 3 (OK)
+icount_store(10, 1) = 1 (OK)
+icount_store(42, 0) = 0 (OK)
+icount_increment(5) = 1 (OK)
+icount_increment(5) = 2 (OK)
+icount_increment(5) = 3 (OK)
+icount_increment(5) = 4 (OK)
+icount_decrement(5) = 3 (OK)
+icount_decrement(5) = 2 (OK)
+icount_decrement(5) = 1 (OK)
+icount_decrement(5) = 0 (OK)
+icount_fetch(10) = 1 (OK)
+icount_fetch(1) = 1 (OK)
+icount_fetch(2) = 2 (OK)
+icount_fetch(3) = 3 (OK)
+icount_increment(1) = 2 (OK)
+icount_decrement(2) = 1 (OK)
+icount_decrement(2) = 0 (OK)
+icount_fetch(12) = 0 (OK)
+icount size is 0
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_super_size
+  offset field                          size
+       0 s_inodes_count                   4
+       4 s_blocks_count                   4
+       8 s_r_blocks_count                 4
+      12 s_free_blocks_count              4
+      16 s_free_inodes_count              4
+      20 s_first_data_block               4
+      24 s_log_block_size                 4
+      28 s_log_cluster_size               4
+      32 s_blocks_per_group               4
+      36 s_clusters_per_group             4
+      40 s_inodes_per_group               4
+      44 s_mtime                          4
+      48 s_wtime                          4
+      52 s_mnt_count                      2
+      54 s_max_mnt_count                  2
+      56 s_magic                          2
+      58 s_state                          2
+      60 s_errors                         2
+      62 s_minor_rev_level                2
+      64 s_lastcheck                      4
+      68 s_checkinterval                  4
+      72 s_creator_os                     4
+      76 s_rev_level                      4
+      80 s_def_resuid                     2
+      82 s_def_resgid                     2
+      84 s_first_ino                      4
+      88 s_inode_size                     2
+      90 s_block_group_nr                 2
+      92 s_feature_compat                 4
+      96 s_feature_incompat               4
+     100 s_feature_ro_compat              4
+     104 s_uuid                          16
+     120 s_volume_name                   16
+     136 s_last_mounted                  64
+     200 s_algorithm_usage_bitmap         4
+     204 s_prealloc_blocks                1
+     205 s_prealloc_dir_blocks            1
+     206 s_reserved_gdt_blocks            2
+     208 s_journal_uuid                  16
+     224 s_journal_inum                   4
+     228 s_journal_dev                    4
+     232 s_last_orphan                    4
+     236 s_hash_seed                     16
+     252 s_def_hash_version               1
+     253 s_jnl_backup_type                1
+     254 s_desc_size                      2
+     256 s_default_mount_opts             4
+     260 s_first_meta_bg                  4
+     264 s_mkfs_time                      4
+     268 s_jnl_blocks                    68
+     336 s_blocks_count_hi                4
+     340 s_r_blocks_count_hi              4
+     344 s_free_blocks_hi                 4
+     348 s_min_extra_isize                2
+     350 s_want_extra_isize               2
+     352 s_flags                          4
+     356 s_raid_stride                    2
+     358 s_mmp_update_interval            2
+     360 s_mmp_block                      8
+     368 s_raid_stripe_width              4
+     372 s_log_groups_per_flex            1
+     373 s_checksum_type                  1
+     374 s_encryption_level               1
+     375 s_reserved_pad                   1
+     376 s_kbytes_written                 8
+     384 s_snapshot_inum                  4
+     388 s_snapshot_id                    4
+     392 s_snapshot_r_blocks_count        8
+     400 s_snapshot_list                  4
+     404 s_error_count                    4
+     408 s_first_error_time               4
+     412 s_first_error_ino                4
+     416 s_first_error_block              8
+     424 s_first_error_func              32
+     456 s_first_error_line               4
+     460 s_last_error_time                4
+     464 s_last_error_ino                 4
+     468 s_last_error_line                4
+     472 s_last_error_block               8
+     480 s_last_error_func               32
+     512 s_mount_opts                    64
+     576 s_usr_quota_inum                 4
+     580 s_grp_quota_inum                 4
+     584 s_overhead_blocks                4
+     588 s_backup_bgs                     8
+     596 s_encrypt_algos                  4
+     600 s_encrypt_pw_salt               16
+     616 s_lpf_ino                        4
+     620 s_prj_quota_inum                 4
+     624 s_checksum_seed                  4
+     628 s_reserved                     392
+    1020 s_checksum                       4
+    1024 Superblock end                   0
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_inode_size
+  offset field                          size
+       0 i_mode                           2
+       2 i_uid                            2
+       4 i_size                           4
+       8 i_atime                          4
+      12 i_ctime                          4
+      16 i_mtime                          4
+      20 i_dtime                          4
+      24 i_gid                            2
+      26 i_links_count                    2
+      28 i_blocks                         4
+      32 i_flags                          4
+      36 osd1.linux1.l_i_version          4
+      40 i_block                         60
+     100 i_generation                     4
+     104 i_file_acl                       4
+     108 i_size_high                      4
+     112 i_faddr                          4
+     116 osd2.linux2.l_i_blocks_hi        2
+     118 osd2.linux2.l_i_file_acl_high    2
+     120 osd2.linux2.l_i_uid_high         2
+     122 osd2.linux2.l_i_gid_high         2
+     124 osd2.linux2.l_i_checksum_lo      2
+     126 osd2.linux2.l_i_reserved         2
+     128 Small inode end                  0
+     128 i_extra_isize                    2
+     130 i_checksum_hi                    2
+     132 i_ctime_extra                    4
+     136 i_mtime_extra                    4
+     140 i_atime_extra                    4
+     144 i_crtime                         4
+     148 i_crtime_extra                   4
+     152 i_version_hi                     4
+     156 i_projid                         4
+     160 Large inode end                  0
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_csum
+csum0000 UUID 4f25e8cf-e797-4823-befa-a7884baeecdb=241f, grp 0=df47: d3a4=d3a4
+csum0001 UUID 4f25e8cf-e797-4823-befa-a7884baeecdb=241f, grp 1=2346: 3ea5=3ea5
+csumffff UUID 4f25e8cf-e797-4823-befa-a7884baeecdb=241f, grp 2=6746: 49a5=49a5
+csum_set UUID 4f25e8cf-e797-4823-befa-a7884baeecdb=241f, grp 0=df47: d3a4=d3a4
+new_uuid UUID 30303030-3030-3030-3030-303030303030=766d, grp 0=76fd: a4ac=a4ac
+csum_new UUID 30303030-3030-3030-3030-303030303030=766d, grp 0=76fd: a4ac=a4ac
+csum_blk UUID 30303030-3030-3030-3030-303030303030=766d, grp 0=76fd: 2e14=2e14
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_inline
+tst_memalign(4) is OK
+tst_memalign(32) is OK
+tst_memalign(1024) is OK
+tst_memalign(4096) is OK
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_inline_data
+tst_inline_data(FILE): OK
+tst_inline_data(DIR): OK
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_crc32c
+No failures.
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_sha256
+SHA256 test message 0: OK
+SHA256 test message 1: OK
+SHA256 test message 2: OK
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_sha512
+SHA512 test message 0: OK
+SHA512 test message 1: OK
+SHA512 test message 2: OK
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_bitmaps -f ./tst_bitmaps_cmds > tst_bitmaps_out
+Illegal block number passed to ext2fs_test_block_bitmap #0 for block bitmap
+Illegal block number passed to ext2fs_test_block_bitmap #1 for block bitmap
+Illegal block number passed to ext2fs_test_block_bitmap #13 for block bitmap
+Illegal inode number passed to ext2fs_test_inode_bitmap #0 for inode bitmap
+Illegal inode number passed to ext2fs_test_inode_bitmap #1 for inode bitmap
+diff ./tst_bitmaps_exp tst_bitmaps_out
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_bitmaps -t 2 -f ./tst_bitmaps_cmds > tst_bitmaps_out
+Illegal block number passed to ext2fs_test_block_bitmap #0 for block bitmap
+Illegal block number passed to ext2fs_test_block_bitmap #1 for block bitmap
+Illegal block number passed to ext2fs_test_block_bitmap #13 for block bitmap
+Illegal inode number passed to ext2fs_test_inode_bitmap #0 for inode bitmap
+Illegal inode number passed to ext2fs_test_inode_bitmap #1 for inode bitmap
+diff ./tst_bitmaps_exp tst_bitmaps_out
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_bitmaps -t 3 -f ./tst_bitmaps_cmds > tst_bitmaps_out
+Illegal block number passed to ext2fs_test_block_bitmap #0 for block bitmap
+Illegal block number passed to ext2fs_test_block_bitmap #1 for block bitmap
+Illegal block number passed to ext2fs_test_block_bitmap #13 for block bitmap
+Illegal inode number passed to ext2fs_test_inode_bitmap #0 for inode bitmap
+Illegal inode number passed to ext2fs_test_inode_bitmap #1 for inode bitmap
+diff ./tst_bitmaps_exp tst_bitmaps_out
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_bitmaps -l -f ./tst_bitmaps_cmds > tst_bitmaps_out
+Illegal block number passed to ext2fs_test_block_bitmap #0 for block bitmap
+Illegal block number passed to ext2fs_test_block_bitmap #1 for block bitmap
+Illegal block number passed to ext2fs_test_block_bitmap #13 for block bitmap
+Illegal inode number passed to ext2fs_test_inode_bitmap #0 for inode bitmap
+Illegal inode number passed to ext2fs_test_inode_bitmap #1 for inode bitmap
+diff ./tst_bitmaps_exp tst_bitmaps_out
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_digest_encode
+Test Digest 0 (returned 43): OK
+Test Digest 1 (returned 43): OK
+Test Digest 2 (returned 43): OK
+Test Digest 3 (returned 2): OK
+Test Digest 4 (returned 2): OK
+Test Digest 5 (returned 3): OK
+Test Digest 6 (returned 4): OK
+Test Digest 7 (returned 6): OK
+Test Digest 8 (returned 7): OK
+Test Digest 9 (returned 8): OK
+Test Digest 10 (returned 10): OK
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/lib/ext2fs'
+making check in intl
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/intl'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/intl'
+making check in e2fsck
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/e2fsck'
+LD_LIBRARY_PATH="../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../lib:${DYLD_LIBRARY_PATH}" ./tst_refcount
+Creating refcount with size 5
+Storing ea_key 3 with value 3
+Storing ea_key 4 with value 4
+Storing ea_key 1 with value 1
+Storing ea_key 8 with value 8
+Storing ea_key 2 with value 2
+Storing ea_key 4 with value 0
+Storing ea_key 2 with value 0
+Storing ea_key 6 with value 6
+Refcount_collapse: size was 5, now 3
+Refcount validation OK.
+Storing ea_key 4 with value 4
+Storing ea_key 2 with value 2
+Refcount_collapse: size was 5, now 5
+bcode_fetch(1) returns 1
+bcode_fetch(2) returns 2
+bcode_increment(3) returns 4
+bcode_increment(3) returns 5
+bcode_decrement(4) returns 3
+Storing ea_key 4 with value 4
+Refcount validation OK.
+Storing ea_key 20 with value 20
+Storing ea_key 40 with value 40
+Storing ea_key 30 with value 30
+Storing ea_key 10 with value 10
+bcode_decrement(30) returns 29
+bcode_fetch(30) returns 29
+bcode_decrement(2) returns 1
+bcode_decrement(2) returns 0
+Refcount_collapse: size was 10, now 9
+	ea_key=1, count=1
+	ea_key=3, count=5
+	ea_key=4, count=4
+	ea_key=6, count=6
+	ea_key=8, count=8
+	ea_key=10, count=10
+	ea_key=20, count=20
+	ea_key=30, count=29
+	ea_key=40, count=40
+Refcount validation OK.
+Freeing refcount
+LD_LIBRARY_PATH="../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../lib:${DYLD_LIBRARY_PATH}" ./tst_region
+Creating region with args(1, 1001)
+Printing region (min=1. max=1001)
+	
+Region_allocate(10, 10) returns 0
+Region_allocate(30, 10) returns 0
+Printing region (min=1. max=1001)
+	(10, 20)  (30, 40)  
+Region_allocate(1, 15) returns 1
+Region_allocate(15, 8) returns 1
+Region_allocate(1, 20) returns 1
+Region_allocate(1, 8) returns 0
+Printing region (min=1. max=1001)
+	(1, 9)  (10, 20)  (30, 40)  
+Region_allocate(40, 10) returns 0
+Printing region (min=1. max=1001)
+	(1, 9)  (10, 20)  (30, 50)  
+Region_allocate(22, 5) returns 0
+Printing region (min=1. max=1001)
+	(1, 9)  (10, 20)  (22, 27)  (30, 50)  
+Region_allocate(27, 3) returns 0
+Printing region (min=1. max=1001)
+	(1, 9)  (10, 20)  (22, 50)  
+Region_allocate(20, 2) returns 0
+Printing region (min=1. max=1001)
+	(1, 9)  (10, 50)  
+Region_allocate(49, 1) returns 1
+Region_allocate(50, 5) returns 0
+Region_allocate(9, 2) returns 1
+Region_allocate(9, 1) returns 0
+Printing region (min=1. max=1001)
+	(1, 55)  
+LD_LIBRARY_PATH="../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../lib:${DYLD_LIBRARY_PATH}" ./tst_problem
+e2fsck problem table verified
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/e2fsck'
+making check in debugfs
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/debugfs'
+LD_LIBRARY_PATH="../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../lib:${DYLD_LIBRARY_PATH}" ./tst_set_fields
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/debugfs'
+making check in misc
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/misc'
+./base_device < ./base_device.tst > base_device.out
+cmp ./base_device.tst base_device.out
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/misc'
+making check in resize
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/resize'
+Test succeeded.
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/resize'
+making check in tests/progs
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/tests/progs'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/tests/progs'
+making check in po
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/po'
+making check in tests
+make[1]: Entering directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/tests'
+Running e2fsprogs test suite...
+ 
+u_mke2fs_opt_oddsize: e2undo with mke2fs -z and non-32k-aligned bdev size: ok
+f_extra_journal: Valid journal inode, but has_journal feature not present: ok
+t_project_3on: enable project using tune2fs -Q option: ok
+u_corrupt_hdr_csum: corrupt e2undo header: ok
+m_hugefile_slack: mke2fs create hugefile fs with slack: ok
+d_special_files: create special files in debugfs: ok
+f_large_dir: optimize 3 level htree directories: skipped (slow test)
+f_h_badroot: bad htree root nodes: ok
+m_hugefile: create a hugefile fs with a single huge file: ok
+t_project_4off: disable project using tune2fs -Q option: ok
+f_extent_htree: htree extent compression setup: ok
+f_extent_htree: htree extent compression: ok
+f_misstable: missing inode table: ok
+f_uninit_last_uninit: last group has BLOCK_UNINIT set: ok
+u_corrupt_key_csum: corrupt e2undo key data: ok
+f_special_ea: Special files with extended attributes: ok
+f_compress_extent_tree_level: compress an extent tree level: ok
+t_enable_mcsum: enable metadata_csum: ok
+f_eofblocks: blocks after i_size: ok
+j_short_revoke_trans: revoke blocks of transaction nuking bitmaps: ok
+f_file_acl_high: i_file_acl_high should be zero: ok
+f_orphquot: e2fsck with quota and orphan inodes: ok
+f_holedir3: real directories with holes and zero i_size: ok
+u_e2fsck_opt: e2undo with e2fsck -z: ok
+f_baddir: corrupted directory entries: ok
+f_sb_extra_isize: check invalid extra_isize fields in superblock: ok
+f_yes: e2fsck with repeated yes: ok
+m_mcsum_extjournal: create external journal with sb checksum (metadata_csum): ok
+j_short_trans_open_recover: don't recover open journal: ok
+f_pre_1970_date_encoding: correct mis-encoded pre-1970 dates: ok
+r_32to64bit_move_itable: convert 32 to 64bit w/ itable move: ok
+f_convert_bmap_sparse: convert sparse blockmap file to extents file: ok
+f_bad_inode_csum: inode table corruption (metadata_csum): ok
+t_change_uuid_mcsum_seed_mounted: change meta-csum uuid with mcsum-seed: ok
+f_badjour_indblks: corruption in journal inode's indirect blocks: ok
+f_mmp: disable MMP with tune2fs after e2fsck killed: skipped (slow test)
+f_yesthenno: e2fsck with yes then no: ok
+f_bad_local_jnl: test for corrupt local journal (bad V1->V2 journal upgrade): ok
+f_imagic: non-imagic filesystem with imagic inodes: ok
+f_convert_bmap: convert blockmap file to extents file: ok
+f_noroot: missing root directory: ok
+f_desc_size_128: 128-byte group descriptors: ok
+f_extent_int_bad_extent: bad extent in internal extent (metadata_csum): ok
+j_long_revoke_trans_mcsum_64bit: revoke trans nuking free space 64bit,mcsum: ok
+r_32to64bit_expand_full: convert+expand full fs to 64bit: ok
+u_onefile_bad: check that we cant append a bad undo file: ok
+f_dup_de2: duplicate directory entries for non-indexed dirs: ok
+f_bitmaps: corrupted inode and block bitmaps: ok
+f_detect_xfs: detect xfs filesystem: ok
+f_opt_extent_ext3: convert ext3 to extent tree: ok
+f_badroot: file in root directory inode: ok
+f_shared_blocks_ok: clean check for intentionally shared blocks: ok
+f_overfsblks: overlapping inode and block bitmaps: ok
+j_long_trans_mcsum_64bit: trans nuking free space 64bit,meta_csum: ok
+f_bad_gdt_csum: bad group descriptor csum (metadata_csum): ok
+f_mke2fs2b: mke2fs version 0.2b created filesystem: ok
+j_corrupt_ext_jnl_sb_block: corrupt mcsum ext jnl fs superblock block: ok
+f_desc_size_bad: bad superblock s_desc_size: ok
+f_dirlink: directory hard links: ok
+f_extent_leaf_bad_csum: bad csum in leaf extent (metadata_csum): ok
+f_expand: expanding lost+found: ok
+t_format_csum_seed: format with csum_seed: ok
+t_mmp_1on: enable MMP using tune2fs: ok
+r_bigalloc_big_expand: ext4 with bigalloc: ok
+r_bigalloc_big_expand:  *** took 165 seconds to finish ***
+r_bigalloc_big_expand:  consider adding r_bigalloc_big_expand/is_slow_test
+f_resize_inode_meta_bg: conflicting features resize_inode and meta_bg: ok
+d_fallocate: fallocate sparse files and big files: ok
+m_rootdir: create fs image from dir: ok
+t_disable_mcsum_noinitbg: disable metadata_csum and uninit_bg: ok
+m_std: standard filesystem options: ok
+u_force: e2undo force: ok
+j_corrupt_revoke_rcount: corrupt revoke r_count buffer overflow: ok
+debugfs 1.44.5 (15-Dec-2018)
+d_bad_ostype: handle bad (negative) os_type: ok
+f_ea_bad_csum: EA block with bad checksum (metadata_csum): ok
+r_32to64bit: convert flex_bg 32bit fs to 64bit fs: ok
+m_large_file: largefile fs type: ok
+j_long_revoke_trans: revoked transaction nuking free space: ok
+f_extent_bad_node: bad interior node in extent tree (metadata_csum): ok
+t_enable_mcsum_ext3: enable metadata_csum on ext3 fs: ok
+r_64bit_big_expand: : skipped (slow test)
+u_compound_rollback: e2undo with mke2fs/tune2fs/resize2fs/e2fsck -z: ok
+f_opt_extent: optimize extent tree: ok
+f_illitable_flexbg: illegal inode table with FLEX_BG: ok
+t_change_uuid_mounted: change uuid on a mounted pre-metadata-csum: ok
+j_corrupt_descr_tid: corrupt descr tid (csum v3): ok
+d_dumpe2fs_group_only: dumpe2fs group only mode: ok
+t_disable_mcsum_yesinitbg: disable metadata_csum and enable uninit_bg: ok
+u_revert_all_onefile: convert 64bit,mcsum and revert undo file: ok
+f_zero_group: fallback for damaged group descriptors: ok
+f_big_sparse: big sparse file: ok
+f_corrupt_dirent_tail: rebuild a directory with corrupt dirent tail: ok
+f_baddir2: salvage last directory entry: ok
+j_corrupt_ext_jnl_sb_csum: corrupt external journal superblock metadata_csum: ok
+r_move_itable_realloc: don't allocate inode table from in-use blocks: ok
+r_move_itable_realloc:  *** took 122 seconds to finish ***
+r_move_itable_realloc:  consider adding r_move_itable_realloc/is_slow_test
+i_bitmaps: e2image bitmap read/write test: ok
+t_disable_csum_seed: disable csum seed via tune2fs: ok
+f_clear_xattr: clearing i_file_acl when !ext_attr feature: ok
+d_xattr_sorting: sort extended attributes in debugfs: ok
+j_short_trans_recover: transaction nuking the bitmaps (debugfs recovery): ok
+j_corrupt_revoke_block: corrupt revoke block (csum v3): ok
+f_reconnect: simple disconnected file inode: ok
+f_uninit_dir: fix uninit flag on directory extents and check the dir blocks: ok
+r_fixup_lastbg: fix up last bg when expanding within the last bg: ok
+f_write_ea_no_extra_isize: write EA when i_extra_size is zero: ok
+f_extent_leaf_bad_magic: bad magic number in leaf extent (metadata_csum): ok
+u_tune2fs: e2undo with tune2fs: ok
+u_corrupt_blk_csum: corrupt e2undo block data: ok
+d_loaddump: debugfs load/dump test: ok
+f_16384_block: 16384 byte blocksize: ok
+f_mmp_garbage: repair MMP when it is corrupted: skipped (slow test)
+m_mmp: enable MMP during mke2fs: ok
+f_unshare_blocks_ok: unshare blocks successfully: ok
+f_no: e2fsck with repeated no: ok
+f_quota_invalid_inum: invalid quota inode numbers: ok
+f_badbblocks: illegal blocks in bad block inode: ok
+j_short_uncommitted_trans_mcsum_64bit: uncommitted trans nuking bmap 64b,mcsum: ok
+j_short_trans_64bit: transaction nuking the bitmaps on 64bit: ok
+f_recnect_bad: Reconnecting bad inode: ok
+f_zeroed_ext_header: zap inode with zeroed extent header: ok
+f_inode_ea_collision: collisions in the inode ea area: ok
+f_boundscheck: infinite loop when finding table free space: ok
+f_extent_leaf_bad_extent: bad extent in leaf extent (metadata_csum): ok
+m_raid_opt: raid options: ok
+f_bbinode: bad blocks in inode table: ok
+f_bad_disconnected_inode: Disconnected inode with bad fields: ok
+f_zero_inode_size: superblock with a zero inode size: ok
+f_short_encrypted_dirent: short encrypted directory entry: ok
+m_uninit: uninitialized group feature: ok
+j_ext_dumpe2fs: dumpe2fs of external journal device: ok
+r_move_itable_nostride: resize with flex_bg and stride value set: ok
+r_move_itable_nostride:  *** took 87 seconds to finish ***
+r_move_itable_nostride:  consider adding r_move_itable_nostride/is_slow_test
+f_bigalloc_badinode: delete bad inode handling for bigalloc filesystems: ok
+f_orphan_indirect_inode: truncating an orphaned inode in preen mode: ok
+m_error_behavior: mke2fs with error behavior: ok
+u_force_dryrun: force dry-run replay of corrupt e2undo block data: ok
+f_jnl_64bit: on-disk 64-bit journal format: ok
+f_ind_inode_collision: multiple *ind collisions with critical metadata: ok
+t_change_uuid_mcsum: change uuid on a metadata-csum: ok
+f_zero_xattr: zero length extended attribute in in-inode xattr: ok
+r_ext4_big_expand: : skipped (slow test)
+e_icount_normal: inode counting structure optimized for low counts: ok
+f_h_badnode: hash directory with bad HTREE nodes: ok
+f_collapse_extent_tree: extent tree can be collapsed one level: ok
+t_disable_changed_csum_seed: tune2fs disable csum seed after uuid change: ok
+r_1024_small_bg: ext2 1024 blocksize with small block groups: ok
+m_mkfs_overhead: test bg overhead calculation: ok
+r_inline_xattr: shrinking filesystem with in-inode extended attributes: ok
+t_quota_1on: enable quota using tune2fs: ok
+f_extents: basic extents support: ok
+f_dup: blocks claimed by two different files: ok
+r_meta_bg_shrink: meta_bg shrink: ok
+f_extents2: multiply claimed blocks in extents and other illegal extents: ok
+f_end-bitmap: corruption at end of block bitmap: ok
+f_dup3: blocks claimed by one file multiple times: ok
+f_orphan: clearing orphan inodes: ok
+t_project_2off: disable project using tune2fs: ok
+d_punch_bigalloc: punch sparse files and big files with bigalloc: ok
+f_holedir2: directories with holes and zero i_size: ok
+m_desc_size_128: enable 128-byte group descriptor on mkfs: ok
+f_holedir4: bigalloc directory with hole and misaligned extent after hole: ok
+u_revert_upgrade_to_64bitmcsum: convert 64bit,mcsum and revert both: ok
+f_lotsbad: too many illegal blocks in inode: ok
+f_extent_too_deep: extent tree is deeper than it needs to be: ok
+u_mke2fs_opt_offset: e2undo and mke2fs with offset option: ok
+m_root_owner: root directory owner: ok
+f_rehash_dir: optimize htree directories: ok
+f_jnl_errno: journal s_errno handling: ok
+f_quota: fix incorrect usage stats in quota: ok
+f_dir_bad_mode: directory with corrupted i_mode: ok
+f_valid_ea_in_inode: valid ea-in-inode examplars: ok
+f_badorphan: corrupted orphan list: ok
+u_wrong_fs: e2undo on the wrong fs: ok
+f_cloneblock_alloc_error: decrement badcount after remapping duplicate block: ok
+m_mmp_bad_magic: mmp with bad magic (metadata_csum): ok
+f_yesthenall: e2fsck with yes then yes-to-all: ok
+f_ea_inode_self_ref: corrupted, self-referential ea_in_inode: ok
+f_unsorted_EAs: unsorted EAs in inode should not be deleted: ok
+d_xattr_edits: edit extended attributes in debugfs: ok
+j_ext_long_trans: transaction nuking free space w/ ext. journal: ok
+m_offset: mke2fs with offset option (-E offset=N): ok
+u_corrupt_blk_csum_force: force replay of corrupt e2undo block data: ok
+j_recover_csum2_64bit: recover 64-bit journal checksum v2: ok
+f_jnl_32bit: on-disk 32-bit journal format: ok
+j_corrupt_sb_magic: corrupt sb magic (csum v3): ok
+e_brel_bma: block relocation table using memory array implementation: skipped
+m_minrootdir: create fs image from dir, then minimize it: ok
+f_imagic_fs: imagic filesystem with imagic inodes: ok
+f_itable_collision: collision between IND/extent tree blocks and inode table: ok
+r_64to32bit_meta: convert meta_bg 64bit fs to 32bit fs: ok
+u_dryrun: e2undo dry run: ok
+f_badinode: corrupted inode entries: ok
+f_bigalloc_orphan_list: orphaned list handling with bigalloc file systems: ok
+f_unshare_blocks_no_space: unshare blocks should fail with no free space: ok
+f_bad_ibitmap: corrupt inode bitmap (metadata_csum): ok
+f_messy_inode: bad file and directory acl pointers: ok
+f_inlinedata_dirblocks: check inline dir as two dirent blocks: ok
+i_qcow: create/convert raw/qcow2 images: ok
+f_quota_extent_opt: extent optimization with quota: ok
+j_ext_long_revoke_trans: revoke trans nuking free space w/ ext. journal: ok
+t_enable_mcsum_initbg: enable metadata_csum when ^uninit_bg: ok
+f_bb_in_bb: bad block inode table block in bad block list: ok
+f_del_dup_quota: delete file containing multiply claimed blocks with quota: ok
+r_fixup_lastbg_big: fix up last bg when expanding beyond the last bg: ok
+d_fallocate_blkmap: fallocate sparse files and big files on a blockmap fs: ok
+f_rebuild_csum_rootdir: force rebuild corrupted rootdir w/ metadata_csum: ok
+t_change_uuid_mcsum_mounted: change uuid on a metadata-csum: ok
+f_selinux: SE Linux generated symlinks with EA data: ok
+u_incomplete: e2undo with incomplete undo file: ok
+j_corrupt_commit_csum: corrupt commit csum (csum v3): ok
+j_corrupt_commit_tid: corrupt commit tid (csum v3): ok
+f_orphan_dotdot_ft: filetype of .. in orphaned directories: ok
+j_recover_csum2_32bit: recover 32-bit journal checksum v2: ok
+f_uninit_cat: cat a file with uninit blocks: ok
+u_revert_64bitmcsum_onefile: convert fs to 64bit,mcsum and revert undo file: ok
+f_dir_bad_csum: dir block w/ missing/bad csum/tail or block corruption: ok
+t_disable_changed_csum_seed_mounted: mounted tune2fs disable csum+uuid: ok
+f_no_cache_corrupt_inode: don't cache inodes that fail checksum verification: ok
+f_lpf: missing lost+found: ok
+f_zero_super: fallback for damaged superblock: ok
+f_dup2: blocks claimed by three different files: ok
+t_enable_csum_seed: enable csum seed via tune2fs: ok
+f_create_symlinks: create fast, inlinedata, and regular symlinks: ok
+f_holedir: directory with holes and illegal blocks: ok
+f_emptydir: always iterate dir block 0 or e2fsck goes into infinite loop: ok
+f_journal: recover journal from corrupted inode table: ok
+r_min_itable: resize2fs -M with inode table in middle of last block group: ok
+e2image 1.44.5 (15-Dec-2018)
+m_image_mmp: create image for partition with enabled mmp and execute fsck on image: ok
+e_irel_ima: inode relocation table using memory array implementation: skipped
+m_devdir: create fs image from /dev: ok
+i_bad_csum: e2image corrupt fs: ok
+f_salvage_dir: salvage corrupted directories: ok
+f_illitable: illegal inode table: ok
+j_short_revoke_trans_mcsum_64bit: revoke trans nuking bmap 64bit,meta_csum: ok
+d_punch: punch sparse files and big files: ok
+f_badsymlinks: corrupted symlinks: ok
+f_dupsuper: blocks claimed by a file and superblock or group descriptors: ok
+f_h_unsigned: Unsigned HTREE directory: ok
+f_badprimary: bad blocks in the primary superblock and group descriptors: ok
+f_ea_value_crash: extended attribute value conflicts with key: ok
+m_resize_inode_meta_bg: resize_inode and meta_bg enabled: ok
+f_hurd: GNU/Hurd specific tests: ok
+f_ext_journal: test external journal device: ok
+f_dup_resize: blocks claimed by the resize inode and another inode: ok
+f_inlinedata_flags: check incorrect inline_data flags: ok
+f_bbfile: bad blocks in files: ok
+f_preen: preen shouldn't destroy backup superblocks: ok
+f_illbbitmap: illegal block bitmap: ok
+f_miss_blk_bmap: missing block bitmap: ok
+f_hugedir_blocks: dir crashes e2fsck with impossible logical blk offset: ok
+f_nospc_create_lnf: no space to create lost+found: ok
+u_offset: e2undo with the offset option (-o offset): ok
+f_htree_leaf_csum: bad csum in htree leaf block: ok
+m_mmp_bad_csum: mmp with bad csum (metadata_csum): ok
+f_expandroot_create_lnf: no space in root to create lost+found entry: ok
+f_crashdisk: Superblock with illegal values: ok
+t_iexpand_mcsum: expand inodes and turn on metadata_csum: ok
+f_fast_symlink_extents: fast symlink with extents flag set: ok
+f_dup_de: duplicate directory entries: ok
+f_idata_and_extents: conflicting extents and inline_data inode flags: ok
+j_recover_csum3_64bit: recover 64-bit journal checksum v3: ok
+f_deleted_inode_bad_csum: deleted inode with bad metadata_csum wasn't fixed: ok
+j_corrupt_sb_csum: corrupt sb csum (csum v3): ok
+t_quota_2off: disable quota using tune2fs: ok
+f_miss_journal: Non-existent journal inode: ok
+j_short_trans_recover_mcsum_64bit: uncommitted trans nuking bmap 64bit,mcsum: ok
+j_long_revoke_trans_mcsum_32bit: revoked trans nuking free space 32bit,mcsum: ok
+f_okgroup: 8193 block long filesystem: ok
+t_project_1on: enable project using tune2fs -O option: ok
+e_icount_opt: inode counting abstraction optimized for counting: ok
+f_ext_zero_len: extent with zero length: ok
+m_dasd_bs: 2048 byte sector devices: ok
+f_toobig_extent_dir: directory with a very large lblk in extent: ok
+f_extent_int_bad_magic: bad magic number in internal extent (metadata_csum): ok
+f_encrypted_lpf: encrypted lost+found directory: ok
+d_corrupt_journal_nr_users: Journal superblock corrupted, nr_users too high: ok
+f_resize_inode: e2fsck with resize_inode: ok
+r_expand_full: expand a totally full filesystem: ok
+f_dup_ba: multiply claimed blocks with bigalloc: ok
+u_undo_undo: undo e2undo: ok
+t_change_uuid: change uuid on a pre-metadata-csum: ok
+t_dangerous: dangerous tune2fs operation prompts: ok
+f_trunc_dirent_header: no space for dirent header at end of buf: ok
+f_mke2fs_baddisk: mke2fs /dev/mapper/bad_disk should fail: skip
+f_orphan_extents_inode: truncating an orphaned extent-mapped inode: ok
+f_lpf2: create lost+found and reconnect lost directory: ok
+f_badjourblks: Illegal blocks in journal inode (and backup in superblock): ok
+f_ea_checks: extended attribute block checks: ok
+t_ext_jnl_rm: remove missing external journal device: ok
+f_uninit_ext_past_eof: fallocated extents after i_size: ok
+t_replay_and_set: recover journal and clear features: ok
+f_readonly_fsck: ensure that a readonly check doesn't modify the fs: ok
+r_ext4_small_bg: ext4 1024 blocksize with small block groups: ok
+f_h_reindex: reindex HTREE Directory with different hash seed: ok
+f_write_ea_toobig_extra_isize: write EA when i_extra_size is too big for EA: ok
+f_summary_counts: incorrect inode/block free counts: ok
+t_iexpand_full: expand inodes on a totally full filesystem: ok
+f_filetype: set filetype information and illegal special files: ok
+t_disable_mcsum: disable metadata_csum: ok
+r_64to32bit: convert flex_bg 64bit fs to 32bit fs: ok
+f_convert_bmap_and_extent: convert blockmap to extents files: ok
+f_inlinedir_detector: detect inline dirs correctly: ok
+f_ea_inode: ok
+j_short_trans_old_csum: trans nuking bitmaps v1 journal csum: ok
+u_mke2fs_opt: e2undo with mke2fs -z: ok
+f_super_bad_csum: bad csum in superblock (metadata_csum): ok
+u_errorout: e2undo a failed command: ok
+u_resize2fs_opt: e2undo with resize2fs -z: ok
+t_disable_meta_csum_and_seed: disable csum seed and csums via tune2fs: ok
+f_yesall: e2fsck with yes-to-all: ok
+j_short_trans_mcsum_64bit: trans nuking bitmaps 64bit,meta_csum: ok
+u_not_undo: e2undo a non-undo file: ok
+f_bigalloc_symlink_with_xattr: fast symlink + xattr block on bigalloc fs: ok
+t_uninit_bg_rm: remove uninit_bg: ok
+f_baddotdir: bad '.' and '..' entries: ok
+f_unused_itable: Don't move files to lost+found for bg_unused_itable: ok
+f_badtable: bad blocks in bitmaps and inode table: ok
+d_fallocate_bigalloc: fallocate sparse files and big files with bigalloc: ok
+f_inlinedata_repair: repair corrupt inline data files: ok
+f_illibitmap: illegal inode bitmap: ok
+f_extent_interior_start_lblk: incorrect starting lblk in an interior node: ok
+m_bigjournal: journal over 4GB in size: ok
+r_move_inode_int_extent: move inode and its interior extent tree block: ok
+j_corrupt_journal_block: corrupt journal block (csum v3): ok
+f_first_meta_bg_too_big: s_first_meta_bg is too large: ok
+d_inline_dump: debugfs dump inline data test: ok
+m_quota: enable quota feature on mkfs: ok
+m_64bit_flexbg: mkfs with 64bit and flex_bg: ok
+r_32to64bit_meta: convert meta_bg 32bit fs to 64bit fs: ok
+f_invalid_extent_symlink: extent-mapped symlink with two blocks: ok
+f_invalid_bad_inode: check for bogus bad inode: ok
+f_jnl_etb_alloc_fail: can't allocate extent tree block recreating journal: ok
+f_dup4: find all directory pathnames: ok
+f_bad_bbitmap: corrupt block bitmap (metadata_csum): ok
+j_short_uncommitted_trans: uncommitted transaction nuking bitmaps: ok
+f_badcluster: test alignment problems with bigalloc clusters: ok
+t_ext_jnl_fail: tune2fs fail external journal: ok
+f_write_ea_toosmall_extra_isize: write EA when i_extra_size is too small: ok
+f_htree_bad_csum: htree block bad csum/tail dirent/htree index corruption: ok
+r_move_itable: filesystem resize which requires moving the inode table: ok
+f_full_bg: inode table in last block of first bg: ok
+j_corrupt_revoke_csum: corrupt revoke csum (csum v3): ok
+u_tune2fs_opt: e2undo with tune2fs -z: ok
+f_h_normal: Normal (signed) HTREE directory: ok
+j_long_trans: transaction nuking free space: ok
+f_uninit_ext_past_eof2: fallocate extents w/ nonzero i_size and extents > 4: ok
+j_long_trans_mcsum_32bit: trans nuking free space 32bit,meta_csum: ok
+f_dupdot: duplicate '.' and '..' entries: ok
+u_debugfs_opt: e2undo with debugfs -z: ok
+j_short_trans: transaction nuking the bitmaps: ok
+m_extent_journal: extent-mapped journal: ok
+f_dupfsblks: blocks claimed by a file and bitmaps or inode tables: ok
+t_mmp_2off: disable MMP using tune2fs: ok
+f_detect_junk: detect non-fs file data: ok
+f_8192_block: 8192 byte blocksize: ok
+j_corrupt_descr_csum: corrupt descr csum (csum v3): ok
+m_meta_bg: meta blockgroup feature: ok
+f_extent_int_bad_csum: bad csum in internal extent (metadata_csum): ok
+f_extent_oobounds: ok
+f_lpffile: lost+found is not a directory: ok
+u_compound_bad_rollback: e2undo with mke2fs/tune2fs/resize2fs/e2fsck -z: ok
+m_no_opt: no filesystem extensions: ok
+f_bad_bmap_csum: bad block/inode bitmap csum (metadata_csum): ok
+f_badsymlinks2: more types of corrupted symlinks: ok
+u_mke2fs: e2undo with mke2fs: ok
+r_resize_inode: filesystem resize with a resize_inode present: ok
+355 tests succeeded	0 tests failed
+make[1]: Leaving directory '/usr/ports/core/e2fsprogs/work/src/e2fsprogs-1.44.5/tests'

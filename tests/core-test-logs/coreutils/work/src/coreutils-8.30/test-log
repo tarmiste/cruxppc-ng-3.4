@@ -1,0 +1,2014 @@
+make check TESTS='tests/chown/basic.sh tests/cp/cp-a-selinux.sh tests/cp/preserve-gid.sh tests/cp/special-bits.sh tests/cp/cp-mv-enotsup-xattr.sh tests/cp/capability.sh tests/cp/sparse-fiemap.sh tests/cp/cross-dev-symlink.sh tests/dd/skip-seek-past-dev.sh tests/df/problematic-chars.sh tests/df/over-mount-device.sh tests/du/bind-mount-dir-cycle.sh tests/du/bind-mount-dir-cycle-v2.sh tests/id/setgid.sh tests/install/install-C-root.sh tests/ls/capability.sh tests/ls/nameless-uid.sh tests/misc/chcon.sh tests/misc/chroot-credentials.sh tests/misc/selinux.sh tests/misc/truncate-owned-by-other.sh tests/mkdir/writable-under-readonly.sh tests/mkdir/smack-root.sh tests/mv/hardlink-case.sh tests/mv/sticky-to-xpart.sh tests/rm/fail-2eperm.sh tests/rm/no-give-up.sh tests/rm/one-file-system.sh tests/rm/read-only.sh tests/tail-2/append-only.sh tests/tail-2/end-of-device.sh tests/touch/now-owned-by-other.sh' SUBDIRS=.
+make[1]: Entering directory '/usr/ports/core/coreutils/work/src/coreutils-8.30'
+  GEN      public-submodule-commit
+make  check-recursive
+make[2]: Entering directory '/usr/ports/core/coreutils/work/src/coreutils-8.30'
+Making check in .
+make[3]: Entering directory '/usr/ports/core/coreutils/work/src/coreutils-8.30'
+make  check-TESTS check-local
+make[4]: Entering directory '/usr/ports/core/coreutils/work/src/coreutils-8.30'
+make[5]: Entering directory '/usr/ports/core/coreutils/work/src/coreutils-8.30'
+PASS: tests/chown/basic.sh
+SKIP: tests/cp/cp-a-selinux.sh
+PASS: tests/cp/preserve-gid.sh
+PASS: tests/cp/special-bits.sh
+PASS: tests/cp/cp-mv-enotsup-xattr.sh
+PASS: tests/cp/capability.sh
+PASS: tests/cp/sparse-fiemap.sh
+PASS: tests/cp/cross-dev-symlink.sh
+SKIP: tests/dd/skip-seek-past-dev.sh
+PASS: tests/df/problematic-chars.sh
+PASS: tests/df/over-mount-device.sh
+PASS: tests/du/bind-mount-dir-cycle.sh
+PASS: tests/du/bind-mount-dir-cycle-v2.sh
+PASS: tests/id/setgid.sh
+PASS: tests/install/install-C-root.sh
+PASS: tests/ls/capability.sh
+PASS: tests/ls/nameless-uid.sh
+SKIP: tests/misc/chcon.sh
+PASS: tests/misc/chroot-credentials.sh
+SKIP: tests/misc/selinux.sh
+PASS: tests/misc/truncate-owned-by-other.sh
+SKIP: tests/mkdir/writable-under-readonly.sh
+SKIP: tests/mkdir/smack-root.sh
+SKIP: tests/mv/hardlink-case.sh
+PASS: tests/mv/sticky-to-xpart.sh
+PASS: tests/rm/fail-2eperm.sh
+PASS: tests/rm/no-give-up.sh
+PASS: tests/rm/one-file-system.sh
+PASS: tests/rm/read-only.sh
+PASS: tests/tail-2/append-only.sh
+SKIP: tests/tail-2/end-of-device.sh
+PASS: tests/touch/now-owned-by-other.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.30
+============================================================================
+# TOTAL: 32
+# PASS:  24
+# SKIP:  8
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/usr/ports/core/coreutils/work/src/coreutils-8.30'
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+make[4]: Leaving directory '/usr/ports/core/coreutils/work/src/coreutils-8.30'
+make[3]: Leaving directory '/usr/ports/core/coreutils/work/src/coreutils-8.30'
+make[2]: Leaving directory '/usr/ports/core/coreutils/work/src/coreutils-8.30'
+make[1]: Leaving directory '/usr/ports/core/coreutils/work/src/coreutils-8.30'
+  GEN      public-submodule-commit
+make  check-recursive
+make[1]: Entering directory '/usr/ports/core/coreutils/work/src/coreutils-8.30'
+Making check in po
+make[2]: Entering directory '/usr/ports/core/coreutils/work/src/coreutils-8.30/po'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/coreutils/work/src/coreutils-8.30/po'
+Making check in .
+make[2]: Entering directory '/usr/ports/core/coreutils/work/src/coreutils-8.30'
+make  check-TESTS check-local
+make[3]: Entering directory '/usr/ports/core/coreutils/work/src/coreutils-8.30'
+make[4]: Entering directory '/usr/ports/core/coreutils/work/src/coreutils-8.30'
+PASS: tests/misc/help-version.sh
+inotify-race.sh: skipped test: can't run gdb
+SKIP: tests/tail-2/inotify-race.sh
+inotify-race2.sh: skipped test: can't run gdb
+SKIP: tests/tail-2/inotify-race2.sh
+PASS: tests/misc/invalid-opt.pl
+ext3-perf.sh: skipped test: very expensive: disabled by default
+SKIP: tests/rm/ext3-perf.sh
+PASS: tests/rm/cycle.sh
+PASS: tests/cp/link-heap.sh
+no-ctx.sh: skipped test: this system lacks SELinux support
+SKIP: tests/cp/no-ctx.sh
+tty-eof.pl: this script requires Perl's Expect package >=1.11
+SKIP: tests/misc/tty-eof.pl
+PASS: tests/tail-2/inotify-hash-abuse.sh
+PASS: tests/tail-2/inotify-hash-abuse2.sh
+PASS: tests/tail-2/F-vs-missing.sh
+PASS: tests/tail-2/F-vs-rename.sh
+PASS: tests/tail-2/F-headers.sh
+PASS: tests/tail-2/descriptor-vs-rename.sh
+PASS: tests/tail-2/inotify-rotate.sh
+inotify-rotate-resources.sh: skipped test: no strace program
+SKIP: tests/tail-2/inotify-rotate-resources.sh
+PASS: tests/tail-2/inotify-dir-recreate.sh
+inotify-only-regular.sh: skipped test: no strace program
+SKIP: tests/tail-2/inotify-only-regular.sh
+PASS: tests/chmod/no-x.sh
+PASS: tests/chgrp/basic.sh
+PASS: tests/rm/dangling-symlink.sh
+PASS: tests/misc/ls-time.sh
+PASS: tests/rm/d-1.sh
+PASS: tests/rm/d-2.sh
+PASS: tests/rm/d-3.sh
+PASS: tests/rm/deep-1.sh
+PASS: tests/rm/deep-2.sh
+PASS: tests/rm/dir-no-w.sh
+PASS: tests/rm/dir-nonrecur.sh
+PASS: tests/rm/dot-rel.sh
+PASS: tests/rm/isatty.sh
+PASS: tests/rm/empty-inacc.sh
+PASS: tests/rm/empty-name.pl
+PASS: tests/rm/f-1.sh
+PASS: tests/rm/fail-eacces.sh
+PASS: tests/rm/fail-eperm.xpl
+PASS: tests/tail-2/assert.sh
+PASS: tests/rm/hash.sh
+PASS: tests/rm/i-1.sh
+PASS: tests/rm/i-never.sh
+PASS: tests/rm/i-no-r.sh
+PASS: tests/rm/ignorable.sh
+PASS: tests/rm/inaccessible.sh
+PASS: tests/rm/interactive-always.sh
+PASS: tests/rm/interactive-once.sh
+PASS: tests/rm/ir-1.sh
+PASS: tests/rm/one-file-system2.sh
+PASS: tests/rm/r-1.sh
+PASS: tests/rm/r-2.sh
+PASS: tests/rm/r-3.sh
+PASS: tests/rm/r-4.sh
+r-root.sh: skipped test: can't run gdb
+SKIP: tests/rm/r-root.sh
+PASS: tests/rm/readdir-bug.sh
+PASS: tests/rm/rm1.sh
+PASS: tests/touch/empty-file.sh
+PASS: tests/rm/rm2.sh
+PASS: tests/rm/rm3.sh
+PASS: tests/rm/rm4.sh
+PASS: tests/rm/rm5.sh
+PASS: tests/rm/sunos-1.sh
+PASS: tests/rm/unread2.sh
+PASS: tests/rm/unread3.sh
+PASS: tests/rm/unreadable.pl
+PASS: tests/rm/v-slash.sh
+PASS: tests/rm/many-dir-entries-vs-OOM.sh
+PASS: tests/rm/rm-readdir-fail.sh
+PASS: tests/chgrp/default-no-deref.sh
+PASS: tests/chgrp/deref.sh
+PASS: tests/chgrp/no-x.sh
+PASS: tests/chgrp/posix-H.sh
+PASS: tests/chgrp/recurse.sh
+PASS: tests/fmt/base.pl
+PASS: tests/fmt/long-line.sh
+PASS: tests/fmt/goal-option.sh
+PASS: tests/misc/env.sh
+PASS: tests/misc/ptx.pl
+PASS: tests/misc/test.pl
+PASS: tests/misc/seq.pl
+PASS: tests/misc/seq-epipe.sh
+PASS: tests/misc/seq-io-errors.sh
+PASS: tests/misc/seq-long-double.sh
+PASS: tests/misc/seq-precision.sh
+PASS: tests/misc/head.pl
+PASS: tests/misc/head-elide-tail.pl
+PASS: tests/tail-2/tail-n0f.sh
+PASS: tests/misc/ls-misc.pl
+PASS: tests/misc/date.pl
+PASS: tests/misc/date-next-dow.pl
+PASS: tests/misc/ptx-overrun.sh
+PASS: tests/misc/xstrtol.pl
+PASS: tests/tail-2/overlay-headers.sh
+PASS: tests/tail-2/pid.sh
+PASS: tests/misc/od.pl
+PASS: tests/misc/od-endian.sh
+PASS: tests/misc/od-float.sh
+PASS: tests/misc/mktemp.pl
+arch.sh: skipped test: required program(s) not built
+SKIP: tests/misc/arch.sh
+PASS: tests/misc/join.pl
+PASS: tests/pr/pr-tests.pl
+PASS: tests/misc/pwd-option.sh
+chcon-fail.sh: skipped test: required program(s) not built
+SKIP: tests/misc/chcon-fail.sh
+coreutils.sh: skipped test: required program(s) not built
+SKIP: tests/misc/coreutils.sh
+PASS: tests/misc/cut.pl
+PASS: tests/misc/cut-huge-range.sh
+PASS: tests/misc/wc.pl
+PASS: tests/misc/wc-files0-from.pl
+PASS: tests/misc/wc-files0.sh
+PASS: tests/misc/wc-parallel.sh
+PASS: tests/misc/wc-proc.sh
+PASS: tests/misc/cat-proc.sh
+PASS: tests/misc/cat-buf.sh
+PASS: tests/misc/cat-self.sh
+PASS: tests/misc/base64.pl
+PASS: tests/misc/basename.pl
+PASS: tests/misc/close-stdout.sh
+PASS: tests/misc/chroot-fail.sh
+PASS: tests/misc/comm.pl
+PASS: tests/misc/csplit.sh
+PASS: tests/misc/csplit-1000.sh
+PASS: tests/misc/csplit-heap.sh
+PASS: tests/misc/csplit-io-err.sh
+PASS: tests/misc/csplit-suppress-matched.pl
+PASS: tests/misc/date-debug.sh
+PASS: tests/misc/date-sec.sh
+PASS: tests/misc/date-tz.sh
+PASS: tests/misc/dircolors.pl
+PASS: tests/misc/dirname.pl
+PASS: tests/misc/env-null.sh
+PASS: tests/misc/env-S.pl
+PASS: tests/misc/env-S-script.sh
+PASS: tests/misc/expand.pl
+PASS: tests/misc/expr.pl
+PASS: tests/misc/expr-multibyte.pl
+PASS: tests/misc/factor.pl
+PASS: tests/misc/factor-parallel.sh
+PASS: tests/misc/false-status.sh
+PASS: tests/misc/fold.pl
+groups-dash.sh: skipped test: required program(s) not built
+SKIP: tests/misc/groups-dash.sh
+groups-process-all.sh: skipped test: required program(s) not built
+SKIP: tests/misc/groups-process-all.sh
+groups-version.sh: skipped test: required program(s) not built
+SKIP: tests/misc/groups-version.sh
+PASS: tests/misc/head-c.sh
+PASS: tests/misc/head-pos.sh
+PASS: tests/misc/head-write-error.sh
+kill.sh: skipped test: required program(s) not built
+SKIP: tests/misc/kill.sh
+PASS: tests/misc/b2sum.sh
+PASS: tests/misc/md5sum.pl
+PASS: tests/misc/md5sum-bsd.sh
+PASS: tests/misc/md5sum-newline.pl
+PASS: tests/misc/md5sum-parallel.sh
+PASS: tests/misc/mknod.sh
+PASS: tests/misc/nice.sh
+PASS: tests/misc/nice-fail.sh
+PASS: tests/misc/nl.sh
+PASS: tests/misc/nohup.sh
+PASS: tests/misc/nproc-avail.sh
+PASS: tests/misc/nproc-positive.sh
+PASS: tests/misc/nproc-override.sh
+PASS: tests/misc/numfmt.pl
+PASS: tests/misc/od-N.sh
+PASS: tests/misc/od-j.sh
+PASS: tests/misc/od-multiple-t.sh
+PASS: tests/misc/od-x8.sh
+PASS: tests/misc/paste.pl
+PASS: tests/misc/pathchk1.sh
+PASS: tests/misc/printenv.sh
+PASS: tests/misc/printf.sh
+PASS: tests/misc/printf-cov.pl
+PASS: tests/misc/printf-hex.sh
+PASS: tests/misc/printf-surprise.sh
+PASS: tests/misc/printf-quote.sh
+PASS: tests/misc/pwd-long.sh
+PASS: tests/misc/readlink-fp-loop.sh
+PASS: tests/misc/readlink-root.sh
+PASS: tests/misc/realpath.sh
+runcon-no-reorder.sh: skipped test: required program(s) not built
+SKIP: tests/misc/runcon-no-reorder.sh
+PASS: tests/misc/sha1sum.pl
+PASS: tests/misc/sha1sum-vec.pl
+PASS: tests/misc/sha224sum.pl
+PASS: tests/misc/sha256sum.pl
+PASS: tests/misc/sha384sum.pl
+PASS: tests/misc/sha512sum.pl
+PASS: tests/misc/shred-exact.sh
+PASS: tests/misc/shred-passes.sh
+PASS: tests/misc/shred-remove.sh
+PASS: tests/misc/shred-size.sh
+PASS: tests/misc/shuf.sh
+shuf-reservoir.sh: skipped test: requires a working valgrind
+SKIP: tests/misc/shuf-reservoir.sh
+PASS: tests/misc/sleep.sh
+PASS: tests/misc/sort.pl
+sort-benchmark-random.sh: skipped test: very expensive: disabled by default
+SKIP: tests/misc/sort-benchmark-random.sh
+PASS: tests/misc/sort-compress.sh
+sort-compress-hang.sh: skipped test: very expensive: disabled by default
+SKIP: tests/misc/sort-compress-hang.sh
+PASS: tests/misc/sort-compress-proc.sh
+PASS: tests/misc/sort-continue.sh
+PASS: tests/misc/sort-debug-keys.sh
+PASS: tests/misc/sort-debug-warn.sh
+PASS: tests/misc/sort-discrim.sh
+PASS: tests/misc/sort-files0-from.pl
+PASS: tests/misc/sort-float.sh
+sort-h-thousands-sep.sh: skipped test: The Swedish locale with blank thousands separator is unavailable.
+SKIP: tests/misc/sort-h-thousands-sep.sh
+PASS: tests/misc/sort-merge.pl
+PASS: tests/misc/sort-merge-fdlimit.sh
+PASS: tests/misc/sort-month.sh
+PASS: tests/misc/sort-exit-early.sh
+PASS: tests/misc/sort-rand.sh
+sort-spinlock-abuse.sh: skipped test: very expensive: disabled by default
+SKIP: tests/misc/sort-spinlock-abuse.sh
+sort-stale-thread-mem.sh: skipped test: very expensive: disabled by default
+SKIP: tests/misc/sort-stale-thread-mem.sh
+PASS: tests/misc/sort-unique.sh
+PASS: tests/misc/sort-unique-segv.sh
+PASS: tests/misc/sort-version.sh
+PASS: tests/misc/sort-NaN-infloop.sh
+sort-u-FMR.sh: skipped test: requires a working valgrind
+SKIP: tests/misc/sort-u-FMR.sh
+PASS: tests/split/filter.sh
+PASS: tests/split/suffix-auto-length.sh
+PASS: tests/split/suffix-length.sh
+PASS: tests/split/additional-suffix.sh
+PASS: tests/split/b-chunk.sh
+PASS: tests/split/fail.sh
+PASS: tests/split/lines.sh
+PASS: tests/split/line-bytes.sh
+PASS: tests/split/l-chunk.sh
+PASS: tests/split/r-chunk.sh
+PASS: tests/split/record-sep.sh
+PASS: tests/split/numeric.sh
+PASS: tests/split/guard-input.sh
+PASS: tests/misc/stat-birthtime.sh
+PASS: tests/misc/stat-fmt.sh
+PASS: tests/misc/stat-hyphen.sh
+PASS: tests/misc/stat-mount.sh
+PASS: tests/misc/stat-nanoseconds.sh
+PASS: tests/misc/stat-printf.pl
+PASS: tests/misc/stat-slash.sh
+PASS: tests/misc/stdbuf.sh
+stty.sh: skipped test: no strace program
+SKIP: tests/misc/stty.sh
+PASS: tests/misc/stty-invalid.sh
+PASS: tests/misc/stty-pairs.sh
+PASS: tests/misc/stty-row-col.sh
+PASS: tests/misc/sum.pl
+PASS: tests/misc/sum-sysv.sh
+PASS: tests/misc/sync.sh
+PASS: tests/misc/tac.pl
+tac-continue.sh: skipped test: FULL_PARTITION_TMPDIR not defined
+SKIP: tests/misc/tac-continue.sh
+PASS: tests/misc/tac-2-nonseekable.sh
+PASS: tests/misc/tail.pl
+PASS: tests/misc/tee.sh
+PASS: tests/misc/test-diag.pl
+PASS: tests/misc/time-style.sh
+PASS: tests/misc/timeout.sh
+PASS: tests/misc/timeout-blocked.pl
+PASS: tests/misc/timeout-group.sh
+PASS: tests/misc/timeout-parameters.sh
+PASS: tests/misc/tr.pl
+PASS: tests/misc/tr-case-class.sh
+PASS: tests/misc/truncate-dangling-symlink.sh
+PASS: tests/misc/truncate-dir-fail.sh
+PASS: tests/misc/truncate-fail-diag.sh
+PASS: tests/misc/truncate-fifo.sh
+PASS: tests/misc/truncate-no-create-missing.sh
+PASS: tests/misc/truncate-overflow.sh
+PASS: tests/misc/truncate-parameters.sh
+PASS: tests/misc/truncate-relative.sh
+PASS: tests/misc/tsort.pl
+PASS: tests/misc/tty.sh
+PASS: tests/misc/usage_vs_getopt.sh
+PASS: tests/misc/unexpand.pl
+PASS: tests/misc/uniq.pl
+PASS: tests/misc/uniq-perf.sh
+PASS: tests/misc/xattr.sh
+PASS: tests/misc/yes.sh
+PASS: tests/tail-2/wait.sh
+PASS: tests/tail-2/retry.sh
+PASS: tests/tail-2/symlink.sh
+PASS: tests/tail-2/tail-c.sh
+PASS: tests/tail-2/truncate.sh
+PASS: tests/chmod/c-option.sh
+PASS: tests/chmod/equal-x.sh
+PASS: tests/chmod/equals.sh
+PASS: tests/chmod/inaccessible.sh
+PASS: tests/chmod/octal.sh
+PASS: tests/chmod/setgid.sh
+PASS: tests/chmod/silent.sh
+PASS: tests/chmod/thru-dangling.sh
+PASS: tests/chmod/umask-x.sh
+PASS: tests/chmod/usage.sh
+PASS: tests/chown/deref.sh
+PASS: tests/chown/preserve-root.sh
+PASS: tests/chown/separator.sh
+PASS: tests/cp/abuse.sh
+PASS: tests/cp/acl.sh
+PASS: tests/cp/attr-existing.sh
+PASS: tests/cp/backup-1.sh
+PASS: tests/cp/backup-dir.sh
+PASS: tests/cp/backup-is-src.sh
+PASS: tests/cp/cp-HL.sh
+PASS: tests/cp/cp-deref.sh
+PASS: tests/cp/cp-i.sh
+PASS: tests/cp/cp-mv-backup.sh
+PASS: tests/cp/cp-parents.sh
+PASS: tests/cp/deref-slink.sh
+PASS: tests/cp/dir-rm-dest.sh
+PASS: tests/cp/dir-slash.sh
+PASS: tests/cp/dir-vs-file.sh
+PASS: tests/cp/existing-perm-dir.sh
+PASS: tests/cp/existing-perm-race.sh
+PASS: tests/cp/fail-perm.sh
+PASS: tests/cp/fiemap-extents.sh
+fiemap-FMR.sh: skipped test: requires a working valgrind
+SKIP: tests/cp/fiemap-FMR.sh
+PASS: tests/cp/fiemap-perf.sh
+PASS: tests/cp/fiemap-2.sh
+PASS: tests/cp/file-perm-race.sh
+PASS: tests/cp/into-self.sh
+PASS: tests/cp/link.sh
+PASS: tests/cp/link-deref.sh
+PASS: tests/cp/link-no-deref.sh
+PASS: tests/cp/link-preserve.sh
+PASS: tests/cp/link-symlink.sh
+nfs-removal-race.sh: skipped test: LD_PRELOAD was ineffective?
+SKIP: tests/cp/nfs-removal-race.sh
+PASS: tests/cp/no-deref-link1.sh
+PASS: tests/cp/no-deref-link2.sh
+PASS: tests/cp/no-deref-link3.sh
+PASS: tests/cp/parent-perm.sh
+PASS: tests/cp/parent-perm-race.sh
+perm.sh: skipped test: very expensive: disabled by default
+SKIP: tests/cp/perm.sh
+PASS: tests/cp/preserve-2.sh
+PASS: tests/cp/preserve-link.sh
+PASS: tests/cp/preserve-mode.sh
+PASS: tests/cp/preserve-slink-time.sh
+PASS: tests/cp/proc-short-read.sh
+PASS: tests/cp/proc-zero-len.sh
+PASS: tests/cp/r-vs-symlink.sh
+PASS: tests/cp/reflink-auto.sh
+PASS: tests/cp/reflink-perm.sh
+PASS: tests/cp/same-file.sh
+PASS: tests/cp/slink-2-slink.sh
+PASS: tests/cp/sparse.sh
+PASS: tests/cp/sparse-to-pipe.sh
+PASS: tests/cp/special-f.sh
+PASS: tests/cp/src-base-dot.sh
+PASS: tests/cp/symlink-slash.sh
+PASS: tests/cp/thru-dangling.sh
+PASS: tests/df/header.sh
+PASS: tests/df/df-P.sh
+PASS: tests/df/df-output.sh
+df-symlink.sh: skipped test: cannot get info for /dev/root
+SKIP: tests/df/df-symlink.sh
+PASS: tests/df/unreadable.sh
+PASS: tests/df/total-unprocessed.sh
+no-mtab-status.sh: skipped test: internal test failure: maybe LD_PRELOAD doesn't work?
+SKIP: tests/df/no-mtab-status.sh
+skip-duplicates.sh: skipped test: internal test failure: maybe LD_PRELOAD doesn't work?
+SKIP: tests/df/skip-duplicates.sh
+skip-rootfs.sh: skipped test: no rootfs in mtab
+SKIP: tests/df/skip-rootfs.sh
+PASS: tests/dd/ascii.sh
+PASS: tests/dd/direct.sh
+PASS: tests/dd/misc.sh
+PASS: tests/dd/no-allocate.sh
+PASS: tests/dd/nocache.sh
+nocache_eof.sh: skipped test: no strace program
+SKIP: tests/dd/nocache_eof.sh
+PASS: tests/dd/not-rewound.sh
+PASS: tests/dd/reblock.sh
+PASS: tests/dd/skip-seek.pl
+PASS: tests/dd/skip-seek2.sh
+PASS: tests/dd/bytes.sh
+PASS: tests/dd/skip-seek-past-file.sh
+PASS: tests/dd/sparse.sh
+PASS: tests/dd/stderr.sh
+PASS: tests/dd/unblock.pl
+PASS: tests/dd/unblock-sync.sh
+PASS: tests/dd/stats.sh
+PASS: tests/df/total-verify.sh
+2g.sh: skipped test: very expensive: disabled by default
+SKIP: tests/du/2g.sh
+PASS: tests/du/8gb.sh
+PASS: tests/du/basic.sh
+bigtime.sh: skipped test: file system cannot represent big timestamps
+SKIP: tests/du/bigtime.sh
+PASS: tests/du/deref.sh
+PASS: tests/du/deref-args.sh
+PASS: tests/du/exclude.sh
+PASS: tests/du/fd-leak.sh
+PASS: tests/du/files0-from.pl
+PASS: tests/du/files0-from-dir.sh
+PASS: tests/du/hard-link.sh
+PASS: tests/du/inacc-dest.sh
+PASS: tests/du/inacc-dir.sh
+PASS: tests/du/inaccessible-cwd.sh
+PASS: tests/du/inodes.sh
+PASS: tests/du/long-from-unreadable.sh
+PASS: tests/du/long-sloop.sh
+PASS: tests/du/max-depth.sh
+move-dir-while-traversing.sh: skipped test: python inotify package not installed
+SKIP: tests/du/move-dir-while-traversing.sh
+PASS: tests/du/no-deref.sh
+PASS: tests/du/no-x.sh
+PASS: tests/du/one-file-system.sh
+PASS: tests/du/restore-wd.sh
+PASS: tests/du/slash.sh
+PASS: tests/du/threshold.sh
+PASS: tests/du/trailing-slash.sh
+PASS: tests/du/two-args.sh
+gnu-zero-uids.sh: skipped test: not running on GNU/Hurd
+SKIP: tests/id/gnu-zero-uids.sh
+no-context.sh: skipped test: this system lacks SELinux support
+SKIP: tests/id/no-context.sh
+context.sh: skipped test: this system lacks SELinux support
+SKIP: tests/id/context.sh
+PASS: tests/id/uid.sh
+PASS: tests/id/zero.sh
+smack.sh: skipped test: this system lacks SMACK support
+SKIP: tests/id/smack.sh
+PASS: tests/install/basic-1.sh
+PASS: tests/install/create-leading.sh
+PASS: tests/install/d-slashdot.sh
+PASS: tests/install/install-C.sh
+install-C-selinux.sh: skipped test: this system lacks SELinux support
+SKIP: tests/install/install-C-selinux.sh
+install-Z-selinux.sh: skipped test: this system lacks SELinux support
+SKIP: tests/install/install-Z-selinux.sh
+PASS: tests/install/strip-program.sh
+PASS: tests/install/trap.sh
+PASS: tests/ln/backup-1.sh
+PASS: tests/ln/hard-backup.sh
+PASS: tests/ln/hard-to-sym.sh
+PASS: tests/ln/misc.sh
+PASS: tests/ln/relative.sh
+PASS: tests/ln/sf-1.sh
+PASS: tests/ln/slash-decorated-nonexistent-dest.sh
+PASS: tests/ln/target-1.sh
+PASS: tests/ls/a-option.sh
+PASS: tests/ls/abmon-align.sh
+PASS: tests/ls/block-size.sh
+PASS: tests/ls/color-clear-to-eol.sh
+PASS: tests/ls/color-dtype-dir.sh
+PASS: tests/ls/color-norm.sh
+PASS: tests/ls/color-term.sh
+PASS: tests/ls/color-ext.sh
+PASS: tests/ls/dangle.sh
+PASS: tests/ls/dired.sh
+PASS: tests/ls/file-type.sh
+PASS: tests/ls/follow-slink.sh
+PASS: tests/ls/getxattr-speedup.sh
+PASS: tests/ls/hex-option.sh
+PASS: tests/ls/infloop.sh
+PASS: tests/ls/inode.sh
+PASS: tests/ls/m-option.sh
+PASS: tests/ls/w-option.sh
+PASS: tests/ls/multihardlink.sh
+PASS: tests/ls/no-arg.sh
+no-cap.sh: skipped test: no strace program
+SKIP: tests/ls/no-cap.sh
+PASS: tests/ls/proc-selinux-segfault.sh
+PASS: tests/ls/quote-align.sh
+PASS: tests/ls/readdir-mountpoint-inode.sh
+PASS: tests/ls/recursive.sh
+PASS: tests/ls/root-rel-symlink-color.sh
+PASS: tests/ls/rt-1.sh
+PASS: tests/ls/slink-acl.sh
+PASS: tests/ls/stat-dtype.sh
+PASS: tests/ls/stat-failed.sh
+stat-free-color.sh: skipped test: no strace program
+SKIP: tests/ls/stat-free-color.sh
+stat-free-symlinks.sh: skipped test: no strace program
+SKIP: tests/ls/stat-free-symlinks.sh
+PASS: tests/ls/stat-vs-dirent.sh
+PASS: tests/ls/symlink-quote.sh
+PASS: tests/ls/symlink-slash.sh
+PASS: tests/ls/time-style-diag.sh
+PASS: tests/ls/x-option.sh
+PASS: tests/ls/hyperlink.sh
+PASS: tests/mkdir/p-1.sh
+PASS: tests/mkdir/p-2.sh
+PASS: tests/mkdir/p-3.sh
+PASS: tests/mkdir/p-acl.sh
+PASS: tests/mkdir/p-slashdot.sh
+PASS: tests/mkdir/p-thru-slink.sh
+PASS: tests/mkdir/p-v.sh
+PASS: tests/mkdir/parents.sh
+PASS: tests/mkdir/perm.sh
+selinux.sh: skipped test: this system lacks SELinux support
+SKIP: tests/mkdir/selinux.sh
+restorecon.sh: skipped test: this system lacks SELinux support
+SKIP: tests/mkdir/restorecon.sh
+PASS: tests/mkdir/special-1.sh
+PASS: tests/mkdir/t-slash.sh
+smack-no-root.sh: skipped test: this system lacks SMACK support
+SKIP: tests/mkdir/smack-no-root.sh
+PASS: tests/mv/acl.sh
+atomic.sh: skipped test: no strace program
+SKIP: tests/mv/atomic.sh
+atomic2.sh: skipped test: no strace program
+SKIP: tests/mv/atomic2.sh
+PASS: tests/mv/backup-dir.sh
+PASS: tests/mv/backup-is-src.sh
+PASS: tests/mv/childproof.sh
+PASS: tests/mv/diag.sh
+PASS: tests/mv/dir-file.sh
+PASS: tests/mv/dir2dir.sh
+PASS: tests/mv/dup-source.sh
+PASS: tests/mv/force.sh
+PASS: tests/mv/hard-2.sh
+PASS: tests/mv/hard-3.sh
+PASS: tests/mv/hard-4.sh
+PASS: tests/mv/hard-link-1.sh
+PASS: tests/mv/i-1.pl
+PASS: tests/mv/i-2.sh
+i-3.sh: skipped test: /dev/stdin is not readable
+SKIP: tests/mv/i-3.sh
+PASS: tests/mv/i-4.sh
+PASS: tests/mv/i-5.sh
+PASS: tests/mv/i-link-no.sh
+PASS: tests/mv/into-self.sh
+PASS: tests/mv/into-self-2.sh
+PASS: tests/mv/into-self-3.sh
+PASS: tests/mv/into-self-4.sh
+PASS: tests/mv/leak-fd.sh
+PASS: tests/mv/mv-n.sh
+PASS: tests/mv/mv-special-1.sh
+PASS: tests/mv/no-target-dir.sh
+PASS: tests/mv/part-fail.sh
+PASS: tests/mv/part-hardlink.sh
+PASS: tests/mv/part-rename.sh
+PASS: tests/mv/part-symlink.sh
+PASS: tests/mv/partition-perm.sh
+PASS: tests/mv/perm-1.sh
+PASS: tests/mv/symlink-onto-hardlink.sh
+PASS: tests/mv/symlink-onto-hardlink-to-self.sh
+PASS: tests/mv/to-symlink.sh
+PASS: tests/mv/trailing-slash.sh
+PASS: tests/mv/update.sh
+PASS: tests/readlink/can-e.sh
+PASS: tests/readlink/can-f.sh
+PASS: tests/readlink/can-m.sh
+PASS: tests/readlink/multi.sh
+PASS: tests/readlink/rl-1.sh
+PASS: tests/rmdir/fail-perm.sh
+PASS: tests/rmdir/ignore.sh
+PASS: tests/rmdir/t-slash.sh
+PASS: tests/tail-2/assert-2.sh
+PASS: tests/tail-2/big-4gb.sh
+PASS: tests/tail-2/flush-initial.sh
+PASS: tests/tail-2/follow-name.sh
+PASS: tests/tail-2/follow-stdin.sh
+PASS: tests/tail-2/pipe-f.sh
+PASS: tests/tail-2/pipe-f2.sh
+PASS: tests/tail-2/proc-ksyms.sh
+PASS: tests/tail-2/start-middle.sh
+PASS: tests/touch/60-seconds.sh
+PASS: tests/touch/dangling-symlink.sh
+PASS: tests/touch/dir-1.sh
+PASS: tests/touch/fail-diag.sh
+PASS: tests/touch/fifo.sh
+PASS: tests/touch/no-create-missing.sh
+PASS: tests/touch/no-dereference.sh
+PASS: tests/touch/no-rights.sh
+PASS: tests/touch/not-owner.sh
+PASS: tests/touch/obsolescent.sh
+PASS: tests/touch/read-only.sh
+PASS: tests/touch/relative.sh
+PASS: tests/touch/trailing-slash.sh
+basic.sh: skipped test: must be run as root
+SKIP: tests/chown/basic.sh
+cp-a-selinux.sh: skipped test: must be run as root
+SKIP: tests/cp/cp-a-selinux.sh
+preserve-gid.sh: skipped test: must be run as root
+SKIP: tests/cp/preserve-gid.sh
+special-bits.sh: skipped test: must be run as root
+SKIP: tests/cp/special-bits.sh
+cp-mv-enotsup-xattr.sh: skipped test: must be run as root
+SKIP: tests/cp/cp-mv-enotsup-xattr.sh
+capability.sh: skipped test: must be run as root
+SKIP: tests/cp/capability.sh
+PASS: tests/cp/sparse-fiemap.sh
+cross-dev-symlink.sh: skipped test: must be run as root
+SKIP: tests/cp/cross-dev-symlink.sh
+skip-seek-past-dev.sh: skipped test: must be run as root
+SKIP: tests/dd/skip-seek-past-dev.sh
+problematic-chars.sh: skipped test: must be run as root
+SKIP: tests/df/problematic-chars.sh
+over-mount-device.sh: skipped test: must be run as root
+SKIP: tests/df/over-mount-device.sh
+bind-mount-dir-cycle.sh: skipped test: must be run as root
+SKIP: tests/du/bind-mount-dir-cycle.sh
+bind-mount-dir-cycle-v2.sh: skipped test: must be run as root
+SKIP: tests/du/bind-mount-dir-cycle-v2.sh
+setgid.sh: skipped test: must be run as root
+SKIP: tests/id/setgid.sh
+install-C-root.sh: skipped test: must be run as root
+SKIP: tests/install/install-C-root.sh
+capability.sh: skipped test: must be run as root
+SKIP: tests/ls/capability.sh
+nameless-uid.sh: skipped test: must be run as root
+SKIP: tests/ls/nameless-uid.sh
+chcon.sh: skipped test: required program(s) not built
+SKIP: tests/misc/chcon.sh
+chroot-credentials.sh: skipped test: must be run as root
+SKIP: tests/misc/chroot-credentials.sh
+selinux.sh: skipped test: required program(s) not built
+SKIP: tests/misc/selinux.sh
+truncate-owned-by-other.sh: skipped test: must be run as root
+SKIP: tests/misc/truncate-owned-by-other.sh
+writable-under-readonly.sh: skipped test: must be run as root
+SKIP: tests/mkdir/writable-under-readonly.sh
+smack-root.sh: skipped test: this system lacks SMACK support
+SKIP: tests/mkdir/smack-root.sh
+hardlink-case.sh: skipped test: must be run as root
+SKIP: tests/mv/hardlink-case.sh
+sticky-to-xpart.sh: skipped test: must be run as root
+SKIP: tests/mv/sticky-to-xpart.sh
+fail-2eperm.sh: skipped test: must be run as root
+SKIP: tests/rm/fail-2eperm.sh
+no-give-up.sh: skipped test: must be run as root
+SKIP: tests/rm/no-give-up.sh
+one-file-system.sh: skipped test: must be run as root
+SKIP: tests/rm/one-file-system.sh
+read-only.sh: skipped test: must be run as root
+SKIP: tests/rm/read-only.sh
+append-only.sh: skipped test: must be run as root
+SKIP: tests/tail-2/append-only.sh
+end-of-device.sh: skipped test: must be run as root
+SKIP: tests/tail-2/end-of-device.sh
+now-owned-by-other.sh: skipped test: must be run as root
+SKIP: tests/touch/now-owned-by-other.sh
+  GEN      tests/factor/t00.sh
+t00.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t00.sh
+  GEN      tests/factor/t01.sh
+t01.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t01.sh
+  GEN      tests/factor/t02.sh
+t02.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t02.sh
+  GEN      tests/factor/t03.sh
+t03.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t03.sh
+  GEN      tests/factor/t04.sh
+t04.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t04.sh
+  GEN      tests/factor/t05.sh
+t05.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t05.sh
+  GEN      tests/factor/t06.sh
+t06.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t06.sh
+  GEN      tests/factor/t07.sh
+t07.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t07.sh
+  GEN      tests/factor/t08.sh
+t08.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t08.sh
+  GEN      tests/factor/t09.sh
+t09.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t09.sh
+  GEN      tests/factor/t10.sh
+t10.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t10.sh
+  GEN      tests/factor/t11.sh
+t11.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t11.sh
+  GEN      tests/factor/t12.sh
+t12.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t12.sh
+  GEN      tests/factor/t13.sh
+t13.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t13.sh
+  GEN      tests/factor/t14.sh
+t14.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t14.sh
+  GEN      tests/factor/t15.sh
+t15.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t15.sh
+  GEN      tests/factor/t16.sh
+t16.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t16.sh
+  GEN      tests/factor/t17.sh
+t17.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t17.sh
+  GEN      tests/factor/t18.sh
+t18.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t18.sh
+  GEN      tests/factor/t19.sh
+t19.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t19.sh
+  GEN      tests/factor/t20.sh
+t20.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t20.sh
+  GEN      tests/factor/t21.sh
+t21.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t21.sh
+  GEN      tests/factor/t22.sh
+t22.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t22.sh
+  GEN      tests/factor/t23.sh
+t23.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t23.sh
+  GEN      tests/factor/t24.sh
+t24.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t24.sh
+  GEN      tests/factor/t25.sh
+t25.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t25.sh
+  GEN      tests/factor/t26.sh
+t26.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t26.sh
+  GEN      tests/factor/t27.sh
+t27.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t27.sh
+  GEN      tests/factor/t28.sh
+t28.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t28.sh
+  GEN      tests/factor/t29.sh
+t29.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t29.sh
+  GEN      tests/factor/t30.sh
+t30.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t30.sh
+  GEN      tests/factor/t31.sh
+t31.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t31.sh
+  GEN      tests/factor/t32.sh
+t32.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t32.sh
+  GEN      tests/factor/t33.sh
+t33.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t33.sh
+  GEN      tests/factor/t34.sh
+t34.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t34.sh
+  GEN      tests/factor/t35.sh
+t35.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t35.sh
+  GEN      tests/factor/t36.sh
+t36.sh: skipped test: very expensive: disabled by default
+SKIP: tests/factor/t36.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.30
+============================================================================
+# TOTAL: 608
+# PASS:  489
+# SKIP:  119
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/ports/core/coreutils/work/src/coreutils-8.30'
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+make[3]: Leaving directory '/usr/ports/core/coreutils/work/src/coreutils-8.30'
+make[2]: Leaving directory '/usr/ports/core/coreutils/work/src/coreutils-8.30'
+Making check in gnulib-tests
+make[2]: Entering directory '/usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests'
+make  check-recursive
+make[3]: Entering directory '/usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests'
+Making check in .
+make[4]: Entering directory '/usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests'
+make  libtests.a test-accept test-set-mode-acl test-copy-acl test-sameacls test-alignof test-alloca-opt test-areadlink test-areadlink-with-size test-areadlinkat test-argmatch test-argv-iter test-arpa_inet test-base32 test-base64 test-binary-io test-bind test-bitrotate test-btowc test-byteswap test-c-ctype test-c-strcasecmp test-c-strncasecmp test-calloc-gnu test-canonicalize test-chdir test-chown test-cloexec test-close test-closein test-connect test-md5 test-sha1 test-sha256 test-sha512 test-ctype test-di-set test-dirent-safer test-dirent test-dirname test-dup test-dup2 test-environ test-errno test-exclude test-faccessat test-fadvise test-fchdir test-fchmodat test-fchownat test-fclose test-fcntl-h test-fcntl-safer test-fcntl test-fdatasync test-fdopen test-fdopendir test-fdutimensat test-fflush test-fflush2 test-fgetc test-file-has-acl test-filenamecat test-filevercmp test-float test-fnmatch test-fopen-safer test-fopen test-fpending test-fpurge test-fputc test-fread test-freadahead test-freading test-freadptr test-freadptr2 test-freadseek test-freopen-safer test-freopen test-frexp-nolibm test-frexpl-nolibm test-fseek test-fseeko test-fseeko3 test-fseeko4 test-fseterr test-fstat test-fstatat test-fsync test-ftell test-ftell3 test-ftello test-ftello3 test-ftello4 test-ftruncate test-futimens test-fwrite test-getaddrinfo test-getcwd-lgpl test-getcwd test-getdelim test-getdtablesize test-getgroups test-gethostname test-getline test-getloadavg test-getlogin test-getndelim2 test-getopt-gnu test-getopt-posix test-getprogname test-getrusage test-gettimeofday test-hash test-i-ring test-iconv-h test-iconv test-ignore-value test-inet_ntop test-inet_pton test-ino-map test-intprops test-inttostr test-inttypes test-ioctl test-isatty test-isblank test-isnand-nolibm test-isnanf-nolibm test-isnanl-nolibm test-iswblank test-langinfo test-lchown test-limits-h test-link test-linkat test-listen test-locale test-localeconv test-localename test-rwlock1 test-lock test-once1 test-once2 test-lseek test-lstat test-malloc-gnu test-malloca test-math test-mbrtowc test-mbrtowc-w32 test-mbsalign test-mbscasecmp test-mbschr test-mbsinit test-mbsrtowcs test-mbsstr1 test-mbsstr2 test-mbsstr3 test-memcasecmp test-memchr test-memchr2 test-memcoll test-memrchr test-mkdir test-mkfifo test-mknod test-nanosleep test-netdb test-netinet_in test-nl_langinfo test-nstrftime test-open test-openat-safer test-openat test-parse-datetime test-pathmax test-perror test-perror2 test-pipe test-pipe2 test-posixtm test-printf-frexp test-printf-frexpl test-priv-set test-pthread_sigmask1 test-pthread_sigmask2 test-quotearg-simple test-raise test-rand-isaac test-read-file test-read test-readlink test-readlinkat test-readtokens test-realloc-gnu test-regex test-remove test-rename test-renameat test-renameat2 test-rmdir test-sched test-select test-select-fd test-select-stdin test-setenv test-setlocale1 test-setlocale2 test-setsockopt test-sigaction test-signal-h test-signbit test-sigprocmask test-sleep test-snprintf test-sockets test-stat test-stat-time test-statat test-stdalign test-stdbool test-stddef test-stdint test-stdio test-stdlib test-strerror test-strerror_r test-striconv test-string test-strncat test-strnlen test-strsignal test-strtod test-strtoimax test-strtoll test-strtoull test-strtoumax test-symlink test-symlinkat test-sys_ioctl test-sys_resource test-sys_select test-sys_socket test-sys_stat test-sys_time test-sys_types test-sys_uio test-sys_utsname test-sys_wait test-termios test-thread_self test-thread_create test-time test-timespec test-tls test-u64 test-uname test-dup-safer test-unistd test-u8-mbtoucr test-u8-uctomb test-uc_width test-uc_width2 test-unlink test-unlinkat test-unsetenv test-userspec test-usleep test-utime-h test-utime test-utimens test-utimensat test-vasnprintf test-vasprintf-posix test-vasprintf test-verify test-version-etc test-vfprintf-posix test-vprintf-posix test-wchar test-wcrtomb test-wcrtomb-w32 test-wctype-h test-wcwidth test-write test-xalloc-die test-xfprintf-posix test-xprintf-posix test-xstrtoimax test-xstrtol test-xstrtoul test-xstrtoumax test-xvasprintf test-yesno
+make[5]: Entering directory '/usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests'
+make[5]: 'libtests.a' is up to date.
+  CC       test-accept.o
+  CCLD     test-accept
+  CC       test-set-mode-acl.o
+  CCLD     test-set-mode-acl
+  CC       test-copy-acl.o
+  CCLD     test-copy-acl
+  CC       test-sameacls.o
+  CCLD     test-sameacls
+  CC       test-alignof.o
+  CCLD     test-alignof
+  CC       test-alloca-opt.o
+  CCLD     test-alloca-opt
+  CC       test-areadlink.o
+  CCLD     test-areadlink
+  CC       test-areadlink-with-size.o
+  CCLD     test-areadlink-with-size
+  CC       test-areadlinkat.o
+  CCLD     test-areadlinkat
+  CC       test-argmatch.o
+  CCLD     test-argmatch
+  CC       test-argv-iter.o
+  CCLD     test-argv-iter
+  CC       test-arpa_inet.o
+  CCLD     test-arpa_inet
+  CC       test-base32.o
+  CCLD     test-base32
+  CC       test-base64.o
+  CCLD     test-base64
+  CC       test-binary-io.o
+  CCLD     test-binary-io
+  CC       test-bind.o
+  CCLD     test-bind
+  CC       test-bitrotate.o
+  CCLD     test-bitrotate
+  CC       test-btowc.o
+  CCLD     test-btowc
+  CC       test-byteswap.o
+  CCLD     test-byteswap
+  CC       test-c-ctype.o
+  CCLD     test-c-ctype
+  CC       test-c-strcasecmp.o
+  CCLD     test-c-strcasecmp
+  CC       test-c-strncasecmp.o
+  CCLD     test-c-strncasecmp
+  CC       test-calloc-gnu.o
+  CCLD     test-calloc-gnu
+  CC       test-canonicalize.o
+  CCLD     test-canonicalize
+  CC       test-chdir.o
+  CCLD     test-chdir
+  CC       test-chown.o
+  CCLD     test-chown
+  CC       test-cloexec.o
+  CCLD     test-cloexec
+  CC       test-close.o
+  CCLD     test-close
+  CC       test-closein.o
+  CCLD     test-closein
+  CC       test-connect.o
+  CCLD     test-connect
+  CC       test-md5.o
+  CCLD     test-md5
+  CC       test-sha1.o
+  CCLD     test-sha1
+  CC       test-sha256.o
+  CCLD     test-sha256
+  CC       test-sha512.o
+  CCLD     test-sha512
+  CC       test-ctype.o
+  CCLD     test-ctype
+  CC       test-di-set.o
+  CCLD     test-di-set
+  CC       test-dirent-safer.o
+  CCLD     test-dirent-safer
+  CC       test-dirent.o
+  CCLD     test-dirent
+  CC       test-dirname.o
+  CCLD     test-dirname
+  CC       test-dup.o
+  CCLD     test-dup
+  CC       test-dup2.o
+  CCLD     test-dup2
+  CC       test-environ.o
+  CCLD     test-environ
+  CC       test-errno.o
+  CCLD     test-errno
+  CC       test-exclude.o
+  CCLD     test-exclude
+  CC       test-faccessat.o
+  CCLD     test-faccessat
+  CC       test-fadvise.o
+  CCLD     test-fadvise
+  CC       test-fchdir.o
+  CCLD     test-fchdir
+  CC       test-fchmodat.o
+  CCLD     test-fchmodat
+  CC       test-fchownat.o
+  CCLD     test-fchownat
+  CC       test-fclose.o
+  CCLD     test-fclose
+  CC       test-fcntl-h.o
+  CCLD     test-fcntl-h
+  CC       test-fcntl-safer.o
+  CCLD     test-fcntl-safer
+  CC       test-fcntl.o
+  CCLD     test-fcntl
+  CC       test-fdatasync.o
+  CCLD     test-fdatasync
+  CC       test-fdopen.o
+  CCLD     test-fdopen
+  CC       test-fdopendir.o
+  CCLD     test-fdopendir
+  CC       test-fdutimensat.o
+  CCLD     test-fdutimensat
+  CC       test-fflush.o
+  CCLD     test-fflush
+  CC       test-fflush2.o
+  CCLD     test-fflush2
+  CC       test-fgetc.o
+  CCLD     test-fgetc
+  CC       test-file-has-acl.o
+  CCLD     test-file-has-acl
+  CC       test-filenamecat.o
+  CCLD     test-filenamecat
+  CC       test-filevercmp.o
+  CCLD     test-filevercmp
+  CC       test-float.o
+  CCLD     test-float
+  CC       test-fnmatch.o
+  CCLD     test-fnmatch
+  CC       test-fopen-safer.o
+  CCLD     test-fopen-safer
+  CC       test-fopen.o
+  CCLD     test-fopen
+  CC       test-fpending.o
+  CCLD     test-fpending
+  CC       test-fpurge.o
+  CCLD     test-fpurge
+  CC       test-fputc.o
+  CCLD     test-fputc
+  CC       test-fread.o
+  CCLD     test-fread
+  CC       test-freadahead.o
+  CCLD     test-freadahead
+  CC       test-freading.o
+  CCLD     test-freading
+  CC       test-freadptr.o
+  CCLD     test-freadptr
+  CC       test-freadptr2.o
+  CCLD     test-freadptr2
+  CC       test-freadseek.o
+  CCLD     test-freadseek
+  CC       test-freopen-safer.o
+  CCLD     test-freopen-safer
+  CC       test-freopen.o
+  CCLD     test-freopen
+  CC       test-frexp.o
+  CC       randomd.o
+  CCLD     test-frexp-nolibm
+  CC       test-frexpl.o
+  CC       randoml.o
+  CCLD     test-frexpl-nolibm
+  CC       test-fseek.o
+  CCLD     test-fseek
+  CC       test-fseeko.o
+  CCLD     test-fseeko
+  CC       test-fseeko3.o
+  CCLD     test-fseeko3
+  CC       test-fseeko4.o
+  CCLD     test-fseeko4
+  CC       test-fseterr.o
+  CCLD     test-fseterr
+  CC       test-fstat.o
+  CCLD     test-fstat
+  CC       test-fstatat.o
+  CCLD     test-fstatat
+  CC       test-fsync.o
+  CCLD     test-fsync
+  CC       test-ftell.o
+  CCLD     test-ftell
+  CC       test-ftell3.o
+  CCLD     test-ftell3
+  CC       test-ftello.o
+  CCLD     test-ftello
+  CC       test-ftello3.o
+  CCLD     test-ftello3
+  CC       test-ftello4.o
+  CCLD     test-ftello4
+  CC       test-ftruncate.o
+  CCLD     test-ftruncate
+  CC       test-futimens.o
+  CCLD     test-futimens
+  CC       test-fwrite.o
+  CCLD     test-fwrite
+  CC       test-getaddrinfo.o
+  CCLD     test-getaddrinfo
+  CC       test-getcwd-lgpl.o
+  CCLD     test-getcwd-lgpl
+  CC       test-getcwd.o
+  CCLD     test-getcwd
+  CC       test-getdelim.o
+  CCLD     test-getdelim
+  CC       test-getdtablesize.o
+  CCLD     test-getdtablesize
+  CC       test-getgroups.o
+  CCLD     test-getgroups
+  CC       test-gethostname.o
+  CCLD     test-gethostname
+  CC       test-getline.o
+  CCLD     test-getline
+  CC       test-getloadavg.o
+  CCLD     test-getloadavg
+  CC       test-getlogin.o
+  CCLD     test-getlogin
+  CC       test-getndelim2.o
+  CCLD     test-getndelim2
+  CC       test-getopt-gnu.o
+  CCLD     test-getopt-gnu
+  CC       test-getopt-posix.o
+  CCLD     test-getopt-posix
+  CC       test-getprogname.o
+  CCLD     test-getprogname
+  CC       test-getrusage.o
+  CCLD     test-getrusage
+  CC       test-gettimeofday.o
+  CCLD     test-gettimeofday
+  CC       test-hash.o
+  CCLD     test-hash
+  CC       test-i-ring.o
+  CCLD     test-i-ring
+  CC       test-iconv-h.o
+  CCLD     test-iconv-h
+  CC       test-iconv.o
+  CCLD     test-iconv
+  CC       test-ignore-value.o
+  CCLD     test-ignore-value
+  CC       test-inet_ntop.o
+  CCLD     test-inet_ntop
+  CC       test-inet_pton.o
+  CCLD     test-inet_pton
+  CC       test-ino-map.o
+  CCLD     test-ino-map
+  CC       test-intprops.o
+  CCLD     test-intprops
+  CC       test-inttostr.o
+  CCLD     test-inttostr
+  CC       test-inttypes.o
+  CCLD     test-inttypes
+  CC       test-ioctl.o
+  CCLD     test-ioctl
+  CC       test-isatty.o
+  CCLD     test-isatty
+  CC       test-isblank.o
+  CCLD     test-isblank
+  CC       test-isnand-nolibm.o
+  CCLD     test-isnand-nolibm
+  CC       test-isnanf-nolibm.o
+  CCLD     test-isnanf-nolibm
+  CC       test-isnanl-nolibm.o
+  CCLD     test-isnanl-nolibm
+  CC       test-iswblank.o
+  CCLD     test-iswblank
+  CC       test-langinfo.o
+  CCLD     test-langinfo
+  CC       test-lchown.o
+  CCLD     test-lchown
+  CC       test-limits-h.o
+  CCLD     test-limits-h
+  CC       test-link.o
+  CCLD     test-link
+  CC       test-linkat.o
+  CCLD     test-linkat
+  CC       test-listen.o
+  CCLD     test-listen
+  CC       test-locale.o
+  CCLD     test-locale
+  CC       test-localeconv.o
+  CCLD     test-localeconv
+  CC       test-localename.o
+  CCLD     test-localename
+  CC       test-rwlock1.o
+  CCLD     test-rwlock1
+  CC       test_lock-test-lock.o
+  CCLD     test-lock
+  CC       test-once.o
+  CCLD     test-once1
+  CCLD     test-once2
+  CC       test-lseek.o
+  CCLD     test-lseek
+  CC       test-lstat.o
+  CCLD     test-lstat
+  CC       test-malloc-gnu.o
+  CCLD     test-malloc-gnu
+  CC       test-malloca.o
+  CCLD     test-malloca
+  CC       test-math.o
+  CCLD     test-math
+  CC       test-mbrtowc.o
+  CCLD     test-mbrtowc
+  CC       test-mbrtowc-w32.o
+  CCLD     test-mbrtowc-w32
+  CC       test-mbsalign.o
+  CCLD     test-mbsalign
+  CC       test-mbscasecmp.o
+  CCLD     test-mbscasecmp
+  CC       test-mbschr.o
+  CCLD     test-mbschr
+  CC       test-mbsinit.o
+  CCLD     test-mbsinit
+  CC       test-mbsrtowcs.o
+  CCLD     test-mbsrtowcs
+  CC       test-mbsstr1.o
+  CCLD     test-mbsstr1
+  CC       test-mbsstr2.o
+  CCLD     test-mbsstr2
+  CC       test-mbsstr3.o
+  CCLD     test-mbsstr3
+  CC       test-memcasecmp.o
+  CCLD     test-memcasecmp
+  CC       test-memchr.o
+  CCLD     test-memchr
+  CC       test-memchr2.o
+  CCLD     test-memchr2
+  CC       test-memcoll.o
+  CCLD     test-memcoll
+  CC       test-memrchr.o
+  CCLD     test-memrchr
+  CC       test-mkdir.o
+  CCLD     test-mkdir
+  CC       test-mkfifo.o
+  CCLD     test-mkfifo
+  CC       test-mknod.o
+  CCLD     test-mknod
+  CC       test-nanosleep.o
+  CCLD     test-nanosleep
+  CC       test-netdb.o
+  CCLD     test-netdb
+  CC       test-netinet_in.o
+  CCLD     test-netinet_in
+  CC       test-nl_langinfo.o
+  CCLD     test-nl_langinfo
+  CC       test-nstrftime.o
+  CCLD     test-nstrftime
+  CC       test-open.o
+  CCLD     test-open
+  CC       test-openat-safer.o
+  CCLD     test-openat-safer
+  CC       test-openat.o
+  CCLD     test-openat
+  CC       test-parse-datetime.o
+  CCLD     test-parse-datetime
+  CC       test-pathmax.o
+  CCLD     test-pathmax
+  CC       test-perror.o
+  CCLD     test-perror
+  CC       test-perror2.o
+  CCLD     test-perror2
+  CC       test-pipe.o
+  CCLD     test-pipe
+  CC       test-pipe2.o
+  CCLD     test-pipe2
+  CC       test-posixtm.o
+  CCLD     test-posixtm
+  CC       test-printf-frexp.o
+  CCLD     test-printf-frexp
+  CC       test-printf-frexpl.o
+  CCLD     test-printf-frexpl
+  CC       test-priv-set.o
+  CCLD     test-priv-set
+  CC       test-pthread_sigmask1.o
+  CCLD     test-pthread_sigmask1
+  CC       test-pthread_sigmask2.o
+  CCLD     test-pthread_sigmask2
+  CC       test-quotearg-simple.o
+  CCLD     test-quotearg-simple
+  CC       test-raise.o
+  CCLD     test-raise
+  CC       test-rand-isaac.o
+  CCLD     test-rand-isaac
+  CC       test-read-file.o
+  CCLD     test-read-file
+  CC       test-read.o
+  CCLD     test-read
+  CC       test-readlink.o
+  CCLD     test-readlink
+  CC       test-readlinkat.o
+  CCLD     test-readlinkat
+  CC       test-readtokens.o
+  CCLD     test-readtokens
+  CC       test-realloc-gnu.o
+  CCLD     test-realloc-gnu
+  CC       test-regex.o
+  CCLD     test-regex
+  CC       test-remove.o
+  CCLD     test-remove
+  CC       test-rename.o
+  CCLD     test-rename
+  CC       test-renameat.o
+  CCLD     test-renameat
+  CC       test-renameat2.o
+  CCLD     test-renameat2
+  CC       test-rmdir.o
+  CCLD     test-rmdir
+  CC       test-sched.o
+  CCLD     test-sched
+  CC       test-select.o
+  CCLD     test-select
+  CC       test-select-fd.o
+  CCLD     test-select-fd
+  CC       test-select-stdin.o
+  CCLD     test-select-stdin
+  CC       test-setenv.o
+  CCLD     test-setenv
+  CC       test-setlocale1.o
+  CCLD     test-setlocale1
+  CC       test-setlocale2.o
+  CCLD     test-setlocale2
+  CC       test-setsockopt.o
+  CCLD     test-setsockopt
+  CC       test-sigaction.o
+  CCLD     test-sigaction
+  CC       test-signal-h.o
+  CCLD     test-signal-h
+  CC       test-signbit.o
+  CCLD     test-signbit
+  CC       test-sigprocmask.o
+  CCLD     test-sigprocmask
+  CC       test-sleep.o
+  CCLD     test-sleep
+  CC       test-snprintf.o
+  CCLD     test-snprintf
+  CC       test-sockets.o
+  CCLD     test-sockets
+  CC       test-stat.o
+  CCLD     test-stat
+  CC       test-stat-time.o
+  CCLD     test-stat-time
+  CC       test-statat.o
+  CCLD     test-statat
+  CC       test-stdalign.o
+  CCLD     test-stdalign
+  CC       test-stdbool.o
+  CCLD     test-stdbool
+  CC       test-stddef.o
+  CCLD     test-stddef
+  CC       test-stdint.o
+  CCLD     test-stdint
+  CC       test-stdio.o
+  CCLD     test-stdio
+  CC       test-stdlib.o
+  CCLD     test-stdlib
+  CC       test-strerror.o
+  CCLD     test-strerror
+  CC       test-strerror_r.o
+  CCLD     test-strerror_r
+  CC       test-striconv.o
+  CCLD     test-striconv
+  CC       test-string.o
+  CCLD     test-string
+  CC       test-strncat.o
+  CCLD     test-strncat
+  CC       test-strnlen.o
+  CCLD     test-strnlen
+  CC       test-strsignal.o
+  CCLD     test-strsignal
+  CC       test-strtod.o
+  CCLD     test-strtod
+  CC       test-strtoimax.o
+  CCLD     test-strtoimax
+  CC       test-strtoll.o
+  CCLD     test-strtoll
+  CC       test-strtoull.o
+  CCLD     test-strtoull
+  CC       test-strtoumax.o
+  CCLD     test-strtoumax
+  CC       test-symlink.o
+  CCLD     test-symlink
+  CC       test-symlinkat.o
+  CCLD     test-symlinkat
+  CC       test-sys_ioctl.o
+  CCLD     test-sys_ioctl
+  CC       test-sys_resource.o
+  CCLD     test-sys_resource
+  CC       test-sys_select.o
+  CCLD     test-sys_select
+  CC       test-sys_socket.o
+  CCLD     test-sys_socket
+  CC       test-sys_stat.o
+  CCLD     test-sys_stat
+  CC       test-sys_time.o
+  CCLD     test-sys_time
+  CC       test-sys_types.o
+  CCLD     test-sys_types
+  CC       test-sys_uio.o
+  CCLD     test-sys_uio
+  CC       test-sys_utsname.o
+  CCLD     test-sys_utsname
+  CC       test-sys_wait.o
+  CCLD     test-sys_wait
+  CC       test-termios.o
+  CCLD     test-termios
+  CC       test-thread_self.o
+  CCLD     test-thread_self
+  CC       test-thread_create.o
+  CCLD     test-thread_create
+  CC       test-time.o
+  CCLD     test-time
+  CC       test-timespec.o
+  CCLD     test-timespec
+  CC       test_tls-test-tls.o
+  CCLD     test-tls
+  CC       test-u64.o
+  CCLD     test-u64
+  CC       test-uname.o
+  CCLD     test-uname
+  CC       test-dup-safer.o
+  CCLD     test-dup-safer
+  CC       test-unistd.o
+  CCLD     test-unistd
+  CC       unistr/test-u8-mbtoucr.o
+  CCLD     test-u8-mbtoucr
+  CC       unistr/test-u8-uctomb.o
+  CCLD     test-u8-uctomb
+  CC       uniwidth/test-uc_width.o
+  CCLD     test-uc_width
+  CC       uniwidth/test-uc_width2.o
+  CCLD     test-uc_width2
+  CC       test-unlink.o
+  CCLD     test-unlink
+  CC       test-unlinkat.o
+  CCLD     test-unlinkat
+  CC       test-unsetenv.o
+  CCLD     test-unsetenv
+  CC       test-userspec.o
+  CCLD     test-userspec
+  CC       test-usleep.o
+  CCLD     test-usleep
+  CC       test-utime-h.o
+  CCLD     test-utime-h
+  CC       test-utime.o
+  CCLD     test-utime
+  CC       test-utimens.o
+  CCLD     test-utimens
+  CC       test-utimensat.o
+  CCLD     test-utimensat
+  CC       test-vasnprintf.o
+  CCLD     test-vasnprintf
+  CC       test-vasprintf-posix.o
+  CCLD     test-vasprintf-posix
+  CC       test-vasprintf.o
+  CCLD     test-vasprintf
+  CC       test-verify.o
+  CCLD     test-verify
+  CC       test-version-etc.o
+  CCLD     test-version-etc
+  CC       test-vfprintf-posix.o
+  CCLD     test-vfprintf-posix
+  CC       test-vprintf-posix.o
+  CCLD     test-vprintf-posix
+  CC       test-wchar.o
+  CCLD     test-wchar
+  CC       test-wcrtomb.o
+  CCLD     test-wcrtomb
+  CC       test-wcrtomb-w32.o
+  CCLD     test-wcrtomb-w32
+  CC       test-wctype-h.o
+  CCLD     test-wctype-h
+  CC       test-wcwidth.o
+  CCLD     test-wcwidth
+  CC       test-write.o
+  CCLD     test-write
+  CC       test-xalloc-die.o
+  CCLD     test-xalloc-die
+  CC       test-xfprintf-posix.o
+  CCLD     test-xfprintf-posix
+  CC       test-xprintf-posix.o
+  CCLD     test-xprintf-posix
+  CC       test-xstrtoimax.o
+  CCLD     test-xstrtoimax
+  CC       test-xstrtol.o
+  CCLD     test-xstrtol
+  CC       test-xstrtoul.o
+  CCLD     test-xstrtoul
+  CC       test-xstrtoumax.o
+  CCLD     test-xstrtoumax
+  CC       test_xvasprintf-test-xvasprintf.o
+  CCLD     test-xvasprintf
+  CC       test-yesno.o
+  CCLD     test-yesno
+make[5]: Leaving directory '/usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests'
+make  check-TESTS
+make[5]: Entering directory '/usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests'
+make[6]: Entering directory '/usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests'
+PASS: test-accept
+PASS: test-set-mode-acl.sh
+PASS: test-set-mode-acl-1.sh
+PASS: test-set-mode-acl-2.sh
+PASS: test-copy-acl.sh
+PASS: test-copy-acl-1.sh
+PASS: test-copy-acl-2.sh
+PASS: test-alignof
+PASS: test-alloca-opt
+PASS: test-areadlink
+PASS: test-areadlink-with-size
+PASS: test-areadlinkat
+PASS: test-argmatch
+PASS: test-argv-iter
+PASS: test-arpa_inet
+PASS: test-base32
+PASS: test-base64
+PASS: test-binary-io.sh
+PASS: test-bind
+PASS: test-bitrotate
+PASS: test-btowc1.sh
+PASS: test-btowc2.sh
+PASS: test-byteswap
+PASS: test-c-ctype
+PASS: test-c-strcase.sh
+PASS: test-calloc-gnu
+PASS: test-canonicalize
+PASS: test-chdir
+PASS: test-chown
+PASS: test-cloexec
+PASS: test-close
+PASS: test-closein.sh
+PASS: test-connect
+PASS: test-md5
+PASS: test-sha1
+PASS: test-sha256
+PASS: test-sha512
+PASS: test-ctype
+PASS: test-di-set
+PASS: test-dirent-safer
+PASS: test-dirent
+PASS: test-dirname
+PASS: test-dup
+PASS: test-dup2
+PASS: test-environ
+PASS: test-errno
+PASS: test-exclude1.sh
+PASS: test-exclude2.sh
+PASS: test-exclude3.sh
+PASS: test-exclude4.sh
+PASS: test-exclude5.sh
+PASS: test-exclude6.sh
+PASS: test-exclude7.sh
+PASS: test-exclude8.sh
+PASS: test-faccessat
+PASS: test-fadvise
+PASS: test-fchdir
+PASS: test-fchmodat
+PASS: test-fchownat
+PASS: test-fclose
+PASS: test-fcntl-h
+PASS: test-fcntl-safer
+PASS: test-fcntl
+PASS: test-fdatasync
+PASS: test-fdopen
+PASS: test-fdopendir
+PASS: test-fdutimensat
+PASS: test-fflush
+PASS: test-fflush2.sh
+PASS: test-fgetc
+PASS: test-file-has-acl.sh
+PASS: test-file-has-acl-1.sh
+PASS: test-file-has-acl-2.sh
+PASS: test-filenamecat
+PASS: test-filevercmp
+PASS: test-float
+PASS: test-fnmatch
+PASS: test-fopen-safer
+PASS: test-fopen
+PASS: test-fpending.sh
+PASS: test-fpurge
+PASS: test-fputc
+PASS: test-fread
+PASS: test-freadahead.sh
+PASS: test-freading
+PASS: test-freadptr.sh
+PASS: test-freadptr2.sh
+PASS: test-freadseek.sh
+PASS: test-freopen-safer
+PASS: test-freopen
+PASS: test-frexp-nolibm
+PASS: test-frexpl-nolibm
+PASS: test-fseek.sh
+PASS: test-fseek2.sh
+PASS: test-fseeko.sh
+PASS: test-fseeko2.sh
+PASS: test-fseeko3.sh
+PASS: test-fseeko4.sh
+PASS: test-fseterr
+PASS: test-fstat
+PASS: test-fstatat
+PASS: test-fsync
+PASS: test-ftell.sh
+PASS: test-ftell2.sh
+PASS: test-ftell3
+PASS: test-ftello.sh
+PASS: test-ftello2.sh
+PASS: test-ftello3
+PASS: test-ftello4.sh
+PASS: test-ftruncate.sh
+PASS: test-futimens
+PASS: test-fwrite
+PASS: test-getaddrinfo
+PASS: test-getcwd-lgpl
+PASS: test-getcwd.sh
+PASS: test-getdelim
+PASS: test-getdtablesize
+PASS: test-getgroups
+PASS: test-gethostname
+PASS: test-getline
+PASS: test-getloadavg
+../build-aux/test-driver: line 107: 20337 Aborted                 "$@" > $log_file 2>&1
+FAIL: test-getlogin
+PASS: test-getndelim2
+PASS: test-getopt-gnu
+PASS: test-getopt-posix
+PASS: test-getprogname
+PASS: test-getrusage
+PASS: test-gettimeofday
+PASS: test-hash
+PASS: test-i-ring
+PASS: test-iconv-h
+PASS: test-iconv
+PASS: test-ignore-value
+PASS: test-inet_ntop
+PASS: test-inet_pton
+PASS: test-ino-map
+PASS: test-intprops
+PASS: test-inttostr
+PASS: test-inttypes
+PASS: test-ioctl
+PASS: test-isatty
+PASS: test-isblank
+PASS: test-isnand-nolibm
+PASS: test-isnanf-nolibm
+PASS: test-isnanl-nolibm
+PASS: test-iswblank
+PASS: test-langinfo
+PASS: test-lchown
+PASS: test-limits-h
+PASS: test-link
+PASS: test-linkat
+PASS: test-listen
+PASS: test-locale
+PASS: test-localeconv
+PASS: test-localename
+PASS: test-rwlock1
+PASS: test-lock
+PASS: test-once1
+PASS: test-once2
+PASS: test-lseek.sh
+PASS: test-lstat
+PASS: test-malloc-gnu
+PASS: test-malloca
+PASS: test-math
+PASS: test-mbrtowc1.sh
+PASS: test-mbrtowc2.sh
+PASS: test-mbrtowc3.sh
+PASS: test-mbrtowc4.sh
+PASS: test-mbrtowc5.sh
+SKIP: test-mbrtowc-w32-1.sh
+SKIP: test-mbrtowc-w32-2.sh
+SKIP: test-mbrtowc-w32-3.sh
+SKIP: test-mbrtowc-w32-4.sh
+SKIP: test-mbrtowc-w32-5.sh
+PASS: test-mbsalign
+PASS: test-mbscasecmp.sh
+PASS: test-mbschr.sh
+PASS: test-mbsinit.sh
+PASS: test-mbsrtowcs1.sh
+PASS: test-mbsrtowcs2.sh
+PASS: test-mbsrtowcs3.sh
+PASS: test-mbsrtowcs4.sh
+PASS: test-mbsstr1
+PASS: test-mbsstr2.sh
+PASS: test-mbsstr3.sh
+PASS: test-memcasecmp
+PASS: test-memchr
+PASS: test-memchr2
+PASS: test-memcoll
+PASS: test-memrchr
+PASS: test-mkdir
+PASS: test-mkfifo
+PASS: test-mknod
+PASS: test-nanosleep
+PASS: test-netdb
+PASS: test-netinet_in
+PASS: test-nl_langinfo.sh
+PASS: test-nstrftime
+PASS: test-open
+PASS: test-openat-safer
+PASS: test-openat
+PASS: test-parse-datetime
+PASS: test-pathmax
+PASS: test-perror.sh
+PASS: test-perror2
+PASS: test-pipe
+PASS: test-pipe2
+PASS: test-posixtm
+PASS: test-printf-frexp
+PASS: test-printf-frexpl
+PASS: test-priv-set
+PASS: test-pthread_sigmask1
+PASS: test-pthread_sigmask2
+PASS: test-quotearg-simple
+PASS: test-raise
+PASS: test-rand-isaac
+PASS: test-read-file
+PASS: test-read
+PASS: test-readlink
+PASS: test-readlinkat
+PASS: test-readtokens.sh
+PASS: test-realloc-gnu
+PASS: test-regex
+PASS: test-remove
+PASS: test-rename
+PASS: test-renameat
+PASS: test-renameat2
+PASS: test-rmdir
+PASS: test-sched
+PASS: test-select
+PASS: test-select-in.sh
+PASS: test-select-out.sh
+PASS: test-setenv
+PASS: test-setlocale1.sh
+PASS: test-setlocale2.sh
+PASS: test-setsockopt
+PASS: test-sigaction
+PASS: test-signal-h
+PASS: test-signbit
+PASS: test-sigprocmask
+PASS: test-sleep
+PASS: test-snprintf
+PASS: test-sockets
+PASS: test-stat
+PASS: test-stat-time
+PASS: test-statat
+PASS: test-stdalign
+PASS: test-stdbool
+PASS: test-stddef
+PASS: test-stdint
+PASS: test-stdio
+PASS: test-stdlib
+PASS: test-strerror
+PASS: test-strerror_r
+PASS: test-striconv
+PASS: test-string
+PASS: test-strncat
+PASS: test-strnlen
+PASS: test-strsignal
+PASS: test-strtod
+PASS: test-strtoimax
+PASS: test-strtoll
+PASS: test-strtoull
+PASS: test-strtoumax
+PASS: test-symlink
+PASS: test-symlinkat
+PASS: test-sys_ioctl
+PASS: test-sys_resource
+PASS: test-sys_select
+PASS: test-sys_socket
+PASS: test-sys_stat
+PASS: test-sys_time
+PASS: test-sys_types
+PASS: test-sys_uio
+PASS: test-sys_utsname
+PASS: test-sys_wait
+PASS: test-termios
+PASS: test-init.sh
+PASS: test-thread_self
+PASS: test-thread_create
+PASS: test-time
+PASS: test-timespec
+PASS: test-tls
+PASS: test-u64
+PASS: test-uname
+PASS: test-dup-safer
+PASS: test-unistd
+PASS: test-u8-mbtoucr
+PASS: test-u8-uctomb
+PASS: test-uc_width
+PASS: uniwidth/test-uc_width2.sh
+PASS: test-unlink
+PASS: test-unlinkat
+PASS: test-unsetenv
+PASS: test-update-copyright.sh
+PASS: test-userspec
+PASS: test-usleep
+PASS: test-utime-h
+PASS: test-utime
+PASS: test-utimens
+PASS: test-utimensat
+PASS: test-vasnprintf
+PASS: test-vasprintf-posix
+PASS: test-vasprintf
+PASS: test-vc-list-files-git.sh
+SKIP: test-vc-list-files-cvs.sh
+PASS: test-verify
+PASS: test-verify.sh
+PASS: test-version-etc.sh
+PASS: test-vfprintf-posix.sh
+PASS: test-vprintf-posix.sh
+PASS: test-wchar
+PASS: test-wcrtomb.sh
+SKIP: test-wcrtomb-w32-1.sh
+SKIP: test-wcrtomb-w32-2.sh
+SKIP: test-wcrtomb-w32-3.sh
+SKIP: test-wcrtomb-w32-4.sh
+SKIP: test-wcrtomb-w32-5.sh
+PASS: test-wctype-h
+PASS: test-wcwidth
+PASS: test-write
+PASS: test-xalloc-die.sh
+PASS: test-xprintf-posix.sh
+PASS: test-xstrtoimax.sh
+PASS: test-xstrtol.sh
+PASS: test-xstrtoumax.sh
+PASS: test-xvasprintf
+PASS: test-yesno.sh
+=====================================================
+   GNU coreutils 8.30: gnulib-tests/test-suite.log
+=====================================================
+
+# TOTAL: 328
+# PASS:  316
+# SKIP:  11
+# XFAIL: 0
+# FAIL:  1
+# XPASS: 0
+# ERROR: 0
+
+.. contents:: :depth: 2
+
+FAIL: test-getlogin
+===================
+
+test-getlogin.h:51: assertion '! isatty (0)' failed
+FAIL test-getlogin (exit status: 134)
+
+SKIP: test-mbrtowc-w32-1.sh
+===========================
+
+Skipping test: not a native Windows system
+SKIP test-mbrtowc-w32-1.sh (exit status: 77)
+
+SKIP: test-mbrtowc-w32-2.sh
+===========================
+
+Skipping test: not a native Windows system
+SKIP test-mbrtowc-w32-2.sh (exit status: 77)
+
+SKIP: test-mbrtowc-w32-3.sh
+===========================
+
+Skipping test: not a native Windows system
+SKIP test-mbrtowc-w32-3.sh (exit status: 77)
+
+SKIP: test-mbrtowc-w32-4.sh
+===========================
+
+Skipping test: not a native Windows system
+SKIP test-mbrtowc-w32-4.sh (exit status: 77)
+
+SKIP: test-mbrtowc-w32-5.sh
+===========================
+
+Skipping test: not a native Windows system
+SKIP test-mbrtowc-w32-5.sh (exit status: 77)
+
+SKIP: test-vc-list-files-cvs.sh
+===============================
+
+++ initial_cwd_=/usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests
++++ testdir_prefix_
++++ printf gt
+++ pfx_=gt
++++ mktempd_ /usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests gt-test-vc-list-files-cvs.sh.XXXX
++++ case $# in
++++ destdir_=/usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests
++++ template_=gt-test-vc-list-files-cvs.sh.XXXX
++++ MAX_TRIES_=4
++++ case $destdir_ in
++++ destdir_slash_=/usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests/
++++ case $template_ in
+++++ unset TMPDIR
++++ d=/usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests/gt-test-vc-list-files-cvs.sh.lEHo
++++ case $d in
++++ :
++++ test -d /usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests/gt-test-vc-list-files-cvs.sh.lEHo
+++++ ls -dgo /usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests/gt-test-vc-list-files-cvs.sh.lEHo
++++ perms='drwx------ 2 4096 Jan 23 10:09 /usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests/gt-test-vc-list-files-cvs.sh.lEHo'
++++ case $perms in
++++ :
++++ echo /usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests/gt-test-vc-list-files-cvs.sh.lEHo
++++ return
+++ test_dir_=/usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests/gt-test-vc-list-files-cvs.sh.lEHo
+++ cd /usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests/gt-test-vc-list-files-cvs.sh.lEHo
+++ gl_init_sh_nl_='
+'
+++ IFS=' 	
+'
+++ for sig_ in 1 2 3 13 15
++++ expr 1 + 128
+++ eval 'trap '\''Exit 129'\'' 1'
++++ trap 'Exit 129' 1
+++ for sig_ in 1 2 3 13 15
++++ expr 2 + 128
+++ eval 'trap '\''Exit 130'\'' 2'
++++ trap 'Exit 130' 2
+++ for sig_ in 1 2 3 13 15
++++ expr 3 + 128
+++ eval 'trap '\''Exit 131'\'' 3'
++++ trap 'Exit 131' 3
+++ for sig_ in 1 2 3 13 15
++++ expr 13 + 128
+++ eval 'trap '\''Exit 141'\'' 13'
++++ trap 'Exit 141' 13
+++ for sig_ in 1 2 3 13 15
++++ expr 15 + 128
+++ eval 'trap '\''Exit 143'\'' 15'
++++ trap 'Exit 143' 15
+++ trap remove_tmp_ 0
++ path_prepend_ /usr/ports/core/coreutils/work/src/coreutils-8.30/build-aux .
++ test 2 '!=' 0
++ path_dir_=/usr/ports/core/coreutils/work/src/coreutils-8.30/build-aux
++ case $path_dir_ in
++ abs_path_dir_=/usr/ports/core/coreutils/work/src/coreutils-8.30/build-aux
++ case $abs_path_dir_ in
++ PATH=/usr/ports/core/coreutils/work/src/coreutils-8.30/build-aux:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/core/coreutils/work/src/coreutils-8.30/build-aux
++ case $EXEEXT in
++ return 0
++ shift
++ test 1 '!=' 0
++ path_dir_=.
++ case $path_dir_ in
++ abs_path_dir_=/usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests/.
++ case $abs_path_dir_ in
++ PATH=/usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests/.:/usr/ports/core/coreutils/work/src/coreutils-8.30/build-aux:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests/.
++ case $EXEEXT in
++ return 0
++ shift
++ test 0 '!=' 0
++ export PATH
++ tmpdir=vc-cvs
+++ pwd
++ repo=/usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests/gt-test-vc-list-files-cvs.sh.lEHo/vc-cvs/repo
++ fail=0
++ for i in with-cvsu without
++ test with-cvsu = without
++ ok=0
++ mkdir vc-cvs
++ cd vc-cvs
++ skip_ 'cvs not found in PATH'
++ warn_ 'test-vc-list-files-cvs.sh: skipped test: cvs not found in PATH'
++ case $IFS in
++ printf '%s\n' 'test-vc-list-files-cvs.sh: skipped test: cvs not found in PATH'
+test-vc-list-files-cvs.sh: skipped test: cvs not found in PATH
++ test 2 = 2
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ :
++ test '' = yes
++ cd /usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests
++ chmod -R u+rwx /usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests/gt-test-vc-list-files-cvs.sh.lEHo
++ rm -rf /usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests/gt-test-vc-list-files-cvs.sh.lEHo
++ exit 77
+SKIP test-vc-list-files-cvs.sh (exit status: 77)
+
+SKIP: test-wcrtomb-w32-1.sh
+===========================
+
+Skipping test: not a native Windows system
+SKIP test-wcrtomb-w32-1.sh (exit status: 77)
+
+SKIP: test-wcrtomb-w32-2.sh
+===========================
+
+Skipping test: not a native Windows system
+SKIP test-wcrtomb-w32-2.sh (exit status: 77)
+
+SKIP: test-wcrtomb-w32-3.sh
+===========================
+
+Skipping test: not a native Windows system
+SKIP test-wcrtomb-w32-3.sh (exit status: 77)
+
+SKIP: test-wcrtomb-w32-4.sh
+===========================
+
+Skipping test: not a native Windows system
+SKIP test-wcrtomb-w32-4.sh (exit status: 77)
+
+SKIP: test-wcrtomb-w32-5.sh
+===========================
+
+Skipping test: not a native Windows system
+SKIP test-wcrtomb-w32-5.sh (exit status: 77)
+
+============================================================================
+Testsuite summary for GNU coreutils 8.30
+============================================================================
+# TOTAL: 328
+# PASS:  316
+# SKIP:  11
+# XFAIL: 0
+# FAIL:  1
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See gnulib-tests/test-suite.log
+Please report to bug-coreutils@gnu.org
+============================================================================
+make[6]: *** [Makefile:6156: test-suite.log] Error 1
+make[6]: Leaving directory '/usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests'
+make[5]: *** [Makefile:6264: check-TESTS] Error 2
+make[5]: Leaving directory '/usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests'
+make[4]: *** [Makefile:8649: check-am] Error 2
+make[4]: Leaving directory '/usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests'
+make[3]: *** [Makefile:6048: check-recursive] Error 1
+make[3]: Leaving directory '/usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests'
+make[2]: *** [Makefile:8651: check] Error 2
+make[2]: Leaving directory '/usr/ports/core/coreutils/work/src/coreutils-8.30/gnulib-tests'
+make[1]: *** [Makefile:11737: check-recursive] Error 1
+make[1]: Leaving directory '/usr/ports/core/coreutils/work/src/coreutils-8.30'
+make: *** [Makefile:12214: check] Error 2

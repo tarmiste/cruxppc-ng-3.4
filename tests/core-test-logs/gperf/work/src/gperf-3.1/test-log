@@ -1,0 +1,97 @@
+cd lib; make check
+make[1]: Entering directory '/usr/ports/core/gperf/work/src/gperf-3.1/lib'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/gperf/work/src/gperf-3.1/lib'
+cd src; make check
+make[1]: Entering directory '/usr/ports/core/gperf/work/src/gperf-3.1/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/gperf/work/src/gperf-3.1/src'
+cd tests; make check
+make[1]: Entering directory '/usr/ports/core/gperf/work/src/gperf-3.1/tests'
+gcc -c -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt  ./test.c
+testing ANSI C reserved words, all items should be found in the set
+../src/gperf -c -l -S1 -I -o ./c.gperf > cinset.c
+gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt   -o cout cinset.c test.o
+./cout -v < ./c.gperf | LC_ALL=C tr -d '\r' > c.out
+diff ./c.exp c.out
+../src/gperf -k1,4,'$' -I ./ada.gperf > adainset.c
+gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt   -o aout adainset.c test.o
+testing Ada reserved words, all items should be found in the set
+./aout -v < ./ada.gperf | LC_ALL=C tr -d '\r' > ada-res.out
+diff ./ada-res.exp ada-res.out
+../src/gperf -D -k1,'$' -s 2 -I -o ./adadefs.gperf > preinset.c
+1 input keys have identical hash values, examine output carefully...
+gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt   -o preout preinset.c test.o
+testing Ada predefined words, all items should be found in the set
+./preout -v < ./adadefs.gperf | LC_ALL=C tr -d '\r' > ada-pred.out
+diff ./ada-pred.exp ada-pred.out
+../src/gperf -k1,2,'$' -I -o ./modula3.gperf > m3inset.c
+gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt   -o m3out m3inset.c test.o
+testing Modula3 reserved words, all items should be found in the set
+./m3out -v < ./modula3.gperf | LC_ALL=C tr -d '\r' > modula.out
+diff ./modula.exp modula.out
+../src/gperf -o -S2 -I < ./pascal.gperf > pinset.c
+gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt   -o pout pinset.c test.o
+testing Pascal reserved words, all items should be found in the set
+./pout -v < ./pascal.gperf | LC_ALL=C tr -d '\r' > pascal.out
+diff ./pascal.exp pascal.out
+../src/gperf -k1 -t -I -K foreign_name < ./lang-utf8.gperf > lu8inset.c
+gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt   -o lu8out lu8inset.c test.o
+testing UTF-8 encoded languages, all items should be found in the set
+sed -e '1,6d' -e 's/,.*//' < ./lang-utf8.gperf | ./lu8out -v | LC_ALL=C tr -d '\r' > lang-utf8.out
+diff ./lang-utf8.exp lang-utf8.out
+gcc -c -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt  ./test2.c
+../src/gperf -k4 -t -l -I -K foreign_name < ./lang-ucs2.gperf > lu2inset.c
+gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt   -o lu2out lu2inset.c test2.o
+testing UCS-2 encoded languages, all items should be found in the set
+./lu2out -v < ./lang-ucs2.in | LC_ALL=C tr -d '\r' > lang-ucs2.out
+diff ./lang-ucs2.exp lang-ucs2.out
+testing SMTP keywords, case-insensitive
+../src/gperf --struct-type --readonly-table --enum --global -K field_name -N header_entry --ignore-case ./smtp.gperf > smtp.c
+gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt   -o smtp smtp.c
+./smtp
+../src/gperf --struct-type --readonly-table --enum --global -K field_name -N header_entry --ignore-case --compare-strncmp ./smtp.gperf > smtp.c
+gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt   -o smtp smtp.c
+./smtp
+../src/gperf --struct-type --readonly-table --enum --global -K field_name -N header_entry --ignore-case --compare-lengths ./smtp.gperf > smtp.c
+gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt   -o smtp smtp.c
+./smtp
+../src/gperf -L C -F ', 0, 0' -j1 -i 1 -g -o -t -G -N is_reserved_word -k1,3,'$' < ./c-parse.gperf | LC_ALL=C tr -d '\r' | LC_ALL=C sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > c-parse.out
+diff ./c-parse.exp c-parse.out
+../src/gperf -j1 -i 1 -g -o -t -N is_reserved_word -k1,3,'$' < ./objc.gperf | LC_ALL=C tr -d '\r' | LC_ALL=C sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > objc.out
+diff ./objc.exp objc.out
+../src/gperf -L C -F ', 0, 0, 0' -D -E -S1 -j1 -i 1 -g -o -t -k'*' < ./chill.gperf | LC_ALL=C tr -d '\r' | LC_ALL=C sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > chill.out
+diff ./chill.exp chill.out
+../src/gperf -L C -F ', 0, 0' -j1 -g -o -t -N is_reserved_word -k1,4,7,'$' < ./cplusplus.gperf | LC_ALL=C tr -d '\r' | LC_ALL=C sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > cplusplus.out
+diff ./cplusplus.exp cplusplus.out
+../src/gperf -L C -F ', 0' -t -j1 -i 1 -g -o -N java_keyword -k1,3,'$' < ./java.gperf | LC_ALL=C tr -d '\r' | LC_ALL=C sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > java.out
+diff ./java.exp java.out
+../src/gperf -n -k1-8 -l < ./modula2.gperf | LC_ALL=C tr -d '\r' | LC_ALL=C sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > modula2.out
+diff ./modula2.exp modula2.out
+../src/gperf -D -t -k1,'$' < ./c-parse.gperf | LC_ALL=C tr -d '\r' | LC_ALL=C sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > test-4.out
+8 input keys have identical hash values, examine output carefully...
+diff ./test-4.exp test-4.out
+../src/gperf -g -o -j1 -t -N is_reserved_word < ./gpc.gperf | LC_ALL=C tr -d '\r' | LC_ALL=C sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > gpc.out
+diff ./gpc.exp gpc.out
+../src/gperf -m5 < ./permut2.gperf | LC_ALL=C tr -d '\r' | LC_ALL=C sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > permut2.out
+diff ./permut2.exp permut2.out
+../src/gperf -m5 < ./permut3.gperf | LC_ALL=C tr -d '\r' | LC_ALL=C sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > permut3.out
+diff ./permut3.exp permut3.out
+../src/gperf -m5 --ignore-case < ./permutc2.gperf | LC_ALL=C tr -d '\r' | LC_ALL=C sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > permutc2.out
+diff ./permutc2.exp permutc2.out
+../src/gperf -C -E -G -I -t < ./charsets.gperf | LC_ALL=C tr -d '\r' | LC_ALL=C sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > charsets.out
+diff ./charsets.exp charsets.out
+../src/gperf -C -E -G -I -t < ./languages.gperf | LC_ALL=C tr -d '\r' | LC_ALL=C sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > languages.out
+diff ./languages.exp languages.out
+../src/gperf -t < ./incomplete.gperf | LC_ALL=C tr -d '\r' | LC_ALL=C sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > incomplete.out
+diff ./incomplete.exp incomplete.out
+../src/gperf -h | LC_ALL=C tr -d '\r' | LC_ALL=C sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > test-6.out
+diff ./test-6.exp test-6.out
+only if, do, for, case, goto, else, while, and return should be found 
+./aout -v < ./c.gperf | LC_ALL=C tr -d '\r' | LC_ALL=C sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > test-7.out
+diff ./test-7.exp test-7.out
+make[1]: Leaving directory '/usr/ports/core/gperf/work/src/gperf-3.1/tests'
+cd doc; make check
+make[1]: Entering directory '/usr/ports/core/gperf/work/src/gperf-3.1/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/gperf/work/src/gperf-3.1/doc'

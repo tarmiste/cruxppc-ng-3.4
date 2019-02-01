@@ -1,0 +1,204 @@
+Making check in glib
+make[1]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib'
+make  check-recursive
+make[2]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib'
+Making check in .
+make[3]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib'
+make      \
+                   
+make[4]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib'
+make  all-recursive
+make[5]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib'
+Making all in .
+make[6]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib'
+make[6]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib'
+Making all in m4macros
+make[6]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/m4macros'
+make  all-am
+make[7]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/m4macros'
+make[7]: Nothing to be done for 'all-am'.
+make[7]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/m4macros'
+make[6]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/m4macros'
+Making all in glib
+make[6]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib'
+make  all-recursive
+make[7]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib'
+Making all in libcharset
+make[8]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib/libcharset'
+make  all-am
+make[9]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib/libcharset'
+make[9]: Nothing to be done for 'all-am'.
+make[9]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib/libcharset'
+make[8]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib/libcharset'
+Making all in .
+make[8]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib'
+make[8]: Nothing to be done for 'all-am'.
+make[8]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib'
+make[7]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib'
+make[6]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib'
+make[5]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib'
+make[4]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib'
+make  check-TESTS check-local
+make[4]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib'
+make[5]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib'
+============================================================================
+Testsuite summary for glib 2.38.2
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib'
+make[4]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib'
+make[3]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib'
+Making check in m4macros
+make[3]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/m4macros'
+make  check-am
+make[4]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/m4macros'
+make      \
+                   
+make[5]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/m4macros'
+make  all-am
+make[6]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/m4macros'
+make[6]: Nothing to be done for 'all-am'.
+make[6]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/m4macros'
+make[5]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/m4macros'
+make  check-TESTS check-local
+make[5]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/m4macros'
+make[6]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/m4macros'
+============================================================================
+Testsuite summary for glib 2.38.2
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[6]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/m4macros'
+make[5]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/m4macros'
+make[4]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/m4macros'
+make[3]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/m4macros'
+Making check in glib
+make[3]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib'
+make  check-recursive
+make[4]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib'
+Making check in libcharset
+make[5]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib/libcharset'
+make  check-am
+make[6]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib/libcharset'
+make      \
+                   
+make[7]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib/libcharset'
+make  all-am
+make[8]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib/libcharset'
+make[8]: Nothing to be done for 'all-am'.
+make[8]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib/libcharset'
+make[7]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib/libcharset'
+make  check-TESTS check-local
+make[7]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib/libcharset'
+make[8]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib/libcharset'
+============================================================================
+Testsuite summary for glib 2.38.2
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[8]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib/libcharset'
+make[7]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib/libcharset'
+make[6]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib/libcharset'
+make[5]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib/libcharset'
+Making check in .
+make[5]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib'
+make      \
+                   
+make[6]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib'
+make  all-recursive
+make[7]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib'
+Making all in libcharset
+make[8]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib/libcharset'
+make  all-am
+make[9]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib/libcharset'
+make[9]: Nothing to be done for 'all-am'.
+make[9]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib/libcharset'
+make[8]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib/libcharset'
+Making all in .
+make[8]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib'
+make[8]: Nothing to be done for 'all-am'.
+make[8]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib'
+make[7]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib'
+make[6]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib'
+make  check-TESTS check-local
+make[6]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib'
+make[7]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib'
+============================================================================
+Testsuite summary for glib 2.38.2
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[7]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib'
+make[6]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib'
+make[5]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib'
+make[4]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib'
+make[3]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib/glib'
+make[2]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib'
+make[1]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/glib'
+Making check in .
+make[1]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2'
+make[1]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2'
+Making check in check
+make[1]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/check'
+make  check-TESTS
+make[2]: Entering directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/check'
+PASS: check-cflags
+PASS: check-libs
+PASS: check-mixed-flags
+PASS: check-non-l-flags
+PASS: check-define-variable
+PASS: check-libs-private
+PASS: check-requires-private
+PASS: check-circular-requires
+PASS: check-includedir
+PASS: check-conflicts
+PASS: check-missing
+PASS: check-special-flags
+PASS: check-sort-order
+PASS: check-duplicate-flags
+PASS: check-whitespace
+PASS: check-cmd-options
+PASS: check-version
+PASS: check-requires-version
+PASS: check-print-options
+PASS: check-path
+PASS: check-sysroot
+PASS: check-uninstalled
+PASS: check-debug
+PASS: check-gtk
+PASS: check-tilde
+PASS: check-relocatable
+PASS: check-variable-override
+PASS: check-variables
+PASS: check-dependencies
+PASS: check-system-flags
+===================
+All 30 tests passed
+===================
+make[2]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/check'
+make[1]: Leaving directory '/usr/ports/core/pkg-config/work/src/pkg-config-0.29.2/check'

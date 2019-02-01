@@ -1,0 +1,151 @@
+make -C libcap all
+make[1]: Entering directory '/usr/ports/core-ppc/libcap/work/src/libcap-2.26/libcap'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/usr/ports/core-ppc/libcap/work/src/libcap-2.26/libcap'
+make -C progs all
+make[1]: Entering directory '/usr/ports/core-ppc/libcap/work/src/libcap-2.26/progs'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/usr/ports/core-ppc/libcap/work/src/libcap-2.26/progs'
+make -C doc all
+make[1]: Entering directory '/usr/ports/core-ppc/libcap/work/src/libcap-2.26/doc'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/usr/ports/core-ppc/libcap/work/src/libcap-2.26/doc'
+make -C kdebug all
+make[1]: Entering directory '/usr/ports/core-ppc/libcap/work/src/libcap-2.26/kdebug'
+cd to kdebug to test a kernel build
+make[1]: Leaving directory '/usr/ports/core-ppc/libcap/work/src/libcap-2.26/kdebug'
+cd progs && sudo ./quicktest.sh
+EXPECT SUCCESS: TEST: ./capsh --print
+Current: = cap_chown,cap_dac_override,cap_dac_read_search,cap_fowner,cap_fsetid,cap_kill,cap_setgid,cap_setuid,cap_setpcap,cap_linux_immutable,cap_net_bind_service,cap_net_broadcast,cap_net_admin,cap_net_raw,cap_ipc_lock,cap_ipc_owner,cap_sys_module,cap_sys_rawio,cap_sys_chroot,cap_sys_ptrace,cap_sys_pacct,cap_sys_admin,cap_sys_boot,cap_sys_nice,cap_sys_resource,cap_sys_time,cap_sys_tty_config,cap_mknod,cap_lease,cap_audit_write,cap_audit_control,cap_setfcap,cap_mac_override,cap_mac_admin,cap_syslog,cap_wake_alarm,cap_block_suspend,cap_audit_read+ep
+Bounding set =cap_chown,cap_dac_override,cap_dac_read_search,cap_fowner,cap_fsetid,cap_kill,cap_setgid,cap_setuid,cap_setpcap,cap_linux_immutable,cap_net_bind_service,cap_net_broadcast,cap_net_admin,cap_net_raw,cap_ipc_lock,cap_ipc_owner,cap_sys_module,cap_sys_rawio,cap_sys_chroot,cap_sys_ptrace,cap_sys_pacct,cap_sys_admin,cap_sys_boot,cap_sys_nice,cap_sys_resource,cap_sys_time,cap_sys_tty_config,cap_mknod,cap_lease,cap_audit_write,cap_audit_control,cap_setfcap,cap_mac_override,cap_mac_admin,cap_syslog,cap_wake_alarm,cap_block_suspend,cap_audit_read
+Ambient set =
+Securebits: 00/0x0/1'b0
+ secure-noroot: no (unlocked)
+ secure-no-suid-fixup: no (unlocked)
+ secure-keep-caps: no (unlocked)
+ secure-no-ambient-raise: no (unlocked)
+uid=0(root)
+gid=0(root)
+groups=0(root),1(bin),2(daemon),3(sys),4(adm),6(disk),10(wheel)
+PASSED
+EXPECT SUCCESS: TEST: ./capsh --keep=0 --keep=1 --keep=0 --keep=1 --print
+Current: = cap_chown,cap_dac_override,cap_dac_read_search,cap_fowner,cap_fsetid,cap_kill,cap_setgid,cap_setuid,cap_setpcap,cap_linux_immutable,cap_net_bind_service,cap_net_broadcast,cap_net_admin,cap_net_raw,cap_ipc_lock,cap_ipc_owner,cap_sys_module,cap_sys_rawio,cap_sys_chroot,cap_sys_ptrace,cap_sys_pacct,cap_sys_admin,cap_sys_boot,cap_sys_nice,cap_sys_resource,cap_sys_time,cap_sys_tty_config,cap_mknod,cap_lease,cap_audit_write,cap_audit_control,cap_setfcap,cap_mac_override,cap_mac_admin,cap_syslog,cap_wake_alarm,cap_block_suspend,cap_audit_read+ep
+Bounding set =cap_chown,cap_dac_override,cap_dac_read_search,cap_fowner,cap_fsetid,cap_kill,cap_setgid,cap_setuid,cap_setpcap,cap_linux_immutable,cap_net_bind_service,cap_net_broadcast,cap_net_admin,cap_net_raw,cap_ipc_lock,cap_ipc_owner,cap_sys_module,cap_sys_rawio,cap_sys_chroot,cap_sys_ptrace,cap_sys_pacct,cap_sys_admin,cap_sys_boot,cap_sys_nice,cap_sys_resource,cap_sys_time,cap_sys_tty_config,cap_mknod,cap_lease,cap_audit_write,cap_audit_control,cap_setfcap,cap_mac_override,cap_mac_admin,cap_syslog,cap_wake_alarm,cap_block_suspend,cap_audit_read
+Ambient set =
+Securebits: 020/0x10/5'b10000
+ secure-noroot: no (unlocked)
+ secure-no-suid-fixup: no (unlocked)
+ secure-keep-caps: yes (unlocked)
+ secure-no-ambient-raise: no (unlocked)
+uid=0(root)
+gid=0(root)
+groups=0(root),1(bin),2(daemon),3(sys),4(adm),6(disk),10(wheel)
+PASSED
+-rwsr-xr-x 1 root root 99228 Jan 24 00:22 tcapsh
+EXPECT SUCCESS: TEST: ./capsh --uid=500 -- -c ./tcapsh --keep=1 --caps="cap_net_raw,cap_net_admin=ip" --uid=500 --caps="cap_net_raw,cap_net_admin=pie" --print
+Current: = cap_net_admin,cap_net_raw+eip
+Bounding set =cap_chown,cap_dac_override,cap_dac_read_search,cap_fowner,cap_fsetid,cap_kill,cap_setgid,cap_setuid,cap_setpcap,cap_linux_immutable,cap_net_bind_service,cap_net_broadcast,cap_net_admin,cap_net_raw,cap_ipc_lock,cap_ipc_owner,cap_sys_module,cap_sys_rawio,cap_sys_chroot,cap_sys_ptrace,cap_sys_pacct,cap_sys_admin,cap_sys_boot,cap_sys_nice,cap_sys_resource,cap_sys_time,cap_sys_tty_config,cap_mknod,cap_lease,cap_audit_write,cap_audit_control,cap_setfcap,cap_mac_override,cap_mac_admin,cap_syslog,cap_wake_alarm,cap_block_suspend,cap_audit_read
+Ambient set =
+Securebits: 020/0x10/5'b10000
+ secure-noroot: no (unlocked)
+ secure-no-suid-fixup: no (unlocked)
+ secure-keep-caps: yes (unlocked)
+ secure-no-ambient-raise: no (unlocked)
+uid=500(???)
+gid=0(root)
+groups=0(root),1(bin),2(daemon),3(sys),4(adm),6(disk),10(wheel)
+PASSED
+EXPECT SUCCESS: TEST: ./capsh --uid=500 -- -c ./tcapsh --keep=1 --caps="cap_net_raw,cap_net_admin=ip" --uid=500 --forkfor=10 --caps= --print --killit=9 --print
+Current: =
+Bounding set =cap_chown,cap_dac_override,cap_dac_read_search,cap_fowner,cap_fsetid,cap_kill,cap_setgid,cap_setuid,cap_setpcap,cap_linux_immutable,cap_net_bind_service,cap_net_broadcast,cap_net_admin,cap_net_raw,cap_ipc_lock,cap_ipc_owner,cap_sys_module,cap_sys_rawio,cap_sys_chroot,cap_sys_ptrace,cap_sys_pacct,cap_sys_admin,cap_sys_boot,cap_sys_nice,cap_sys_resource,cap_sys_time,cap_sys_tty_config,cap_mknod,cap_lease,cap_audit_write,cap_audit_control,cap_setfcap,cap_mac_override,cap_mac_admin,cap_syslog,cap_wake_alarm,cap_block_suspend,cap_audit_read
+Ambient set =
+Securebits: 020/0x10/5'b10000
+ secure-noroot: no (unlocked)
+ secure-no-suid-fixup: no (unlocked)
+ secure-keep-caps: yes (unlocked)
+ secure-no-ambient-raise: no (unlocked)
+uid=500(???)
+gid=0(root)
+groups=0(root),1(bin),2(daemon),3(sys),4(adm),6(disk),10(wheel)
+Current: =
+Bounding set =cap_chown,cap_dac_override,cap_dac_read_search,cap_fowner,cap_fsetid,cap_kill,cap_setgid,cap_setuid,cap_setpcap,cap_linux_immutable,cap_net_bind_service,cap_net_broadcast,cap_net_admin,cap_net_raw,cap_ipc_lock,cap_ipc_owner,cap_sys_module,cap_sys_rawio,cap_sys_chroot,cap_sys_ptrace,cap_sys_pacct,cap_sys_admin,cap_sys_boot,cap_sys_nice,cap_sys_resource,cap_sys_time,cap_sys_tty_config,cap_mknod,cap_lease,cap_audit_write,cap_audit_control,cap_setfcap,cap_mac_override,cap_mac_admin,cap_syslog,cap_wake_alarm,cap_block_suspend,cap_audit_read
+Ambient set =
+Securebits: 020/0x10/5'b10000
+ secure-noroot: no (unlocked)
+ secure-no-suid-fixup: no (unlocked)
+ secure-keep-caps: yes (unlocked)
+ secure-no-ambient-raise: no (unlocked)
+uid=500(???)
+gid=0(root)
+groups=0(root),1(bin),2(daemon),3(sys),4(adm),6(disk),10(wheel)
+PASSED
+EXPECT SUCCESS: TEST: ./capsh --secbits=42 --print
+Current: = cap_chown,cap_dac_override,cap_dac_read_search,cap_fowner,cap_fsetid,cap_kill,cap_setgid,cap_setuid,cap_setpcap,cap_linux_immutable,cap_net_bind_service,cap_net_broadcast,cap_net_admin,cap_net_raw,cap_ipc_lock,cap_ipc_owner,cap_sys_module,cap_sys_rawio,cap_sys_chroot,cap_sys_ptrace,cap_sys_pacct,cap_sys_admin,cap_sys_boot,cap_sys_nice,cap_sys_resource,cap_sys_time,cap_sys_tty_config,cap_mknod,cap_lease,cap_audit_write,cap_audit_control,cap_setfcap,cap_mac_override,cap_mac_admin,cap_syslog,cap_wake_alarm,cap_block_suspend,cap_audit_read+ep
+Bounding set =cap_chown,cap_dac_override,cap_dac_read_search,cap_fowner,cap_fsetid,cap_kill,cap_setgid,cap_setuid,cap_setpcap,cap_linux_immutable,cap_net_bind_service,cap_net_broadcast,cap_net_admin,cap_net_raw,cap_ipc_lock,cap_ipc_owner,cap_sys_module,cap_sys_rawio,cap_sys_chroot,cap_sys_ptrace,cap_sys_pacct,cap_sys_admin,cap_sys_boot,cap_sys_nice,cap_sys_resource,cap_sys_time,cap_sys_tty_config,cap_mknod,cap_lease,cap_audit_write,cap_audit_control,cap_setfcap,cap_mac_override,cap_mac_admin,cap_syslog,cap_wake_alarm,cap_block_suspend,cap_audit_read
+Ambient set =
+Securebits: 052/0x2a/6'b101010
+ secure-noroot: no (locked)
+ secure-no-suid-fixup: no (locked)
+ secure-keep-caps: no (locked)
+ secure-no-ambient-raise: no (unlocked)
+uid=0(root)
+gid=0(root)
+groups=0(root),1(bin),2(daemon),3(sys),4(adm),6(disk),10(wheel)
+PASSED
+EXPECT FAILURE: TEST: ./capsh --secbits=32 --keep=1 --keep=0 --print
+prctl(PR_SET_KEEPCAPS, 1) failed: Operation not permitted
+FAILED
+[WHICH MEANS A PASS!]
+EXPECT SUCCESS: TEST: ./capsh --secbits=10 --keep=0 --keep=1 --print
+Current: = cap_chown,cap_dac_override,cap_dac_read_search,cap_fowner,cap_fsetid,cap_kill,cap_setgid,cap_setuid,cap_setpcap,cap_linux_immutable,cap_net_bind_service,cap_net_broadcast,cap_net_admin,cap_net_raw,cap_ipc_lock,cap_ipc_owner,cap_sys_module,cap_sys_rawio,cap_sys_chroot,cap_sys_ptrace,cap_sys_pacct,cap_sys_admin,cap_sys_boot,cap_sys_nice,cap_sys_resource,cap_sys_time,cap_sys_tty_config,cap_mknod,cap_lease,cap_audit_write,cap_audit_control,cap_setfcap,cap_mac_override,cap_mac_admin,cap_syslog,cap_wake_alarm,cap_block_suspend,cap_audit_read+ep
+Bounding set =cap_chown,cap_dac_override,cap_dac_read_search,cap_fowner,cap_fsetid,cap_kill,cap_setgid,cap_setuid,cap_setpcap,cap_linux_immutable,cap_net_bind_service,cap_net_broadcast,cap_net_admin,cap_net_raw,cap_ipc_lock,cap_ipc_owner,cap_sys_module,cap_sys_rawio,cap_sys_chroot,cap_sys_ptrace,cap_sys_pacct,cap_sys_admin,cap_sys_boot,cap_sys_nice,cap_sys_resource,cap_sys_time,cap_sys_tty_config,cap_mknod,cap_lease,cap_audit_write,cap_audit_control,cap_setfcap,cap_mac_override,cap_mac_admin,cap_syslog,cap_wake_alarm,cap_block_suspend,cap_audit_read
+Ambient set =
+Securebits: 032/0x1a/5'b11010
+ secure-noroot: no (locked)
+ secure-no-suid-fixup: no (locked)
+ secure-keep-caps: yes (unlocked)
+ secure-no-ambient-raise: no (unlocked)
+uid=0(root)
+gid=0(root)
+groups=0(root),1(bin),2(daemon),3(sys),4(adm),6(disk),10(wheel)
+PASSED
+EXPECT FAILURE: TEST: ./capsh --secbits=47 -- -c ./tcapsh --uid=99
+Failed to set uid=99: Operation not permitted
+FAILED
+[WHICH MEANS A PASS!]
+EXPECT FAILURE: TEST: ./capsh --secbits=47 --print -- -c ./capsh --uid=99
+Failed to set uid=99: Operation not permitted
+FAILED
+[WHICH MEANS A PASS!]
+EXPECT SUCCESS: TEST: ./capsh --secbits=0x2f --print -- -c ./privileged --uid=99
+PASSED
+EXPECT FAILURE: TEST: ./capsh --drop=cap_setuid --secbits=0x2f --print -- -c ./privileged --uid=99
+/bin/bash: ./privileged: Operation not permitted
+FAILED
+[WHICH MEANS A PASS!]
+EXPECT SUCCESS: TEST: ./capsh --secbits=47 --inh=cap_setuid,cap_setgid --drop=cap_setuid --uid=500 --print -- -c ./privileged --uid=99
+PASSED
+uid=500 gid=0(root) groups=0(root),1(bin),2(daemon),3(sys),4(adm),6(disk),10(wheel)
+-rwsr-sr-x 1 root root 288 Jan 24 00:22 ./hack.sh
+Good, no capabilities [ =] for this setuid-0 shell script
+EXPECT SUCCESS: TEST: ./capsh --keep=1 --uid=99 --caps=cap_setpcap=ep --drop=all --secbits=0xef --noamb --caps= --print
+Current: =
+Bounding set =
+Ambient set =
+Securebits: 0357/0xef/8'b11101111
+ secure-noroot: yes (locked)
+ secure-no-suid-fixup: yes (locked)
+ secure-keep-caps: no (locked)
+ secure-no-ambient-raise: yes (locked)
+uid=99(nobody)
+gid=0(root)
+groups=0(root),1(bin),2(daemon),3(sys),4(adm),6(disk),10(wheel)
+PASSED
+EXPECT SUCCESS: TEST: ./capsh --chroot=/usr/ports/core-ppc/libcap/work/src/libcap-2.26/progs
+PASSED
+EXPECT SUCCESS: TEST: ./capsh --chroot=/usr/ports/core-ppc/libcap/work/src/libcap-2.26/progs ==
+execve /bin/bash failed!
+FAILED
+Undesired result - aborting
+PROBLEM TEST: --chroot=/usr/ports/core-ppc/libcap/work/src/libcap-2.26/progs ==
+make: *** [Makefile:34: test] Error 1

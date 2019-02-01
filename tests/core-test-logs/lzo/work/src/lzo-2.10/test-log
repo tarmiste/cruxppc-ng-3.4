@@ -1,0 +1,54 @@
+make  check-local
+make[1]: Entering directory '/usr/ports/core/lzo/work/src/lzo-2.10'
+./lzotest/lzotest -mlzo -n2 -q './COPYING'
+
+LZO real-time data compression library (v2.10, Mar 01 2017).
+Copyright (C) 1996-2017 Markus Franz Xaver Johannes Oberhumer
+All Rights Reserved.
+
+262144 block-size
+
+LZO1B-1      | COPYING           18092    1      9981 55.2    0.000    0.000 |
+LZO1B-2      | COPYING           18092    1      9768 54.0    0.000    0.000 |
+LZO1B-3      | COPYING           18092    1      9600 53.1    0.000    0.000 |
+LZO1B-4      | COPYING           18092    1      9552 52.8    0.000    0.000 |
+LZO1B-5      | COPYING           18092    1      9377 51.8    0.000    0.000 |
+LZO1B-6      | COPYING           18092    1      9347 51.7    0.000    0.000 |
+LZO1B-7      | COPYING           18092    1      9149 50.6    0.000    0.000 |
+LZO1B-8      | COPYING           18092    1      9087 50.2   32.940    0.000 |
+LZO1B-9      | COPYING           18092    1      9036 49.9   31.445    0.000 |
+LZO1C-1      | COPYING           18092    1      9927 54.9    0.000    0.000 |
+LZO1C-2      | COPYING           18092    1      9739 53.8    0.000    0.000 |
+LZO1C-3      | COPYING           18092    1      9573 52.9    0.000    0.000 |
+LZO1C-4      | COPYING           18092    1      9538 52.7    0.000    0.000 |
+LZO1C-5      | COPYING           18092    1      9399 52.0    0.000    0.000 |
+LZO1C-6      | COPYING           18092    1      9317 51.5   35.692    0.000 |
+LZO1C-7      | COPYING           18092    1      9123 50.4   36.164    0.000 |
+LZO1C-8      | COPYING           18092    1      9015 49.8   31.931    0.000 |
+LZO1C-9      | COPYING           18092    1      8978 49.6   31.384    0.000 |
+LZO1-1       | COPYING           18092    1     10498 58.0    0.000    0.000 |
+LZO1A-1      | COPYING           18092    1     10405 57.5    0.000    0.000 |
+LZO1F-1      | COPYING           18092    1     10073 55.7    0.000    0.000 |
+LZO1X-1      | COPYING           18092    1     10102 55.8    0.000    0.000 |
+LZO1Y-1      | COPYING           18092    1     10261 56.7    0.000    0.000 |
+LZO1X-1(11)  | COPYING           18092    1     10554 58.3    0.000    0.000 |
+LZO1X-1(12)  | COPYING           18092    1     10286 56.9    0.000    0.000 |
+LZO1X-1(15)  | COPYING           18092    1     10145 56.1    0.000    0.000 |
+LZO1B-99     | COPYING           18092    1      8814 48.7   19.728    0.000 |
+LZO1B-999    | COPYING           18092    1      8127 44.9    7.937    0.000 |
+LZO1C-99     | COPYING           18092    1      8790 48.6   21.883    0.000 |
+LZO1C-999    | COPYING           18092    1      8071 44.6    8.420    0.000 |
+LZO1-99      | COPYING           18092    1      9083 50.2   21.029    0.000 |
+LZO1A-99     | COPYING           18092    1      9031 49.9   21.462    0.000 |
+LZO2A-999    | COPYING           18092    1      7853 43.4    6.629    0.000 |
+LZO1F-999    | COPYING           18092    1      8079 44.7    7.651    0.000 |
+LZO1X-999    | COPYING           18092    1      7848 43.4    3.857    0.000 |
+LZO1Y-999    | COPYING           18092    1      7944 43.9    3.856    0.000 |
+LZO1Z-999    | COPYING           18092    1      7893 43.6    3.958    0.000 |
+memcpy()     | COPYING           18092    1     18092  100    0.000    0.000 |
+
+lt-lzotest: execution time: 0 seconds
+
+===== All checks passed. Type 'make test' for more exhaustive testing. =====
+
+make[1]: Leaving directory '/usr/ports/core/lzo/work/src/lzo-2.10'

@@ -1,0 +1,15 @@
+# Description: uboot tools 
+# URL:         http://www.denx.de
+# Maintainer:  TBA
+# PPC!=
+
+name=dtc
+version=1.4.7
+release=1
+source=(https://mirror.umd.edu/kernel.org/software/utils/dtc/dtc-1.4.7.tar.xz)
+
+build() {
+    cd dtc-$version
+    make
+    make DESTDIR="${PKG} PREFIX=/usr install
+}

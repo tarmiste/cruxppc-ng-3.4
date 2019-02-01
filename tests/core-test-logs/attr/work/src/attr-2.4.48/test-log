@@ -1,0 +1,27 @@
+Making check in po
+make[1]: Entering directory '/usr/ports/core/attr/work/src/attr-2.4.48/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/attr/work/src/attr-2.4.48/po'
+make[1]: Entering directory '/usr/ports/core/attr/work/src/attr-2.4.48'
+make  check-TESTS
+make[2]: Entering directory '/usr/ports/core/attr/work/src/attr-2.4.48'
+make[3]: Entering directory '/usr/ports/core/attr/work/src/attr-2.4.48'
+FAIL: test/attr.test
+FAIL: test/root/getfattr.test
+============================================================================
+Testsuite summary for attr 2.4.48
+============================================================================
+# TOTAL: 2
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  2
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See ./test-suite.log
+Please report to acl-devel@nongnu.org
+============================================================================
+make[3]: Leaving directory '/usr/ports/core/attr/work/src/attr-2.4.48'
+make[2]: Leaving directory '/usr/ports/core/attr/work/src/attr-2.4.48'
+make[1]: Leaving directory '/usr/ports/core/attr/work/src/attr-2.4.48'

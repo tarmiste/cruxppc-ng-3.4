@@ -1,0 +1,123 @@
+gcc -I. -I. -I./zlib -I./popt -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -DHAVE_CONFIG_H -Wall -W  -c tls.c -o tls.o
+tls.c: In function 'stat_xattr':
+tls.c:105:13: warning: In the GNU C Library, "makedev" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "makedev", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "makedev", you should undefine it after including <sys/types.h>.
+  fst->st_rdev = MAKEDEV(rdev_major, rdev_minor);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                          
+tls.c: In function 'list_file':
+tls.c:194:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+       (long)major(buf.st_rdev),
+             ^~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                     
+tls.c:195:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+       (long)minor(buf.st_rdev));
+             ^~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                    
+tls.c: In function 'main':
+tls.c:244:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    tls_usage(0);
+    ^~~~~~~~~~~~
+tls.c:245:3: note: here
+   default:
+   ^~~~~~~
+gcc -I./zlib -I./popt -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -DHAVE_CONFIG_H -Wall -W  -o tls tls.o syscall.o lib/compat.o lib/snprintf.o lib/permstring.o lib/sysxattrs.o popt/findme.o  popt/popt.o  popt/poptconfig.o popt/popthelp.o popt/poptparse.o -lattr -lacl 
+gcc -I. -I. -I./zlib -I./popt -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -DHAVE_CONFIG_H -Wall -W  -c getgroups.c -o getgroups.o
+gcc -I./zlib -I./popt -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -DHAVE_CONFIG_H -Wall -W  -o getgroups getgroups.o -lattr -lacl 
+gcc -I. -I. -I./zlib -I./popt -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -DHAVE_CONFIG_H -Wall -W  -c getfsdev.c -o getfsdev.o
+getfsdev.c: In function 'main':
+getfsdev.c:18:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+   printf("%ld/%ld\n", (long)major(st.st_dev),
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                       
+getfsdev.c:19:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+         (long)minor(st.st_dev));
+             ^~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                    
+gcc -I./zlib -I./popt -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -DHAVE_CONFIG_H -Wall -W  -o getfsdev getfsdev.o -lattr -lacl 
+gcc -I. -I. -I./zlib -I./popt -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -DHAVE_CONFIG_H -Wall -W  -c testrun.c -o testrun.o
+gcc -I./zlib -I./popt -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -DHAVE_CONFIG_H -Wall -W  -o testrun testrun.o
+gcc -I. -I. -I./zlib -I./popt -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -DHAVE_CONFIG_H -Wall -W  -c trimslash.c -o trimslash.o
+gcc -I./zlib -I./popt -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -DHAVE_CONFIG_H -Wall -W  -o trimslash trimslash.o syscall.o lib/compat.o lib/snprintf.o -lattr -lacl 
+gcc -I. -I. -I./zlib -I./popt -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -DHAVE_CONFIG_H -Wall -W  -c t_unsafe.c -o t_unsafe.o
+gcc -I. -I. -I./zlib -I./popt -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -DHAVE_CONFIG_H -Wall -W  -c t_stub.c -o t_stub.o
+gcc -I./zlib -I./popt -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -DHAVE_CONFIG_H -Wall -W  -o t_unsafe t_unsafe.o syscall.o util.o util2.o t_stub.o lib/compat.o lib/snprintf.o lib/wildmatch.o -lattr -lacl 
+gcc -I. -I. -I./zlib -I./popt -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -DHAVE_CONFIG_H -Wall -W  -c wildtest.c -o wildtest.o
+gcc -I./zlib -I./popt -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -DHAVE_CONFIG_H -Wall -W  -o wildtest wildtest.o lib/compat.o lib/snprintf.o popt/findme.o  popt/popt.o  popt/poptconfig.o popt/popthelp.o popt/poptparse.o -lattr -lacl 
+ln -s chown.test ./testsuite/chown-fake.test
+ln -s devices.test ./testsuite/devices-fake.test
+ln -s xattrs.test ./testsuite/xattrs-hlink.test
+rsync_bin=`pwd`/rsync ./runtests.sh
+============================================================
+./runtests.sh running in /usr/ports/core/rsync/work/src/rsync-3.1.3
+    rsync_bin=/usr/ports/core/rsync/work/src/rsync-3.1.3/rsync 
+    srcdir=/usr/ports/core/rsync/work/src/rsync-3.1.3
+    TLS_ARGS= -l -L
+    testuser=root
+    os=Linux host 4.15.1 #1 Sat Dec 22 05:53:45 UTC 2018 ppc 7455, altivec supported PowerMac3,6 GNU/Linux
+    preserve_scratch=no
+    scratchbase=/usr/ports/core/rsync/work/src/rsync-3.1.3/testtmp
+PASS    00-hello
+PASS    acls
+PASS    backup
+PASS    batch-mode
+PASS    chgrp
+PASS    chmod-option
+SKIP    chmod-temp-dir (Can't find a tmp dir on a different file system)
+PASS    chmod
+PASS    chown-fake
+PASS    chown
+PASS    compare-dest
+PASS    daemon-gzip-download
+PASS    daemon-gzip-upload
+PASS    daemon
+PASS    default-acls
+PASS    delete
+PASS    devices-fake
+PASS    devices
+PASS    dir-sgid
+PASS    duplicates
+PASS    exclude
+PASS    executability
+PASS    files-from
+PASS    fuzzy
+PASS    hands
+PASS    hardlinks
+PASS    itemize
+PASS    longdir
+PASS    merge
+PASS    missing
+PASS    relative
+PASS    ssh-basic
+PASS    symlink-ignore
+PASS    trimslash
+PASS    unsafe-byname
+PASS    unsafe-links
+PASS    wildmatch
+PASS    xattrs-hlink
+PASS    xattrs
+------------------------------------------------------------
+----- overall results:
+      38 passed
+      1 skipped
+------------------------------------------------------------
+overall result is 0

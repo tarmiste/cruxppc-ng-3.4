@@ -1,0 +1,532 @@
+Making check in src
+make[1]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src'
+updating git_sha1.h
+make  check-recursive
+make[2]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src'
+Making check in .
+make[3]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src'
+Making check in gtest
+make[3]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gtest'
+make  libgtest.la
+make[4]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gtest'
+make[4]: 'libgtest.la' is up to date.
+make[4]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gtest'
+make[3]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gtest'
+Making check in util
+make[3]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util'
+make  check-recursive
+make[4]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util'
+Making check in .
+make[5]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util'
+make  u_atomic_test roundeven_test mesa-sha1_test
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util'
+make[6]: 'u_atomic_test' is up to date.
+make[6]: 'roundeven_test' is up to date.
+make[6]: 'mesa-sha1_test' is up to date.
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util'
+make  check-TESTS
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util'
+make[7]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util'
+PASS: u_atomic_test
+PASS: roundeven_test
+PASS: mesa-sha1_test
+============================================================================
+Testsuite summary for Mesa 18.3.1
+============================================================================
+# TOTAL: 3
+# PASS:  3
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[7]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util'
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util'
+make[5]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util'
+Making check in xmlpool
+make[5]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/xmlpool'
+make  check-am
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/xmlpool'
+make[6]: Nothing to be done for 'check-am'.
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/xmlpool'
+make[5]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/xmlpool'
+Making check in tests/fast_idiv_by_const
+make[5]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/fast_idiv_by_const'
+make  fast_idiv_by_const_test
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/fast_idiv_by_const'
+make[6]: 'fast_idiv_by_const_test' is up to date.
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/fast_idiv_by_const'
+make  check-TESTS
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/fast_idiv_by_const'
+make[7]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/fast_idiv_by_const'
+PASS: fast_idiv_by_const_test
+============================================================================
+Testsuite summary for Mesa 18.3.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[7]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/fast_idiv_by_const'
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/fast_idiv_by_const'
+make[5]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/fast_idiv_by_const'
+Making check in tests/hash_table
+make[5]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/hash_table'
+make  clear collision delete_and_lookup delete_management destroy_callback insert_and_lookup insert_many null_destroy random_entry remove_key remove_null replacement
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/hash_table'
+make[6]: 'clear' is up to date.
+make[6]: 'collision' is up to date.
+make[6]: 'delete_and_lookup' is up to date.
+make[6]: 'delete_management' is up to date.
+make[6]: 'destroy_callback' is up to date.
+make[6]: 'insert_and_lookup' is up to date.
+make[6]: 'insert_many' is up to date.
+make[6]: 'null_destroy' is up to date.
+make[6]: 'random_entry' is up to date.
+make[6]: 'remove_key' is up to date.
+make[6]: 'remove_null' is up to date.
+make[6]: 'replacement' is up to date.
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/hash_table'
+make  check-TESTS
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/hash_table'
+make[7]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/hash_table'
+PASS: clear
+PASS: collision
+PASS: delete_and_lookup
+PASS: delete_management
+PASS: destroy_callback
+PASS: insert_and_lookup
+PASS: insert_many
+PASS: null_destroy
+PASS: random_entry
+PASS: remove_key
+PASS: remove_null
+PASS: replacement
+============================================================================
+Testsuite summary for Mesa 18.3.1
+============================================================================
+# TOTAL: 12
+# PASS:  12
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[7]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/hash_table'
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/hash_table'
+make[5]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/hash_table'
+Making check in tests/string_buffer
+make[5]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/string_buffer'
+make  string_buffer_test
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/string_buffer'
+make[6]: 'string_buffer_test' is up to date.
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/string_buffer'
+make  check-TESTS
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/string_buffer'
+make[7]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/string_buffer'
+PASS: string_buffer_test
+============================================================================
+Testsuite summary for Mesa 18.3.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[7]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/string_buffer'
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/string_buffer'
+make[5]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/string_buffer'
+Making check in tests/set
+make[5]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/set'
+make  set_test
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/set'
+make[6]: 'set_test' is up to date.
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/set'
+make  check-TESTS
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/set'
+make[7]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/set'
+PASS: set_test
+============================================================================
+Testsuite summary for Mesa 18.3.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[7]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/set'
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/set'
+make[5]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/set'
+Making check in tests/vma
+make[5]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/vma'
+make  vma_random_test
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/vma'
+make[6]: 'vma_random_test' is up to date.
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/vma'
+make  check-TESTS
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/vma'
+make[7]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/vma'
+PASS: vma_random_test
+============================================================================
+Testsuite summary for Mesa 18.3.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[7]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/vma'
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/vma'
+make[5]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util/tests/vma'
+make[4]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util'
+make[3]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/util'
+Making check in mapi/glapi/gen
+make[3]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mapi/glapi/gen'
+make  check-am
+make[4]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mapi/glapi/gen'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mapi/glapi/gen'
+make[3]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mapi/glapi/gen'
+Making check in mapi
+make[3]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mapi'
+make  check-recursive
+make[4]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mapi'
+make[5]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mapi'
+make  shared-glapi-test 
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mapi'
+make[6]: 'shared-glapi-test' is up to date.
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mapi'
+make  check-TESTS
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mapi'
+make[7]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mapi'
+PASS: shared-glapi-test
+PASS: es1api/ABI-check
+PASS: es2api/ABI-check
+============================================================================
+Testsuite summary for Mesa 18.3.1
+============================================================================
+# TOTAL: 3
+# PASS:  3
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[7]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mapi'
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mapi'
+make[5]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mapi'
+make[4]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mapi'
+make[3]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mapi'
+Making check in compiler
+make[3]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/compiler'
+make  check-am
+make[4]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/compiler'
+make  glsl/glcpp/glcpp glsl/glsl_test glsl/tests/blob-test glsl/tests/cache-test glsl/tests/general-ir-test glsl/tests/sampler-types-test glsl/tests/uniform-initializer-test nir/tests/control_flow_tests nir/tests/vars_tests
+make[5]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/compiler'
+make[5]: 'glsl/glcpp/glcpp' is up to date.
+make[5]: 'glsl/glsl_test' is up to date.
+make[5]: 'glsl/tests/blob-test' is up to date.
+make[5]: 'glsl/tests/cache-test' is up to date.
+make[5]: 'glsl/tests/general-ir-test' is up to date.
+make[5]: 'glsl/tests/sampler-types-test' is up to date.
+make[5]: 'glsl/tests/uniform-initializer-test' is up to date.
+make[5]: 'nir/tests/control_flow_tests' is up to date.
+make[5]: 'nir/tests/vars_tests' is up to date.
+make[5]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/compiler'
+make  check-TESTS
+make[5]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/compiler'
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/compiler'
+PASS: glsl/glcpp/tests/glcpp-test.sh
+PASS: glsl/tests/blob-test
+PASS: glsl/tests/cache-test
+PASS: glsl/tests/general-ir-test
+PASS: glsl/tests/optimization-test.sh
+PASS: glsl/tests/sampler-types-test
+PASS: glsl/tests/uniform-initializer-test
+PASS: glsl/tests/warnings-test.sh
+PASS: nir/tests/control_flow_tests
+PASS: nir/tests/vars_tests
+============================================================================
+Testsuite summary for Mesa 18.3.1
+============================================================================
+# TOTAL: 10
+# PASS:  10
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/compiler'
+make[5]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/compiler'
+make[4]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/compiler'
+make[3]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/compiler'
+Making check in mesa
+make[3]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa'
+make  check-recursive
+make[4]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa'
+Making check in .
+make[5]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa'
+make  
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa'
+make  all-recursive
+make[7]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa'
+Making all in .
+make[8]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa'
+make[8]: Nothing to be done for 'all-am'.
+make[8]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa'
+Making all in main/tests
+make[8]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/main/tests'
+make[8]: Nothing to be done for 'all'.
+make[8]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/main/tests'
+Making all in state_tracker/tests
+make[8]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/state_tracker/tests'
+make[8]: Nothing to be done for 'all'.
+make[8]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/state_tracker/tests'
+Making all in drivers/dri
+make[8]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/drivers/dri'
+Making all in common
+make[9]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/drivers/dri/common'
+make[9]: Nothing to be done for 'all'.
+make[9]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/drivers/dri/common'
+Making all in swrast
+make[9]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/drivers/dri/swrast'
+make[9]: Nothing to be done for 'all'.
+make[9]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/drivers/dri/swrast'
+make[9]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/drivers/dri'
+  GEN      all-local
+  GEN      all-local
+make[9]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/drivers/dri'
+make[8]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/drivers/dri'
+Making all in drivers/osmesa
+make[8]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/drivers/osmesa'
+make[8]: Nothing to be done for 'all'.
+make[8]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/drivers/osmesa'
+make[7]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa'
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa'
+make[5]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa'
+Making check in main/tests
+make[5]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/main/tests'
+make  main-test
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/main/tests'
+make[6]: 'main-test' is up to date.
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/main/tests'
+make  check-TESTS
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/main/tests'
+make[7]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/main/tests'
+PASS: main-test
+============================================================================
+Testsuite summary for Mesa 18.3.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[7]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/main/tests'
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/main/tests'
+make[5]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/main/tests'
+Making check in state_tracker/tests
+make[5]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/state_tracker/tests'
+make  st-renumerate-test st-array-merge-test libmesa-st-tests-common.a
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/state_tracker/tests'
+make[6]: 'st-renumerate-test' is up to date.
+make[6]: 'st-array-merge-test' is up to date.
+make[6]: 'libmesa-st-tests-common.a' is up to date.
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/state_tracker/tests'
+make  check-TESTS
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/state_tracker/tests'
+make[7]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/state_tracker/tests'
+PASS: st-renumerate-test
+PASS: st-array-merge-test
+============================================================================
+Testsuite summary for Mesa 18.3.1
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[7]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/state_tracker/tests'
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/state_tracker/tests'
+make[5]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/state_tracker/tests'
+Making check in drivers/dri
+make[5]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/drivers/dri'
+Making check in common
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/drivers/dri/common'
+make[6]: Nothing to be done for 'check'.
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/drivers/dri/common'
+Making check in swrast
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/drivers/dri/swrast'
+make[6]: Nothing to be done for 'check'.
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/drivers/dri/swrast'
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/drivers/dri'
+  GEN      all-local
+  GEN      all-local
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/drivers/dri'
+make[5]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/drivers/dri'
+Making check in drivers/osmesa
+make[5]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/drivers/osmesa'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa/drivers/osmesa'
+make[4]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa'
+make[3]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/mesa'
+Making check in loader
+make[3]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/loader'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/loader'
+Making check in glx
+make[3]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/glx'
+Making check in .
+make[4]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/glx'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/glx'
+Making check in tests
+make[4]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/glx/tests'
+make  glx-test
+make[5]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/glx/tests'
+make[5]: 'glx-test' is up to date.
+make[5]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/glx/tests'
+make  check-TESTS
+make[5]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/glx/tests'
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/glx/tests'
+PASS: glx-test
+PASS: dispatch-index-check
+============================================================================
+Testsuite summary for Mesa 18.3.1
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/glx/tests'
+make[5]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/glx/tests'
+make[4]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/glx/tests'
+make[3]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/glx'
+Making check in gbm
+make[3]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gbm'
+make  check-TESTS
+make[4]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gbm'
+make[5]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gbm'
+PASS: gbm-symbols-check
+============================================================================
+Testsuite summary for Mesa 18.3.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gbm'
+make[4]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gbm'
+make[3]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gbm'
+Making check in egl
+make[3]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/egl'
+make  check-am
+make[4]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/egl'
+make  check-TESTS
+make[5]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/egl'
+make[6]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/egl'
+PASS: egl-entrypoint-check
+PASS: egl-symbols-check
+============================================================================
+Testsuite summary for Mesa 18.3.1
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[6]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/egl'
+make[5]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/egl'
+make[4]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/egl'
+make[3]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/egl'
+Making check in gallium
+make[3]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium'
+Making check in auxiliary
+make[4]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium/auxiliary'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium/auxiliary'
+Making check in auxiliary/pipe-loader
+make[4]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium/auxiliary/pipe-loader'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium/auxiliary/pipe-loader'
+Making check in drivers/softpipe
+make[4]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium/drivers/softpipe'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium/drivers/softpipe'
+Making check in winsys/sw/null
+make[4]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium/winsys/sw/null'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium/winsys/sw/null'
+Making check in winsys/sw/dri
+make[4]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium/winsys/sw/dri'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium/winsys/sw/dri'
+Making check in winsys/sw/kms-dri
+make[4]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium/winsys/sw/kms-dri'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium/winsys/sw/kms-dri'
+Making check in winsys/sw/wrapper
+make[4]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium/winsys/sw/wrapper'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium/winsys/sw/wrapper'
+Making check in state_trackers/dri
+make[4]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium/state_trackers/dri'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium/state_trackers/dri'
+Making check in targets/dri
+make[4]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium/targets/dri'
+  GEN      all-local
+make[4]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium/targets/dri'
+Making check in state_trackers/vdpau
+make[4]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium/state_trackers/vdpau'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium/state_trackers/vdpau'
+Making check in targets/vdpau
+make[4]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium/targets/vdpau'
+  GEN      all-local
+make[4]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium/targets/vdpau'
+make[4]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium'
+make[3]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src/gallium'
+make[2]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src'
+make[1]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1/src'
+make[1]: Entering directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/usr/ports/xorg-ppc/mesa3d/work/src/mesa-18.3.1'

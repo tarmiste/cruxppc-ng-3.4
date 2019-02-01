@@ -1,0 +1,156 @@
+Making check in po
+make[1]: Entering directory '/usr/ports/core/gdbm/work/src/gdbm-1.18.1/po'
+make[1]: Leaving directory '/usr/ports/core/gdbm/work/src/gdbm-1.18.1/po'
+Making check in src
+make[1]: Entering directory '/usr/ports/core/gdbm/work/src/gdbm-1.18.1/src'
+make  check-am
+make[2]: Entering directory '/usr/ports/core/gdbm/work/src/gdbm-1.18.1/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/ports/core/gdbm/work/src/gdbm-1.18.1/src'
+make[1]: Leaving directory '/usr/ports/core/gdbm/work/src/gdbm-1.18.1/src'
+Making check in doc
+make[1]: Entering directory '/usr/ports/core/gdbm/work/src/gdbm-1.18.1/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/gdbm/work/src/gdbm-1.18.1/doc'
+Making check in compat
+make[1]: Entering directory '/usr/ports/core/gdbm/work/src/gdbm-1.18.1/compat'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/gdbm/work/src/gdbm-1.18.1/compat'
+Making check in tests
+make[1]: Entering directory '/usr/ports/core/gdbm/work/src/gdbm-1.18.1/tests'
+make  closerr fdop g_open_ce g_reorg_ce gtdel gtdump gtfetch gtload gtopt gtrecover gtver num2word dtload dtdump dtfetch dtdel d_creat_ce
+make[2]: Entering directory '/usr/ports/core/gdbm/work/src/gdbm-1.18.1/tests'
+  CC       closerr.o
+closerr.c: In function 'main':
+closerr.c:42:7: warning: implicit declaration of function 'close'; did you mean 'pclose'? [-Wimplicit-function-declaration]
+   if (close (gdbm_fdesc (dbf)))
+       ^~~~~
+       pclose
+  CCLD     closerr
+  CC       fdop.o
+  CCLD     fdop
+  CC       g_open_ce.o
+  CCLD     g_open_ce
+  CC       g_reorg_ce.o
+  CCLD     g_reorg_ce
+  CC       gtdel.o
+  CCLD     gtdel
+  CC       gtdump.o
+  CCLD     gtdump
+  CC       gtfetch.o
+  CCLD     gtfetch
+  CC       gtload.o
+  CCLD     gtload
+  CC       gtopt.o
+  CCLD     gtopt
+  CC       gtrecover.o
+  CCLD     gtrecover
+  CC       gtver.o
+  CCLD     gtver
+  CC       num2word.o
+  CCLD     num2word
+  CC       dtload.o
+  CCLD     dtload
+  CC       dtdump.o
+  CCLD     dtdump
+  CC       dtfetch.o
+  CCLD     dtfetch
+  CC       dtdel.o
+  CCLD     dtdel
+  CC       d_creat_ce.o
+  CCLD     d_creat_ce
+make[2]: Leaving directory '/usr/ports/core/gdbm/work/src/gdbm-1.18.1/tests'
+make  check-DEJAGNU check-local
+make[2]: Entering directory '/usr/ports/core/gdbm/work/src/gdbm-1.18.1/tests'
+Making a new site.exp file...
+srcdir='.'; export srcdir; \
+EXPECT=expect; export EXPECT; \
+if /bin/sh -c "runtest --version" > /dev/null 2>&1; then \
+  exit_status=0; l='gdbmtool'; for tool in $l; do \
+    if runtest  --tool $tool --srcdir $srcdir ; \
+    then :; else exit_status=1; fi; \
+  done; \
+else echo "WARNING: could not find 'runtest'" 1>&2; :;\
+fi; \
+exit $exit_status
+WARNING: Couldn't find the global config file.
+WARNING: Couldn't find tool init file
+Test run by root on Wed Jan 23 13:16:16 2019
+Native configuration is powerpc-unknown-linux-gnu
+
+		=== gdbmtool tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /usr/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /usr/share/dejagnu/config/unix.exp as generic interface file for target.
+Using ./config/default.exp as tool-and-target-specific interface file.
+Running ./gdbmtool/base.exp ...
+
+		=== gdbmtool Summary ===
+
+# of expected passes		2
+/bin/sh ./testsuite
+## ----------------------- ##
+## gdbm 1.18.1 test suite. ##
+## ----------------------- ##
+  1: gdbm version                                    ok
+
+GDBM interface
+
+  2: create database                                 ok
+  3: fetch a record                                  ok
+  4: fetch: nonexisting record                       ok
+  5: delete a record                                 ok
+  6: delete: non existing record                     ok
+  7: delete: all records                             ok
+  8: gdbm_close error                                ok
+
+Block size selection
+
+  9: block size adjustment                           ok
+ 10: exact blocksize                                 ok
+ 11: incorrect blocksize                             ok
+
+Compatibility library (dbm/ndbm)
+
+ 12: create database                                 ok
+ 13: converting a 1.8-style database                 ok
+ 14: fetch a record                                  ok
+ 15: fetch: nonexisting record                       ok
+ 16: fetch from a read-only database                 ok
+ 17: fetch from a read-only 1.8-style database       ok
+ 18: delete a record                                 ok
+ 19: delete: non existing record                     ok
+ 20: delete: all records                             ok
+
+DB options
+
+ 21: setopt                                          ok
+ 22: setopt: mmap options                            ok
+
+Cloexec
+
+ 23: cloexec: gdbm_open                              ok
+ 24: cloexec: gdbm_reorganize                        ok
+ 25: cloexec: dbm_open                               ok
+ 26: cloexec: dbm_open -creat                        ok
+
+gdbmtool
+
+ 27: Input from file                                 ok
+ 28: Input from stdin                                ok
+ 29: Input from command line                         ok
+ 30: Initialization file                             ok
+
+## ------------- ##
+## Test results. ##
+## ------------- ##
+
+All 30 tests were successful.
+make[2]: Leaving directory '/usr/ports/core/gdbm/work/src/gdbm-1.18.1/tests'
+make[1]: Leaving directory '/usr/ports/core/gdbm/work/src/gdbm-1.18.1/tests'
+make[1]: Entering directory '/usr/ports/core/gdbm/work/src/gdbm-1.18.1'
+make[1]: Leaving directory '/usr/ports/core/gdbm/work/src/gdbm-1.18.1'

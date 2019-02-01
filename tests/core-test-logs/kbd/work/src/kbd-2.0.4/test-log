@@ -1,0 +1,93 @@
+Making check in src
+make[1]: Entering directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/src'
+Making check in vlock
+make[2]: Entering directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/src/vlock'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/src/vlock'
+Making check in libkeymap
+make[2]: Entering directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/src/libkeymap'
+make  check-am
+make[3]: Entering directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/src/libkeymap'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/src/libkeymap'
+make[2]: Leaving directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/src/libkeymap'
+make[2]: Entering directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/src'
+make[1]: Leaving directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/src'
+Making check in data
+make[1]: Entering directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/data'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/data'
+Making check in po
+make[1]: Entering directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/po'
+Making check in docs
+make[1]: Entering directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/docs'
+Making check in man
+make[2]: Entering directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/docs/man'
+Making check in man1
+make[3]: Entering directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/docs/man/man1'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/docs/man/man1'
+Making check in man5
+make[3]: Entering directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/docs/man/man5'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/docs/man/man5'
+Making check in man8
+make[3]: Entering directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/docs/man/man8'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/docs/man/man8'
+make[3]: Entering directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/docs/man'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/docs/man'
+make[2]: Leaving directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/docs/man'
+Making check in reference
+make[2]: Entering directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/docs/reference'
+make[3]: Entering directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/docs/reference'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/docs/reference'
+make[2]: Leaving directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/docs/reference'
+make[2]: Entering directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/docs'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/docs'
+make[1]: Leaving directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/docs'
+Making check in tests
+make[1]: Entering directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/tests'
+make  libkeymap-init libkeymap-kmap libkeymap-keys libkeymap-parse libkeymap-charset dumpkeys-fulltable alt-is-meta
+make[2]: Entering directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/tests'
+make[2]: 'libkeymap-init' is up to date.
+make[2]: 'libkeymap-kmap' is up to date.
+make[2]: 'libkeymap-keys' is up to date.
+make[2]: 'libkeymap-parse' is up to date.
+make[2]: 'libkeymap-charset' is up to date.
+make[2]: 'dumpkeys-fulltable' is up to date.
+make[2]: 'alt-is-meta' is up to date.
+make[2]: Leaving directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/tests'
+make  check-TESTS
+make[2]: Entering directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/tests'
+Running suite(s): libkeymap
+100%: Checks: 3, Failures: 0, Errors: 0
+PASS: libkeymap-init
+Running suite(s): libkeymap
+100%: Checks: 2, Failures: 0, Errors: 0
+PASS: libkeymap-kmap
+Running suite(s): libkeymap
+100%: Checks: 5, Failures: 0, Errors: 0
+PASS: libkeymap-keys
+Running suite(s): libkeymap
+100%: Checks: 7, Failures: 0, Errors: 0
+PASS: libkeymap-parse
+Running suite(s): libkeymap
+100%: Checks: 2, Failures: 0, Errors: 0
+PASS: libkeymap-charset
+PASS: dumpkeys-fulltable
+PASS: alt-is-meta
+==================
+All 7 tests passed
+==================
+make[2]: Leaving directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/tests'
+make[1]: Leaving directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4/tests'
+make[1]: Entering directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4'
+make[1]: Leaving directory '/usr/ports/core-ppc/kbd/work/src/kbd-2.0.4'

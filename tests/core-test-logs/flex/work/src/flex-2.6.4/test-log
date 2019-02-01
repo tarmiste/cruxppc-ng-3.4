@@ -1,0 +1,778 @@
+Making check in src
+make[1]: Entering directory '/usr/ports/core/flex/work/src/flex-2.6.4/src'
+make[1]: Leaving directory '/usr/ports/core/flex/work/src/flex-2.6.4/src'
+Making check in doc
+make[1]: Entering directory '/usr/ports/core/flex/work/src/flex-2.6.4/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/flex/work/src/flex-2.6.4/doc'
+Making check in examples
+make[1]: Entering directory '/usr/ports/core/flex/work/src/flex-2.6.4/examples'
+Making check in manual
+make[2]: Entering directory '/usr/ports/core/flex/work/src/flex-2.6.4/examples/manual'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/flex/work/src/flex-2.6.4/examples/manual'
+Making check in fastwc
+make[2]: Entering directory '/usr/ports/core/flex/work/src/flex-2.6.4/examples/fastwc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/flex/work/src/flex-2.6.4/examples/fastwc'
+make[2]: Entering directory '/usr/ports/core/flex/work/src/flex-2.6.4/examples'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/ports/core/flex/work/src/flex-2.6.4/examples'
+make[1]: Leaving directory '/usr/ports/core/flex/work/src/flex-2.6.4/examples'
+Making check in po
+make[1]: Entering directory '/usr/ports/core/flex/work/src/flex-2.6.4/po'
+make[1]: Leaving directory '/usr/ports/core/flex/work/src/flex-2.6.4/po'
+Making check in tests
+make[1]: Entering directory '/usr/ports/core/flex/work/src/flex-2.6.4/tests'
+make  alloc_extra array_nr array_r basic_nr basic_r bison_nr bison_yylloc bison_yylval c_cxx_nr c_cxx_r ccl cxx_basic cxx_multiple_scanners cxx_restart debug_nr debug_r extended header_nr header_r mem_nr mem_r multiple_scanners_nr multiple_scanners_r posix posixly_correct prefix_nr prefix_r quote_in_comment quotes string_nr string_r top yyextra reject_nr.reject reject_r.reject reject_ver.table reject_ser.table include_by_buffer.direct include_by_push.direct include_by_reentrant.direct rescan_nr.direct rescan_r.direct cxx_yywrap.i3 pthread.pthread lineno_nr.one lineno_r.one lineno_trailing.one tableopts_opt_nr-Ca.opt tableopts_opt_nr-Ce.opt tableopts_opt_nr-Cf.opt tableopts_opt_nr-CF.opt tableopts_opt_nr-Cm.opt tableopts_opt_nr-Cem.opt tableopts_opt_nr-Cae.opt tableopts_opt_nr-Caef.opt tableopts_opt_nr-CaeF.opt tableopts_opt_nr-Cam.opt tableopts_opt_nr-Caem.opt tableopts_opt_r-Ca.opt tableopts_opt_r-Ce.opt tableopts_opt_r-Cf.opt tableopts_opt_r-CF.opt tableopts_opt_r-Cm.opt tableopts_opt_r-Cem.opt tableopts_opt_r-Cae.opt tableopts_opt_r-Caef.opt tableopts_opt_r-CaeF.opt tableopts_opt_r-Cam.opt tableopts_opt_r-Caem.opt tableopts_ser_nr-Ca.ser tableopts_ser_nr-Ce.ser tableopts_ser_nr-Cf.ser tableopts_ser_nr-CF.ser tableopts_ser_nr-Cm.ser tableopts_ser_nr-Cem.ser tableopts_ser_nr-Cae.ser tableopts_ser_nr-Caef.ser tableopts_ser_nr-CaeF.ser tableopts_ser_nr-Cam.ser tableopts_ser_nr-Caem.ser tableopts_ser_r-Ca.ser tableopts_ser_r-Ce.ser tableopts_ser_r-Cf.ser tableopts_ser_r-CF.ser tableopts_ser_r-Cm.ser tableopts_ser_r-Cem.ser tableopts_ser_r-Cae.ser tableopts_ser_r-Caef.ser tableopts_ser_r-CaeF.ser tableopts_ser_r-Cam.ser tableopts_ser_r-Caem.ser tableopts_ver_nr-Ca.ver tableopts_ver_nr-Ce.ver tableopts_ver_nr-Cf.ver tableopts_ver_nr-CF.ver tableopts_ver_nr-Cm.ver tableopts_ver_nr-Cem.ver tableopts_ver_nr-Cae.ver tableopts_ver_nr-Caef.ver tableopts_ver_nr-CaeF.ver tableopts_ver_nr-Cam.ver tableopts_ver_nr-Caem.ver tableopts_ver_r-Ca.ver tableopts_ver_r-Ce.ver tableopts_ver_r-Cf.ver tableopts_ver_r-CF.ver tableopts_ver_r-Cm.ver tableopts_ver_r-Cem.ver tableopts_ver_r-Cae.ver tableopts_ver_r-Caef.ver tableopts_ver_r-CaeF.ver tableopts_ver_r-Cam.ver tableopts_ver_r-Caem.ver \
+  options.cn testwrapper-direct.sh testwrapper.sh
+make[2]: Entering directory '/usr/ports/core/flex/work/src/flex-2.6.4/tests'
+../src/flex -o alloc_extra.c alloc_extra.l
+depbase=`echo alloc_extra.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT alloc_extra.o -MD -MP -MF $depbase.Tpo -c -o alloc_extra.o alloc_extra.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o alloc_extra alloc_extra.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o alloc_extra alloc_extra.o  -lm
+../src/flex -o array_nr.c array_nr.l
+depbase=`echo array_nr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT array_nr.o -MD -MP -MF $depbase.Tpo -c -o array_nr.o array_nr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o array_nr array_nr.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o array_nr array_nr.o  -lm
+../src/flex -o array_r.c array_r.l
+depbase=`echo array_r.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT array_r.o -MD -MP -MF $depbase.Tpo -c -o array_r.o array_r.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o array_r array_r.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o array_r array_r.o  -lm
+../src/flex -o basic_nr.c basic_nr.l
+depbase=`echo basic_nr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT basic_nr.o -MD -MP -MF $depbase.Tpo -c -o basic_nr.o basic_nr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o basic_nr basic_nr.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o basic_nr basic_nr.o  -lm
+../src/flex -o basic_r.c basic_r.l
+depbase=`echo basic_r.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT basic_r.o -MD -MP -MF $depbase.Tpo -c -o basic_r.o basic_r.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o basic_r basic_r.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o basic_r basic_r.o  -lm
+../src/flex -o bison_nr_scanner.c bison_nr_scanner.l
+/bin/sh ../build-aux/ylwrap bison_nr_parser.y y.tab.c bison_nr_parser.c y.tab.h `echo bison_nr_parser.c | sed -e s/cc$/hh/ -e s/cpp$/hpp/ -e s/cxx$/hxx/ -e s/c++$/h++/ -e s/c$/h/` y.output bison_nr_parser.output -- bison -y -d -p test 
+updating bison_nr_parser.h
+depbase=`echo bison_nr_scanner.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT bison_nr_scanner.o -MD -MP -MF $depbase.Tpo -c -o bison_nr_scanner.o bison_nr_scanner.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo bison_nr_parser.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT bison_nr_parser.o -MD -MP -MF $depbase.Tpo -c -o bison_nr_parser.o bison_nr_parser.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo bison_nr_main.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT bison_nr_main.o -MD -MP -MF $depbase.Tpo -c -o bison_nr_main.o bison_nr_main.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o bison_nr bison_nr_scanner.o bison_nr_parser.o bison_nr_main.o   -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o bison_nr bison_nr_scanner.o bison_nr_parser.o bison_nr_main.o  -lm
+../src/flex -o bison_yylloc_scanner.c bison_yylloc_scanner.l
+/bin/sh ../build-aux/ylwrap bison_yylloc_parser.y y.tab.c bison_yylloc_parser.c y.tab.h `echo bison_yylloc_parser.c | sed -e s/cc$/hh/ -e s/cpp$/hpp/ -e s/cxx$/hxx/ -e s/c++$/h++/ -e s/c$/h/` y.output bison_yylloc_parser.output -- bison -y -d -p test 
+updating bison_yylloc_parser.h
+depbase=`echo bison_yylloc_scanner.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT bison_yylloc_scanner.o -MD -MP -MF $depbase.Tpo -c -o bison_yylloc_scanner.o bison_yylloc_scanner.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo bison_yylloc_parser.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT bison_yylloc_parser.o -MD -MP -MF $depbase.Tpo -c -o bison_yylloc_parser.o bison_yylloc_parser.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo bison_yylloc_main.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT bison_yylloc_main.o -MD -MP -MF $depbase.Tpo -c -o bison_yylloc_main.o bison_yylloc_main.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o bison_yylloc bison_yylloc_scanner.o bison_yylloc_parser.o bison_yylloc_main.o   -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o bison_yylloc bison_yylloc_scanner.o bison_yylloc_parser.o bison_yylloc_main.o  -lm
+../src/flex -o bison_yylval_scanner.c bison_yylval_scanner.l
+/bin/sh ../build-aux/ylwrap bison_yylval_parser.y y.tab.c bison_yylval_parser.c y.tab.h `echo bison_yylval_parser.c | sed -e s/cc$/hh/ -e s/cpp$/hpp/ -e s/cxx$/hxx/ -e s/c++$/h++/ -e s/c$/h/` y.output bison_yylval_parser.output -- bison -y -d -p test 
+updating bison_yylval_parser.h
+depbase=`echo bison_yylval_scanner.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT bison_yylval_scanner.o -MD -MP -MF $depbase.Tpo -c -o bison_yylval_scanner.o bison_yylval_scanner.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo bison_yylval_parser.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT bison_yylval_parser.o -MD -MP -MF $depbase.Tpo -c -o bison_yylval_parser.o bison_yylval_parser.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo bison_yylval_main.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT bison_yylval_main.o -MD -MP -MF $depbase.Tpo -c -o bison_yylval_main.o bison_yylval_main.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o bison_yylval bison_yylval_scanner.o bison_yylval_parser.o bison_yylval_main.o   -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o bison_yylval bison_yylval_scanner.o bison_yylval_parser.o bison_yylval_main.o  -lm
+../src/flex -o c_cxx_nr.cc c_cxx_nr.lll
+depbase=`echo c_cxx_nr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -MT c_cxx_nr.o -MD -MP -MF $depbase.Tpo -c -o c_cxx_nr.o c_cxx_nr.cc &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt   -o c_cxx_nr c_cxx_nr.o  -lm 
+libtool: link: g++ -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -o c_cxx_nr c_cxx_nr.o  -lm
+../src/flex -o c_cxx_r.cc c_cxx_r.lll
+depbase=`echo c_cxx_r.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -MT c_cxx_r.o -MD -MP -MF $depbase.Tpo -c -o c_cxx_r.o c_cxx_r.cc &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt   -o c_cxx_r c_cxx_r.o  -lm 
+libtool: link: g++ -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -o c_cxx_r c_cxx_r.o  -lm
+../src/flex -o ccl.c ccl.l
+depbase=`echo ccl.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT ccl.o -MD -MP -MF $depbase.Tpo -c -o ccl.o ccl.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o ccl ccl.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o ccl ccl.o  -lm
+../src/flex -+ -o cxx_basic.cc cxx_basic.ll
+depbase=`echo cxx_basic.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -MT cxx_basic.o -MD -MP -MF $depbase.Tpo -c -o cxx_basic.o cxx_basic.cc &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt   -o cxx_basic cxx_basic.o  -lm 
+libtool: link: g++ -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -o cxx_basic cxx_basic.o  -lm
+depbase=`echo cxx_multiple_scanners_main.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -MT cxx_multiple_scanners_main.o -MD -MP -MF $depbase.Tpo -c -o cxx_multiple_scanners_main.o cxx_multiple_scanners_main.cc &&\
+mv -f $depbase.Tpo $depbase.Po
+../src/flex -+ -o cxx_multiple_scanners_1.cc cxx_multiple_scanners_1.ll
+depbase=`echo cxx_multiple_scanners_1.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -MT cxx_multiple_scanners_1.o -MD -MP -MF $depbase.Tpo -c -o cxx_multiple_scanners_1.o cxx_multiple_scanners_1.cc &&\
+mv -f $depbase.Tpo $depbase.Po
+../src/flex -+ -o cxx_multiple_scanners_2.cc cxx_multiple_scanners_2.ll
+depbase=`echo cxx_multiple_scanners_2.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -MT cxx_multiple_scanners_2.o -MD -MP -MF $depbase.Tpo -c -o cxx_multiple_scanners_2.o cxx_multiple_scanners_2.cc &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt   -o cxx_multiple_scanners cxx_multiple_scanners_main.o cxx_multiple_scanners_1.o cxx_multiple_scanners_2.o  -lm 
+libtool: link: g++ -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -o cxx_multiple_scanners cxx_multiple_scanners_main.o cxx_multiple_scanners_1.o cxx_multiple_scanners_2.o  -lm
+../src/flex -+ -o cxx_restart.cc cxx_restart.ll
+depbase=`echo cxx_restart.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -MT cxx_restart.o -MD -MP -MF $depbase.Tpo -c -o cxx_restart.o cxx_restart.cc &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt   -o cxx_restart cxx_restart.o  -lm 
+libtool: link: g++ -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -o cxx_restart cxx_restart.o  -lm
+../src/flex -o debug_nr.c debug_nr.l
+depbase=`echo debug_nr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT debug_nr.o -MD -MP -MF $depbase.Tpo -c -o debug_nr.o debug_nr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o debug_nr debug_nr.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o debug_nr debug_nr.o  -lm
+../src/flex -o debug_r.c debug_r.l
+depbase=`echo debug_r.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT debug_r.o -MD -MP -MF $depbase.Tpo -c -o debug_r.o debug_r.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o debug_r debug_r.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o debug_r debug_r.o  -lm
+../src/flex -o extended.c extended.l
+depbase=`echo extended.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT extended.o -MD -MP -MF $depbase.Tpo -c -o extended.o extended.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o extended extended.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o extended extended.o  -lm
+../src/flex -o header_nr_scanner.c header_nr_scanner.l
+depbase=`echo header_nr_scanner.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT header_nr_scanner.o -MD -MP -MF $depbase.Tpo -c -o header_nr_scanner.o header_nr_scanner.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo header_nr_main.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT header_nr_main.o -MD -MP -MF $depbase.Tpo -c -o header_nr_main.o header_nr_main.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o header_nr header_nr_scanner.o header_nr_main.o   -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o header_nr header_nr_scanner.o header_nr_main.o  -lm
+../src/flex -o header_r_scanner.c header_r_scanner.l
+depbase=`echo header_r_scanner.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT header_r_scanner.o -MD -MP -MF $depbase.Tpo -c -o header_r_scanner.o header_r_scanner.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo header_r_main.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT header_r_main.o -MD -MP -MF $depbase.Tpo -c -o header_r_main.o header_r_main.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o header_r header_r_scanner.o header_r_main.o   -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o header_r header_r_scanner.o header_r_main.o  -lm
+../src/flex -o mem_nr.c mem_nr.l
+depbase=`echo mem_nr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT mem_nr.o -MD -MP -MF $depbase.Tpo -c -o mem_nr.o mem_nr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o mem_nr mem_nr.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o mem_nr mem_nr.o  -lm
+../src/flex -o mem_r.c mem_r.l
+depbase=`echo mem_r.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT mem_r.o -MD -MP -MF $depbase.Tpo -c -o mem_r.o mem_r.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o mem_r mem_r.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o mem_r mem_r.o  -lm
+../src/flex -o multiple_scanners_nr_1.c multiple_scanners_nr_1.l
+../src/flex -o multiple_scanners_nr_2.c multiple_scanners_nr_2.l
+depbase=`echo multiple_scanners_nr_main.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT multiple_scanners_nr_main.o -MD -MP -MF $depbase.Tpo -c -o multiple_scanners_nr_main.o multiple_scanners_nr_main.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo multiple_scanners_nr_1.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT multiple_scanners_nr_1.o -MD -MP -MF $depbase.Tpo -c -o multiple_scanners_nr_1.o multiple_scanners_nr_1.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo multiple_scanners_nr_2.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT multiple_scanners_nr_2.o -MD -MP -MF $depbase.Tpo -c -o multiple_scanners_nr_2.o multiple_scanners_nr_2.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o multiple_scanners_nr multiple_scanners_nr_main.o multiple_scanners_nr_1.o multiple_scanners_nr_2.o   -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o multiple_scanners_nr multiple_scanners_nr_main.o multiple_scanners_nr_1.o multiple_scanners_nr_2.o  -lm
+../src/flex -o multiple_scanners_r_1.c multiple_scanners_r_1.l
+../src/flex -o multiple_scanners_r_2.c multiple_scanners_r_2.l
+depbase=`echo multiple_scanners_r_main.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT multiple_scanners_r_main.o -MD -MP -MF $depbase.Tpo -c -o multiple_scanners_r_main.o multiple_scanners_r_main.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo multiple_scanners_r_1.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT multiple_scanners_r_1.o -MD -MP -MF $depbase.Tpo -c -o multiple_scanners_r_1.o multiple_scanners_r_1.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo multiple_scanners_r_2.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT multiple_scanners_r_2.o -MD -MP -MF $depbase.Tpo -c -o multiple_scanners_r_2.o multiple_scanners_r_2.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o multiple_scanners_r multiple_scanners_r_main.o multiple_scanners_r_1.o multiple_scanners_r_2.o   -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o multiple_scanners_r multiple_scanners_r_main.o multiple_scanners_r_1.o multiple_scanners_r_2.o  -lm
+../src/flex -o posix.c posix.l
+depbase=`echo posix.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT posix.o -MD -MP -MF $depbase.Tpo -c -o posix.o posix.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o posix posix.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o posix posix.o  -lm
+POSIXLY_CORRECT=1 ../src/flex -o posixly_correct.c posixly_correct.l
+depbase=`echo posixly_correct.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT posixly_correct.o -MD -MP -MF $depbase.Tpo -c -o posixly_correct.o posixly_correct.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o posixly_correct posixly_correct.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o posixly_correct posixly_correct.o  -lm
+../src/flex -o prefix_nr.c prefix_nr.l
+depbase=`echo prefix_nr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT prefix_nr.o -MD -MP -MF $depbase.Tpo -c -o prefix_nr.o prefix_nr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o prefix_nr prefix_nr.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o prefix_nr prefix_nr.o  -lm
+../src/flex -o prefix_r.c prefix_r.l
+depbase=`echo prefix_r.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT prefix_r.o -MD -MP -MF $depbase.Tpo -c -o prefix_r.o prefix_r.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o prefix_r prefix_r.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o prefix_r prefix_r.o  -lm
+../src/flex -o quote_in_comment.c quote_in_comment.l
+depbase=`echo quote_in_comment.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT quote_in_comment.o -MD -MP -MF $depbase.Tpo -c -o quote_in_comment.o quote_in_comment.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o quote_in_comment quote_in_comment.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o quote_in_comment quote_in_comment.o  -lm
+../src/flex -o quotes.c quotes.l
+depbase=`echo quotes.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT quotes.o -MD -MP -MF $depbase.Tpo -c -o quotes.o quotes.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o quotes quotes.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o quotes quotes.o  -lm
+../src/flex -o string_nr.c string_nr.l
+depbase=`echo string_nr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT string_nr.o -MD -MP -MF $depbase.Tpo -c -o string_nr.o string_nr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o string_nr string_nr.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o string_nr string_nr.o  -lm
+../src/flex -o string_r.c string_r.l
+depbase=`echo string_r.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT string_r.o -MD -MP -MF $depbase.Tpo -c -o string_r.o string_r.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o string_r string_r.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o string_r string_r.o  -lm
+../src/flex -o top.c top.l
+depbase=`echo top.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT top.o -MD -MP -MF $depbase.Tpo -c -o top.o top.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo top_main.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT top_main.o -MD -MP -MF $depbase.Tpo -c -o top_main.o top_main.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o top top.o top_main.o   -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o top top.o top_main.o  -lm
+../src/flex -o yyextra.c yyextra.l
+depbase=`echo yyextra.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT yyextra.o -MD -MP -MF $depbase.Tpo -c -o yyextra.o yyextra.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o yyextra yyextra.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o yyextra yyextra.o  -lm
+../src/flex --unsafe-no-m4-sect3-escape -o reject_nr.reject.c reject.l4
+depbase=`echo reject_nr.reject.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT reject_nr.reject.o -MD -MP -MF $depbase.Tpo -c -o reject_nr.reject.o reject_nr.reject.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o reject_nr.reject reject_nr.reject.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o reject_nr.reject reject_nr.reject.o 
+../src/flex --unsafe-no-m4-sect3-escape --reentrant -o reject_r.reject.c reject.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_IS_REENTRANT -c -o reject_r.reject.o reject_r.reject.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o reject_r.reject reject_r.reject.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o reject_r.reject reject_r.reject.o 
+../src/flex --unsafe-no-m4-sect3-escape -o reject_ver.table.c --tables-verify --tables-file=reject_ver.table.tables reject.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -c -o reject_ver.table.o reject_ver.table.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o reject_ver.table reject_ver.table.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o reject_ver.table reject_ver.table.o 
+../src/flex -o reject_ser.table.c --unsafe-no-m4-sect3-escape --tables-file=reject_ser.table.tables reject.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -c -o reject_ser.table.o reject_ser.table.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o reject_ser.table reject_ser.table.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o reject_ser.table reject_ser.table.o 
+../src/flex -o include_by_buffer.direct.c include_by_buffer.direct.l
+depbase=`echo include_by_buffer.direct.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT include_by_buffer.direct.o -MD -MP -MF $depbase.Tpo -c -o include_by_buffer.direct.o include_by_buffer.direct.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o include_by_buffer.direct include_by_buffer.direct.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o include_by_buffer.direct include_by_buffer.direct.o  -lm
+../src/flex -o include_by_push.direct.c include_by_push.direct.l
+depbase=`echo include_by_push.direct.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT include_by_push.direct.o -MD -MP -MF $depbase.Tpo -c -o include_by_push.direct.o include_by_push.direct.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o include_by_push.direct include_by_push.direct.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o include_by_push.direct include_by_push.direct.o  -lm
+../src/flex -o include_by_reentrant.direct.c include_by_reentrant.direct.l
+depbase=`echo include_by_reentrant.direct.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT include_by_reentrant.direct.o -MD -MP -MF $depbase.Tpo -c -o include_by_reentrant.direct.o include_by_reentrant.direct.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o include_by_reentrant.direct include_by_reentrant.direct.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o include_by_reentrant.direct include_by_reentrant.direct.o  -lm
+../src/flex -o rescan_nr.direct.c rescan_nr.direct.l
+depbase=`echo rescan_nr.direct.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT rescan_nr.direct.o -MD -MP -MF $depbase.Tpo -c -o rescan_nr.direct.o rescan_nr.direct.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o rescan_nr.direct rescan_nr.direct.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o rescan_nr.direct rescan_nr.direct.o  -lm
+../src/flex -o rescan_r.direct.c rescan_r.direct.l
+depbase=`echo rescan_r.direct.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT rescan_r.direct.o -MD -MP -MF $depbase.Tpo -c -o rescan_r.direct.o rescan_r.direct.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o rescan_r.direct rescan_r.direct.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o rescan_r.direct rescan_r.direct.o  -lm
+../src/flex -+ -o cxx_yywrap.cc cxx_yywrap.ll
+depbase=`echo cxx_yywrap.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -MT cxx_yywrap.o -MD -MP -MF $depbase.Tpo -c -o cxx_yywrap.o cxx_yywrap.cc &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt   -o cxx_yywrap.i3 cxx_yywrap.o  -lm 
+libtool: link: g++ -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -o cxx_yywrap.i3 cxx_yywrap.o  -lm
+../src/flex -o pthread.c pthread.l
+depbase=`echo pthread.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT pthread.o -MD -MP -MF $depbase.Tpo -c -o pthread.o pthread.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o pthread.pthread pthread.o -lpthread -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o pthread.pthread pthread.o  -lpthread -lm
+../src/flex -o lineno_nr.c lineno_nr.l
+depbase=`echo lineno_nr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT lineno_nr.o -MD -MP -MF $depbase.Tpo -c -o lineno_nr.o lineno_nr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o lineno_nr.one lineno_nr.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o lineno_nr.one lineno_nr.o  -lm
+../src/flex -o lineno_r.c lineno_r.l
+depbase=`echo lineno_r.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT lineno_r.o -MD -MP -MF $depbase.Tpo -c -o lineno_r.o lineno_r.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o lineno_r.one lineno_r.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o lineno_r.one lineno_r.o  -lm
+../src/flex -o lineno_trailing.c lineno_trailing.l
+depbase=`echo lineno_trailing.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -MT lineno_trailing.o -MD -MP -MF $depbase.Tpo -c -o lineno_trailing.o lineno_trailing.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o lineno_trailing.one lineno_trailing.o  -lm 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o lineno_trailing.one lineno_trailing.o  -lm
+../src/flex --unsafe-no-m4-sect3-escape -P _Ca -Ca -o tableopts_opt_nr-Ca.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -c -o tableopts_opt_nr-Ca.o tableopts_opt_nr-Ca.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_opt_nr-Ca.opt -o tableopts_opt_nr-Ca.opt tableopts_opt_nr-Ca.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_opt_nr-Ca.opt -o tableopts_opt_nr-Ca.opt tableopts_opt_nr-Ca.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Ce -Ce -o tableopts_opt_nr-Ce.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -c -o tableopts_opt_nr-Ce.o tableopts_opt_nr-Ce.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_opt_nr-Ce.opt -o tableopts_opt_nr-Ce.opt tableopts_opt_nr-Ce.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_opt_nr-Ce.opt -o tableopts_opt_nr-Ce.opt tableopts_opt_nr-Ce.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cf -Cf -o tableopts_opt_nr-Cf.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -c -o tableopts_opt_nr-Cf.o tableopts_opt_nr-Cf.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_opt_nr-Cf.opt -o tableopts_opt_nr-Cf.opt tableopts_opt_nr-Cf.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_opt_nr-Cf.opt -o tableopts_opt_nr-Cf.opt tableopts_opt_nr-Cf.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _CF -CF -o tableopts_opt_nr-CF.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -c -o tableopts_opt_nr-CF.o tableopts_opt_nr-CF.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_opt_nr-CF.opt -o tableopts_opt_nr-CF.opt tableopts_opt_nr-CF.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_opt_nr-CF.opt -o tableopts_opt_nr-CF.opt tableopts_opt_nr-CF.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cm -Cm -o tableopts_opt_nr-Cm.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -c -o tableopts_opt_nr-Cm.o tableopts_opt_nr-Cm.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_opt_nr-Cm.opt -o tableopts_opt_nr-Cm.opt tableopts_opt_nr-Cm.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_opt_nr-Cm.opt -o tableopts_opt_nr-Cm.opt tableopts_opt_nr-Cm.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cem -Cem -o tableopts_opt_nr-Cem.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -c -o tableopts_opt_nr-Cem.o tableopts_opt_nr-Cem.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_opt_nr-Cem.opt -o tableopts_opt_nr-Cem.opt tableopts_opt_nr-Cem.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_opt_nr-Cem.opt -o tableopts_opt_nr-Cem.opt tableopts_opt_nr-Cem.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cae -Cae -o tableopts_opt_nr-Cae.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -c -o tableopts_opt_nr-Cae.o tableopts_opt_nr-Cae.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_opt_nr-Cae.opt -o tableopts_opt_nr-Cae.opt tableopts_opt_nr-Cae.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_opt_nr-Cae.opt -o tableopts_opt_nr-Cae.opt tableopts_opt_nr-Cae.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Caef -Caef -o tableopts_opt_nr-Caef.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -c -o tableopts_opt_nr-Caef.o tableopts_opt_nr-Caef.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_opt_nr-Caef.opt -o tableopts_opt_nr-Caef.opt tableopts_opt_nr-Caef.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_opt_nr-Caef.opt -o tableopts_opt_nr-Caef.opt tableopts_opt_nr-Caef.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _CaeF -CaeF -o tableopts_opt_nr-CaeF.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -c -o tableopts_opt_nr-CaeF.o tableopts_opt_nr-CaeF.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_opt_nr-CaeF.opt -o tableopts_opt_nr-CaeF.opt tableopts_opt_nr-CaeF.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_opt_nr-CaeF.opt -o tableopts_opt_nr-CaeF.opt tableopts_opt_nr-CaeF.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cam -Cam -o tableopts_opt_nr-Cam.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -c -o tableopts_opt_nr-Cam.o tableopts_opt_nr-Cam.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_opt_nr-Cam.opt -o tableopts_opt_nr-Cam.opt tableopts_opt_nr-Cam.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_opt_nr-Cam.opt -o tableopts_opt_nr-Cam.opt tableopts_opt_nr-Cam.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Caem -Caem -o tableopts_opt_nr-Caem.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -c -o tableopts_opt_nr-Caem.o tableopts_opt_nr-Caem.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_opt_nr-Caem.opt -o tableopts_opt_nr-Caem.opt tableopts_opt_nr-Caem.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_opt_nr-Caem.opt -o tableopts_opt_nr-Caem.opt tableopts_opt_nr-Caem.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Ca --reentrant -Ca  -o tableopts_opt_r-Ca.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_IS_REENTRANT -c -o tableopts_opt_r-Ca.o tableopts_opt_r-Ca.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_opt_r-Ca.opt -o tableopts_opt_r-Ca.opt tableopts_opt_r-Ca.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_opt_r-Ca.opt -o tableopts_opt_r-Ca.opt tableopts_opt_r-Ca.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Ce --reentrant -Ce  -o tableopts_opt_r-Ce.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_IS_REENTRANT -c -o tableopts_opt_r-Ce.o tableopts_opt_r-Ce.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_opt_r-Ce.opt -o tableopts_opt_r-Ce.opt tableopts_opt_r-Ce.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_opt_r-Ce.opt -o tableopts_opt_r-Ce.opt tableopts_opt_r-Ce.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cf --reentrant -Cf  -o tableopts_opt_r-Cf.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_IS_REENTRANT -c -o tableopts_opt_r-Cf.o tableopts_opt_r-Cf.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_opt_r-Cf.opt -o tableopts_opt_r-Cf.opt tableopts_opt_r-Cf.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_opt_r-Cf.opt -o tableopts_opt_r-Cf.opt tableopts_opt_r-Cf.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _CF --reentrant -CF  -o tableopts_opt_r-CF.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_IS_REENTRANT -c -o tableopts_opt_r-CF.o tableopts_opt_r-CF.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_opt_r-CF.opt -o tableopts_opt_r-CF.opt tableopts_opt_r-CF.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_opt_r-CF.opt -o tableopts_opt_r-CF.opt tableopts_opt_r-CF.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cm --reentrant -Cm  -o tableopts_opt_r-Cm.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_IS_REENTRANT -c -o tableopts_opt_r-Cm.o tableopts_opt_r-Cm.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_opt_r-Cm.opt -o tableopts_opt_r-Cm.opt tableopts_opt_r-Cm.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_opt_r-Cm.opt -o tableopts_opt_r-Cm.opt tableopts_opt_r-Cm.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cem --reentrant -Cem  -o tableopts_opt_r-Cem.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_IS_REENTRANT -c -o tableopts_opt_r-Cem.o tableopts_opt_r-Cem.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_opt_r-Cem.opt -o tableopts_opt_r-Cem.opt tableopts_opt_r-Cem.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_opt_r-Cem.opt -o tableopts_opt_r-Cem.opt tableopts_opt_r-Cem.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cae --reentrant -Cae  -o tableopts_opt_r-Cae.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_IS_REENTRANT -c -o tableopts_opt_r-Cae.o tableopts_opt_r-Cae.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_opt_r-Cae.opt -o tableopts_opt_r-Cae.opt tableopts_opt_r-Cae.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_opt_r-Cae.opt -o tableopts_opt_r-Cae.opt tableopts_opt_r-Cae.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Caef --reentrant -Caef  -o tableopts_opt_r-Caef.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_IS_REENTRANT -c -o tableopts_opt_r-Caef.o tableopts_opt_r-Caef.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_opt_r-Caef.opt -o tableopts_opt_r-Caef.opt tableopts_opt_r-Caef.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_opt_r-Caef.opt -o tableopts_opt_r-Caef.opt tableopts_opt_r-Caef.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _CaeF --reentrant -CaeF  -o tableopts_opt_r-CaeF.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_IS_REENTRANT -c -o tableopts_opt_r-CaeF.o tableopts_opt_r-CaeF.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_opt_r-CaeF.opt -o tableopts_opt_r-CaeF.opt tableopts_opt_r-CaeF.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_opt_r-CaeF.opt -o tableopts_opt_r-CaeF.opt tableopts_opt_r-CaeF.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cam --reentrant -Cam  -o tableopts_opt_r-Cam.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_IS_REENTRANT -c -o tableopts_opt_r-Cam.o tableopts_opt_r-Cam.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_opt_r-Cam.opt -o tableopts_opt_r-Cam.opt tableopts_opt_r-Cam.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_opt_r-Cam.opt -o tableopts_opt_r-Cam.opt tableopts_opt_r-Cam.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Caem --reentrant -Caem  -o tableopts_opt_r-Caem.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_IS_REENTRANT -c -o tableopts_opt_r-Caem.o tableopts_opt_r-Caem.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_opt_r-Caem.opt -o tableopts_opt_r-Caem.opt tableopts_opt_r-Caem.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_opt_r-Caem.opt -o tableopts_opt_r-Caem.opt tableopts_opt_r-Caem.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Ca --tables-file="tableopts_ser_nr-Ca.ser.tables"  -Ca -o tableopts_ser_nr-Ca.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ser_nr-Ca.o tableopts_ser_nr-Ca.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ser_nr-Ca.ser -o tableopts_ser_nr-Ca.ser tableopts_ser_nr-Ca.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ser_nr-Ca.ser -o tableopts_ser_nr-Ca.ser tableopts_ser_nr-Ca.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Ce --tables-file="tableopts_ser_nr-Ce.ser.tables"  -Ce -o tableopts_ser_nr-Ce.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ser_nr-Ce.o tableopts_ser_nr-Ce.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ser_nr-Ce.ser -o tableopts_ser_nr-Ce.ser tableopts_ser_nr-Ce.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ser_nr-Ce.ser -o tableopts_ser_nr-Ce.ser tableopts_ser_nr-Ce.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cf --tables-file="tableopts_ser_nr-Cf.ser.tables"  -Cf -o tableopts_ser_nr-Cf.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ser_nr-Cf.o tableopts_ser_nr-Cf.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ser_nr-Cf.ser -o tableopts_ser_nr-Cf.ser tableopts_ser_nr-Cf.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ser_nr-Cf.ser -o tableopts_ser_nr-Cf.ser tableopts_ser_nr-Cf.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _CF --tables-file="tableopts_ser_nr-CF.ser.tables"  -CF -o tableopts_ser_nr-CF.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ser_nr-CF.o tableopts_ser_nr-CF.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ser_nr-CF.ser -o tableopts_ser_nr-CF.ser tableopts_ser_nr-CF.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ser_nr-CF.ser -o tableopts_ser_nr-CF.ser tableopts_ser_nr-CF.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cm --tables-file="tableopts_ser_nr-Cm.ser.tables"  -Cm -o tableopts_ser_nr-Cm.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ser_nr-Cm.o tableopts_ser_nr-Cm.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ser_nr-Cm.ser -o tableopts_ser_nr-Cm.ser tableopts_ser_nr-Cm.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ser_nr-Cm.ser -o tableopts_ser_nr-Cm.ser tableopts_ser_nr-Cm.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cem --tables-file="tableopts_ser_nr-Cem.ser.tables"  -Cem -o tableopts_ser_nr-Cem.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ser_nr-Cem.o tableopts_ser_nr-Cem.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ser_nr-Cem.ser -o tableopts_ser_nr-Cem.ser tableopts_ser_nr-Cem.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ser_nr-Cem.ser -o tableopts_ser_nr-Cem.ser tableopts_ser_nr-Cem.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cae --tables-file="tableopts_ser_nr-Cae.ser.tables"  -Cae -o tableopts_ser_nr-Cae.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ser_nr-Cae.o tableopts_ser_nr-Cae.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ser_nr-Cae.ser -o tableopts_ser_nr-Cae.ser tableopts_ser_nr-Cae.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ser_nr-Cae.ser -o tableopts_ser_nr-Cae.ser tableopts_ser_nr-Cae.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Caef --tables-file="tableopts_ser_nr-Caef.ser.tables"  -Caef -o tableopts_ser_nr-Caef.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ser_nr-Caef.o tableopts_ser_nr-Caef.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ser_nr-Caef.ser -o tableopts_ser_nr-Caef.ser tableopts_ser_nr-Caef.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ser_nr-Caef.ser -o tableopts_ser_nr-Caef.ser tableopts_ser_nr-Caef.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _CaeF --tables-file="tableopts_ser_nr-CaeF.ser.tables"  -CaeF -o tableopts_ser_nr-CaeF.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ser_nr-CaeF.o tableopts_ser_nr-CaeF.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ser_nr-CaeF.ser -o tableopts_ser_nr-CaeF.ser tableopts_ser_nr-CaeF.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ser_nr-CaeF.ser -o tableopts_ser_nr-CaeF.ser tableopts_ser_nr-CaeF.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cam --tables-file="tableopts_ser_nr-Cam.ser.tables"  -Cam -o tableopts_ser_nr-Cam.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ser_nr-Cam.o tableopts_ser_nr-Cam.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ser_nr-Cam.ser -o tableopts_ser_nr-Cam.ser tableopts_ser_nr-Cam.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ser_nr-Cam.ser -o tableopts_ser_nr-Cam.ser tableopts_ser_nr-Cam.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Caem --tables-file="tableopts_ser_nr-Caem.ser.tables"  -Caem -o tableopts_ser_nr-Caem.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ser_nr-Caem.o tableopts_ser_nr-Caem.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ser_nr-Caem.ser -o tableopts_ser_nr-Caem.ser tableopts_ser_nr-Caem.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ser_nr-Caem.ser -o tableopts_ser_nr-Caem.ser tableopts_ser_nr-Caem.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Ca -R --tables-file="tableopts_ser_r-Ca.ser.tables" -Ca  -o tableopts_ser_r-Ca.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ser_r-Ca.o tableopts_ser_r-Ca.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ser_r-Ca.ser -o tableopts_ser_r-Ca.ser tableopts_ser_r-Ca.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ser_r-Ca.ser -o tableopts_ser_r-Ca.ser tableopts_ser_r-Ca.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Ce -R --tables-file="tableopts_ser_r-Ce.ser.tables" -Ce  -o tableopts_ser_r-Ce.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ser_r-Ce.o tableopts_ser_r-Ce.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ser_r-Ce.ser -o tableopts_ser_r-Ce.ser tableopts_ser_r-Ce.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ser_r-Ce.ser -o tableopts_ser_r-Ce.ser tableopts_ser_r-Ce.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cf -R --tables-file="tableopts_ser_r-Cf.ser.tables" -Cf  -o tableopts_ser_r-Cf.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ser_r-Cf.o tableopts_ser_r-Cf.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ser_r-Cf.ser -o tableopts_ser_r-Cf.ser tableopts_ser_r-Cf.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ser_r-Cf.ser -o tableopts_ser_r-Cf.ser tableopts_ser_r-Cf.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _CF -R --tables-file="tableopts_ser_r-CF.ser.tables" -CF  -o tableopts_ser_r-CF.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ser_r-CF.o tableopts_ser_r-CF.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ser_r-CF.ser -o tableopts_ser_r-CF.ser tableopts_ser_r-CF.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ser_r-CF.ser -o tableopts_ser_r-CF.ser tableopts_ser_r-CF.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cm -R --tables-file="tableopts_ser_r-Cm.ser.tables" -Cm  -o tableopts_ser_r-Cm.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ser_r-Cm.o tableopts_ser_r-Cm.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ser_r-Cm.ser -o tableopts_ser_r-Cm.ser tableopts_ser_r-Cm.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ser_r-Cm.ser -o tableopts_ser_r-Cm.ser tableopts_ser_r-Cm.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cem -R --tables-file="tableopts_ser_r-Cem.ser.tables" -Cem  -o tableopts_ser_r-Cem.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ser_r-Cem.o tableopts_ser_r-Cem.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ser_r-Cem.ser -o tableopts_ser_r-Cem.ser tableopts_ser_r-Cem.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ser_r-Cem.ser -o tableopts_ser_r-Cem.ser tableopts_ser_r-Cem.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cae -R --tables-file="tableopts_ser_r-Cae.ser.tables" -Cae  -o tableopts_ser_r-Cae.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ser_r-Cae.o tableopts_ser_r-Cae.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ser_r-Cae.ser -o tableopts_ser_r-Cae.ser tableopts_ser_r-Cae.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ser_r-Cae.ser -o tableopts_ser_r-Cae.ser tableopts_ser_r-Cae.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Caef -R --tables-file="tableopts_ser_r-Caef.ser.tables" -Caef  -o tableopts_ser_r-Caef.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ser_r-Caef.o tableopts_ser_r-Caef.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ser_r-Caef.ser -o tableopts_ser_r-Caef.ser tableopts_ser_r-Caef.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ser_r-Caef.ser -o tableopts_ser_r-Caef.ser tableopts_ser_r-Caef.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _CaeF -R --tables-file="tableopts_ser_r-CaeF.ser.tables" -CaeF  -o tableopts_ser_r-CaeF.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ser_r-CaeF.o tableopts_ser_r-CaeF.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ser_r-CaeF.ser -o tableopts_ser_r-CaeF.ser tableopts_ser_r-CaeF.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ser_r-CaeF.ser -o tableopts_ser_r-CaeF.ser tableopts_ser_r-CaeF.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cam -R --tables-file="tableopts_ser_r-Cam.ser.tables" -Cam  -o tableopts_ser_r-Cam.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ser_r-Cam.o tableopts_ser_r-Cam.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ser_r-Cam.ser -o tableopts_ser_r-Cam.ser tableopts_ser_r-Cam.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ser_r-Cam.ser -o tableopts_ser_r-Cam.ser tableopts_ser_r-Cam.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Caem -R --tables-file="tableopts_ser_r-Caem.ser.tables" -Caem  -o tableopts_ser_r-Caem.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ser_r-Caem.o tableopts_ser_r-Caem.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ser_r-Caem.ser -o tableopts_ser_r-Caem.ser tableopts_ser_r-Caem.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ser_r-Caem.ser -o tableopts_ser_r-Caem.ser tableopts_ser_r-Caem.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Ca --tables-file="tableopts_ver_nr-Ca.ver.tables" --tables-verify -Ca -o tableopts_ver_nr-Ca.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ver_nr-Ca.o tableopts_ver_nr-Ca.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ver_nr-Ca.ver -o tableopts_ver_nr-Ca.ver tableopts_ver_nr-Ca.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ver_nr-Ca.ver -o tableopts_ver_nr-Ca.ver tableopts_ver_nr-Ca.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Ce --tables-file="tableopts_ver_nr-Ce.ver.tables" --tables-verify -Ce -o tableopts_ver_nr-Ce.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ver_nr-Ce.o tableopts_ver_nr-Ce.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ver_nr-Ce.ver -o tableopts_ver_nr-Ce.ver tableopts_ver_nr-Ce.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ver_nr-Ce.ver -o tableopts_ver_nr-Ce.ver tableopts_ver_nr-Ce.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cf --tables-file="tableopts_ver_nr-Cf.ver.tables" --tables-verify -Cf -o tableopts_ver_nr-Cf.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ver_nr-Cf.o tableopts_ver_nr-Cf.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ver_nr-Cf.ver -o tableopts_ver_nr-Cf.ver tableopts_ver_nr-Cf.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ver_nr-Cf.ver -o tableopts_ver_nr-Cf.ver tableopts_ver_nr-Cf.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _CF --tables-file="tableopts_ver_nr-CF.ver.tables" --tables-verify -CF -o tableopts_ver_nr-CF.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ver_nr-CF.o tableopts_ver_nr-CF.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ver_nr-CF.ver -o tableopts_ver_nr-CF.ver tableopts_ver_nr-CF.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ver_nr-CF.ver -o tableopts_ver_nr-CF.ver tableopts_ver_nr-CF.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cm --tables-file="tableopts_ver_nr-Cm.ver.tables" --tables-verify -Cm -o tableopts_ver_nr-Cm.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ver_nr-Cm.o tableopts_ver_nr-Cm.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ver_nr-Cm.ver -o tableopts_ver_nr-Cm.ver tableopts_ver_nr-Cm.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ver_nr-Cm.ver -o tableopts_ver_nr-Cm.ver tableopts_ver_nr-Cm.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cem --tables-file="tableopts_ver_nr-Cem.ver.tables" --tables-verify -Cem -o tableopts_ver_nr-Cem.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ver_nr-Cem.o tableopts_ver_nr-Cem.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ver_nr-Cem.ver -o tableopts_ver_nr-Cem.ver tableopts_ver_nr-Cem.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ver_nr-Cem.ver -o tableopts_ver_nr-Cem.ver tableopts_ver_nr-Cem.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cae --tables-file="tableopts_ver_nr-Cae.ver.tables" --tables-verify -Cae -o tableopts_ver_nr-Cae.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ver_nr-Cae.o tableopts_ver_nr-Cae.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ver_nr-Cae.ver -o tableopts_ver_nr-Cae.ver tableopts_ver_nr-Cae.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ver_nr-Cae.ver -o tableopts_ver_nr-Cae.ver tableopts_ver_nr-Cae.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Caef --tables-file="tableopts_ver_nr-Caef.ver.tables" --tables-verify -Caef -o tableopts_ver_nr-Caef.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ver_nr-Caef.o tableopts_ver_nr-Caef.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ver_nr-Caef.ver -o tableopts_ver_nr-Caef.ver tableopts_ver_nr-Caef.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ver_nr-Caef.ver -o tableopts_ver_nr-Caef.ver tableopts_ver_nr-Caef.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _CaeF --tables-file="tableopts_ver_nr-CaeF.ver.tables" --tables-verify -CaeF -o tableopts_ver_nr-CaeF.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ver_nr-CaeF.o tableopts_ver_nr-CaeF.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ver_nr-CaeF.ver -o tableopts_ver_nr-CaeF.ver tableopts_ver_nr-CaeF.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ver_nr-CaeF.ver -o tableopts_ver_nr-CaeF.ver tableopts_ver_nr-CaeF.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cam --tables-file="tableopts_ver_nr-Cam.ver.tables" --tables-verify -Cam -o tableopts_ver_nr-Cam.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ver_nr-Cam.o tableopts_ver_nr-Cam.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ver_nr-Cam.ver -o tableopts_ver_nr-Cam.ver tableopts_ver_nr-Cam.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ver_nr-Cam.ver -o tableopts_ver_nr-Cam.ver tableopts_ver_nr-Cam.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Caem --tables-file="tableopts_ver_nr-Caem.ver.tables" --tables-verify -Caem -o tableopts_ver_nr-Caem.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ver_nr-Caem.o tableopts_ver_nr-Caem.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ver_nr-Caem.ver -o tableopts_ver_nr-Caem.ver tableopts_ver_nr-Caem.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ver_nr-Caem.ver -o tableopts_ver_nr-Caem.ver tableopts_ver_nr-Caem.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Ca -R --tables-file="tableopts_ver_r-Ca.ver.tables" --tables-verify -Ca  -o tableopts_ver_r-Ca.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ver_r-Ca.o tableopts_ver_r-Ca.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ver_r-Ca.ver -o tableopts_ver_r-Ca.ver tableopts_ver_r-Ca.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ver_r-Ca.ver -o tableopts_ver_r-Ca.ver tableopts_ver_r-Ca.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Ce -R --tables-file="tableopts_ver_r-Ce.ver.tables" --tables-verify -Ce  -o tableopts_ver_r-Ce.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ver_r-Ce.o tableopts_ver_r-Ce.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ver_r-Ce.ver -o tableopts_ver_r-Ce.ver tableopts_ver_r-Ce.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ver_r-Ce.ver -o tableopts_ver_r-Ce.ver tableopts_ver_r-Ce.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cf -R --tables-file="tableopts_ver_r-Cf.ver.tables" --tables-verify -Cf  -o tableopts_ver_r-Cf.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ver_r-Cf.o tableopts_ver_r-Cf.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ver_r-Cf.ver -o tableopts_ver_r-Cf.ver tableopts_ver_r-Cf.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ver_r-Cf.ver -o tableopts_ver_r-Cf.ver tableopts_ver_r-Cf.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _CF -R --tables-file="tableopts_ver_r-CF.ver.tables" --tables-verify -CF  -o tableopts_ver_r-CF.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ver_r-CF.o tableopts_ver_r-CF.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ver_r-CF.ver -o tableopts_ver_r-CF.ver tableopts_ver_r-CF.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ver_r-CF.ver -o tableopts_ver_r-CF.ver tableopts_ver_r-CF.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cm -R --tables-file="tableopts_ver_r-Cm.ver.tables" --tables-verify -Cm  -o tableopts_ver_r-Cm.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ver_r-Cm.o tableopts_ver_r-Cm.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ver_r-Cm.ver -o tableopts_ver_r-Cm.ver tableopts_ver_r-Cm.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ver_r-Cm.ver -o tableopts_ver_r-Cm.ver tableopts_ver_r-Cm.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cem -R --tables-file="tableopts_ver_r-Cem.ver.tables" --tables-verify -Cem  -o tableopts_ver_r-Cem.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ver_r-Cem.o tableopts_ver_r-Cem.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ver_r-Cem.ver -o tableopts_ver_r-Cem.ver tableopts_ver_r-Cem.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ver_r-Cem.ver -o tableopts_ver_r-Cem.ver tableopts_ver_r-Cem.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cae -R --tables-file="tableopts_ver_r-Cae.ver.tables" --tables-verify -Cae  -o tableopts_ver_r-Cae.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ver_r-Cae.o tableopts_ver_r-Cae.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ver_r-Cae.ver -o tableopts_ver_r-Cae.ver tableopts_ver_r-Cae.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ver_r-Cae.ver -o tableopts_ver_r-Cae.ver tableopts_ver_r-Cae.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Caef -R --tables-file="tableopts_ver_r-Caef.ver.tables" --tables-verify -Caef  -o tableopts_ver_r-Caef.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ver_r-Caef.o tableopts_ver_r-Caef.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ver_r-Caef.ver -o tableopts_ver_r-Caef.ver tableopts_ver_r-Caef.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ver_r-Caef.ver -o tableopts_ver_r-Caef.ver tableopts_ver_r-Caef.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _CaeF -R --tables-file="tableopts_ver_r-CaeF.ver.tables" --tables-verify -CaeF  -o tableopts_ver_r-CaeF.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ver_r-CaeF.o tableopts_ver_r-CaeF.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ver_r-CaeF.ver -o tableopts_ver_r-CaeF.ver tableopts_ver_r-CaeF.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ver_r-CaeF.ver -o tableopts_ver_r-CaeF.ver tableopts_ver_r-CaeF.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Cam -R --tables-file="tableopts_ver_r-Cam.ver.tables" --tables-verify -Cam  -o tableopts_ver_r-Cam.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ver_r-Cam.o tableopts_ver_r-Cam.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ver_r-Cam.ver -o tableopts_ver_r-Cam.ver tableopts_ver_r-Cam.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ver_r-Cam.ver -o tableopts_ver_r-Cam.ver tableopts_ver_r-Cam.o 
+../src/flex --unsafe-no-m4-sect3-escape -P _Caem -R --tables-file="tableopts_ver_r-Caem.ver.tables" --tables-verify -Caem  -o tableopts_ver_r-Caem.c tableopts.l4
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ver_r-Caem.o tableopts_ver_r-Caem.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE   -o tableopts_ver_r-Caem.ver -o tableopts_ver_r-Caem.ver tableopts_ver_r-Caem.o
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -D_GNU_SOURCE -o tableopts_ver_r-Caem.ver -o tableopts_ver_r-Caem.ver tableopts_ver_r-Caem.o 
+make[2]: Nothing to be done for 'options.cn'.
+make[2]: Nothing to be done for 'testwrapper-direct.sh'.
+make[2]: Nothing to be done for 'testwrapper.sh'.
+rm tableopts_ser_nr-Caem.c tableopts_ver_nr-Cm.c tableopts_ver_nr-CaeF.c tableopts_opt_nr-Cf.c tableopts_ver_r-Ca.c tableopts_ser_r-Caef.c tableopts_ver_r-Cf.c tableopts_ver_nr-Ca.c tableopts_opt_r-Cam.c tableopts_ver_nr-Cf.c tableopts_ver_r-Cam.c tableopts_opt_nr-Caem.c tableopts_ver_r-Cem.c tableopts_opt_r-Cae.c tableopts_ser_nr-Ca.c tableopts_opt_nr-Ca.c tableopts_ver_nr-Cem.c tableopts_ser_nr-Cf.c tableopts_ver_r-Caem.c tableopts_opt_r-Ce.c tableopts_ver_nr-Caem.c tableopts_opt_nr-Ce.c tableopts_ver_r-Cae.c tableopts_ver_nr-Cam.c tableopts_ser_r-Cm.c tableopts_ser_nr-Cm.c tableopts_opt_nr-Cae.c tableopts_ver_r-Ce.c tableopts_opt_r-Cf.c tableopts_ser_r-Ca.c tableopts_ver_nr-Ce.c tableopts_ser_nr-Ce.c tableopts_opt_nr-CF.c tableopts_ser_r-Cf.c tableopts_ser_nr-Cam.c tableopts_ser_nr-CF.c tableopts_opt_r-Caem.c tableopts_ser_r-CaeF.c tableopts_ver_r-CF.c tableopts_ver_nr-CF.c c_cxx_r.cc tableopts_ver_r-Cm.c c_cxx_nr.cc tableopts_ver_nr-Cae.c tableopts_opt_r-Cm.c tableopts_opt_r-Caef.c tableopts_opt_nr-CaeF.c tableopts_opt_r-CaeF.c tableopts_opt_nr-Caef.c tableopts_ver_r-Caef.c tableopts_ser_r-CF.c tableopts_ver_r-CaeF.c tableopts_ser_r-Ce.c tableopts_ser_nr-Caef.c tableopts_ver_nr-Caef.c tableopts_ser_r-Cam.c tableopts_ser_r-Cem.c tableopts_ser_r-Cae.c tableopts_opt_nr-Cm.c tableopts_ser_nr-Cem.c tableopts_ser_nr-Cae.c tableopts_opt_r-Cem.c tableopts_ser_nr-CaeF.c tableopts_opt_r-Ca.c tableopts_opt_nr-Cem.c tableopts_ser_r-Caem.c tableopts_opt_r-CF.c tableopts_opt_nr-Cam.c
+make[2]: Leaving directory '/usr/ports/core/flex/work/src/flex-2.6.4/tests'
+make  check-TESTS
+make[2]: Entering directory '/usr/ports/core/flex/work/src/flex-2.6.4/tests'
+make[3]: Entering directory '/usr/ports/core/flex/work/src/flex-2.6.4/tests'
+PASS: alloc_extra
+PASS: array_nr
+PASS: array_r
+PASS: basic_nr
+PASS: basic_r
+PASS: bison_nr
+PASS: bison_yylloc
+PASS: bison_yylval
+../src/flex -o c_cxx_nr.cc c_cxx_nr.lll
+depbase=`echo c_cxx_nr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -MT c_cxx_nr.o -MD -MP -MF $depbase.Tpo -c -o c_cxx_nr.o c_cxx_nr.cc &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt   -o c_cxx_nr c_cxx_nr.o  -lm 
+libtool: link: g++ -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -o c_cxx_nr c_cxx_nr.o  -lm
+PASS: c_cxx_nr
+../src/flex -o c_cxx_r.cc c_cxx_r.lll
+depbase=`echo c_cxx_r.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../src   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -MT c_cxx_r.o -MD -MP -MF $depbase.Tpo -c -o c_cxx_r.o c_cxx_r.cc &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt   -o c_cxx_r c_cxx_r.o  -lm 
+libtool: link: g++ -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -o c_cxx_r c_cxx_r.o  -lm
+PASS: c_cxx_r
+PASS: ccl
+PASS: cxx_basic
+PASS: cxx_multiple_scanners
+PASS: cxx_restart
+PASS: debug_nr
+PASS: debug_r
+PASS: extended
+PASS: header_nr
+PASS: header_r
+PASS: mem_nr
+PASS: mem_r
+PASS: multiple_scanners_nr
+PASS: multiple_scanners_r
+PASS: posix
+PASS: posixly_correct
+PASS: prefix_nr
+PASS: prefix_r
+PASS: quote_in_comment
+PASS: quotes
+PASS: string_nr
+PASS: string_r
+PASS: top
+PASS: yyextra
+PASS: reject_nr.reject
+PASS: reject_r.reject
+PASS: reject_ver.table
+PASS: reject_ser.table
+PASS: include_by_buffer.direct
+PASS: include_by_push.direct
+PASS: include_by_reentrant.direct
+PASS: rescan_nr.direct
+PASS: rescan_r.direct
+PASS: cxx_yywrap.i3
+PASS: pthread.pthread
+PASS: lineno_nr.one
+PASS: lineno_r.one
+PASS: lineno_trailing.one
+PASS: tableopts_opt_nr-Ca.opt
+PASS: tableopts_opt_nr-Ce.opt
+PASS: tableopts_opt_nr-Cf.opt
+PASS: tableopts_opt_nr-CF.opt
+PASS: tableopts_opt_nr-Cm.opt
+PASS: tableopts_opt_nr-Cem.opt
+PASS: tableopts_opt_nr-Cae.opt
+PASS: tableopts_opt_nr-Caef.opt
+PASS: tableopts_opt_nr-CaeF.opt
+PASS: tableopts_opt_nr-Cam.opt
+PASS: tableopts_opt_nr-Caem.opt
+PASS: tableopts_opt_r-Ca.opt
+PASS: tableopts_opt_r-Ce.opt
+PASS: tableopts_opt_r-Cf.opt
+PASS: tableopts_opt_r-CF.opt
+PASS: tableopts_opt_r-Cm.opt
+PASS: tableopts_opt_r-Cem.opt
+PASS: tableopts_opt_r-Cae.opt
+PASS: tableopts_opt_r-Caef.opt
+PASS: tableopts_opt_r-CaeF.opt
+PASS: tableopts_opt_r-Cam.opt
+PASS: tableopts_opt_r-Caem.opt
+PASS: tableopts_ser_nr-Ca.ser
+PASS: tableopts_ser_nr-Ce.ser
+PASS: tableopts_ser_nr-Cf.ser
+PASS: tableopts_ser_nr-CF.ser
+PASS: tableopts_ser_nr-Cm.ser
+PASS: tableopts_ser_nr-Cem.ser
+PASS: tableopts_ser_nr-Cae.ser
+PASS: tableopts_ser_nr-Caef.ser
+PASS: tableopts_ser_nr-CaeF.ser
+PASS: tableopts_ser_nr-Cam.ser
+PASS: tableopts_ser_nr-Caem.ser
+PASS: tableopts_ser_r-Ca.ser
+PASS: tableopts_ser_r-Ce.ser
+PASS: tableopts_ser_r-Cf.ser
+PASS: tableopts_ser_r-CF.ser
+PASS: tableopts_ser_r-Cm.ser
+PASS: tableopts_ser_r-Cem.ser
+PASS: tableopts_ser_r-Cae.ser
+PASS: tableopts_ser_r-Caef.ser
+PASS: tableopts_ser_r-CaeF.ser
+PASS: tableopts_ser_r-Cam.ser
+PASS: tableopts_ser_r-Caem.ser
+PASS: tableopts_ver_nr-Ca.ver
+PASS: tableopts_ver_nr-Ce.ver
+PASS: tableopts_ver_nr-Cf.ver
+PASS: tableopts_ver_nr-CF.ver
+PASS: tableopts_ver_nr-Cm.ver
+PASS: tableopts_ver_nr-Cem.ver
+PASS: tableopts_ver_nr-Cae.ver
+PASS: tableopts_ver_nr-Caef.ver
+PASS: tableopts_ver_nr-CaeF.ver
+PASS: tableopts_ver_nr-Cam.ver
+PASS: tableopts_ver_nr-Caem.ver
+PASS: tableopts_ver_r-Ca.ver
+PASS: tableopts_ver_r-Ce.ver
+PASS: tableopts_ver_r-Cf.ver
+PASS: tableopts_ver_r-CF.ver
+PASS: tableopts_ver_r-Cm.ver
+PASS: tableopts_ver_r-Cem.ver
+PASS: tableopts_ver_r-Cae.ver
+PASS: tableopts_ver_r-Caef.ver
+PASS: tableopts_ver_r-CaeF.ver
+PASS: tableopts_ver_r-Cam.ver
+PASS: tableopts_ver_r-Caem.ver
+PASS: options.cn
+============================================================================
+Testsuite summary for the fast lexical analyser generator 2.6.4
+============================================================================
+# TOTAL: 114
+# PASS:  114
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/usr/ports/core/flex/work/src/flex-2.6.4/tests'
+make[2]: Leaving directory '/usr/ports/core/flex/work/src/flex-2.6.4/tests'
+make[1]: Leaving directory '/usr/ports/core/flex/work/src/flex-2.6.4/tests'
+Making check in tools
+make[1]: Entering directory '/usr/ports/core/flex/work/src/flex-2.6.4/tools'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/core/flex/work/src/flex-2.6.4/tools'
+make[1]: Entering directory '/usr/ports/core/flex/work/src/flex-2.6.4'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/usr/ports/core/flex/work/src/flex-2.6.4'

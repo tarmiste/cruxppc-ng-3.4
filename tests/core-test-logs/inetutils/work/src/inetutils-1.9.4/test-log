@@ -1,0 +1,142 @@
+  GEN      public-submodule-commit
+make  check-recursive
+make[1]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4'
+Making check in lib
+make[2]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/lib'
+make  check-recursive
+make[3]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/lib'
+make[4]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/lib'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/lib'
+make[3]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/lib'
+make[2]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/lib'
+Making check in libinetutils
+make[2]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/libinetutils'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/libinetutils'
+Making check in libtelnet
+make[2]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/libtelnet'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/libtelnet'
+Making check in libicmp
+make[2]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/libicmp'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/libicmp'
+Making check in libls
+make[2]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/libls'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/libls'
+Making check in src
+make[2]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/src'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/src'
+Making check in telnet
+make[2]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/telnet'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/telnet'
+Making check in telnetd
+make[2]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/telnetd'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/telnetd'
+Making check in ftp
+make[2]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/ftp'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/ftp'
+Making check in ftpd
+make[2]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/ftpd'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/ftpd'
+Making check in talk
+make[2]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/talk'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/talk'
+Making check in talkd
+make[2]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/talkd'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/talkd'
+Making check in whois
+make[2]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/whois'
+make  check-am
+make[3]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/whois'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/whois'
+make[2]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/whois'
+Making check in ping
+make[2]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/ping'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/ping'
+Making check in ifconfig
+make[2]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/ifconfig'
+Making check in system
+make[3]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/ifconfig/system'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/ifconfig/system'
+make[3]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/ifconfig'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/ifconfig'
+make[2]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/ifconfig'
+Making check in doc
+make[2]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/doc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/doc'
+Making check in man
+make[2]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/man'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/man'
+Making check in tests
+make[2]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/tests'
+make  check-am
+make[3]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/tests'
+make  localhost readutmp waitdaemon addrpeek tcpget \
+  utmp.sh libls.sh  traceroute-localhost.sh   ftp-parser.sh  inetd.sh telnet-localhost.sh hostname.sh  ifconfig.sh
+make[4]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/tests'
+  CC       localhost.o
+  CCLD     localhost
+  CC       readutmp.o
+  CCLD     readutmp
+  CC       waitdaemon.o
+  CCLD     waitdaemon
+  CC       addrpeek.o
+  CCLD     addrpeek
+  CC       tcpget.o
+  CCLD     tcpget
+make[4]: Nothing to be done for 'utmp.sh'.
+make[4]: Nothing to be done for 'libls.sh'.
+make[4]: Nothing to be done for 'traceroute-localhost.sh'.
+make[4]: Nothing to be done for 'ftp-parser.sh'.
+make[4]: Nothing to be done for 'inetd.sh'.
+make[4]: Nothing to be done for 'telnet-localhost.sh'.
+make[4]: Nothing to be done for 'hostname.sh'.
+make[4]: Nothing to be done for 'ifconfig.sh'.
+make[4]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/tests'
+make  check-TESTS
+make[4]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/tests'
+make[5]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/tests'
+PASS: localhost
+PASS: waitdaemon
+PASS: utmp.sh
+PASS: libls.sh
+PASS: traceroute-localhost.sh
+PASS: ftp-parser.sh
+PASS: inetd.sh
+PASS: telnet-localhost.sh
+PASS: hostname.sh
+PASS: ifconfig.sh
+============================================================================
+Testsuite summary for GNU inetutils 1.9.4
+============================================================================
+# TOTAL: 10
+# PASS:  10
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/tests'
+make[4]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/tests'
+make[3]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/tests'
+make[2]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4/tests'
+make[2]: Entering directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4'
+make[2]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4'
+make[1]: Leaving directory '/usr/ports/core/inetutils/work/src/inetutils-1.9.4'

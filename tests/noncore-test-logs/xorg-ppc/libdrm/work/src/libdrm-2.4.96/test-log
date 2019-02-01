@@ -1,0 +1,100 @@
+Making check in .
+Making check in libkms
+PASS: kms-symbol-check
+============================================================================
+Testsuite summary for libdrm 2.4.96
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+Making check in nouveau
+PASS: nouveau-symbol-check
+============================================================================
+Testsuite summary for libdrm 2.4.96
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+Making check in radeon
+PASS: radeon-symbol-check
+============================================================================
+Testsuite summary for libdrm 2.4.96
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+Making check in amdgpu
+PASS: amdgpu-symbol-check
+============================================================================
+Testsuite summary for libdrm 2.4.96
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+Making check in data
+Making check in tests
+Making check in util
+Making check in kms
+Making check in modeprint
+Making check in proptest
+Making check in modetest
+Making check in vbltest
+Making check in kmstest
+Making check in radeon
+Making check in nouveau
+SKIP: threaded
+============================================================================
+Testsuite summary for libdrm 2.4.96
+============================================================================
+# TOTAL: 1
+# PASS:  0
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  CC       random.o
+  CCLD     random
+PASS: drmsl
+PASS: hash
+FAIL: random
+============================================================================
+Testsuite summary for libdrm 2.4.96
+============================================================================
+# TOTAL: 3
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  1
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See tests/test-suite.log
+Please report to https://bugs.freedesktop.org/enter_bug.cgi?product=DRI
+============================================================================
+make[4]: *** [Makefile:870: test-suite.log] Error 1
+make[3]: *** [Makefile:978: check-TESTS] Error 2
+make[2]: *** [Makefile:1088: check-am] Error 2
+make[1]: *** [Makefile:762: check-recursive] Error 1
+make: *** [Makefile:858: check-recursive] Error 1
