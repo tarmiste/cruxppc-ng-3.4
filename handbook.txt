@@ -202,6 +202,19 @@ Introduction
    has been limited to Apple PowerPC machines and so its usability is unknown 
    regarding other machines.
 
+  Initial source packages required
+
+   The initial CRUX system lacks several packages needed to download and
+   install packages.  For initial system bringup, you will need to download
+   a number of source files and make then available (via usb stick or 
+   otherwise) on the system.  These are:
+
+   TBA
+
+   Once the initial installation and bringup is accomplished, the CRUX
+   package system will be capable of automatically downloading additional
+   source packages as needed.
+
   Installing From CD-ROM
 
    NOTE:  There is currently no ISO installation image of this release and 
@@ -218,8 +231,9 @@ Introduction
    CRUX-PPC is released as a tarball of a root filesystem that has been
    populated with a basic set of CRUX-PPC packages.   These packages number
    about 100 and consist of all the 'core' CRUX packages except omitting the 
-   x86 specific packages (e.g. lilo) and including several additional packages
-   useful for PowerPC (e.g. mac-fdisk).
+   x86 specific packages (e.g. lilo), ommiting openssl and it's dependents,
+   and including several additional packages useful for PowerPC 
+   (e.g. mac-fdisk).
 
    The CRUX-PPC rootfs expands to about 600M in size.  Additional space
    will be required as additional packages are added.   Although the initial
@@ -297,11 +311,9 @@ Introduction
 
  Extra packages.
 
-   A small set of 'ports/opt' packages are provided as a tar archive.
-   Unpack the tar archive and use pkgadd to add package(s) to your 
-   crux ppc system.  Note that some of the 'extras' packages have 
-   dependencies on other packages in the 'extras' group.  
-
+   None provided at this time.  Users must build and install any additional
+   packages from /usr/opt* and /usr/opt/xorg* (and a few from /usr/core/*)
+   as desired.
 
  Configuring a new CRUX-PPC system
 

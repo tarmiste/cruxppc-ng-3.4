@@ -16,7 +16,7 @@ mainline CRUX project.  If you are using CRUX-PPC and run into problems, please 
   CRUX provides a minimal starting root filesystem and the user then builds and adds additional packages as they desire.   CRUX is a build it yourself and 
   figure it out yourself kind of distribution.   CRUX users will need to be comfortable working with the command line, editing configuration files,
   building packages, etc.   If you desire point and click system maintenance, CRUX is not what you are looking for.
-  
+
   CRUX-PPC supports 32bit PowerPC G3 and G4.   It does not support 64bit PowerPC (G5) at this time.   There are still a fair number of Linux distributions supporting G5 machines but distros supporting 32bit PowerPC are getting scarce.  Hence, for now, CRUX-PPC is focused on the 32bit PowerPC machines.
 
   This project is not a continuation of the (now defunct) CRUX-PPC project which existed previously (until 2012 or so).   This project is a 
@@ -24,6 +24,10 @@ mainline CRUX project.  If you are using CRUX-PPC and run into problems, please 
   fresh port of CRUX to the PowerPC and backwards compatibility with the previous CRUX PPC is not a goal of this project.
 
   crux ppc 3.4 is a work in progress.  It still has a lot of rough edges.
+If you are already familiar with CRUX or manual installation and configuration
+of a Linux sytem, then you should be able to work through the rough spots.
+As time passes, the rough edges will be smoothed out but as of right now,
+it will be a difficult distribution for some.
 
 
 ### Contents:
@@ -57,7 +61,9 @@ grows the remainder of their crux system.
   download and building of packages with the crux package utilities.
 
   If bootable crux system is desired, the user will build the kernel 
-  and configure the bootloader to boot the crux system.  
+  and configure the bootloader to boot the crux system.   A sample 
+  kernel configuration file is provided (under kernel) that may be 
+  helpful in creating the kernel.
 
   A more detailed description of installing and configuring CRUX PPC can be
   found in the handbook and release notes.
